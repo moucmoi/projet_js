@@ -1,15 +1,15 @@
 import About from "./views/pages/About.js";
-import ArticleAll from "./views/pages/ArticleAll.js";
+import CharacterAll from "./views/pages/CharacterAll.js";
 import Utils from "./services/Utils.js";
-import UnArticle from "./views/pages/UnArticle.js";
+import Personnage from "./views/pages/Personnage.js";
 import Error404 from "./views/pages/Error404.js";
 
 
 const routes={
     '/':About,
     '/about':About,
-    '/articles':ArticleAll,
-    '/articles/:id':UnArticle
+    '/characters':CharacterAll,
+    '/characters/:id':Personnage
 }
 
 const router=async ()=>{
