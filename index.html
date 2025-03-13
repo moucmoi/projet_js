@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* Reset de base */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        /* HEADER */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 30px;
+            background-color: #2c3e50;
+            color: white;
+        }
+
+        header h1 {
+            font-size: 1.8em;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+
+        nav ul li {
+            display: inline;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 1em;
+            padding: 8px 12px;
+            transition: background 0.3s, color 0.3s;
+            border-radius: 5px;
+        }
+
+        nav ul li a:hover {
+            background: #f1c40f;
+            color: #2c3e50;
+        }
+
+        /* MAIN */
+        main {
+            padding: 20px;
+        }
+
+        /* FOOTER */
+        footer {
+            background-color: #34495e;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+
+        .footer-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 10px;
+        }
+
+        .footer-links {
+            display: flex;
+            gap: 15px;
+        }
+
+        .footer-links a {
+            color: #f1c40f;
+            text-decoration: none;
+            font-size: 0.9em;
+        }
+
+        .footer-links a:hover {
+            text-decoration: underline;
+        }
+
+        .footer-copyright {
+            font-size: 0.8em;
+            margin-top: 10px;
+        }
+    </style>
+    <title>App Constitution</title>
+    <script type="module" src="./js/app.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Mon header que je ferais plus tard</h1>
+        <nav>
+            <ul>
+                <li><a href="http://localhost:8000/#/">Page about</a></li>
+                <li><a href="http://localhost:8000/#/articles">Page articles</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="content"></div>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 MonSite - Tous droits réservés</p>
+            <div class="footer-links">
+                <a href="#">Mentions légales</a>
+                <a href="#">Politique de confidentialité</a>
+                <a href="#">Contact</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
