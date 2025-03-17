@@ -33,5 +33,4 @@ export default class CharacterProvider{
             console.log("Error getting documents",err);
         }
     }
-
 }

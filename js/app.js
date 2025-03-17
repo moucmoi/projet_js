@@ -5,6 +5,10 @@ import Personnage from "./views/pages/Personnage.js";
 import Error404 from "./views/pages/Error404.js";
 
 
+
+
+console.log(localStorage);
+
 const routes={
     '/':About,
     '/about':About,
