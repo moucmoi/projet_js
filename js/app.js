@@ -3,6 +3,7 @@ import CharacterAll from "./views/pages/CharacterAll.js";
 import Utils from "./services/Utils.js";
 import Personnage from "./views/pages/Personnage.js";
 import Error404 from "./views/pages/Error404.js";
+import Pagefavoris from "./views/pages/Pagefavoris.js";
 
 
 
@@ -13,7 +14,8 @@ const routes={
     '/':About,
     '/about':About,
     '/characters':CharacterAll,
-    '/characters/:id':Personnage
+    '/characters/:id':Personnage,
+    '/favoris':Pagefavoris
 }
 
 const router=async ()=>{
