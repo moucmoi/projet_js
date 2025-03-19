@@ -1,17 +1,21 @@
 import CharacterProvider from "../../services/CharacterProvider.js";
+import AffichagePerso from "./AffichagePerso.js";
 export default class Pagefavoris{
     async render(){
         let favoris= await CharacterProvider.getFavoris();
-        let view=`
-        <h2>Vos favoris</h2>
-        <ul>
-        ${favoris.map(character=>
-            `
-            <a href='/#/characters/${character.id}'><li>${character.name}</li></a>
-            `
-        ).join('\n')}
-        </ul>
+        let affichagePerso = new AffichagePerso();
+        let view = `
+            <link rel="stylesheet" href='../../../css/PersoAll.css'>
+            <div id="personnage-all-container" class="personnage-all-container">
+                <h2 id="personnage-title" class="personnage-title">Les personnages</h2>
         `;
+
+        favoris.forEach(character => {
+            view += affichagePerso.render(character);
+        });
+
+        // On ferme la div conteneur
+        view += `</div>`;
         return view;
     }
 }
