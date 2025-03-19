@@ -39,7 +39,8 @@ export default class Personnage{
             view+=`<button id="favoris-btn-${parseInt(character.id)}" onclick="window.toggleFavoris(${parseInt(character.id)})">
                 ${contient ? 'Enlever des favoris' : 'Ajouter aux favoris'}
             </button>
-            <button id=btnNotation onclick=window.location.href='/#/notation/${character.id}'>ajouter une note</button>
+            <button id=btnNotation onclick=window.location.href='/#/notation/${character.id}'>Ajouter une note</button>
+            <button>onclick=window.location.href='/#/character/${character.id}/suppression'>Enlever une arme</button>
         `;
         
         return view;

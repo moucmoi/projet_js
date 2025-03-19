@@ -8,6 +8,7 @@ import Notation from "./views/pages/Notation.js";
 import Pagefavoris from "./views/pages/Pagefavoris.js";
 import ArmesAll from "./views/pages/ArmesAll.js";
 import Arme from "./views/pages/Arme.js";
+import EnleverArme from "./views/pages/EnleverArme.js";
 
 const routes={
     '/':About,
@@ -19,7 +20,7 @@ const routes={
     '/armes/:id': Arme,
     '/favoris':Pagefavoris,
     '/armes': ArmesAll,
-    //'/characters/:id/suppression':,
+    '/character/:id/suppression':EnleverArme,
     //'/characters/:id/suppression/:id':
 }
 
