@@ -30,6 +30,7 @@ export default class CharacterProvider{
             return json;
         }
         catch(err){
+            console.log("aaaaaaaaaaaa");
             console.log("Error getting documents",err);
         }
     }
