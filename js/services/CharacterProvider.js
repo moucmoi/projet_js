@@ -53,14 +53,14 @@ export default class CharacterProvider{
         }
     }
 
-    static updateCharacters=async()=>{
+    
 
-    }
 
     static ajouterArme=async(idPerso,id)=>{
         const personnage=this.getCharacter(idPerso);
         let lesArmes= personnage["armes_ids"];
         lesArmes.add(id);
+        personnage["armes_ids"]=lesArmes;
         this.updateCharacters();
     }
 
@@ -68,6 +68,7 @@ export default class CharacterProvider{
         const personnage=this.getCharacter(idPerso);
         let lesArmes= personnage["armes_ids"];
         lesArmes.remove(id);
+        personnage["armes_ids"]=lesArmes;
         this.updateCharacters();
     }
 
