@@ -1,0 +1,3770 @@
+{
+  "characters": [
+    {
+      "id": 1,
+      "name": "Michael De Santa",
+      "importance": "principal",
+      "description": "Ancien braqueur reconverti, il vit dans le luxe de Rockford Hills tout en peinant avec sa vie de famille et son passé criminel.",
+      "characteristics": {
+        "force": 6,
+        "endurance": 6,
+        "agilité": 6,
+        "intelligence": 8
+      },
+      "pouvoirs": [],
+      "armes_ids": [1, 2],
+      "evolutions": [
+        {
+          "description": "Évolution Novice",
+          "effects": {
+            "force": 2,
+            "endurance": 3,
+            "agilité": 3,
+            "intelligence": 3
+          },
+          "condition": "Atteindre le niveau 10"
+        },
+        {
+          "description": "Évolution Intermédiaire",
+          "effects": {
+            "force": 5,
+            "endurance": 5,
+            "agilité": 4,
+            "intelligence": 5
+          },
+          "condition": "Atteindre le niveau 25"
+        },
+        {
+          "description": "Évolution Avancée",
+          "effects": {
+            "force": 8,
+            "endurance": 6,
+            "agilité": 6,
+            "intelligence": 7
+          },
+          "condition": "Atteindre le niveau 50"
+        }
+      ],
+      "niveau": 0,
+      "image": "/images/personnages/MichaelDeSanta.png"
+    },
+    {
+      "id": 2,
+      "name": "Trevor Philips",
+      "importance": "principal",
+      "description": "Canadien au tempérament explosif, ancien pilote de chasse et criminel imprévisible, adepte du mode frénésie.",
+      "characteristics": {
+        "force": 7,
+        "endurance": 6,
+        "agilité": 6,
+        "intelligence": 5
+      },
+      "pouvoirs": [],
+      "armes_ids": [3, 4],
+      "evolutions": [
+        {
+          "description": "Évolution Novice",
+          "effects": {
+            "force": 3,
+            "endurance": 3,
+            "agilité": 3,
+            "intelligence": 2
+          },
+          "condition": "Atteindre le niveau 10"
+        },
+        {
+          "description": "Évolution Intermédiaire",
+          "effects": {
+            "force": 5,
+            "endurance": 4,
+            "agilité": 4,
+            "intelligence": 3
+          },
+          "condition": "Atteindre le niveau 25"
+        },
+        {
+          "description": "Évolution Avancée",
+          "effects": {
+            "force": 7,
+            "endurance": 6,
+            "agilité": 5,
+            "intelligence": 4
+          },
+          "condition": "Atteindre le niveau 50"
+        }
+      ],
+      "niveau": 0,
+      "image": "/images/personnages/TrevorPhilips.png"
+    },
+    {
+      "id": 3,
+      "name": "Franklin Clinton",
+      "importance": "principal",
+      "description": "Jeune afro-américain issu des quartiers difficiles de Los Santos, il gravit les échelons du monde criminel.",
+      "characteristics": {
+        "force": 5,
+        "endurance": 6,
+        "agilité": 7,
+        "intelligence": 7
+      },
+      "pouvoirs": [],
+      "armes_ids": [4, 5],
+      "evolutions": [
+        {
+          "description": "Évolution Novice",
+          "effects": {
+            "force": 3,
+            "endurance": 2,
+            "agilité": 3,
+            "intelligence": 3
+          },
+          "condition": "Atteindre le niveau 10"
+        },
+        {
+          "description": "Évolution Intermédiaire",
+          "effects": {
+            "force": 4,
+            "endurance": 4,
+            "agilité": 5,
+            "intelligence": 5
+          },
+          "condition": "Atteindre le niveau 25"
+        },
+        {
+          "description": "Évolution Avancée",
+          "effects": {
+            "force": 6,
+            "endurance": 6,
+            "agilité": 7,
+            "intelligence": 7
+          },
+          "condition": "Atteindre le niveau 50"
+        }
+      ],
+      "niveau": 0,
+      "image": "/images/personnages/FranklinClinton.png"
+    },
+
+    {
+      "id": 4,
+      "name": "Amanda De Santa",
+      "importance": "secondaire",
+      "description": "Femme de Michael, symbole de la femme au foyer déracinée par une vie de luxe et de conflits conjugaux.",
+      "characteristics": {
+        "force": 3,
+        "endurance": 4,
+        "agilité": 5,
+        "intelligence": 7
+      },
+      "pouvoirs": [],
+      "armes_ids": [2, 6],
+      "evolutions": [
+        {
+          "description": "Évolution Novice",
+          "effects": {
+            "force": 1,
+            "endurance": 3,
+            "agilité": 1,
+            "intelligence": 2
+          },
+          "condition": "Atteindre le niveau 10"
+        },
+        {
+          "description": "Évolution Intermédiaire",
+          "effects": {
+            "force": 4,
+            "endurance": 3,
+            "agilité": 3,
+            "intelligence": 4
+          },
+          "condition": "Atteindre le niveau 25"
+        },
+        {
+          "description": "Évolution Avancée",
+          "effects": {
+            "force": 6,
+            "endurance": 4,
+            "agilité": 6,
+            "intelligence": 4
+          },
+          "condition": "Atteindre le niveau 50"
+        }
+      ],
+      "niveau": 0,
+      "image": "/images/personnages/AmandaDeSanta.png"
+    },
+    {
+      "id": 5,
+      "name": "Jimmy De Santa",
+      "importance": "secondaire",
+      "description": "Fils de Michael et Amanda, jeune homme paresseux et accro aux jeux vidéo, en quête de repères.",
+      "characteristics": {
+        "force": 3,
+        "endurance": 4,
+        "agilité": 5,
+        "intelligence": 4
+      },
+      "pouvoirs": [],
+      "armes_ids": [12, 10],
+      "evolutions": [
+        {
+          "description": "Évolution Novice",
+          "effects": {
+            "force": 2,
+            "endurance": 1,
+            "agilité": 1,
+            "intelligence": 3
+          },
+          "condition": "Atteindre le niveau 10"
+        },
+        {
+          "description": "Évolution Intermédiaire",
+          "effects": {
+            "force": 2,
+            "endurance": 2,
+            "agilité": 3,
+            "intelligence": 2
+          },
+          "condition": "Atteindre le niveau 25"
+        },
+        {
+          "description": "Évolution Avancée",
+          "effects": {
+            "force": 4,
+            "endurance": 4,
+            "agilité": 5,
+            "intelligence": 4
+          },
+          "condition": "Atteindre le niveau 50"
+        }
+      ],
+      "niveau": 0,
+      "image": "/images/personnages/JimmyDeSanta.png"
+    },
+    {
+      "id": 6,
+      "name": "Tracey De Santa",
+      "importance": "secondaire",
+      "description": "Fille de Michael, ambitieuse et en quête de célébrité, elle rêve d'une carrière dans la télé-réalité.",
+      "characteristics": {
+        "force": 3,
+        "endurance": 4,
+        "agilité": 6,
+        "intelligence": 5
+      },
+      "pouvoirs": [],
+      "armes_ids": [5, 6],
+      "evolutions": [
+        {
+          "description": "Évolution Novice",
+          "effects": {
+            "force": 2,
+            "endurance": 2,
+            "agilité": 3,
+            "intelligence": 1
+          },
+          "condition": "Atteindre le niveau 10"
+        },
+        {
+          "description": "Évolution Intermédiaire",
+          "effects": {
+            "force": 3,
+            "endurance": 3,
+            "agilité": 4,
+            "intelligence": 3
+          },
+          "condition": "Atteindre le niveau 25"
+        },
+        {
+          "description": "Évolution Avancée",
+          "effects": {
+            "force": 6,
+            "endurance": 4,
+            "agilité": 6,
+            "intelligence": 4
+          },
+          "condition": "Atteindre le niveau 50"
+        }
+      ],
+      "niveau": 0,
+      "image": "/images/personnages/TraceyDeSanta.png"
+    },
+
+    {
+      "id": 7,
+      "name": "Dave Norton",
+      "importance": "secondaire",
+      "description": "Agent du FIB corrompu, ami de Michael, ayant scellé un accord pour protéger son passé criminel.",
+      "characteristics": {
+        "force": 4,
+        "endurance": 5,
+        "agilité": 4,
+        "intelligence": 7
+      },
+      
+      "armes_ids": [12, 4],
+      "evolutions": [
+        {
+          "description": "Évolution Novice",
+          "effects": {
+            "force": 1,
+            "endurance": 2,
+            "agilité": 1,
+            "intelligence": 2
+          },
+          "condition": "Atteindre le niveau 10"
+        },
+        {
+          "description": "Évolution Intermédiaire",
+          "effects": {
+            "force": 4,
+            "endurance": 4,
+            "agilité": 2,
+            "intelligence": 2
+          },
+          "condition": "Atteindre le niveau 25"
+        },
+        {
+          "description": "Évolution Avancée",
+          "effects": {
+            "force": 5,
+            "endurance": 6,
+            "agilité": 3,
+            "intelligence": 5
+          },
+          "condition": "Atteindre le niveau 50"
+        }
+      ],
+      "niveau": 0,
+      "image": "/images/personnages/DaveNorton.png"
+    },
+    {
+      "id": 8,
+      "name": "Steve Haines",
+      "importance": "secondaire",
+      "description": "Agent du FIB avide de célébrité, manipulateur et antagoniste qui se sert de Michael pour ses desseins.",
+      "characteristics": {
+        "force": 5,
+        "endurance": 5,
+        "agilité": 5,
+        "intelligence": 6
+      },
+      
+      "armes_ids": [6, 3],
+      "evolutions": [
+        {
+          "description": "Évolution Novice",
+          "effects": {
+            "force": 2,
+            "endurance": 3,
+            "agilité": 1,
+            "intelligence": 2
+          },
+          "condition": "Atteindre le niveau 10"
+        },
+        {
+          "description": "Évolution Intermédiaire",
+          "effects": {
+            "force": 2,
+            "endurance": 2,
+            "agilité": 4,
+            "intelligence": 3
+          },
+          "condition": "Atteindre le niveau 25"
+        },
+        {
+          "description": "Évolution Avancée",
+          "effects": {
+            "force": 5,
+            "endurance": 4,
+            "agilité": 3,
+            "intelligence": 5
+          },
+          "condition": "Atteindre le niveau 50"
+        }
+      ],
+      "niveau": 0,
+      "image": "/images/personnages/SteveHaines.png"
+    },
+    {
+      "id": 9,
+      "name": "Andreas Sanchez",
+      "importance": "secondaire",
+      "description": "Bras droit de Steve Haines, souvent présent lors des confrontations impliquant Michael et le FIB.",
+      "characteristics": {
+        "force": 5,
+        "endurance": 5,
+        "agilité": 5,
+        "intelligence": 5
+      },
+      
+      "armes_ids": [5, 6],
+      "evolutions": [
+        {
+          "description": "Évolution Novice",
+          "effects": {
+            "force": 1,
+            "endurance": 3,
+            "agilité": 3,
+            "intelligence": 1
+          },
+          "condition": "Atteindre le niveau 10"
+        },
+        {
+          "description": "Évolution Intermédiaire",
+          "effects": {
+            "force": 3,
+            "endurance": 3,
+            "agilité": 4,
+            "intelligence": 3
+          },
+          "condition": "Atteindre le niveau 25"
+        },
+        {
+          "description": "Évolution Avancée",
+          "effects": {
+            "force": 5,
+            "endurance": 4,
+            "agilité": 3,
+            "intelligence": 3
+          },
+          "condition": "Atteindre le niveau 50"
+        }
+      ],
+      "niveau": 0,
+      "image": "/images/personnages/AndreasSanchez.png"
+    },
+    {
+      "id": 10,
+      "name": "Tao Cheng",
+      "importance": "secondaire",
+      "description": "Fils de Wei Cheng, consommateur d'ecstasy et personnage parlant uniquement mandarin, souvent accompagné d'un interprète.",
+      "characteristics": {
+        "force": 5,
+        "endurance": 4,
+        "agilité": 5,
+        "intelligence": 5
+      },
+      
+      "armes_ids": [11, 2],
+      "evolutions": [
+        {
+          "description": "Évolution Novice",
+          "effects": {
+            "force": 2,
+            "endurance": 2,
+            "agilité": 2,
+            "intelligence": 2
+          },
+          "condition": "Atteindre le niveau 10"
+        },
+        {
+          "description": "Évolution Intermédiaire",
+          "effects": {
+            "force": 3,
+            "endurance": 2,
+            "agilité": 4,
+            "intelligence": 4
+          },
+          "condition": "Atteindre le niveau 25"
+        },
+        {
+          "description": "Évolution Avancée",
+          "effects": {
+            "force": 4,
+            "endurance": 3,
+            "agilité": 3,
+            "intelligence": 6
+          },
+          "condition": "Atteindre le niveau 50"
+        }
+      ],
+      "niveau": 0,
+      "image": "/images/personnages/TaoCheng.png"
+    },
+
+    {
+      "id": 11,
+      "name": "Wei Cheng",
+      "importance": "secondaire",
+      "description": "Chef des Triades de Los Santos, prêt à tout pour se venger et imposer son règne.",
+      "characteristics": {
+        "force": 5,
+        "endurance": 6,
+        "agilité": 5,
+        "intelligence": 7
+      },
+      
+      "armes_ids": [2, 3],
+      "evolutions": [
+        {
+          "description": "Évolution Novice",
+          "effects": {
+            "force": 1,
+            "endurance": 3,
+            "agilité": 3,
+            "intelligence": 3
+          },
+          "condition": "Atteindre le niveau 10"
+        },
+        {
+          "description": "Évolution Intermédiaire",
+          "effects": {
+            "force": 3,
+            "endurance": 3,
+            "agilité": 2,
+            "intelligence": 4
+          },
+          "condition": "Atteindre le niveau 25"
+        },
+        {
+          "description": "Évolution Avancée",
+          "effects": {
+            "force": 3,
+            "endurance": 5,
+            "agilité": 3,
+            "intelligence": 6
+          },
+          "condition": "Atteindre le niveau 50"
+        }
+      ],
+      "niveau": 0,
+      "image": "/images/personnages/WeiCheng.png"
+    },
+    {
+      "id": 12,
+      "name": "Lamar Davis",
+      "importance": "secondaire",
+      "description": "Gangster des banlieues de Los Santos, ami de Franklin mais souvent en décalage avec ses ambitions.",
+      "characteristics": {
+        "force": 6,
+        "endurance": 6,
+        "agilité": 5,
+        "intelligence": 5
+      },
+      
+      "armes_ids": [5, 12],
+      "evolutions": [
+        {
+          "description": "Évolution Novice",
+          "effects": {
+            "force": 1,
+            "endurance": 2,
+            "agilité": 2,
+            "intelligence": 3
+          },
+          "condition": "Atteindre le niveau 10"
+        },
+        {
+          "description": "Évolution Intermédiaire",
+          "effects": {
+            "force": 4,
+            "endurance": 2,
+            "agilité": 4,
+            "intelligence": 4
+          },
+          "condition": "Atteindre le niveau 25"
+        },
+        {
+          "description": "Évolution Avancée",
+          "effects": {
+            "force": 6,
+            "endurance": 4,
+            "agilité": 5,
+            "intelligence": 6
+          },
+          "condition": "Atteindre le niveau 50"
+        }
+      ],
+      "niveau": 0,
+      "image": "/images/personnages/LamarDavis.png"
+    },
+    {
+      "id": 13,
+      "name": "Harold 'Stretch' Joseph",
+      "importance": "secondaire",
+      "description": "Chef OG des Chamberlain Gangsters Families, manipulateur et traître, utilisant la naïveté de Lamar à ses fins.",
+      "characteristics": {
+        "force": 5,
+        "endurance": 6,
+        "agilité": 5,
+        "intelligence": 5
+      },
+      
+      "armes_ids": [8, 2],
+      "evolutions": [
+        {
+          "description": "Évolution Novice",
+          "effects": {
+            "force": 1,
+            "endurance": 2,
+            "agilité": 1,
+            "intelligence": 2
+          },
+          "condition": "Atteindre le niveau 10"
+        },
+        {
+          "description": "Évolution Intermédiaire",
+          "effects": {
+            "force": 3,
+            "endurance": 2,
+            "agilité": 2,
+            "intelligence": 4
+          },
+          "condition": "Atteindre le niveau 25"
+        },
+        {
+          "description": "Évolution Avancée",
+          "effects": {
+            "force": 6,
+            "endurance": 3,
+            "agilité": 3,
+            "intelligence": 4
+          },
+          "condition": "Atteindre le niveau 50"
+        }
+      ],
+      "niveau": 0,
+      "image": "/images/personnages/Harold'Stretch'Joseph.png"
+    },
+    {
+      "id": 14,
+      "name": "Ron Jakowski",
+      "importance": "secondaire",
+      "description": "Ami paranoïaque de Trevor, théoricien du complot vivant dans une remorque et évitant tout affrontement.",
+      "characteristics": {
+        "force": 3,
+        "endurance": 4,
+        "agilité": 4,
+        "intelligence": 4
+      },
+      
+      "armes_ids": [1, 2],
+      "evolutions": [
+        {
+          "description": "Évolution Novice",
+          "effects": {
+            "force": 3,
+            "endurance": 3,
+            "agilité": 2,
+            "intelligence": 1
+          },
+          "condition": "Atteindre le niveau 10"
+        },
+        {
+          "description": "Évolution Intermédiaire",
+          "effects": {
+            "force": 4,
+            "endurance": 3,
+            "agilité": 2,
+            "intelligence": 4
+          },
+          "condition": "Atteindre le niveau 25"
+        },
+        {
+          "description": "Évolution Avancée",
+          "effects": {
+            "force": 6,
+            "endurance": 6,
+            "agilité": 5,
+            "intelligence": 3
+          },
+          "condition": "Atteindre le niveau 50"
+        }
+      ],
+      "niveau": 0,
+      "image": "/images/personnages/RonJakowski.png"
+    },
+    {
+      "id": 15,
+      "name": "Brad Snider",
+      "importance": "secondaire",
+      "description": "Ancien complice de Trevor, trahi par Michael et dont le destin funeste se scelle au cimetière de Michael.",
+      "characteristics": {
+        "force": 5,
+        "endurance": 4,
+        "agilité": 5,
+        "intelligence": 3
+      },
+      
+      "armes_ids": [5, 9],
+      "evolutions": [
+        {
+          "description": "Évolution Novice",
+          "effects": {
+            "force": 3,
+            "endurance": 3,
+            "agilité": 1,
+            "intelligence": 2
+          },
+          "condition": "Atteindre le niveau 10"
+        },
+        {
+          "description": "Évolution Intermédiaire",
+          "effects": {
+            "force": 2,
+            "endurance": 3,
+            "agilité": 3,
+            "intelligence": 4
+          },
+          "condition": "Atteindre le niveau 25"
+        },
+        {
+          "description": "Évolution Avancée",
+          "effects": {
+            "force": 4,
+            "endurance": 3,
+            "agilité": 5,
+            "intelligence": 5
+          },
+          "condition": "Atteindre le niveau 50"
+        }
+      ],
+      "niveau": 0,
+      "image": "/images/personnages/BradSnider.png"
+    },
+    {
+      "id": 16,
+      "name": "Chop (animal)",
+      "importance": "secondaire",
+      "description": "Le fidèle rottweiler de Lamar, capable d'aider à la poursuite des ennemis grâce à son flair.",
+      "characteristics": {
+        "force": 6,
+        "endurance": 6,
+        "agilité": 6,
+        "intelligence": 3
+      },
+      
+      "armes_ids": [8, 4],
+      "evolutions": [
+        {
+          "description": "Évolution Novice",
+          "effects": {
+            "force": 3,
+            "endurance": 2,
+            "agilité": 3,
+            "intelligence": 2
+          },
+          "condition": "Atteindre le niveau 10"
+        },
+        {
+          "description": "Évolution Intermédiaire",
+          "effects": {
+            "force": 2,
+            "endurance": 3,
+            "agilité": 4,
+            "intelligence": 2
+          },
+          "condition": "Atteindre le niveau 25"
+        },
+        {
+          "description": "Évolution Avancée",
+          "effects": {
+            "force": 4,
+            "endurance": 5,
+            "agilité": 6,
+            "intelligence": 4
+          },
+          "condition": "Atteindre le niveau 50"
+        }
+      ],
+      "niveau": 0,
+      "image": "/images/personnages/Chop(animal).png"
+    },
+
+    {
+      "id": 17,
+      "name": "Denise Clinton",
+      "importance": "secondaire",
+      "description": "Tante de Franklin, figure autoritaire et féministe, qui ne cache pas sa désapprobation envers son neveu.",
+      "characteristics": {
+        "force": 4,
+        "endurance": 4,
+        "agilité": 5,
+        "intelligence": 6
+      },
+      
+      "armes_ids": [6, 2],
+      "evolutions": [
+        {
+          "description": "Évolution Novice",
+          "effects": {
+            "force": 2,
+            "endurance": 1,
+            "agilité": 1,
+            "intelligence": 3
+          },
+          "condition": "Atteindre le niveau 10"
+        },
+        {
+          "description": "Évolution Intermédiaire",
+          "effects": {
+            "force": 3,
+            "endurance": 2,
+            "agilité": 4,
+            "intelligence": 4
+          },
+          "condition": "Atteindre le niveau 25"
+        },
+        {
+          "description": "Évolution Avancée",
+          "effects": {
+            "force": 5,
+            "endurance": 4,
+            "agilité": 4,
+            "intelligence": 5
+          },
+          "condition": "Atteindre le niveau 50"
+        }
+      ],
+      "niveau": 0,
+      "image": "/images/personnages/DeniseClinton.png"
+    },
+    {
+      "id": 18,
+      "name": "Casey",
+      "importance": "secondaire",
+      "description": "Convoyeur de fonds pris en otage pour un braquage ambitieux à la Union Depository.",
+      "characteristics": {
+        "force": 5,
+        "endurance": 5,
+        "agilité": 5,
+        "intelligence": 6
+      },
+      
+      "armes_ids": [8, 1],
+      "evolutions": [
+        {
+          "description": "Évolution Novice",
+          "effects": {
+            "force": 2,
+            "endurance": 2,
+            "agilité": 3,
+            "intelligence": 1
+          },
+          "condition": "Atteindre le niveau 10"
+        },
+        {
+          "description": "Évolution Intermédiaire",
+          "effects": {
+            "force": 3,
+            "endurance": 2,
+            "agilité": 4,
+            "intelligence": 3
+          },
+          "condition": "Atteindre le niveau 25"
+        },
+        {
+          "description": "Évolution Avancée",
+          "effects": {
+            "force": 5,
+            "endurance": 4,
+            "agilité": 3,
+            "intelligence": 4
+          },
+          "condition": "Atteindre le niveau 50"
+        }
+      ],
+      "niveau": 0,
+      "image": "/images/personnages/Casey.png"
+    },
+    {
+      "id": 19,
+      "name": "Lester Crest",
+      "importance": "secondaire",
+      "description": "Le cerveau des opérations de braquage, hacker et stratège malgré sa mobilité réduite.",
+      "characteristics": {
+        "force": 3,
+        "endurance": 4,
+        "agilité": 4,
+        "intelligence": 6
+      },
+      
+      "armes_ids": [10, 12],
+      "evolutions": [
+        {
+          "description": "Évolution Novice",
+          "effects": {
+            "force": 3,
+            "endurance": 1,
+            "agilité": 3,
+            "intelligence": 3
+          },
+          "condition": "Atteindre le niveau 10"
+        },
+        {
+          "description": "Évolution Intermédiaire",
+          "effects": {
+            "force": 4,
+            "endurance": 3,
+            "agilité": 3,
+            "intelligence": 4
+          },
+          "condition": "Atteindre le niveau 25"
+        },
+        {
+          "description": "Évolution Avancée",
+          "effects": {
+            "force": 3,
+            "endurance": 5,
+            "agilité": 4,
+            "intelligence": 6
+          },
+          "condition": "Atteindre le niveau 50"
+        }
+      ],
+      "niveau": 0,
+      "image": "/images/personnages/LesterCrest.png"
+    },
+    {
+      "id": 20,
+      "name": "Dr Isiah Friedlander",
+      "importance": "secondaire",
+      "description": "Le psychanalyste de Michael, dont les consultations chères masquent une ambition télévisuelle.",
+      "characteristics": {
+        "force": 3,
+        "endurance": 3,
+        "agilité": 3,
+        "intelligence": 7
+      },
+      
+      "armes_ids": [5, 6],
+      "evolutions": [
+        {
+          "description": "Évolution Novice",
+          "effects": {
+            "force": 1,
+            "endurance": 2,
+            "agilité": 2,
+            "intelligence": 2
+          },
+          "condition": "Atteindre le niveau 10"
+        },
+        {
+          "description": "Évolution Intermédiaire",
+          "effects": {
+            "force": 4,
+            "endurance": 4,
+            "agilité": 3,
+            "intelligence": 3
+          },
+          "condition": "Atteindre le niveau 25"
+        },
+        {
+          "description": "Évolution Avancée",
+          "effects": {
+            "force": 4,
+            "endurance": 4,
+            "agilité": 3,
+            "intelligence": 5
+          },
+          "condition": "Atteindre le niveau 50"
+        }
+      ],
+      "niveau": 0,
+      "image": "/images/personnages/DrIsiahFriedlander.png"
+    },
+
+    {
+      "id": 21,
+      "name": "Simeon Yetarian",
+      "importance": "secondaire",
+      "description": "Concessionnaire véreux qui emploie Franklin pour saisir des voitures de luxe.",
+      "characteristics": {
+        "force": 4,
+        "endurance": 4,
+        "agilité": 5,
+        "intelligence": 5
+      },
+      
+      "armes_ids": [3, 8],
+      "evolutions": [
+        {
+          "description": "Évolution Novice",
+          "effects": {
+            "force": 3,
+            "endurance": 1,
+            "agilité": 1,
+            "intelligence": 2
+          },
+          "condition": "Atteindre le niveau 10"
+        },
+        {
+          "description": "Évolution Intermédiaire",
+          "effects": {
+            "force": 2,
+            "endurance": 3,
+            "agilité": 4,
+            "intelligence": 3
+          },
+          "condition": "Atteindre le niveau 25"
+        },
+        {
+          "description": "Évolution Avancée",
+          "effects": {
+            "force": 6,
+            "endurance": 3,
+            "agilité": 4,
+            "intelligence": 4
+          },
+          "condition": "Atteindre le niveau 50"
+        }
+      ],
+      "niveau": 0,
+      "image": "/images/personnages/SimeonYetarian.png"
+    },
+    {
+      "id": 22,
+      "name": "Martin Madrazo",
+      "importance": "secondaire",
+      "description": "Chef de gang mexicain contraint par ses dettes envers Michael, prêt à engager des tueurs pour se venger.",
+      "characteristics": {
+        "force": 6,
+        "endurance": 6,
+        "agilité": 5,
+        "intelligence": 5
+      },
+      
+      "armes_ids": [4, 6],
+      "evolutions": [
+        {
+          "description": "Évolution Novice",
+          "effects": {
+            "force": 2,
+            "endurance": 1,
+            "agilité": 2,
+            "intelligence": 2
+          },
+          "condition": "Atteindre le niveau 10"
+        },
+        {
+          "description": "Évolution Intermédiaire",
+          "effects": {
+            "force": 4,
+            "endurance": 3,
+            "agilité": 2,
+            "intelligence": 4
+          },
+          "condition": "Atteindre le niveau 25"
+        },
+        {
+          "description": "Évolution Avancée",
+          "effects": {
+            "force": 3,
+            "endurance": 4,
+            "agilité": 5,
+            "intelligence": 6
+          },
+          "condition": "Atteindre le niveau 50"
+        }
+      ],
+      "niveau": 0,
+      "image": "/images/personnages/MartinMadrazo.png"
+    },
+    {
+      "id": 23,
+      "name": "Patricia Madrazo",
+      "importance": "secondaire",
+      "description": "Épouse de Martin, en proie à des sentiments ambivalents après avoir été enlevée par Trevor.",
+      "characteristics": {
+        "force": 3,
+        "endurance": 4,
+        "agilité": 5,
+        "intelligence": 5
+      },
+      
+      "armes_ids": [12, 11],
+      "evolutions": [
+        {
+          "description": "Évolution Novice",
+          "effects": {
+            "force": 3,
+            "endurance": 3,
+            "agilité": 1,
+            "intelligence": 1
+          },
+          "condition": "Atteindre le niveau 10"
+        },
+        {
+          "description": "Évolution Intermédiaire",
+          "effects": {
+            "force": 3,
+            "endurance": 2,
+            "agilité": 3,
+            "intelligence": 4
+          },
+          "condition": "Atteindre le niveau 25"
+        },
+        {
+          "description": "Évolution Avancée",
+          "effects": {
+            "force": 4,
+            "endurance": 3,
+            "agilité": 4,
+            "intelligence": 3
+          },
+          "condition": "Atteindre le niveau 50"
+        }
+      ],
+      "niveau": 0,
+      "image": "/images/personnages/PatriciaMadrazo.png"
+    },
+    {
+      "id": 24,
+      "name": "Tanisha Jackson",
+      "importance": "secondaire",
+      "description": "Ex-petite amie de Franklin, qui tente de renouer malgré un avenir incertain.",
+      "characteristics": {
+        "force": 4,
+        "endurance": 5,
+        "agilité": 5,
+        "intelligence": 6
+      },
+      
+      "armes_ids": [8, 5],
+      "evolutions": [
+        {
+          "description": "Évolution Novice",
+          "effects": {
+            "force": 1,
+            "endurance": 2,
+            "agilité": 1,
+            "intelligence": 3
+          },
+          "condition": "Atteindre le niveau 10"
+        },
+        {
+          "description": "Évolution Intermédiaire",
+          "effects": {
+            "force": 3,
+            "endurance": 2,
+            "agilité": 2,
+            "intelligence": 3
+          },
+          "condition": "Atteindre le niveau 25"
+        },
+        {
+          "description": "Évolution Avancée",
+          "effects": {
+            "force": 4,
+            "endurance": 3,
+            "agilité": 4,
+            "intelligence": 6
+          },
+          "condition": "Atteindre le niveau 50"
+        }
+      ],
+      "niveau": 0,
+      "image": "/images/personnages/TanishaJackson.png"
+    },
+
+    {
+      "id": 25,
+      "name": "Wade Hebert",
+      "importance": "secondaire",
+      "description": "Jeune toxicomane vivant avec Trevor, souvent naïf et dépassé par les événements.",
+      "characteristics": {
+        "force": 3,
+        "endurance": 4,
+        "agilité": 4,
+        "intelligence": 3
+      },
+      
+      "armes_ids": [1, 7],
+      "evolutions": [
+        {
+          "description": "Évolution Novice",
+          "effects": {
+            "force": 1,
+            "endurance": 2,
+            "agilité": 3,
+            "intelligence": 3
+          },
+          "condition": "Atteindre le niveau 10"
+        },
+        {
+          "description": "Évolution Intermédiaire",
+          "effects": {
+            "force": 3,
+            "endurance": 4,
+            "agilité": 3,
+            "intelligence": 4
+          },
+          "condition": "Atteindre le niveau 25"
+        },
+        {
+          "description": "Évolution Avancée",
+          "effects": {
+            "force": 3,
+            "endurance": 6,
+            "agilité": 6,
+            "intelligence": 6
+          },
+          "condition": "Atteindre le niveau 50"
+        }
+      ],
+      "niveau": 0,
+      "image": "/images/personnages/WadeHebert.png"
+    },
+    {
+      "id": 26,
+      "name": "Floyd Hebert",
+      "importance": "secondaire",
+      "description": "Cousin de Wade, docker et soumis, entraîné malgré lui dans les affaires de Trevor.",
+      "characteristics": {
+        "force": 4,
+        "endurance": 4,
+        "agilité": 4,
+        "intelligence": 5
+      },
+      
+      "armes_ids": [8, 12],
+      "evolutions": [
+        {
+          "description": "Évolution Novice",
+          "effects": {
+            "force": 2,
+            "endurance": 3,
+            "agilité": 1,
+            "intelligence": 2
+          },
+          "condition": "Atteindre le niveau 10"
+        },
+        {
+          "description": "Évolution Intermédiaire",
+          "effects": {
+            "force": 3,
+            "endurance": 4,
+            "agilité": 3,
+            "intelligence": 2
+          },
+          "condition": "Atteindre le niveau 25"
+        },
+        {
+          "description": "Évolution Avancée",
+          "effects": {
+            "force": 4,
+            "endurance": 6,
+            "agilité": 5,
+            "intelligence": 5
+          },
+          "condition": "Atteindre le niveau 50"
+        }
+      ],
+      "niveau": 0,
+      "image": "/images/personnages/FloydHebert.png"
+    },
+    {
+      "id": 27,
+      "name": "Debra",
+      "importance": "secondaire",
+      "description": "Fiancée de Floyd, avocate au caractère bien trempé et déterminée à protéger ses intérêts.",
+      "characteristics": {
+        "force": 3,
+        "endurance": 4,
+        "agilité": 4,
+        "intelligence": 7
+      },
+      
+      "armes_ids": [2, 7],
+      "evolutions": [
+        {
+          "description": "Évolution Novice",
+          "effects": {
+            "force": 2,
+            "endurance": 1,
+            "agilité": 2,
+            "intelligence": 1
+          },
+          "condition": "Atteindre le niveau 10"
+        },
+        {
+          "description": "Évolution Intermédiaire",
+          "effects": {
+            "force": 3,
+            "endurance": 4,
+            "agilité": 4,
+            "intelligence": 3
+          },
+          "condition": "Atteindre le niveau 25"
+        },
+        {
+          "description": "Évolution Avancée",
+          "effects": {
+            "force": 6,
+            "endurance": 4,
+            "agilité": 4,
+            "intelligence": 6
+          },
+          "condition": "Atteindre le niveau 50"
+        }
+      ],
+      "niveau": 0,
+      "image": "/images/personnages/Debra.png"
+    },
+    {
+      "id": 28,
+      "name": "Fabien LaRouche",
+      "importance": "secondaire",
+      "description": "Professeur de yoga d'Amanda, d'accent français, qui initie Michael à la relaxation.",
+      "characteristics": {
+        "force": 3,
+        "endurance": 3,
+        "agilité": 4,
+        "intelligence": 6
+      },
+      
+      "armes_ids": [6, 10],
+      "evolutions": [
+        {
+          "description": "Évolution Novice",
+          "effects": {
+            "force": 3,
+            "endurance": 1,
+            "agilité": 3,
+            "intelligence": 3
+          },
+          "condition": "Atteindre le niveau 10"
+        },
+        {
+          "description": "Évolution Intermédiaire",
+          "effects": {
+            "force": 3,
+            "endurance": 2,
+            "agilité": 4,
+            "intelligence": 4
+          },
+          "condition": "Atteindre le niveau 25"
+        },
+        {
+          "description": "Évolution Avancée",
+          "effects": {
+            "force": 5,
+            "endurance": 3,
+            "agilité": 5,
+            "intelligence": 6
+          },
+          "condition": "Atteindre le niveau 50"
+        }
+      ],
+      "niveau": 0,
+      "image": "/images/personnages/FabienLaRouche.png"
+    },
+
+    {
+      "id": 29,
+      "name": "Kyle Chavis",
+      "importance": "secondaire",
+      "description": "Professeur de tennis à domicile d'Amanda, présent lors de missions marquées par des dérives inattendues.",
+      "characteristics": {
+        "force": 5,
+        "endurance": 5,
+        "agilité": 6,
+        "intelligence": 6
+      },
+      
+      "armes_ids": [5, 7],
+      "evolutions": [
+        {
+          "description": "Évolution Novice",
+          "effects": {
+            "force": 1,
+            "endurance": 3,
+            "agilité": 1,
+            "intelligence": 2
+          },
+          "condition": "Atteindre le niveau 10"
+        },
+        {
+          "description": "Évolution Intermédiaire",
+          "effects": {
+            "force": 3,
+            "endurance": 3,
+            "agilité": 3,
+            "intelligence": 4
+          },
+          "condition": "Atteindre le niveau 25"
+        },
+        {
+          "description": "Évolution Avancée",
+          "effects": {
+            "force": 6,
+            "endurance": 6,
+            "agilité": 5,
+            "intelligence": 5
+          },
+          "condition": "Atteindre le niveau 50"
+        }
+      ],
+      "niveau": 0,
+      "image": "/images/personnages/KyleChavis.png"
+    },
+    {
+      "id": 30,
+      "name": "Devin Weston",
+      "importance": "secondaire",
+      "description": "Actionnaire impitoyable de Merryweather, dont la richesse et le mépris des règles en font un antagoniste majeur.",
+      "characteristics": {
+        "force": 5,
+        "endurance": 5,
+        "agilité": 5,
+        "intelligence": 7
+      },
+      
+      "armes_ids": [7, 1],
+      "evolutions": [
+        {
+          "description": "Évolution Novice",
+          "effects": {
+            "force": 2,
+            "endurance": 2,
+            "agilité": 2,
+            "intelligence": 3
+          },
+          "condition": "Atteindre le niveau 10"
+        },
+        {
+          "description": "Évolution Intermédiaire",
+          "effects": {
+            "force": 2,
+            "endurance": 2,
+            "agilité": 4,
+            "intelligence": 3
+          },
+          "condition": "Atteindre le niveau 25"
+        },
+        {
+          "description": "Évolution Avancée",
+          "effects": {
+            "force": 4,
+            "endurance": 3,
+            "agilité": 5,
+            "intelligence": 6
+          },
+          "condition": "Atteindre le niveau 50"
+        }
+      ],
+      "niveau": 0,
+      "image": "/images/personnages/DevinWeston.png"
+    },
+    {
+      "id": 31,
+      "name": "Molly Schultz",
+      "importance": "secondaire",
+      "description": "Assistante juridique de Devin Weston, impliquée dans des affaires de vol et de trahison.",
+      "characteristics": {
+        "force": 3,
+        "endurance": 3,
+        "agilité": 4,
+        "intelligence": 7
+      },
+      
+      "armes_ids": [9, 5],
+      "evolutions": [
+        {
+          "description": "Évolution Novice",
+          "effects": {
+            "force": 2,
+            "endurance": 2,
+            "agilité": 1,
+            "intelligence": 2
+          },
+          "condition": "Atteindre le niveau 10"
+        },
+        {
+          "description": "Évolution Intermédiaire",
+          "effects": {
+            "force": 4,
+            "endurance": 3,
+            "agilité": 4,
+            "intelligence": 4
+          },
+          "condition": "Atteindre le niveau 25"
+        },
+        {
+          "description": "Évolution Avancée",
+          "effects": {
+            "force": 6,
+            "endurance": 5,
+            "agilité": 5,
+            "intelligence": 4
+          },
+          "condition": "Atteindre le niveau 50"
+        }
+      ],
+      "niveau": 0,
+      "image": "/images/personnages/MollySchultz.png"
+    },
+    {
+      "id": 32,
+      "name": "Don Percival",
+      "importance": "secondaire",
+      "description": "PDG de Merryweather, dont les décisions influencent lourdement le destin de plusieurs protagonistes.",
+      "characteristics": {
+        "force": 3,
+        "endurance": 4,
+        "agilité": 4,
+        "intelligence": 6
+      },
+      
+      "armes_ids": [8, 3],
+      "evolutions": [
+        {
+          "description": "Évolution Novice",
+          "effects": {
+            "force": 1,
+            "endurance": 2,
+            "agilité": 3,
+            "intelligence": 3
+          },
+          "condition": "Atteindre le niveau 10"
+        },
+        {
+          "description": "Évolution Intermédiaire",
+          "effects": {
+            "force": 3,
+            "endurance": 4,
+            "agilité": 2,
+            "intelligence": 4
+          },
+          "condition": "Atteindre le niveau 25"
+        },
+        {
+          "description": "Évolution Avancée",
+          "effects": {
+            "force": 5,
+            "endurance": 4,
+            "agilité": 4,
+            "intelligence": 5
+          },
+          "condition": "Atteindre le niveau 50"
+        }
+      ],
+      "niveau": 0,
+      "image": "/images/personnages/DonPercival.png"
+    },
+    {
+      "id": 33,
+      "name": "Solomon Richards",
+      "importance": "secondaire",
+      "description": "Propriétaire du studio de cinéma 'Richards Majestic' et partenaire de Michael dans l'industrie du film.",
+      "characteristics": {
+        "force": 4,
+        "endurance": 4,
+        "agilité": 5,
+        "intelligence": 6
+      },
+      
+      "armes_ids": [2, 4],
+      "evolutions": [
+        {
+          "description": "Évolution Novice",
+          "effects": {
+            "force": 3,
+            "endurance": 1,
+            "agilité": 1,
+            "intelligence": 3
+          },
+          "condition": "Atteindre le niveau 10"
+        },
+        {
+          "description": "Évolution Intermédiaire",
+          "effects": {
+            "force": 2,
+            "endurance": 3,
+            "agilité": 3,
+            "intelligence": 2
+          },
+          "condition": "Atteindre le niveau 25"
+        },
+        {
+          "description": "Évolution Avancée",
+          "effects": {
+            "force": 6,
+            "endurance": 5,
+            "agilité": 3,
+            "intelligence": 4
+          },
+          "condition": "Atteindre le niveau 50"
+        }
+      ],
+      "niveau": 0,
+      "image": "/images/personnages/SolomonRichards.png"
+    },
+
+    {
+      "id": 34,
+      "name": "Johnny Klebitz",
+      "importance": "secondaire",
+      "description": "Leader du gang des Lost MC, dont le destin se scelle lors d'une violente dispute avec Trevor.",
+      "characteristics": {
+        "force": 5,
+        "endurance": 5,
+        "agilité": 6,
+        "intelligence": 5
+      },
+      
+      "armes_ids": [5, 4],
+      "evolutions": [
+        {
+          "description": "Évolution Novice",
+          "effects": {
+            "force": 2,
+            "endurance": 3,
+            "agilité": 1,
+            "intelligence": 1
+          },
+          "condition": "Atteindre le niveau 10"
+        },
+        {
+          "description": "Évolution Intermédiaire",
+          "effects": {
+            "force": 4,
+            "endurance": 2,
+            "agilité": 4,
+            "intelligence": 2
+          },
+          "condition": "Atteindre le niveau 25"
+        },
+        {
+          "description": "Évolution Avancée",
+          "effects": {
+            "force": 6,
+            "endurance": 6,
+            "agilité": 3,
+            "intelligence": 4
+          },
+          "condition": "Atteindre le niveau 50"
+        }
+      ],
+      "niveau": 0,
+      "image": "/images/personnages/JohnnyKlebitz.png"
+    },
+    {
+      "id": 35,
+      "name": "Ashley Butler",
+      "importance": "secondaire",
+      "description": "Petite amie de Johnny Klebitz, impliquée dans les conflits du gang avant le tragique dénouement.",
+      "characteristics": {
+        "force": 3,
+        "endurance": 4,
+        "agilité": 4,
+        "intelligence": 6
+      },
+      
+      "armes_ids": [8, 3],
+      "evolutions": [
+        {
+          "description": "Évolution Novice",
+          "effects": {
+            "force": 2,
+            "endurance": 1,
+            "agilité": 1,
+            "intelligence": 2
+          },
+          "condition": "Atteindre le niveau 10"
+        },
+        {
+          "description": "Évolution Intermédiaire",
+          "effects": {
+            "force": 3,
+            "endurance": 4,
+            "agilité": 4,
+            "intelligence": 2
+          },
+          "condition": "Atteindre le niveau 25"
+        },
+        {
+          "description": "Évolution Avancée",
+          "effects": {
+            "force": 3,
+            "endurance": 5,
+            "agilité": 4,
+            "intelligence": 6
+          },
+          "condition": "Atteindre le niveau 50"
+        }
+      ],
+      "niveau": 0,
+      "image": "/images/personnages/AshleyButler.png"
+    },
+    {
+      "id": 36,
+      "name": "Elwood O'Neil",
+      "importance": "secondaire",
+      "description": "Membre d'un gang de rednecks de Blaine County, rival de Trevor dans le milieu de la drogue.",
+      "characteristics": {
+        "force": 5,
+        "endurance": 6,
+        "agilité": 5,
+        "intelligence": 5
+      },
+      
+      "armes_ids": [10, 5],
+      "evolutions": [
+        {
+          "description": "Évolution Novice",
+          "effects": {
+            "force": 1,
+            "endurance": 1,
+            "agilité": 2,
+            "intelligence": 3
+          },
+          "condition": "Atteindre le niveau 10"
+        },
+        {
+          "description": "Évolution Intermédiaire",
+          "effects": {
+            "force": 3,
+            "endurance": 3,
+            "agilité": 2,
+            "intelligence": 3
+          },
+          "condition": "Atteindre le niveau 25"
+        },
+        {
+          "description": "Évolution Avancée",
+          "effects": {
+            "force": 5,
+            "endurance": 3,
+            "agilité": 3,
+            "intelligence": 5
+          },
+          "condition": "Atteindre le niveau 50"
+        }
+      ],
+      "niveau": 0,
+      "image": "/images/personnages/ElwoodO'Neil.png"
+    },
+
+    {
+      "id": 37,
+      "name": "Chef (de Trevor)",
+      "importance": "secondaire",
+      "description": "Fabricant de méthamphétamine et collaborateur de Trevor, jouant un rôle clé dans la production illégale.",
+      "characteristics": {
+        "force": 5,
+        "endurance": 5,
+        "agilité": 5,
+        "intelligence": 6
+      },
+      
+      "armes_ids": [2, 4],
+      "evolutions": [
+        {
+          "description": "Évolution Novice",
+          "effects": {
+            "force": 3,
+            "endurance": 2,
+            "agilité": 3,
+            "intelligence": 1
+          },
+          "condition": "Atteindre le niveau 10"
+        },
+        {
+          "description": "Évolution Intermédiaire",
+          "effects": {
+            "force": 2,
+            "endurance": 2,
+            "agilité": 4,
+            "intelligence": 4
+          },
+          "condition": "Atteindre le niveau 25"
+        },
+        {
+          "description": "Évolution Avancée",
+          "effects": {
+            "force": 6,
+            "endurance": 6,
+            "agilité": 3,
+            "intelligence": 5
+          },
+          "condition": "Atteindre le niveau 50"
+        }
+      ],
+      "niveau": 0,
+      "image": "/images/personnages/Chef(deTrevor).png"
+    },
+    {
+      "id": 38,
+      "name": "Lazlow Jones",
+      "importance": "secondaire",
+      "description": "Présentateur de télé-réalité et personnalité médiatique, présent dans divers médias de Los Santos.",
+      "characteristics": {
+        "force": 3,
+        "endurance": 3,
+        "agilité": 4,
+        "intelligence": 6
+      },
+      
+      "armes_ids": [3, 11],
+      "evolutions": [
+        {
+          "description": "Évolution Novice",
+          "effects": {
+            "force": 1,
+            "endurance": 3,
+            "agilité": 1,
+            "intelligence": 2
+          },
+          "condition": "Atteindre le niveau 10"
+        },
+        {
+          "description": "Évolution Intermédiaire",
+          "effects": {
+            "force": 2,
+            "endurance": 2,
+            "agilité": 4,
+            "intelligence": 4
+          },
+          "condition": "Atteindre le niveau 25"
+        },
+        {
+          "description": "Évolution Avancée",
+          "effects": {
+            "force": 6,
+            "endurance": 6,
+            "agilité": 4,
+            "intelligence": 5
+          },
+          "condition": "Atteindre le niveau 50"
+        }
+      ],
+      "niveau": 0,
+      "image": "/images/personnages/LazlowJones.png"
+    },
+    {
+      "id": 39,
+      "name": "Jay Norris",
+      "importance": "secondaire",
+      "description": "Fondateur de LifeInvader, parodie des grands noms de la tech, impliqué dans des missions risquées.",
+      "characteristics": {
+        "force": 4,
+        "endurance": 4,
+        "agilité": 4,
+        "intelligence": 6
+      },
+      
+      "armes_ids": [6, 4],
+      "evolutions": [
+        {
+          "description": "Évolution Novice",
+          "effects": {
+            "force": 0,
+            "endurance": 2,
+            "agilité": 1,
+            "intelligence": 2
+          },
+          "condition": "Atteindre le niveau 10"
+        },
+        {
+          "description": "Évolution Intermédiaire",
+          "effects": {
+            "force": 2,
+            "endurance": 2,
+            "agilité": 3,
+            "intelligence": 3
+          },
+          "condition": "Atteindre le niveau 25"
+        },
+        {
+          "description": "Évolution Avancée",
+          "effects": {
+            "force": 3,
+            "endurance": 3,
+            "agilité": 5,
+            "intelligence": 6
+          },
+          "condition": "Atteindre le niveau 50"
+        }
+      ],
+      "niveau": 0,
+      "image": "/images/personnages/JayNorris.png"
+    },
+
+    {
+      "id": 40,
+      "name": "Terry Thorpe",
+      "importance": "secondaire",
+      "description": "Capitaine de Route des Lost MC, ami proche de Clay Simons et de Johnny Klebitz.",
+      "characteristics": {
+        "force": 6,
+        "endurance": 6,
+        "agilité": 5,
+        "intelligence": 5
+      },
+      
+      "armes_ids": [12, 10],
+      "evolutions": [
+        {
+          "description": "Évolution Novice",
+          "effects": {
+            "force": 2,
+            "endurance": 2,
+            "agilité": 2,
+            "intelligence": 1
+          },
+          "condition": "Atteindre le niveau 10"
+        },
+        {
+          "description": "Évolution Intermédiaire",
+          "effects": {
+            "force": 3,
+            "endurance": 4,
+            "agilité": 4,
+            "intelligence": 3
+          },
+          "condition": "Atteindre le niveau 25"
+        },
+        {
+          "description": "Évolution Avancée",
+          "effects": {
+            "force": 5,
+            "endurance": 4,
+            "agilité": 6,
+            "intelligence": 5
+          },
+          "condition": "Atteindre le niveau 50"
+        }
+      ],
+      "niveau": 0,
+      "image": "/images/personnages/TerryThorpe.png"
+    },
+    {
+      "id": 41,
+      "name": "Clay Simons",
+      "importance": "secondaire",
+      "description": "Sergent des Lost MC, complice fidèle de Terry Thorpe et partenaire dans les activités du gang.",
+      "characteristics": {
+        "force": 6,
+        "endurance": 6,
+        "agilité": 5,
+        "intelligence": 5
+      },
+      
+      "armes_ids": [3, 5],
+      "evolutions": [
+        {
+          "description": "Évolution Novice",
+          "effects": {
+            "force": 1,
+            "endurance": 3,
+            "agilité": 2,
+            "intelligence": 2
+          },
+          "condition": "Atteindre le niveau 10"
+        },
+        {
+          "description": "Évolution Intermédiaire",
+          "effects": {
+            "force": 4,
+            "endurance": 2,
+            "agilité": 2,
+            "intelligence": 2
+          },
+          "condition": "Atteindre le niveau 25"
+        },
+        {
+          "description": "Évolution Avancée",
+          "effects": {
+            "force": 5,
+            "endurance": 3,
+            "agilité": 4,
+            "intelligence": 6
+          },
+          "condition": "Atteindre le niveau 50"
+        }
+      ],
+      "niveau": 0,
+      "image": "/images/personnages/ClaySimons.png"
+    },
+
+    {
+      "id": 42,
+      "name": "M. K",
+      "importance": "inconnu",
+      "description": "Vendeur de home cinéma soupçonné d'être lié à une organisation terroriste, soumis à de vifs interrogatoires.",
+      "characteristics": {
+        "force": 4,
+        "endurance": 4,
+        "agilité": 4,
+        "intelligence": 5
+      },
+      
+      "armes_ids": [10, 7],
+      "evolutions": [
+        {
+          "description": "Évolution Novice",
+          "effects": {
+            "force": 1,
+            "endurance": 3,
+            "agilité": 1,
+            "intelligence": 2
+          },
+          "condition": "Atteindre le niveau 10"
+        },
+        {
+          "description": "Évolution Intermédiaire",
+          "effects": {
+            "force": 3,
+            "endurance": 4,
+            "agilité": 4,
+            "intelligence": 2
+          },
+          "condition": "Atteindre le niveau 25"
+        },
+        {
+          "description": "Évolution Avancée",
+          "effects": {
+            "force": 3,
+            "endurance": 4,
+            "agilité": 3,
+            "intelligence": 4
+          },
+          "condition": "Atteindre le niveau 50"
+        }
+      ],
+      "niveau": 0,
+      "image": "/images/personnages/M.K.png"
+    },
+    {
+      "id": 43,
+      "name": "Karen",
+      "importance": "inconnu",
+      "description": "Agent de haut rang de l'IAA, chargée d'interroger M. K et d'assurer la surveillance.",
+      "characteristics": {
+        "force": 4,
+        "endurance": 4,
+        "agilité": 4,
+        "intelligence": 6
+      },
+      
+      "armes_ids": [11, 2],
+      "evolutions": [
+        {
+          "description": "Évolution Novice",
+          "effects": {
+            "force": 1,
+            "endurance": 2,
+            "agilité": 3,
+            "intelligence": 3
+          },
+          "condition": "Atteindre le niveau 10"
+        },
+        {
+          "description": "Évolution Intermédiaire",
+          "effects": {
+            "force": 3,
+            "endurance": 3,
+            "agilité": 4,
+            "intelligence": 4
+          },
+          "condition": "Atteindre le niveau 25"
+        },
+        {
+          "description": "Évolution Avancée",
+          "effects": {
+            "force": 6,
+            "endurance": 5,
+            "agilité": 3,
+            "intelligence": 5
+          },
+          "condition": "Atteindre le niveau 50"
+        }
+      ],
+      "niveau": 0,
+      "image": "/images/personnages/Karen.png"
+    },
+    {
+      "id": 44,
+      "name": "Edward T.Fortune alias 'Le Contact'",
+      "importance": "inconnu",
+      "description": "Membre senior d'une agence secrète, chargé de traquer les activités anti-américaines.",
+      "characteristics": {
+        "force": 4,
+        "endurance": 4,
+        "agilité": 4,
+        "intelligence": 5
+      },
+      
+      "armes_ids": [9, 3],
+      "evolutions": [
+        {
+          "description": "Évolution Novice",
+          "effects": {
+            "force": 3,
+            "endurance": 2,
+            "agilité": 1,
+            "intelligence": 3
+          },
+          "condition": "Atteindre le niveau 10"
+        },
+        {
+          "description": "Évolution Intermédiaire",
+          "effects": {
+            "force": 2,
+            "endurance": 2,
+            "agilité": 4,
+            "intelligence": 3
+          },
+          "condition": "Atteindre le niveau 25"
+        },
+        {
+          "description": "Évolution Avancée",
+          "effects": {
+            "force": 3,
+            "endurance": 3,
+            "agilité": 5,
+            "intelligence": 3
+          },
+          "condition": "Atteindre le niveau 50"
+        }
+      ],
+      "niveau": 0,
+      "image": "/images/personnages/EdwardT.Fortunealias'LeContact'.png"
+    },
+    {
+      "id": 45,
+      "name": "Rocco Pelosi",
+      "importance": "inconnu",
+      "description": "Agent corrompu de Los Santos, ancien membre d'une mafia de Liberty City, impliqué dans des arnaques.",
+      "characteristics": {
+        "force": 5,
+        "endurance": 5,
+        "agilité": 5,
+        "intelligence": 5
+      },
+      
+      "armes_ids": [10, 12],
+      "evolutions": [
+        {
+          "description": "Évolution Novice",
+          "effects": {
+            "force": 1,
+            "endurance": 1,
+            "agilité": 1,
+            "intelligence": 2
+          },
+          "condition": "Atteindre le niveau 10"
+        },
+        {
+          "description": "Évolution Intermédiaire",
+          "effects": {
+            "force": 4,
+            "endurance": 2,
+            "agilité": 2,
+            "intelligence": 2
+          },
+          "condition": "Atteindre le niveau 25"
+        },
+        {
+          "description": "Évolution Avancée",
+          "effects": {
+            "force": 5,
+            "endurance": 4,
+            "agilité": 5,
+            "intelligence": 5
+          },
+          "condition": "Atteindre le niveau 50"
+        }
+      ],
+      "niveau": 0,
+      "image": "/images/personnages/RoccoPelosi.png"
+    },
+
+    {
+      "id": 46,
+      "name": "Abigail Mathers",
+      "importance": "inconnu",
+      "description": "Veuve d'un explorateur disparu en mer, elle demande à Michael d'enquêter sur d'étranges circonstances.",
+      "characteristics": {
+        "force": 4,
+        "endurance": 4,
+        "agilité": 5,
+        "intelligence": 6
+      },
+      
+      "armes_ids": [6, 2],
+      "evolutions": [
+        {
+          "description": "Évolution Novice",
+          "effects": {
+            "force": 0,
+            "endurance": 0,
+            "agilité": 1,
+            "intelligence": 2
+          },
+          "condition": "Atteindre le niveau 10"
+        },
+        {
+          "description": "Évolution Intermédiaire",
+          "effects": {
+            "force": 3,
+            "endurance": 2,
+            "agilité": 2,
+            "intelligence": 3
+          },
+          "condition": "Atteindre le niveau 25"
+        },
+        {
+          "description": "Évolution Avancée",
+          "effects": {
+            "force": 3,
+            "endurance": 3,
+            "agilité": 5,
+            "intelligence": 5
+          },
+          "condition": "Atteindre le niveau 50"
+        }
+      ],
+      "niveau": 0,
+      "image": "/images/personnages/AbigailMathers.png"
+    },
+    {
+      "id": 47,
+      "name": "Barry",
+      "importance": "inconnu",
+      "description": "Militant pour la légalisation de la marijuana, confiant quelques missions de vol à Franklin.",
+      "characteristics": {
+        "force": 4,
+        "endurance": 4,
+        "agilité": 4,
+        "intelligence": 5
+      },
+      
+      "armes_ids": [5, 8],
+      "evolutions": [
+        {
+          "description": "Évolution Novice",
+          "effects": {
+            "force": 0,
+            "endurance": 0,
+            "agilité": 0,
+            "intelligence": 2
+          },
+          "condition": "Atteindre le niveau 10"
+        },
+        {
+          "description": "Évolution Intermédiaire",
+          "effects": {
+            "force": 3,
+            "endurance": 3,
+            "agilité": 2,
+            "intelligence": 2
+          },
+          "condition": "Atteindre le niveau 25"
+        },
+        {
+          "description": "Évolution Avancée",
+          "effects": {
+            "force": 5,
+            "endurance": 5,
+            "agilité": 3,
+            "intelligence": 5
+          },
+          "condition": "Atteindre le niveau 50"
+        }
+      ],
+      "niveau": 0,
+      "image": "/images/personnages/Barry.png"
+    },
+    {
+      "id": 48,
+      "name": "Beverly Felton",
+      "importance": "inconnu",
+      "description": "Paparazzi local engagé par Franklin pour filmer des célébrités dans des situations compromettantes.",
+      "characteristics": {
+        "force": 3,
+        "endurance": 4,
+        "agilité": 4,
+        "intelligence": 5
+      },
+      
+      "armes_ids": [10, 3],
+      "evolutions": [
+        {
+          "description": "Évolution Novice",
+          "effects": {
+            "force": 0,
+            "endurance": 0,
+            "agilité": 1,
+            "intelligence": 2
+          },
+          "condition": "Atteindre le niveau 10"
+        },
+        {
+          "description": "Évolution Intermédiaire",
+          "effects": {
+            "force": 4,
+            "endurance": 2,
+            "agilité": 2,
+            "intelligence": 4
+          },
+          "condition": "Atteindre le niveau 25"
+        },
+        {
+          "description": "Évolution Avancée",
+          "effects": {
+            "force": 5,
+            "endurance": 4,
+            "agilité": 4,
+            "intelligence": 5
+          },
+          "condition": "Atteindre le niveau 50"
+        }
+      ],
+      "niveau": 0,
+      "image": "/images/personnages/BeverlyFelton.png"
+    },
+
+    {
+      "id": 49,
+      "name": "Cletus Ewing",
+      "importance": "inconnu",
+      "description": "Chasseur rencontré par Trevor, proposant des missions de chasse pour débloquer de nouvelles activités.",
+      "characteristics": {
+        "force": 6,
+        "endurance": 6,
+        "agilité": 5,
+        "intelligence": 4
+      },
+      
+      "armes_ids": [3, 2],
+      "evolutions": [
+        {
+          "description": "Évolution Novice",
+          "effects": {
+            "force": 2,
+            "endurance": 1,
+            "agilité": 1,
+            "intelligence": 0
+          },
+          "condition": "Atteindre le niveau 10"
+        },
+        {
+          "description": "Évolution Intermédiaire",
+          "effects": {
+            "force": 4,
+            "endurance": 3,
+            "agilité": 4,
+            "intelligence": 3
+          },
+          "condition": "Atteindre le niveau 25"
+        },
+        {
+          "description": "Évolution Avancée",
+          "effects": {
+            "force": 4,
+            "endurance": 3,
+            "agilité": 6,
+            "intelligence": 4
+          },
+          "condition": "Atteindre le niveau 50"
+        }
+      ],
+      "niveau": 0,
+      "image": "/images/personnages/CletusEwing.png"
+    },
+    {
+      "id": 50,
+      "name": "Dom Beasley",
+      "importance": "inconnu",
+      "description": "Homme avide de sensations fortes, il initie Franklin au saut en parachute lors d'une mission.",
+      "characteristics": {
+        "force": 5,
+        "endurance": 5,
+        "agilité": 6,
+        "intelligence": 6
+      },
+      
+      "armes_ids": [10, 1],
+      "evolutions": [
+        {
+          "description": "Évolution Novice",
+          "effects": {
+            "force": 0,
+            "endurance": 1,
+            "agilité": 2,
+            "intelligence": 1
+          },
+          "condition": "Atteindre le niveau 10"
+        },
+        {
+          "description": "Évolution Intermédiaire",
+          "effects": {
+            "force": 3,
+            "endurance": 2,
+            "agilité": 4,
+            "intelligence": 4
+          },
+          "condition": "Atteindre le niveau 25"
+        },
+        {
+          "description": "Évolution Avancée",
+          "effects": {
+            "force": 4,
+            "endurance": 4,
+            "agilité": 6,
+            "intelligence": 6
+          },
+          "condition": "Atteindre le niveau 50"
+        }
+      ],
+      "niveau": 0,
+      "image": "/images/personnages/DomBeasley.png"
+    },
+    {
+      "id": 51,
+      "name": "Hao",
+      "importance": "inconnu",
+      "description": "Ami de Franklin travaillant dans un garage, informateur des nouvelles courses de voitures.",
+      "characteristics": {
+        "force": 4,
+        "endurance": 4,
+        "agilité": 5,
+        "intelligence": 6
+      },
+      
+      "armes_ids": [3, 1],
+      "evolutions": [
+        {
+          "description": "Évolution Novice",
+          "effects": {
+            "force": 0,
+            "endurance": 0,
+            "agilité": 1,
+            "intelligence": 2
+          },
+          "condition": "Atteindre le niveau 10"
+        },
+        {
+          "description": "Évolution Intermédiaire",
+          "effects": {
+            "force": 4,
+            "endurance": 2,
+            "agilité": 3,
+            "intelligence": 2
+          },
+          "condition": "Atteindre le niveau 25"
+        },
+        {
+          "description": "Évolution Avancée",
+          "effects": {
+            "force": 5,
+            "endurance": 3,
+            "agilité": 5,
+            "intelligence": 3
+          },
+          "condition": "Atteindre le niveau 50"
+        }
+      ],
+      "niveau": 0,
+      "image": "/images/personnages/Hao.png"
+    },
+
+    {
+      "id": 52,
+      "name": "Josh Bernstein",
+      "importance": "inconnu",
+      "description": "Ancien agent immobilier qui engage Trevor pour éliminer la concurrence.",
+      "characteristics": {
+        "force": 5,
+        "endurance": 5,
+        "agilité": 5,
+        "intelligence": 6
+      },
+      
+      "armes_ids": [10, 7],
+      "evolutions": [
+        {
+          "description": "Évolution Novice",
+          "effects": {
+            "force": 0,
+            "endurance": 0,
+            "agilité": 0,
+            "intelligence": 3
+          },
+          "condition": "Atteindre le niveau 10"
+        },
+        {
+          "description": "Évolution Intermédiaire",
+          "effects": {
+            "force": 2,
+            "endurance": 4,
+            "agilité": 2,
+            "intelligence": 2
+          },
+          "condition": "Atteindre le niveau 25"
+        },
+        {
+          "description": "Évolution Avancée",
+          "effects": {
+            "force": 5,
+            "endurance": 3,
+            "agilité": 3,
+            "intelligence": 5
+          },
+          "condition": "Atteindre le niveau 50"
+        }
+      ],
+      "niveau": 0,
+      "image": "/images/personnages/JoshBernstein.png"
+    },
+    {
+      "id": 53,
+      "name": "Joe & Josef",
+      "importance": "inconnu",
+      "description": "Membres de la patrouille frontalière, opposés à l'immigration, opérant en duo.",
+      "characteristics": {
+        "force": 4,
+        "endurance": 4,
+        "agilité": 4,
+        "intelligence": 5
+      },
+      
+      "armes_ids": [5, 9],
+      "evolutions": [
+        {
+          "description": "Évolution Novice",
+          "effects": {
+            "force": 1,
+            "endurance": 1,
+            "agilité": 0,
+            "intelligence": 1
+          },
+          "condition": "Atteindre le niveau 10"
+        },
+        {
+          "description": "Évolution Intermédiaire",
+          "effects": {
+            "force": 2,
+            "endurance": 4,
+            "agilité": 2,
+            "intelligence": 3
+          },
+          "condition": "Atteindre le niveau 25"
+        },
+        {
+          "description": "Évolution Avancée",
+          "effects": {
+            "force": 4,
+            "endurance": 3,
+            "agilité": 4,
+            "intelligence": 5
+          },
+          "condition": "Atteindre le niveau 50"
+        }
+      ],
+      "niveau": 0,
+      "image": "/images/personnages/Joe&Josef.png"
+    },
+    {
+      "id": 54,
+      "name": "Maude Eccles",
+      "importance": "inconnu",
+      "description": "Habitante du désert, experte en dossiers de criminels recherchés et offrant des missions de prime à Trevor.",
+      "characteristics": {
+        "force": 3,
+        "endurance": 4,
+        "agilité": 4,
+        "intelligence": 6
+      },
+      
+      "armes_ids": [2, 12],
+      "evolutions": [
+        {
+          "description": "Évolution Novice",
+          "effects": {
+            "force": 0,
+            "endurance": 0,
+            "agilité": 1,
+            "intelligence": 3
+          },
+          "condition": "Atteindre le niveau 10"
+        },
+        {
+          "description": "Évolution Intermédiaire",
+          "effects": {
+            "force": 4,
+            "endurance": 3,
+            "agilité": 2,
+            "intelligence": 2
+          },
+          "condition": "Atteindre le niveau 25"
+        },
+        {
+          "description": "Évolution Avancée",
+          "effects": {
+            "force": 4,
+            "endurance": 3,
+            "agilité": 4,
+            "intelligence": 6
+          },
+          "condition": "Atteindre le niveau 50"
+        }
+      ],
+      "niveau": 0,
+      "image": "/images/personnages/MaudeEccles.png"
+    },
+    {
+      "id": 55,
+      "name": "Mary-Ann Quinn",
+      "importance": "inconnu",
+      "description": "Fan de sport organisant un triathlon, rencontrée lors d'une mission par les trois protagonistes.",
+      "characteristics": {
+        "force": 4,
+        "endurance": 4,
+        "agilité": 4,
+        "intelligence": 6
+      },
+      
+      "armes_ids": [10, 9],
+      "evolutions": [
+        {
+          "description": "Évolution Novice",
+          "effects": {
+            "force": 0,
+            "endurance": 1,
+            "agilité": 1,
+            "intelligence": 2
+          },
+          "condition": "Atteindre le niveau 10"
+        },
+        {
+          "description": "Évolution Intermédiaire",
+          "effects": {
+            "force": 4,
+            "endurance": 2,
+            "agilité": 2,
+            "intelligence": 4
+          },
+          "condition": "Atteindre le niveau 25"
+        },
+        {
+          "description": "Évolution Avancée",
+          "effects": {
+            "force": 6,
+            "endurance": 4,
+            "agilité": 4,
+            "intelligence": 6
+          },
+          "condition": "Atteindre le niveau 50"
+        }
+      ],
+      "niveau": 0,
+      "image": "/images/personnages/Mary-AnnQuinn.png"
+    },
+
+    {
+      "id": 56,
+      "name": "Madame Philips",
+      "importance": "inconnu",
+      "description": "Mère de Trevor, ancienne prostituée et détenue, dont le passé explique en partie la violence de son fils.",
+      "characteristics": {
+        "force": 3,
+        "endurance": 3,
+        "agilité": 3,
+        "intelligence": 5
+      },
+      
+      "armes_ids": [6, 11],
+      "evolutions": [
+        {
+          "description": "Évolution Novice",
+          "effects": {
+            "force": 0,
+            "endurance": 1,
+            "agilité": 0,
+            "intelligence": 2
+          },
+          "condition": "Atteindre le niveau 10"
+        },
+        {
+          "description": "Évolution Intermédiaire",
+          "effects": {
+            "force": 3,
+            "endurance": 4,
+            "agilité": 2,
+            "intelligence": 3
+          },
+          "condition": "Atteindre le niveau 25"
+        },
+        {
+          "description": "Évolution Avancée",
+          "effects": {
+            "force": 6,
+            "endurance": 5,
+            "agilité": 5,
+            "intelligence": 5
+          },
+          "condition": "Atteindre le niveau 50"
+        }
+      ],
+      "niveau": 0,
+      "image": "/images/personnages/MadamePhilips.png"
+    },
+    {
+      "id": 57,
+      "name": "Nigel et Mme Thornhill",
+      "importance": "inconnu",
+      "description": "Touristes anglais âgés, obsédés par les célébrités de Los Santos et impliqués dans des missions insolites.",
+      "characteristics": {
+        "force": 3,
+        "endurance": 4,
+        "agilité": 4,
+        "intelligence": 6
+      },
+      
+      "armes_ids": [3, 1],
+      "evolutions": [
+        {
+          "description": "Évolution Novice",
+          "effects": {
+            "force": 0,
+            "endurance": 0,
+            "agilité": 0,
+            "intelligence": 2
+          },
+          "condition": "Atteindre le niveau 10"
+        },
+        {
+          "description": "Évolution Intermédiaire",
+          "effects": {
+            "force": 2,
+            "endurance": 4,
+            "agilité": 2,
+            "intelligence": 3
+          },
+          "condition": "Atteindre le niveau 25"
+        },
+        {
+          "description": "Évolution Avancée",
+          "effects": {
+            "force": 5,
+            "endurance": 5,
+            "agilité": 3,
+            "intelligence": 5
+          },
+          "condition": "Atteindre le niveau 50"
+        }
+      ],
+      "niveau": 0,
+      "image": "/images/personnages/NigeletMmeThornhill.png"
+    },
+    {
+      "id": 58,
+      "name": "Omega",
+      "importance": "inconnu",
+      "description": "Hippie du désert, passionné par les extraterrestres et confiant à Franklin la collecte de pièces de vaisseau.",
+      "characteristics": {
+        "force": 3,
+        "endurance": 3,
+        "agilité": 4,
+        "intelligence": 6
+      },
+      
+      "armes_ids": [5, 4],
+      "evolutions": [
+        {
+          "description": "Évolution Novice",
+          "effects": {
+            "force": 0,
+            "endurance": 0,
+            "agilité": 0,
+            "intelligence": 3
+          },
+          "condition": "Atteindre le niveau 10"
+        },
+        {
+          "description": "Évolution Intermédiaire",
+          "effects": {
+            "force": 3,
+            "endurance": 4,
+            "agilité": 3,
+            "intelligence": 4
+          },
+          "condition": "Atteindre le niveau 25"
+        },
+        {
+          "description": "Évolution Avancée",
+          "effects": {
+            "force": 5,
+            "endurance": 6,
+            "agilité": 5,
+            "intelligence": 6
+          },
+          "condition": "Atteindre le niveau 50"
+        }
+      ],
+      "niveau": 0,
+      "image": "/images/personnages/Omega.png"
+    },
+    {
+      "id": 59,
+      "name": "Peter Dreyfuss",
+      "importance": "inconnu",
+      "description": "Suspecté d'avoir assassiné une actrice, son passé trouble refait surface lors d'une confrontation avec Franklin.",
+      "characteristics": {
+        "force": 4,
+        "endurance": 4,
+        "agilité": 4,
+        "intelligence": 6
+      },
+      
+      "armes_ids": [7, 3],
+      "evolutions": [
+        {
+          "description": "Évolution Novice",
+          "effects": {
+            "force": 1,
+            "endurance": 1,
+            "agilité": 0,
+            "intelligence": 2
+          },
+          "condition": "Atteindre le niveau 10"
+        },
+        {
+          "description": "Évolution Intermédiaire",
+          "effects": {
+            "force": 2,
+            "endurance": 4,
+            "agilité": 3,
+            "intelligence": 2
+          },
+          "condition": "Atteindre le niveau 25"
+        },
+        {
+          "description": "Évolution Avancée",
+          "effects": {
+            "force": 5,
+            "endurance": 5,
+            "agilité": 5,
+            "intelligence": 6
+          },
+          "condition": "Atteindre le niveau 50"
+        }
+      ],
+      "niveau": 0,
+      "image": "/images/personnages/PeterDreyfuss.png"
+    },
+
+    {
+      "id": 60,
+      "name": "Tonya Wiggins",
+      "importance": "inconnu",
+      "description": "Amie d'enfance de Franklin, accro à la drogue, qui lui enseigne les rudiments du remorquage.",
+      "characteristics": {
+        "force": 4,
+        "endurance": 4,
+        "agilité": 5,
+        "intelligence": 5
+      },
+      
+      "armes_ids": [12, 6],
+      "evolutions": [
+        {
+          "description": "Évolution Novice",
+          "effects": {
+            "force": 0,
+            "endurance": 1,
+            "agilité": 1,
+            "intelligence": 1
+          },
+          "condition": "Atteindre le niveau 10"
+        },
+        {
+          "description": "Évolution Intermédiaire",
+          "effects": {
+            "force": 4,
+            "endurance": 3,
+            "agilité": 3,
+            "intelligence": 2
+          },
+          "condition": "Atteindre le niveau 25"
+        },
+        {
+          "description": "Évolution Avancée",
+          "effects": {
+            "force": 5,
+            "endurance": 5,
+            "agilité": 4,
+            "intelligence": 5
+          },
+          "condition": "Atteindre le niveau 50"
+        }
+      ],
+      "niveau": 0,
+      "image": "/images/personnages/TonyaWiggins.png"
+    },
+    {
+      "id": 61,
+      "name": "Lacey Jonas",
+      "importance": "inconnu",
+      "description": "Célébrité locale cherchant à échapper aux paparazzis, reconduite par l'un des protagonistes.",
+      "characteristics": {
+        "force": 3,
+        "endurance": 4,
+        "agilité": 4,
+        "intelligence": 6
+      },
+      
+      "armes_ids": [2, 3],
+      "evolutions": [
+        {
+          "description": "Évolution Novice",
+          "effects": {
+            "force": 0,
+            "endurance": 0,
+            "agilité": 1,
+            "intelligence": 2
+          },
+          "condition": "Atteindre le niveau 10"
+        },
+        {
+          "description": "Évolution Intermédiaire",
+          "effects": {
+            "force": 2,
+            "endurance": 3,
+            "agilité": 2,
+            "intelligence": 3
+          },
+          "condition": "Atteindre le niveau 25"
+        },
+        {
+          "description": "Évolution Avancée",
+          "effects": {
+            "force": 4,
+            "endurance": 4,
+            "agilité": 4,
+            "intelligence": 5
+          },
+          "condition": "Atteindre le niveau 50"
+        }
+      ],
+      "niveau": 0,
+      "image": "/images/personnages/LaceyJonas.png"
+    },
+    {
+      "id": 62,
+      "name": "La mariée en fuite",
+      "importance": "inconnu",
+      "description": "Femme tentant de fuir un mariage imposé, poursuivie par le futur époux dans une course-poursuite.",
+      "characteristics": {
+        "force": 3,
+        "endurance": 3,
+        "agilité": 4,
+        "intelligence": 5
+      },
+      
+      "armes_ids": [9, 3],
+      "evolutions": [
+        {
+          "description": "Évolution Novice",
+          "effects": {
+            "force": 0,
+            "endurance": 1,
+            "agilité": 1,
+            "intelligence": 1
+          },
+          "condition": "Atteindre le niveau 10"
+        },
+        {
+          "description": "Évolution Intermédiaire",
+          "effects": {
+            "force": 4,
+            "endurance": 3,
+            "agilité": 3,
+            "intelligence": 4
+          },
+          "condition": "Atteindre le niveau 25"
+        },
+        {
+          "description": "Évolution Avancée",
+          "effects": {
+            "force": 5,
+            "endurance": 5,
+            "agilité": 4,
+            "intelligence": 5
+          },
+          "condition": "Atteindre le niveau 50"
+        }
+      ],
+      "niveau": 0,
+      "image": "/images/personnages/Lamariéeenfuite.png"
+    },
+
+    {
+      "id": 63,
+      "name": "Ursula",
+      "importance": "inconnu",
+      "description": "Jeune femme isolée et instable, potentiellement devenue tueuse en série après une perte douloureuse.",
+      "characteristics": {
+        "force": 4,
+        "endurance": 4,
+        "agilité": 4,
+        "intelligence": 5
+      },
+      
+      "armes_ids": [7, 5],
+      "evolutions": [
+        {
+          "description": "Évolution Novice",
+          "effects": {
+            "force": 0,
+            "endurance": 0,
+            "agilité": 0,
+            "intelligence": -1
+          },
+          "condition": "Atteindre le niveau 10"
+        },
+        {
+          "description": "Évolution Intermédiaire",
+          "effects": {
+            "force": 2,
+            "endurance": 4,
+            "agilité": 3,
+            "intelligence": 4
+          },
+          "condition": "Atteindre le niveau 25"
+        },
+        {
+          "description": "Évolution Avancée",
+          "effects": {
+            "force": 3,
+            "endurance": 4,
+            "agilité": 5,
+            "intelligence": 5
+          },
+          "condition": "Atteindre le niveau 50"
+        }
+      ],
+      "niveau": 0,
+      "image": "/images/personnages/Ursula.png"
+    },
+    {
+      "id": 64,
+      "name": "Victime de la secte des altruistes",
+      "importance": "inconnu",
+      "description": "Jeune femme agressée par une secte, dont la mission se solde par une demande d'aide pour regagner sa maison.",
+      "characteristics": {
+        "force": 3,
+        "endurance": 3,
+        "agilité": 4,
+        "intelligence": 4
+      },
+      
+      "armes_ids": [1, 5],
+      "evolutions": [
+        {
+          "description": "Évolution Novice",
+          "effects": {
+            "force": 0,
+            "endurance": 1,
+            "agilité": 0,
+            "intelligence": 2
+          },
+          "condition": "Atteindre le niveau 10"
+        },
+        {
+          "description": "Évolution Intermédiaire",
+          "effects": {
+            "force": 2,
+            "endurance": 4,
+            "agilité": 2,
+            "intelligence": 4
+          },
+          "condition": "Atteindre le niveau 25"
+        },
+        {
+          "description": "Évolution Avancée",
+          "effects": {
+            "force": 5,
+            "endurance": 4,
+            "agilité": 4,
+            "intelligence": 5
+          },
+          "condition": "Atteindre le niveau 50"
+        }
+      ],
+      "niveau": 0,
+      "image": "/images/personnages/Victimedelasectedesaltruistes.png"
+    },
+
+    {
+      "id": 65,
+      "name": "Norm Richards",
+      "importance": "inconnu",
+      "description": "Braqueur admirateur de Michael, participant aux coups pour une faible part du butin.",
+      "characteristics": {
+        "force": 5,
+        "endurance": 5,
+        "agilité": 5,
+        "intelligence": 5
+      },
+      
+      "armes_ids": [3, 11],
+      "evolutions": [
+        {
+          "description": "Évolution Novice",
+          "effects": {
+            "force": 1,
+            "endurance": 1,
+            "agilité": 1,
+            "intelligence": 1
+          },
+          "condition": "Atteindre le niveau 10"
+        },
+        {
+          "description": "Évolution Intermédiaire",
+          "effects": {
+            "force": 3,
+            "endurance": 4,
+            "agilité": 3,
+            "intelligence": 2
+          },
+          "condition": "Atteindre le niveau 25"
+        },
+        {
+          "description": "Évolution Avancée",
+          "effects": {
+            "force": 4,
+            "endurance": 5,
+            "agilité": 3,
+            "intelligence": 3
+          },
+          "condition": "Atteindre le niveau 50"
+        }
+      ],
+      "niveau": 0,
+      "image": "/images/personnages/NormRichards.png"
+    },
+    {
+      "id": 66,
+      "name": "Packie McReary",
+      "importance": "inconnu",
+      "description": "Braqueur réputé de Liberty City, intervenant dans les opérations du trio pour 12% du butin.",
+      "characteristics": {
+        "force": 5,
+        "endurance": 5,
+        "agilité": 5,
+        "intelligence": 5
+      },
+      
+      "armes_ids": [10, 7],
+      "evolutions": [
+        {
+          "description": "Évolution Novice",
+          "effects": {
+            "force": 2,
+            "endurance": 2,
+            "agilité": 3,
+            "intelligence": 2
+          },
+          "condition": "Atteindre le niveau 10"
+        },
+        {
+          "description": "Évolution Intermédiaire",
+          "effects": {
+            "force": 4,
+            "endurance": 2,
+            "agilité": 4,
+            "intelligence": 4
+          },
+          "condition": "Atteindre le niveau 25"
+        },
+        {
+          "description": "Évolution Avancée",
+          "effects": {
+            "force": 4,
+            "endurance": 3,
+            "agilité": 3,
+            "intelligence": 4
+          },
+          "condition": "Atteindre le niveau 50"
+        }
+      ],
+      "niveau": 0,
+      "image": "/images/personnages/PackieMcReary.png"
+    },
+    {
+      "id": 67,
+      "name": "Chef (braqueur)",
+      "importance": "inconnu",
+      "description": "Braqueur spécialisé dans la fabrication de méthamphétamine, collaborant aux opérations de braquage.",
+      "characteristics": {
+        "force": 5,
+        "endurance": 5,
+        "agilité": 5,
+        "intelligence": 5
+      },
+      
+      "armes_ids": [3, 4],
+      "evolutions": [
+        {
+          "description": "Évolution Novice",
+          "effects": {
+            "force": 3,
+            "endurance": 2,
+            "agilité": 1,
+            "intelligence": 1
+          },
+          "condition": "Atteindre le niveau 10"
+        },
+        {
+          "description": "Évolution Intermédiaire",
+          "effects": {
+            "force": 3,
+            "endurance": 2,
+            "agilité": 4,
+            "intelligence": 3
+          },
+          "condition": "Atteindre le niveau 25"
+        },
+        {
+          "description": "Évolution Avancée",
+          "effects": {
+            "force": 6,
+            "endurance": 6,
+            "agilité": 3,
+            "intelligence": 5
+          },
+          "condition": "Atteindre le niveau 50"
+        }
+      ],
+      "niveau": 0,
+      "image": "/images/personnages/Chef(braqueur).png"
+    },
+    {
+      "id": 68,
+      "name": "Gustavo Mota",
+      "importance": "inconnu",
+      "description": "Ancien membre des Vagos reconverti en braqueur, offrant un travail de qualité pour 14% du butin.",
+      "characteristics": {
+        "force": 5,
+        "endurance": 5,
+        "agilité": 5,
+        "intelligence": 5
+      },
+      
+      "armes_ids": [2, 3],
+      "evolutions": [
+        {
+          "description": "Évolution Novice",
+          "effects": {
+            "force": 2,
+            "endurance": 1,
+            "agilité": 1,
+            "intelligence": 1
+          },
+          "condition": "Atteindre le niveau 10"
+        },
+        {
+          "description": "Évolution Intermédiaire",
+          "effects": {
+            "force": 4,
+            "endurance": 2,
+            "agilité": 2,
+            "intelligence": 3
+          },
+          "condition": "Atteindre le niveau 25"
+        },
+        {
+          "description": "Évolution Avancée",
+          "effects": {
+            "force": 3,
+            "endurance": 6,
+            "agilité": 6,
+            "intelligence": 5
+          },
+          "condition": "Atteindre le niveau 50"
+        }
+      ],
+      "niveau": 0,
+      "image": "/images/personnages/GustavoMota.png"
+    },
+
+    {
+      "id": 69,
+      "name": "Karim Denz",
+      "importance": "inconnu",
+      "description": "Chauffeur peu compétent, engagé pour les plans de fuite lors des hold-up du trio.",
+      "characteristics": {
+        "force": 3,
+        "endurance": 4,
+        "agilité": 5,
+        "intelligence": 4
+      },
+      
+      "armes_ids": [10, 12],
+      "evolutions": [
+        {
+          "description": "Évolution Novice",
+          "effects": {
+            "force": 1,
+            "endurance": 3,
+            "agilité": 3,
+            "intelligence": 2
+          },
+          "condition": "Atteindre le niveau 10"
+        },
+        {
+          "description": "Évolution Intermédiaire",
+          "effects": {
+            "force": 2,
+            "endurance": 3,
+            "agilité": 4,
+            "intelligence": 3
+          },
+          "condition": "Atteindre le niveau 25"
+        },
+        {
+          "description": "Évolution Avancée",
+          "effects": {
+            "force": 4,
+            "endurance": 3,
+            "agilité": 6,
+            "intelligence": 6
+          },
+          "condition": "Atteindre le niveau 50"
+        }
+      ],
+      "niveau": 0,
+      "image": "/images/personnages/KarimDenz.png"
+    },
+    {
+      "id": 70,
+      "name": "Eddie Toh",
+      "importance": "inconnu",
+      "description": "L'un des meilleurs chauffeurs recrutés par Lester, motivé par le bien-être familial.",
+      "characteristics": {
+        "force": 4,
+        "endurance": 5,
+        "agilité": 5,
+        "intelligence": 5
+      },
+      
+      "armes_ids": [3, 2],
+      "evolutions": [
+        {
+          "description": "Évolution Novice",
+          "effects": {
+            "force": 2,
+            "endurance": 3,
+            "agilité": 1,
+            "intelligence": 3
+          },
+          "condition": "Atteindre le niveau 10"
+        },
+        {
+          "description": "Évolution Intermédiaire",
+          "effects": {
+            "force": 4,
+            "endurance": 3,
+            "agilité": 4,
+            "intelligence": 4
+          },
+          "condition": "Atteindre le niveau 25"
+        },
+        {
+          "description": "Évolution Avancée",
+          "effects": {
+            "force": 3,
+            "endurance": 4,
+            "agilité": 5,
+            "intelligence": 6
+          },
+          "condition": "Atteindre le niveau 50"
+        }
+      ],
+      "niveau": 0,
+      "image": "/images/personnages/EddieToh.png"
+    },
+    {
+      "id": 71,
+      "name": "Chauffeur inconnu (prologue)",
+      "importance": "inconnu",
+      "description": "Chauffeur discret du prologue, dont le destin se scelle rapidement lors d'une mission.",
+      "characteristics": {
+        "force": 4,
+        "endurance": 4,
+        "agilité": 5,
+        "intelligence": 4
+      },
+      
+      "armes_ids": [3, 9],
+      "evolutions": [
+        {
+          "description": "Évolution Novice",
+          "effects": {
+            "force": 3,
+            "endurance": 3,
+            "agilité": 1,
+            "intelligence": 2
+          },
+          "condition": "Atteindre le niveau 10"
+        },
+        {
+          "description": "Évolution Intermédiaire",
+          "effects": {
+            "force": 2,
+            "endurance": 4,
+            "agilité": 4,
+            "intelligence": 2
+          },
+          "condition": "Atteindre le niveau 25"
+        },
+        {
+          "description": "Évolution Avancée",
+          "effects": {
+            "force": 6,
+            "endurance": 5,
+            "agilité": 3,
+            "intelligence": 4
+          },
+          "condition": "Atteindre le niveau 50"
+        }
+      ],
+      "niveau": 0,
+      "image": "/images/personnages/Chauffeurinconnu(prologue).png"
+    },
+
+    {
+      "id": 72,
+      "name": "Taliana Martinez",
+      "importance": "inconnu",
+      "description": "Chauffeuse talentueuse, offrant ses services lors d'événements aléatoires du trio.",
+      "characteristics": {
+        "force": 3,
+        "endurance": 4,
+        "agilité": 6,
+        "intelligence": 5
+      },
+      
+      "armes_ids": [6, 12],
+      "evolutions": [
+        {
+          "description": "Évolution Novice",
+          "effects": {
+            "force": 1,
+            "endurance": 3,
+            "agilité": 2,
+            "intelligence": 1
+          },
+          "condition": "Atteindre le niveau 10"
+        },
+        {
+          "description": "Évolution Intermédiaire",
+          "effects": {
+            "force": 3,
+            "endurance": 4,
+            "agilité": 3,
+            "intelligence": 4
+          },
+          "condition": "Atteindre le niveau 25"
+        },
+        {
+          "description": "Évolution Avancée",
+          "effects": {
+            "force": 5,
+            "endurance": 6,
+            "agilité": 3,
+            "intelligence": 4
+          },
+          "condition": "Atteindre le niveau 50"
+        }
+      ],
+      "niveau": 0,
+      "image": "/images/personnages/TalianaMartinez.png"
+    },
+
+    {
+      "id": 73,
+      "name": "Rickie Lukens",
+      "importance": "inconnu",
+      "description": "Pirate informatique engagé lors d'un braquage pour infiltrer des systèmes de sécurité.",
+      "characteristics": {
+        "force": 4,
+        "endurance": 4,
+        "agilité": 5,
+        "intelligence": 5
+      },
+      
+      "armes_ids": [5, 9],
+      "evolutions": [
+        {
+          "description": "Évolution Novice",
+          "effects": {
+            "force": 1,
+            "endurance": 2,
+            "agilité": 1,
+            "intelligence": 3
+          },
+          "condition": "Atteindre le niveau 10"
+        },
+        {
+          "description": "Évolution Intermédiaire",
+          "effects": {
+            "force": 3,
+            "endurance": 2,
+            "agilité": 4,
+            "intelligence": 3
+          },
+          "condition": "Atteindre le niveau 25"
+        },
+        {
+          "description": "Évolution Avancée",
+          "effects": {
+            "force": 5,
+            "endurance": 4,
+            "agilité": 3,
+            "intelligence": 5
+          },
+          "condition": "Atteindre le niveau 50"
+        }
+      ],
+      "niveau": 0,
+      "image": "/images/personnages/RickieLukens.png"
+    },
+    {
+      "id": 74,
+      "name": "Christian Feltz",
+      "importance": "inconnu",
+      "description": "Pirate au savoir informatique moyen, participant aux opérations de piratage pour une part du butin.",
+      "characteristics": {
+        "force": 4,
+        "endurance": 4,
+        "agilité": 4,
+        "intelligence": 5
+      },
+      
+      "armes_ids": [12, 3],
+      "evolutions": [
+        {
+          "description": "Évolution Novice",
+          "effects": {
+            "force": 1,
+            "endurance": 3,
+            "agilité": 1,
+            "intelligence": 2
+          },
+          "condition": "Atteindre le niveau 10"
+        },
+        {
+          "description": "Évolution Intermédiaire",
+          "effects": {
+            "force": 4,
+            "endurance": 3,
+            "agilité": 2,
+            "intelligence": 2
+          },
+          "condition": "Atteindre le niveau 25"
+        },
+        {
+          "description": "Évolution Avancée",
+          "effects": {
+            "force": 3,
+            "endurance": 3,
+            "agilité": 3,
+            "intelligence": 5
+          },
+          "condition": "Atteindre le niveau 50"
+        }
+      ],
+      "niveau": 0,
+      "image": "/images/personnages/ChristianFeltz.png"
+    },
+    {
+      "id": 75,
+      "name": "Paige Harris",
+      "importance": "inconnu",
+      "description": "Seule femme braqueuse, experte en hacking, dont le passé difficile forge son engagement.",
+      "characteristics": {
+        "force": 3,
+        "endurance": 4,
+        "agilité": 5,
+        "intelligence": 5
+      },
+      
+      "armes_ids": [10, 12],
+      "evolutions": [
+        {
+          "description": "Évolution Novice",
+          "effects": {
+            "force": 3,
+            "endurance": 1,
+            "agilité": 2,
+            "intelligence": 2
+          },
+          "condition": "Atteindre le niveau 10"
+        },
+        {
+          "description": "Évolution Intermédiaire",
+          "effects": {
+            "force": 2,
+            "endurance": 4,
+            "agilité": 3,
+            "intelligence": 4
+          },
+          "condition": "Atteindre le niveau 25"
+        },
+        {
+          "description": "Évolution Avancée",
+          "effects": {
+            "force": 6,
+            "endurance": 6,
+            "agilité": 5,
+            "intelligence": 3
+          },
+          "condition": "Atteindre le niveau 50"
+        }
+      ],
+      "niveau": 0,
+      "image": "/images/personnages/PaigeHarris.png"
+    },
+
+    {
+      "id": 76,
+      "name": "Brucie Kibbutz",
+      "importance": "inconnu",
+      "description": "Entrepreneur et porte-parole de Bullshark Testosterone, évoqué dans GTA Online comme coach de vie.",
+      "characteristics": {
+        "force": 5,
+        "endurance": 5,
+        "agilité": 5,
+        "intelligence": 6
+      },
+      
+      "armes_ids": [2, 3],
+      "evolutions": [
+        {
+          "description": "Évolution Novice",
+          "effects": {
+            "force": 1,
+            "endurance": 2,
+            "agilité": 3,
+            "intelligence": 3
+          },
+          "condition": "Atteindre le niveau 10"
+        },
+        {
+          "description": "Évolution Intermédiaire",
+          "effects": {
+            "force": 2,
+            "endurance": 3,
+            "agilité": 3,
+            "intelligence": 3
+          },
+          "condition": "Atteindre le niveau 25"
+        },
+        {
+          "description": "Évolution Avancée",
+          "effects": {
+            "force": 5,
+            "endurance": 3,
+            "agilité": 6,
+            "intelligence": 3
+          },
+          "condition": "Atteindre le niveau 50"
+        }
+      ],
+      "niveau": 0,
+      "image": "/images/personnages/BrucieKibbutz.png"
+    },
+    {
+      "id": 77,
+      "name": "Niko Bellic",
+      "importance": "inconnu",
+      "description": "Protagoniste de GTA IV, immigrant d'Europe de l'Est en quête du rêve américain, souvent évoqué dans l'univers GTA.",
+      "characteristics": {
+        "force": 6,
+        "endurance": 6,
+        "agilité": 6,
+        "intelligence": 6
+      },
+      
+      "armes_ids": [9, 7],
+      "evolutions": [
+        {
+          "description": "Évolution Novice",
+          "effects": {
+            "force": 3,
+            "endurance": 3,
+            "agilité": 1,
+            "intelligence": 3
+          },
+          "condition": "Atteindre le niveau 10"
+        },
+        {
+          "description": "Évolution Intermédiaire",
+          "effects": {
+            "force": 2,
+            "endurance": 2,
+            "agilité": 4,
+            "intelligence": 2
+          },
+          "condition": "Atteindre le niveau 25"
+        },
+        {
+          "description": "Évolution Avancée",
+          "effects": {
+            "force": 5,
+            "endurance": 5,
+            "agilité": 6,
+            "intelligence": 6
+          },
+          "condition": "Atteindre le niveau 50"
+        }
+      ],
+      "niveau": 0,
+      "image": "/images/personnages/NikoBellic.png"
+    },
+    {
+      "id": 78,
+      "name": "Little Jacob & Badman",
+      "importance": "inconnu",
+      "description": "Trafiquants jamaïcains, toujours associés et reconnaissables à leur accent, intervenant dans divers événements.",
+      "characteristics": {
+        "force": 5,
+        "endurance": 5,
+        "agilité": 5,
+        "intelligence": 6
+      },
+      
+      "armes_ids": [7, 11],
+      "evolutions": [
+        {
+          "description": "Évolution Novice",
+          "effects": {
+            "force": 3,
+            "endurance": 3,
+            "agilité": 2,
+            "intelligence": 1
+          },
+          "condition": "Atteindre le niveau 10"
+        },
+        {
+          "description": "Évolution Intermédiaire",
+          "effects": {
+            "force": 4,
+            "endurance": 3,
+            "agilité": 2,
+            "intelligence": 4
+          },
+          "condition": "Atteindre le niveau 25"
+        },
+        {
+          "description": "Évolution Avancée",
+          "effects": {
+            "force": 3,
+            "endurance": 5,
+            "agilité": 4,
+            "intelligence": 6
+          },
+          "condition": "Atteindre le niveau 50"
+        }
+      ],
+      "niveau": 0,
+      "image": "/images/personnages/LittleJacob&Badman.png"
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+    "weapons": [
+      {
+        "id": 1,
+        "name": "Lunettes de vision nocturne",
+        "effects": {
+          "intelligence": 3
+        }
+      },
+      {
+        "id": 2,
+        "name": "Explosifs C4",
+        "effects": {
+          "force": 3,
+          "endurance": -1
+        }
+      },
+      {
+        "id": 3,
+        "name": "Matraque électrique",
+        "effects": {
+          "force": 2,
+          "agilité": 1
+        }
+      },
+      {
+        "id": 4,
+        "name": "Sniper de précision",
+        "effects": {
+          "force": 2,
+          "intelligence": 2
+        }
+      },
+      {
+        "id": 5,
+        "name": "Couteau de combat",
+        "effects": {
+          "force": 3
+        }
+      },
+      {
+        "id": 6,
+        "name": "Voiture modifiée",
+        "effects": {
+          "agilité": 5,
+          "intelligence": 3
+        }
+      },
+      {
+        "id": 7,
+        "name": "Methamphétamines",
+        "effects": {
+          "force": 4,
+          "intelligence": -2
+        }
+      },
+      {
+        "id": 8,
+        "name": "Fusil à pompe tactique",
+        "effects": {
+          "force": 7,
+          "endurance": 3
+        }
+      },
+      {
+        "id": 9,
+        "name": "Pistolet silencieux",
+        "effects": {
+          "force": 3,
+          "intelligence": 2
+        }
+      },
+      {
+        "id": 10,
+        "name": "Gilet pare-balles",
+        "effects": {
+          "endurance": 4
+        }
+      },
+      {
+        "id": 11,
+        "name": "Pistolet lourd",
+        "effects": {
+          "force": 5,
+          "agilité": -2
+        }
+      },
+      {
+        "id": 12,
+        "name": "Micro-DRONE",
+        "effects": {
+          "intelligence": 3
+        }
+      }
+    ]
+  }
+  
