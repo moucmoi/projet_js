@@ -33,6 +33,17 @@ export default class ArmeProvider{
             console.log("Error getting documents",err);
         }
     }
+
+    static getNom=async(listeId)=>{
+        let armesHtml = await Promise.all(
+            listeId.map(async (idA) => {
+                let arme = await this.getArme(idA); 
+                return `<p>${arme?.name}</p>`;
+            })
+        );
+        console.log(armesHtml);
+        return armesHtml;
+    }
 }
 
 

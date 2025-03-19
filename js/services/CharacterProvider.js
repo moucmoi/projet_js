@@ -30,7 +30,6 @@ export default class CharacterProvider{
             return json;
         }
         catch(err){
-            console.log("aaaaaaaaaaaa");
             console.log("Error getting documents",err);
         }
     }
@@ -53,6 +52,25 @@ export default class CharacterProvider{
             console.log("Error getting documents",err);
         }
     }
+
+    static updateCharacters=async()=>{
+
+    }
+
+    static ajouterArme=async(idPerso,id)=>{
+        const personnage=this.getCharacter(idPerso);
+        let lesArmes= personnage["armes_ids"];
+        lesArmes.add(id);
+        this.updateCharacters();
+    }
+
+    static retirerArme=async(idPerso,id)=>{
+        const personnage=this.getCharacter(idPerso);
+        let lesArmes= personnage["armes_ids"];
+        lesArmes.remove(id);
+        this.updateCharacters();
+    }
+
 
 }
 
