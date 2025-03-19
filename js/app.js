@@ -4,25 +4,25 @@ import Utils from "./services/Utils.js";
 import Personnage from "./views/pages/Personnage.js";
 import Error404 from "./views/pages/Error404.js";
 import Pagefavoris from "./views/pages/Pagefavoris.js";
+import ArmesAll from "./views/pages/ArmesAll.js";
+import Arme from "./views/pages/Arme.js";
 
 
-
-
-console.log(localStorage);
 
 const routes={
     '/':About,
     '/about':About,
     '/characters':CharacterAll,
     '/characters/:id':Personnage,
-    '/favoris':Pagefavoris
+    '/armes/:id': Arme,
+    '/favoris':Pagefavoris,
+    '/armes': ArmesAll
 }
 
 const router=async ()=>{
     const content=document.querySelector('#content');
 
     let request=Utils.parseRequestURL();
-    console.log(request);
 
     let parseURL=(request.ressource ? '/'+request.ressource : '/') + (request.id ? '/:id' : '') + (request.verb ? '/'+request.verb : '');
     let page=routes[parseURL] ? new routes[parseURL] : new Error404;
