@@ -5,6 +5,9 @@ import Personnage from "./views/pages/Personnage.js";
 import Error404 from "./views/pages/Error404.js";
 import Connexion from "./views/pages/Connexion.js";
 import Notation from "./views/pages/Notation.js";
+import Pagefavoris from "./views/pages/Pagefavoris.js";
+import ArmesAll from "./views/pages/ArmesAll.js";
+import Arme from "./views/pages/Arme.js";
 
 const routes={
     '/':About,
@@ -12,14 +15,16 @@ const routes={
     '/characters':CharacterAll,
     '/characters/:id':Personnage,
     '/connexion':Connexion,
-    '/notation/:id':Notation
+    '/notation/:id':Notation,
+    '/armes/:id': Arme,
+    '/favoris':Pagefavoris,
+    '/armes': ArmesAll
 }
 
 const router=async ()=>{
     const content=document.querySelector('#content');
 
     let request=Utils.parseRequestURL();
-    console.log(request);
 
     let parseURL=(request.ressource ? '/'+request.ressource : '/') + (request.id ? '/:id' : '') + (request.verb ? '/'+request.verb : '');
     let page=routes[parseURL] ? new routes[parseURL] : new Error404;
