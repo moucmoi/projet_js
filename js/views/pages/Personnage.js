@@ -10,6 +10,7 @@ export default class Personnage {
         console.log(request.id);
         console.log(character);
         let contient = Favoris.contientF(parseInt(character.id));
+        let armesHtml = character.armes_ids.map(idA => `<p>${idA}</p>`).join('');
         
         window.toggleFavoris = toggleFavoris;
 
@@ -48,6 +49,8 @@ export default class Personnage {
                     (Effets : Force ${evo.effects.force}, Endurance ${evo.effects.endurance}, Agilité ${evo.effects.agilité}, Intelligence ${evo.effects.intelligence})
                 </p>
             `).join('')}
+            <h3>Armes :</h3>
+                <p>${idA}</p>
             <button id="favoris-btn-${parseInt(character.id)}" onclick="window.toggleFavoris(${parseInt(character.id)})">
                 ${contient ? 'Enlever des favoris' : 'Ajouter aux favoris'}
             </button>
