@@ -1,4 +1,5 @@
 import {ENDPOINTC} from "../config.js";
+
 export default class CharacterProvider{
     static fetchCharacter=async(limit=20)=>{
         const options={
