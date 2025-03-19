@@ -1,0 +1,49 @@
+/* PersonnageMenu.css */
+
+/* Section qui représente la “carte” d’un personnage */
+#personnage-section.personnage-section {
+    position: relative;
+    width: 200px;
+    height: 270px;
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+    
+    /* Pour centrer le contenu dans la bulle */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Effet de zoom au survol */
+#personnage-section.personnage-section:hover {
+    transform: scale(1.05);
+}
+
+/* Image (carrée rognée en rond) */
+#personnage-img.personnage-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+/* Nom du personnage */
+#personnage-name.personnage-name {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin: 5px 0;
+    color: #333;
+}
+
+/* Importance du personnage (ex. “Principal”, “Secondaire”) */
+#personnage-importance.personnage-importance {
+    font-size: 0.9rem;
+    color: #666;
+    margin: 0;
+}
