@@ -33,14 +33,14 @@ export default class Personnage{
             `).join('')}
             <h3>Armes :</h3>`
             armes.forEach(arme => {
-                view += affichageArme.render(arme);
+                view += affichageArme.renderAll(arme);
             });
 
             view+=`<button id="favoris-btn-${parseInt(character.id)}" onclick="window.toggleFavoris(${parseInt(character.id)})">
                 ${contient ? 'Enlever des favoris' : 'Ajouter aux favoris'}
             </button>
             <button id=btnNotation onclick=window.location.href='/#/notation/${character.id}'>Ajouter une note</button>
-            <button>onclick=window.location.href='/#/character/${character.id}/suppression'>Enlever une arme</button>
+            <button onclick=window.location.href='/#/character/${character.id}/suppression'>Enlever une arme</button>
         `;
         
         return view;
