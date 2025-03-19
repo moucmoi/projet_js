@@ -1,4 +1,4 @@
-import {ENDPOINT} from "../config.js";
+import {ENDPOINTC} from "../config.js";
 export default class CharacterProvider{
     static fetchCharacter=async(limit=20)=>{
         const options={
@@ -8,7 +8,7 @@ export default class CharacterProvider{
             }
         };
         try{
-            const response=await fetch(`${ENDPOINT}?_limit=${limit}`,options);
+            const response=await fetch(`${ENDPOINTC}?_limit=${limit}`,options);
             const json=await response.json();
             return json;
         }
@@ -25,7 +25,7 @@ export default class CharacterProvider{
             }
         };
         try{
-            const response=await fetch(`${ENDPOINT}/`+id,options);
+            const response=await fetch(`${ENDPOINTC}/`+id,options);
             const json=await response.json();
             return json;
         }
@@ -42,7 +42,7 @@ export default class CharacterProvider{
             }
         };
         try{
-            const response=await fetch(`${ENDPOINT}`,options);
+            const response=await fetch(`${ENDPOINTC}`,options);
             const json=await response.json();
             const liste_favoris = JSON.parse(localStorage.getItem("Favoris"));
             const filteredJson = json.filter(item => liste_favoris.includes(String(item.id)) || liste_favoris.includes(Number(item.id)));
