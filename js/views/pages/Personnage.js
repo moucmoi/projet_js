@@ -55,4 +55,5 @@ export default class Personnage{
         
         return view;
     }
+
 }
