@@ -38,7 +38,7 @@ export default class ArmeProvider{
         let armesHtml = await Promise.all(
             listeId.map(async (idA) => {
                 let arme = await this.getArme(idA); 
-                return `<p>${arme?.name}</p>`;
+                return arme;
             })
         );
         console.log(armesHtml);

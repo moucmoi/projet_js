@@ -5,6 +5,8 @@ export default class Arme {
     async render(id) {
         let request = Utils.parseRequestURL();
         let arme = await ArmeProvider.getArme(request.id);
+
+        console.log(arme);
         
         let view = `
             <button><a href="http://localhost:8000/#/armes">Retour</a></button>
