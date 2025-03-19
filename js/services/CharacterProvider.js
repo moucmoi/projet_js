@@ -1,4 +1,5 @@
 import {ENDPOINTC} from "../config.js";
+
 export default class CharacterProvider{
     static fetchCharacter=async(limit=20)=>{
         const options={
@@ -53,8 +54,24 @@ export default class CharacterProvider{
         }
     }
 
+    static async rateCharacter(id, username, rating) {
+        try {
+            let character = await this.getCharacter(id);
+            character.ratings = character.ratings || {};
+            character.ratings[username] = rating;
     
-
+            let response = await fetch(`${ENDPOINTC}/${id}`, {
+                method: "PATCH",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ ratings: character.ratings })
+            });
+    
+            return response.ok;
+        } catch (err) {
+            console.error("Erreur lors de la notation :", err);
+            return false;
+        }
+    }
 
     static ajouterArme=async(idPerso,id)=>{
         const personnage=this.getCharacter(idPerso);
@@ -71,7 +88,6 @@ export default class CharacterProvider{
         personnage["armes_ids"]=lesArmes;
         this.updateCharacters();
     }
-
 
 }
 
