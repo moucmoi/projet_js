@@ -62,7 +62,8 @@
             color: white;
             text-align: center;
             padding: 20px;
-            margin-top: 30px;
+            margin-top: auto;
+            position:relative;
         }
 
         .footer-content {
@@ -95,6 +96,11 @@
         }
     </style>
     <title>App Constitution</title>
+    <script>
+        if (!localStorage.getItem("username")) {
+            window.location.href = "http://localhost:8000/#/connexion";
+        }
+    </script>
     <script type="module" src="./js/app.js"></script>
 </head>
 

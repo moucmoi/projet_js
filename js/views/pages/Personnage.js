@@ -1,9 +1,9 @@
 import CharacterProvider from "../../services/CharacterProvider.js";
 import Utils from "../../services/Utils.js";
+
 export default class Personnage{
     async render(id) {
         let request = Utils.parseRequestURL();
-        // Récupération d'un personnage par son id (assure-toi que getCharacter est défini dans CharacterProvider)
         let character = await CharacterProvider.getCharacter(request.id);
         
         let view = `
@@ -20,11 +20,11 @@ export default class Personnage{
             ${character.evolutions.map(evo => `
                 <p>
                     ${evo.description} 
-                    (Effets : Force ${evo.effects.force}, Endurance ${evo.effects.endurance}, Agilité ${evo.effects.agilité}, Intelligence ${evo.effects.intelligence})
+                    (Effets : Force +${evo.effects.force}, Endurance +${evo.effects.endurance}, Agilité +${evo.effects.agilité}, Intelligence +${evo.effects.intelligence})
                 </p>
             `).join('')}
+            <button id=btnNotation onclick=window.location.href='/#/notation/${character.id}'>ajouter une note</button>
         `;
         return view;
     }
-    
 }

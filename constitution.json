@@ -1,1499 +1,1917 @@
 {
-    "characters": [
-      {
-        "id": 1,
-        "name": "Michael De Santa",
-        "importance": "principal",
-        "description": "Ancien braqueur reconverti, il vit dans le luxe de Rockford Hills tout en peinant avec sa vie de famille et son passé criminel.",
-        "characteristics": {
-          "force": 70,
-          "endurance": 70,
-          "agilité": 65,
-          "intelligence": 80
-        },
-        "pouvoirs": ["Bullet time"],
-        "evolutions": [
-          {
-            "description": "Retour dans le crime",
-            "effects": {"force": 5, "endurance": 0, "agilité": 0, "intelligence": 3}
-          },
-          {
-            "description": "Rédemption personnelle",
-            "effects": {"force": -3, "endurance": 2, "agilité": 0, "intelligence": 5}
-          }
-        ]
-      },
-      {
-        "id": 2,
-        "name": "Trevor Philips",
-        "importance": "principal",
-        "description": "Canadien au tempérament explosif, ancien pilote de chasse et criminel imprévisible, adepte du mode frénésie.",
-        "characteristics": {
-          "force": 90,
-          "endurance": 85,
-          "agilité": 60,
-          "intelligence": 50
-        },
-        "pouvoirs": ["Double dégâts en frénésie"],
-        "evolutions": [
-          {
-            "description": "Maîtrise de sa frénésie",
-            "effects": {"force": 4, "endurance": 3, "agilité": 0, "intelligence": 2}
-          },
-          {
-            "description": "Gestion de sa violence",
-            "effects": {"force": -2, "endurance": 2, "agilité": 1, "intelligence": 4}
-          }
-        ]
-      },
-      {
-        "id": 3,
-        "name": "Franklin Clinton",
-        "importance": "principal",
-        "description": "Jeune afro-américain issu des quartiers difficiles de Los Santos, il gravit les échelons du monde criminel.",
-        "characteristics": {
-          "force": 65,
-          "endurance": 70,
-          "agilité": 80,
-          "intelligence": 75
-        },
-        "pouvoirs": ["Ralentissement du temps en conduite"],
-        "evolutions": [
-          {
-            "description": "Ascension criminelle",
-            "effects": {"force": 3, "endurance": 2, "agilité": 2, "intelligence": 3}
-          },
-          {
-            "description": "Prise de responsabilités",
-            "effects": {"force": 0, "endurance": 3, "agilité": 0, "intelligence": 4}
-          }
-        ]
-      },
-      {
-        "id": 4,
-        "name": "Amanda De Santa",
-        "importance": "secondaire",
-        "description": "Femme de Michael, symbole de la femme au foyer déracinée par une vie de luxe et de conflits conjugaux.",
-        "characteristics": {
-          "force": 40,
-          "endurance": 50,
-          "agilité": 55,
-          "intelligence": 70
-        },
-        "pouvoirs": [],
-        "evolutions": [
-          {
-            "description": "Éveil personnel",
-            "effects": {"force": 0, "endurance": 1, "agilité": 0, "intelligence": 2}
-          }
-        ]
-      },
-      {
-        "id": 5,
-        "name": "Jimmy De Santa",
-        "importance": "secondaire",
-        "description": "Fils de Michael et Amanda, jeune homme paresseux et accro aux jeux vidéo, en quête de repères.",
-        "characteristics": {
-          "force": 30,
-          "endurance": 40,
-          "agilité": 50,
-          "intelligence": 45
-        },
-        "pouvoirs": [],
-        "evolutions": [
-          {
-            "description": "Déclic personnel",
-            "effects": {"force": 1, "endurance": 1, "agilité": 2, "intelligence": 3}
-          }
-        ]
-      },
-      {
-        "id": 6,
-        "name": "Tracey De Santa",
-        "importance": "secondaire",
-        "description": "Fille de Michael, ambitieuse et en quête de célébrité, elle rêve d'une carrière dans la télé-réalité.",
-        "characteristics": {
-          "force": 35,
-          "endurance": 45,
-          "agilité": 60,
-          "intelligence": 50
-        },
-        "pouvoirs": [],
-        "evolutions": [
-          {
-            "description": "Passage à la célébrité",
-            "effects": {"force": 0, "endurance": 0, "agilité": 3, "intelligence": 2}
-          }
-        ]
-      },
-      {
-        "id": 7,
-        "name": "Dave Norton",
-        "importance": "secondaire",
-        "description": "Agent du FIB corrompu, ami de Michael, ayant scellé un accord pour protéger son passé criminel.",
-        "characteristics": {
-          "force": 40,
-          "endurance": 50,
-          "agilité": 45,
-          "intelligence": 75
-        },
-        "pouvoirs": [],
-        "evolutions": [
-          {
-            "description": "Renforcement de sa couverture",
-            "effects": {"force": 0, "endurance": 2, "agilité": 0, "intelligence": 3}
-          }
-        ]
-      },
-      {
-        "id": 8,
-        "name": "Steve Haines",
-        "importance": "secondaire",
-        "description": "Agent du FIB avide de célébrité, manipulateur et antagoniste qui se sert de Michael pour ses desseins.",
-        "characteristics": {
-          "force": 45,
-          "endurance": 55,
-          "agilité": 50,
-          "intelligence": 65
-        },
-        "pouvoirs": [],
-        "evolutions": [
-          {
-            "description": "Accroissement de son influence",
-            "effects": {"force": 0, "endurance": 1, "agilité": 0, "intelligence": 4}
-          }
-        ]
-      },
-      {
-        "id": 9,
-        "name": "Andreas Sanchez",
-        "importance": "secondaire",
-        "description": "Bras droit de Steve Haines, souvent présent lors des confrontations impliquant Michael et le FIB.",
-        "characteristics": {
-          "force": 50,
-          "endurance": 50,
-          "agilité": 55,
-          "intelligence": 60
-        },
-        "pouvoirs": [],
-        "evolutions": [
-          {
-            "description": "Expérience sur le terrain",
-            "effects": {"force": 2, "endurance": 2, "agilité": 1, "intelligence": 1}
-          }
-        ]
-      },
-      {
-        "id": 10,
-        "name": "Tao Cheng",
-        "importance": "secondaire",
-        "description": "Fils de Wei Cheng, consommateur d'ecstasy et personnage parlant uniquement mandarin, souvent accompagné d'un interprète.",
-        "characteristics": {
-          "force": 45,
-          "endurance": 40,
-          "agilité": 50,
-          "intelligence": 55
-        },
-        "pouvoirs": [],
-        "evolutions": [
-          {
-            "description": "Adaptation culturelle",
-            "effects": {"force": 0, "endurance": 0, "agilité": 2, "intelligence": 3}
-          }
-        ]
-      },
-      {
-        "id": 11,
-        "name": "Wei Cheng",
-        "importance": "secondaire",
-        "description": "Chef des Triades de Los Santos, prêt à tout pour se venger et imposer son règne.",
-        "characteristics": {
-          "force": 50,
-          "endurance": 60,
-          "agilité": 50,
-          "intelligence": 70
-        },
-        "pouvoirs": [],
-        "evolutions": [
-          {
-            "description": "Renforcement du clan",
-            "effects": {"force": 2, "endurance": 3, "agilité": 0, "intelligence": 2}
-          }
-        ]
-      },
-      {
-        "id": 12,
-        "name": "Lamar Davis",
-        "importance": "secondaire",
-        "description": "Gangster des banlieues de Los Santos, ami de Franklin mais souvent en décalage avec ses ambitions.",
-        "characteristics": {
-          "force": 60,
-          "endurance": 60,
-          "agilité": 70,
-          "intelligence": 55
-        },
-        "pouvoirs": [],
-        "evolutions": [
-          {
-            "description": "Confrontation avec la réalité",
-            "effects": {"force": 1, "endurance": 1, "agilité": 1, "intelligence": 2}
-          }
-        ]
-      },
-      {
-        "id": 13,
-        "name": "Harold 'Stretch' Joseph",
-        "importance": "secondaire",
-        "description": "Chef OG des Chamberlain Gangsters Families, manipulateur et traître, utilisant la naïveté de Lamar à ses fins.",
-        "characteristics": {
-          "force": 55,
-          "endurance": 60,
-          "agilité": 55,
-          "intelligence": 50
-        },
-        "pouvoirs": [],
-        "evolutions": [
-          {
-            "description": "Exploitation de la trahison",
-            "effects": {"force": 0, "endurance": 0, "agilité": 2, "intelligence": 3}
-          }
-        ]
-      },
-      {
-        "id": 14,
-        "name": "Ron Jakowski",
-        "importance": "secondaire",
-        "description": "Ami paranoïaque de Trevor, théoricien du complot vivant dans une remorque et évitant tout affrontement.",
-        "characteristics": {
-          "force": 30,
-          "endurance": 40,
-          "agilité": 40,
-          "intelligence": 45
-        },
-        "pouvoirs": [],
-        "evolutions": [
-          {
-            "description": "Doute renforcé",
-            "effects": {"force": 0, "endurance": 0, "agilité": 0, "intelligence": 2}
-          }
-        ]
-      },
-      {
-        "id": 15,
-        "name": "Brad Snider",
-        "importance": "secondaire",
-        "description": "Ancien complice de Trevor, trahi par Michael et dont le destin funeste se scelle au cimetière de Michael.",
-        "characteristics": {
-          "force": 60,
-          "endurance": 50,
-          "agilité": 55,
-          "intelligence": 40
-        },
-        "pouvoirs": [],
-        "evolutions": [
-          {
-            "description": "Acceptation de son sort",
-            "effects": {"force": -2, "endurance": 1, "agilité": 0, "intelligence": 2}
-          }
-        ]
-      },
-      {
-        "id": 16,
-        "name": "Chop (animal)",
-        "importance": "secondaire",
-        "description": "Le fidèle rottweiler de Lamar, capable d'aider à la poursuite des ennemis grâce à son flair.",
-        "characteristics": {
-          "force": 70,
-          "endurance": 70,
-          "agilité": 80,
-          "intelligence": 30
-        },
-        "pouvoirs": [],
-        "evolutions": [
-          {
-            "description": "Perfectionnement de son flair",
-            "effects": {"force": 0, "endurance": 0, "agilité": 3, "intelligence": 1}
-          }
-        ]
-      },
-      {
-        "id": 17,
-        "name": "Denise Clinton",
-        "importance": "secondaire",
-        "description": "Tante de Franklin, figure autoritaire et féministe, qui ne cache pas sa désapprobation envers son neveu.",
-        "characteristics": {
-          "force": 40,
-          "endurance": 45,
-          "agilité": 50,
-          "intelligence": 65
-        },
-        "pouvoirs": [],
-        "evolutions": [
-          {
-            "description": "Affirmation de son autorité",
-            "effects": {"force": 0, "endurance": 1, "agilité": 0, "intelligence": 2}
-          }
-        ]
-      },
-      {
-        "id": 18,
-        "name": "Casey",
-        "importance": "secondaire",
-        "description": "Convoyeur de fonds pris en otage pour un braquage ambitieux à la Union Depository.",
-        "characteristics": {
-          "force": 50,
-          "endurance": 50,
-          "agilité": 50,
-          "intelligence": 60
-        },
-        "pouvoirs": [],
-        "evolutions": [
-          {
-            "description": "Survie extrême",
-            "effects": {"force": 1, "endurance": 2, "agilité": 1, "intelligence": 1}
-          }
-        ]
-      },
-      {
-        "id": 19,
-        "name": "Lester Crest",
-        "importance": "secondaire",
-        "description": "Le cerveau des opérations de braquage, hacker et stratège malgré sa mobilité réduite.",
-        "characteristics": {
-          "force": 30,
-          "endurance": 40,
-          "agilité": 40,
-          "intelligence": 90
-        },
-        "pouvoirs": ["Manipulation boursière", "Planification de braquages"],
-        "evolutions": [
-          {
-            "description": "Optimisation de ses stratégies",
-            "effects": {"force": 0, "endurance": 0, "agilité": 0, "intelligence": 5}
-          }
-        ]
-      },
-      {
-        "id": 20,
-        "name": "Dr Isiah Friedlander",
-        "importance": "secondaire",
-        "description": "Le psychanalyste de Michael, dont les consultations chères masquent une ambition télévisuelle.",
-        "characteristics": {
-          "force": 20,
-          "endurance": 30,
-          "agilité": 30,
-          "intelligence": 85
-        },
-        "pouvoirs": [],
-        "evolutions": [
-          {
-            "description": "Évolution de sa méthode",
-            "effects": {"force": 0, "endurance": 1, "agilité": 0, "intelligence": 3}
-          }
-        ]
-      },
-      {
-        "id": 21,
-        "name": "Simeon Yetarian",
-        "importance": "secondaire",
-        "description": "Concessionnaire véreux qui emploie Franklin pour saisir des voitures de luxe.",
-        "characteristics": {
-          "force": 40,
-          "endurance": 45,
-          "agilité": 50,
-          "intelligence": 60
-        },
-        "pouvoirs": [],
-        "evolutions": [
-          {
-            "description": "Modernisation de son business",
-            "effects": {"force": 0, "endurance": 0, "agilité": 1, "intelligence": 2}
-          }
-        ]
-      },
-      {
-        "id": 22,
-        "name": "Martin Madrazo",
-        "importance": "secondaire",
-        "description": "Chef de gang mexicain contraint par ses dettes envers Michael, prêt à engager des tueurs pour se venger.",
-        "characteristics": {
-          "force": 60,
-          "endurance": 70,
-          "agilité": 55,
-          "intelligence": 65
-        },
-        "pouvoirs": [],
-        "evolutions": [
-          {
-            "description": "Accroissement de sa brutalité",
-            "effects": {"force": 3, "endurance": 2, "agilité": 0, "intelligence": 0}
-          }
-        ]
-      },
-      {
-        "id": 23,
-        "name": "Patricia Madrazo",
-        "importance": "secondaire",
-        "description": "Épouse de Martin, en proie à des sentiments ambivalents après avoir été enlevée par Trevor.",
-        "characteristics": {
-          "force": 35,
-          "endurance": 45,
-          "agilité": 50,
-          "intelligence": 60
-        },
-        "pouvoirs": [],
-        "evolutions": [
-          {
-            "description": "Réconciliation douloureuse",
-            "effects": {"force": 0, "endurance": 0, "agilité": 0, "intelligence": 2}
-          }
-        ]
-      },
-      {
-        "id": 24,
-        "name": "Tanisha Jackson",
-        "importance": "secondaire",
-        "description": "Ex-petite amie de Franklin, qui tente de renouer malgré un avenir incertain.",
-        "characteristics": {
-          "force": 40,
-          "endurance": 50,
-          "agilité": 55,
-          "intelligence": 70
-        },
-        "pouvoirs": [],
-        "evolutions": [
-          {
-            "description": "Prise de maturité",
-            "effects": {"force": 0, "endurance": 1, "agilité": 1, "intelligence": 3}
-          }
-        ]
-      },
-      {
-        "id": 25,
-        "name": "Wade Hebert",
-        "importance": "secondaire",
-        "description": "Jeune toxicomane vivant avec Trevor, souvent naïf et dépassé par les événements.",
-        "characteristics": {
-          "force": 30,
-          "endurance": 40,
-          "agilité": 45,
-          "intelligence": 35
-        },
-        "pouvoirs": [],
-        "evolutions": [
-          {
-            "description": "Petit sursaut de lucidité",
-            "effects": {"force": 1, "endurance": 0, "agilité": 0, "intelligence": 2}
-          }
-        ]
-      },
-      {
-        "id": 26,
-        "name": "Floyd Hebert",
-        "importance": "secondaire",
-        "description": "Cousin de Wade, docker et soumis, entraîné malgré lui dans les affaires de Trevor.",
-        "characteristics": {
-          "force": 40,
-          "endurance": 45,
-          "agilité": 45,
-          "intelligence": 50
-        },
-        "pouvoirs": [],
-        "evolutions": [
-          {
-            "description": "Réveil de sa force intérieure",
-            "effects": {"force": 2, "endurance": 1, "agilité": 0, "intelligence": 1}
-          }
-        ]
-      },
-      {
-        "id": 27,
-        "name": "Debra",
-        "importance": "secondaire",
-        "description": "Fiancée de Floyd, avocate au caractère bien trempé et déterminée à protéger ses intérêts.",
-        "characteristics": {
-          "force": 35,
-          "endurance": 40,
-          "agilité": 40,
-          "intelligence": 70
-        },
-        "pouvoirs": [],
-        "evolutions": [
-          {
-            "description": "Affirmation professionnelle",
-            "effects": {"force": 0, "endurance": 0, "agilité": 0, "intelligence": 3}
-          }
-        ]
-      },
-      {
-        "id": 28,
-        "name": "Fabien LaRouche",
-        "importance": "secondaire",
-        "description": "Professeur de yoga d'Amanda, d'accent français, qui initie Michael à la relaxation.",
-        "characteristics": {
-          "force": 30,
-          "endurance": 35,
-          "agilité": 40,
-          "intelligence": 75
-        },
-        "pouvoirs": [],
-        "evolutions": [
-          {
-            "description": "Équilibre intérieur",
-            "effects": {"force": 0, "endurance": 1, "agilité": 0, "intelligence": 2}
-          }
-        ]
-      },
-      {
-        "id": 29,
-        "name": "Kyle Chavis",
-        "importance": "secondaire",
-        "description": "Professeur de tennis à domicile d'Amanda, présent lors de missions marquées par des dérives inattendues.",
-        "characteristics": {
-          "force": 50,
-          "endurance": 55,
-          "agilité": 60,
-          "intelligence": 60
-        },
-        "pouvoirs": [],
-        "evolutions": [
-          {
-            "description": "Amélioration de sa technique",
-            "effects": {"force": 1, "endurance": 0, "agilité": 2, "intelligence": 1}
-          }
-        ]
-      },
-      {
-        "id": 30,
-        "name": "Devin Weston",
-        "importance": "secondaire",
-        "description": "Actionnaire impitoyable de Merryweather, dont la richesse et le mépris des règles en font un antagoniste majeur.",
-        "characteristics": {
-          "force": 45,
-          "endurance": 50,
-          "agilité": 45,
-          "intelligence": 80
-        },
-        "pouvoirs": [],
-        "evolutions": [
-          {
-            "description": "Intensification de son empire",
-            "effects": {"force": 0, "endurance": 2, "agilité": 0, "intelligence": 4}
-          }
-        ]
-      },
-      {
-        "id": 31,
-        "name": "Molly Schultz",
-        "importance": "secondaire",
-        "description": "Assistante juridique de Devin Weston, impliquée dans des affaires de vol et de trahison.",
-        "characteristics": {
-          "force": 30,
-          "endurance": 35,
-          "agilité": 40,
-          "intelligence": 70
-        },
-        "pouvoirs": [],
-        "evolutions": [
-          {
-            "description": "Maturation professionnelle",
-            "effects": {"force": 0, "endurance": 0, "agilité": 0, "intelligence": 3}
-          }
-        ]
-      },
-      {
-        "id": 32,
-        "name": "Don Percival",
-        "importance": "secondaire",
-        "description": "PDG de Merryweather, dont les décisions influencent lourdement le destin de plusieurs protagonistes.",
-        "characteristics": {
-          "force": 35,
-          "endurance": 40,
-          "agilité": 40,
-          "intelligence": 75
-        },
-        "pouvoirs": [],
-        "evolutions": [
-          {
-            "description": "Optimisation de sa gestion",
-            "effects": {"force": 0, "endurance": 1, "agilité": 0, "intelligence": 3}
-          }
-        ]
-      },
-      {
-        "id": 33,
-        "name": "Solomon Richards",
-        "importance": "secondaire",
-        "description": "Propriétaire du studio de cinéma 'Richards Majestic' et partenaire de Michael dans l'industrie du film.",
-        "characteristics": {
-          "force": 40,
-          "endurance": 45,
-          "agilité": 50,
-          "intelligence": 70
-        },
-        "pouvoirs": [],
-        "evolutions": [
-          {
-            "description": "Evolution artistique",
-            "effects": {"force": 0, "endurance": 0, "agilité": 1, "intelligence": 2}
-          }
-        ]
-      },
-      {
-        "id": 34,
-        "name": "Johnny Klebitz",
-        "importance": "secondaire",
-        "description": "Leader du gang des Lost MC, dont le destin se scelle lors d'une violente dispute avec Trevor.",
-        "characteristics": {
-          "force": 65,
-          "endurance": 65,
-          "agilité": 70,
-          "intelligence": 60
-        },
-        "pouvoirs": [],
-        "evolutions": [
-          {
-            "description": "Confrontation fatale",
-            "effects": {"force": 2, "endurance": 1, "agilité": 1, "intelligence": 0}
-          }
-        ]
-      },
-      {
-        "id": 35,
-        "name": "Ashley Butler",
-        "importance": "secondaire",
-        "description": "Petite amie de Johnny Klebitz, impliquée dans les conflits du gang avant le tragique dénouement.",
-        "characteristics": {
-          "force": 35,
-          "endurance": 40,
-          "agilité": 45,
-          "intelligence": 65
-        },
-        "pouvoirs": [],
-        "evolutions": [
-          {
-            "description": "Épreuve de loyauté",
-            "effects": {"force": 0, "endurance": 0, "agilité": 0, "intelligence": 2}
-          }
-        ]
-      },
-      {
-        "id": 36,
-        "name": "Elwood O'Neil",
-        "importance": "secondaire",
-        "description": "Membre d'un gang de rednecks de Blaine County, rival de Trevor dans le milieu de la drogue.",
-        "characteristics": {
-          "force": 55,
-          "endurance": 60,
-          "agilité": 50,
-          "intelligence": 55
-        },
-        "pouvoirs": [],
-        "evolutions": [
-          {
-            "description": "Consolidation de son gang",
-            "effects": {"force": 1, "endurance": 1, "agilité": 0, "intelligence": 2}
-          }
-        ]
-      },
-      {
-        "id": 37,
-        "name": "Chef (de Trevor)",
-        "importance": "secondaire",
-        "description": "Fabricant de méthamphétamine et collaborateur de Trevor, jouant un rôle clé dans la production illégale.",
-        "characteristics": {
-          "force": 50,
-          "endurance": 50,
-          "agilité": 50,
-          "intelligence": 60
-        },
-        "pouvoirs": [],
-        "evolutions": [
-          {
-            "description": "Perfectionnement de sa recette",
-            "effects": {"force": 0, "endurance": 0, "agilité": 0, "intelligence": 3}
-          }
-        ]
-      },
-      {
-        "id": 38,
-        "name": "Lazlow Jones",
-        "importance": "secondaire",
-        "description": "Présentateur de télé-réalité et personnalité médiatique, présent dans divers médias de Los Santos.",
-        "characteristics": {
-          "force": 30,
-          "endurance": 35,
-          "agilité": 40,
-          "intelligence": 75
-        },
-        "pouvoirs": [],
-        "evolutions": [
-          {
-            "description": "Réinvention médiatique",
-            "effects": {"force": 0, "endurance": 0, "agilité": 0, "intelligence": 3}
-          }
-        ]
-      },
-      {
-        "id": 39,
-        "name": "Jay Norris",
-        "importance": "secondaire",
-        "description": "Fondateur de LifeInvader, parodie des grands noms de la tech, impliqué dans des missions risquées.",
-        "characteristics": {
-          "force": 40,
-          "endurance": 45,
-          "agilité": 45,
-          "intelligence": 70
-        },
-        "pouvoirs": [],
-        "evolutions": [
-          {
-            "description": "Innovation technologique",
-            "effects": {"force": 0, "endurance": 0, "agilité": 1, "intelligence": 3}
-          }
-        ]
-      },
-      {
-        "id": 40,
-        "name": "Terry Thorpe",
-        "importance": "secondaire",
-        "description": "Capitaine de Route des Lost MC, ami proche de Clay Simons et de Johnny Klebitz.",
-        "characteristics": {
-          "force": 60,
-          "endurance": 60,
-          "agilité": 55,
-          "intelligence": 50
-        },
-        "pouvoirs": [],
-        "evolutions": [
-          {
-            "description": "Renforcement de l'esprit de corps",
-            "effects": {"force": 2, "endurance": 2, "agilité": 0, "intelligence": 0}
-          }
-        ]
-      },
-      {
-        "id": 41,
-        "name": "Clay Simons",
-        "importance": "secondaire",
-        "description": "Sergent des Lost MC, complice fidèle de Terry Thorpe et partenaire dans les activités du gang.",
-        "characteristics": {
-          "force": 60,
-          "endurance": 60,
-          "agilité": 55,
-          "intelligence": 50
-        },
-        "pouvoirs": [],
-        "evolutions": [
-          {
-            "description": "Cohésion gangsters",
-            "effects": {"force": 1, "endurance": 1, "agilité": 0, "intelligence": 1}
-          }
-        ]
-      },
-      {
-        "id": 42,
-        "name": "M. K",
-        "importance": "inconnu",
-        "description": "Vendeur de home cinéma soupçonné d'être lié à une organisation terroriste, soumis à de vifs interrogatoires.",
-        "characteristics": {
-          "force": 40,
-          "endurance": 40,
-          "agilité": 40,
-          "intelligence": 50
-        },
-        "pouvoirs": [],
-        "evolutions": [
-          {
-            "description": "Survie face aux interrogatoires",
-            "effects": {"force": 0, "endurance": 1, "agilité": 0, "intelligence": 2}
-          }
-        ]
-      },
-      {
-        "id": 43,
-        "name": "Karen",
-        "importance": "inconnu",
-        "description": "Agent de haut rang de l'IAA, chargée d'interroger M. K et d'assurer la surveillance.",
-        "characteristics": {
-          "force": 40,
-          "endurance": 45,
-          "agilité": 45,
-          "intelligence": 70
-        },
-        "pouvoirs": [],
-        "evolutions": [
-          {
-            "description": "Affinement de ses méthodes d'interrogatoire",
-            "effects": {"force": 0, "endurance": 0, "agilité": 0, "intelligence": 3}
-          }
-        ]
-      },
-      {
-        "id": 44,
-        "name": "Edward T.Fortune alias 'Le Contact'",
-        "importance": "inconnu",
-        "description": "Membre senior d'une agence secrète, chargé de traquer les activités anti-américaines.",
-        "characteristics": {
-          "force": 40,
-          "endurance": 40,
-          "agilité": 40,
-          "intelligence": 65
-        },
-        "pouvoirs": [],
-        "evolutions": [
-          {
-            "description": "Affûtage de ses techniques d'investigation",
-            "effects": {"force": 0, "endurance": 0, "agilité": 0, "intelligence": 3}
-          }
-        ]
-      },
-      {
-        "id": 45,
-        "name": "Rocco Pelosi",
-        "importance": "inconnu",
-        "description": "Agent corrompu de Los Santos, ancien membre d'une mafia de Liberty City, impliqué dans des arnaques.",
-        "characteristics": {
-          "force": 50,
-          "endurance": 50,
-          "agilité": 50,
-          "intelligence": 55
-        },
-        "pouvoirs": [],
-        "evolutions": [
-          {
-            "description": "Affinement de ses stratagèmes",
-            "effects": {"force": 1, "endurance": 1, "agilité": 0, "intelligence": 2}
-          }
-        ]
-      },
-      {
-        "id": 46,
-        "name": "Abigail Mathers",
-        "importance": "inconnu",
-        "description": "Veuve d'un explorateur disparu en mer, elle demande à Michael d'enquêter sur d'étranges circonstances.",
-        "characteristics": {
-          "force": 40,
-          "endurance": 40,
-          "agilité": 45,
-          "intelligence": 60
-        },
-        "pouvoirs": [],
-        "evolutions": [
-          {
-            "description": "Reprise de confiance",
-            "effects": {"force": 0, "endurance": 0, "agilité": 1, "intelligence": 2}
-          }
-        ]
-      },
-      {
-        "id": 47,
-        "name": "Barry",
-        "importance": "inconnu",
-        "description": "Militant pour la légalisation de la marijuana, confiant quelques missions de vol à Franklin.",
-        "characteristics": {
-          "force": 40,
-          "endurance": 45,
-          "agilité": 45,
-          "intelligence": 55
-        },
-        "pouvoirs": [],
-        "evolutions": [
-          {
-            "description": "Renforcement de sa cause",
-            "effects": {"force": 0, "endurance": 0, "agilité": 0, "intelligence": 2}
-          }
-        ]
-      },
-      {
-        "id": 48,
-        "name": "Beverly Felton",
-        "importance": "inconnu",
-        "description": "Paparazzi local engagé par Franklin pour filmer des célébrités dans des situations compromettantes.",
-        "characteristics": {
-          "force": 35,
-          "endurance": 40,
-          "agilité": 40,
-          "intelligence": 50
-        },
-        "pouvoirs": [],
-        "evolutions": [
-          {
-            "description": "Perfectionnement de son œil critique",
-            "effects": {"force": 0, "endurance": 0, "agilité": 1, "intelligence": 2}
-          }
-        ]
-      },
-      {
-        "id": 49,
-        "name": "Cletus Ewing",
-        "importance": "inconnu",
-        "description": "Chasseur rencontré par Trevor, proposant des missions de chasse pour débloquer de nouvelles activités.",
-        "characteristics": {
-          "force": 60,
-          "endurance": 60,
-          "agilité": 55,
-          "intelligence": 40
-        },
-        "pouvoirs": [],
-        "evolutions": [
-          {
-            "description": "Maîtrise des techniques de chasse",
-            "effects": {"force": 2, "endurance": 1, "agilité": 1, "intelligence": 0}
-          }
-        ]
-      },
-      {
-        "id": 50,
-        "name": "Dom Beasley",
-        "importance": "inconnu",
-        "description": "Homme avide de sensations fortes, il initie Franklin au saut en parachute lors d'une mission.",
-        "characteristics": {
-          "force": 50,
-          "endurance": 55,
-          "agilité": 65,
-          "intelligence": 60
-        },
-        "pouvoirs": [],
-        "evolutions": [
-          {
-            "description": "Apprentissage du parachutisme",
-            "effects": {"force": 0, "endurance": 1, "agilité": 2, "intelligence": 1}
-          }
-        ]
-      },
-      {
-        "id": 51,
-        "name": "Hao",
-        "importance": "inconnu",
-        "description": "Ami de Franklin travaillant dans un garage, informateur des nouvelles courses de voitures.",
-        "characteristics": {
-          "force": 40,
-          "endurance": 45,
-          "agilité": 50,
-          "intelligence": 60
-        },
-        "pouvoirs": [],
-        "evolutions": [
-          {
-            "description": "Actualisation des informations techniques",
-            "effects": {"force": 0, "endurance": 0, "agilité": 1, "intelligence": 2}
-          }
-        ]
-      },
-      {
-        "id": 52,
-        "name": "Josh Bernstein",
-        "importance": "inconnu",
-        "description": "Ancien agent immobilier qui engage Trevor pour éliminer la concurrence.",
-        "characteristics": {
-          "force": 45,
-          "endurance": 50,
-          "agilité": 45,
-          "intelligence": 65
-        },
-        "pouvoirs": [],
-        "evolutions": [
-          {
-            "description": "Affinement de sa stratégie commerciale",
-            "effects": {"force": 0, "endurance": 0, "agilité": 0, "intelligence": 3}
-          }
-        ]
-      },
-      {
-        "id": 53,
-        "name": "Joe & Josef",
-        "importance": "inconnu",
-        "description": "Membres de la patrouille frontalière, opposés à l'immigration, opérant en duo.",
-        "characteristics": {
-          "force": 40,
-          "endurance": 45,
-          "agilité": 40,
-          "intelligence": 50
-        },
-        "pouvoirs": [],
-        "evolutions": [
-          {
-            "description": "Cohésion d'équipe",
-            "effects": {"force": 1, "endurance": 1, "agilité": 0, "intelligence": 1}
-          }
-        ]
-      },
-      {
-        "id": 54,
-        "name": "Maude Eccles",
-        "importance": "inconnu",
-        "description": "Habitante du désert, experte en dossiers de criminels recherchés et offrant des missions de prime à Trevor.",
-        "characteristics": {
-          "force": 35,
-          "endurance": 40,
-          "agilité": 40,
-          "intelligence": 70
-        },
-        "pouvoirs": [],
-        "evolutions": [
-          {
-            "description": "Affinement de son réseau d'infos",
-            "effects": {"force": 0, "endurance": 0, "agilité": 1, "intelligence": 3}
-          }
-        ]
-      },
-      {
-        "id": 55,
-        "name": "Mary-Ann Quinn",
-        "importance": "inconnu",
-        "description": "Fan de sport organisant un triathlon, rencontrée lors d'une mission par les trois protagonistes.",
-        "characteristics": {
-          "force": 40,
-          "endurance": 45,
-          "agilité": 45,
-          "intelligence": 65
-        },
-        "pouvoirs": [],
-        "evolutions": [
-          {
-            "description": "Intensification de sa préparation",
-            "effects": {"force": 0, "endurance": 1, "agilité": 1, "intelligence": 2}
-          }
-        ]
-      },
-      {
-        "id": 56,
-        "name": "Madame Philips",
-        "importance": "inconnu",
-        "description": "Mère de Trevor, ancienne prostituée et détenue, dont le passé explique en partie la violence de son fils.",
-        "characteristics": {
-          "force": 30,
-          "endurance": 35,
-          "agilité": 35,
-          "intelligence": 50
-        },
-        "pouvoirs": [],
-        "evolutions": [
-          {
-            "description": "Résilience face à son passé",
-            "effects": {"force": 0, "endurance": 1, "agilité": 0, "intelligence": 2}
-          }
-        ]
-      },
-      {
-        "id": 57,
-        "name": "Nigel et Mme Thornhill",
-        "importance": "inconnu",
-        "description": "Touristes anglais âgés, obsédés par les célébrités de Los Santos et impliqués dans des missions insolites.",
-        "characteristics": {
-          "force": 35,
-          "endurance": 40,
-          "agilité": 40,
-          "intelligence": 60
-        },
-        "pouvoirs": [],
-        "evolutions": [
-          {
-            "description": "Découverte du glamour local",
-            "effects": {"force": 0, "endurance": 0, "agilité": 0, "intelligence": 2}
-          }
-        ]
-      },
-      {
-        "id": 58,
-        "name": "Omega",
-        "importance": "inconnu",
-        "description": "Hippie du désert, passionné par les extraterrestres et confiant à Franklin la collecte de pièces de vaisseau.",
-        "characteristics": {
-          "force": 30,
-          "endurance": 35,
-          "agilité": 40,
-          "intelligence": 70
-        },
-        "pouvoirs": [],
-        "evolutions": [
-          {
-            "description": "Connexion cosmique",
-            "effects": {"force": 0, "endurance": 0, "agilité": 0, "intelligence": 3}
-          }
-        ]
-      },
-      {
-        "id": 59,
-        "name": "Peter Dreyfuss",
-        "importance": "inconnu",
-        "description": "Suspecté d'avoir assassiné une actrice, son passé trouble refait surface lors d'une confrontation avec Franklin.",
-        "characteristics": {
-          "force": 40,
-          "endurance": 45,
-          "agilité": 45,
-          "intelligence": 60
-        },
-        "pouvoirs": [],
-        "evolutions": [
-          {
-            "description": "Affrontement avec son passé",
-            "effects": {"force": 1, "endurance": 1, "agilité": 0, "intelligence": 2}
-          }
-        ]
-      },
-      {
-        "id": 60,
-        "name": "Tonya Wiggins",
-        "importance": "inconnu",
-        "description": "Amie d'enfance de Franklin, accro à la drogue, qui lui enseigne les rudiments du remorquage.",
-        "characteristics": {
-          "force": 40,
-          "endurance": 45,
-          "agilité": 50,
-          "intelligence": 55
-        },
-        "pouvoirs": [],
-        "evolutions": [
-          {
-            "description": "Initiation au remorquage",
-            "effects": {"force": 0, "endurance": 1, "agilité": 1, "intelligence": 1}
-          }
-        ]
-      },
-      {
-        "id": 61,
-        "name": "Lacey Jonas",
-        "importance": "inconnu",
-        "description": "Célébrité locale cherchant à échapper aux paparazzis, reconduite par l'un des protagonistes.",
-        "characteristics": {
-          "force": 35,
-          "endurance": 40,
-          "agilité": 45,
-          "intelligence": 60
-        },
-        "pouvoirs": [],
-        "evolutions": [
-          {
-            "description": "Fuite médiatique",
-            "effects": {"force": 0, "endurance": 0, "agilité": 1, "intelligence": 2}
-          }
-        ]
-      },
-      {
-        "id": 62,
-        "name": "La mariée en fuite",
-        "importance": "inconnu",
-        "description": "Femme tentant de fuir un mariage imposé, poursuivie par le futur époux dans une course-poursuite.",
-        "characteristics": {
-          "force": 30,
-          "endurance": 35,
-          "agilité": 40,
-          "intelligence": 55
-        },
-        "pouvoirs": [],
-        "evolutions": [
-          {
-            "description": "Détermination à se libérer",
-            "effects": {"force": 0, "endurance": 1, "agilité": 1, "intelligence": 1}
-          }
-        ]
-      },
-      {
-        "id": 63,
-        "name": "Ursula",
-        "importance": "inconnu",
-        "description": "Jeune femme isolée et instable, potentiellement devenue tueuse en série après une perte douloureuse.",
-        "characteristics": {
-          "force": 40,
-          "endurance": 40,
-          "agilité": 45,
-          "intelligence": 50
-        },
-        "pouvoirs": [],
-        "evolutions": [
-          {
-            "description": "Basculement dans la folie",
-            "effects": {"force": 0, "endurance": 0, "agilité": 0, "intelligence": -1}
-          }
-        ]
-      },
-      {
-        "id": 64,
-        "name": "Victime de la secte des altruistes",
-        "importance": "inconnu",
-        "description": "Jeune femme agressée par une secte, dont la mission se solde par une demande d'aide pour regagner sa maison.",
-        "characteristics": {
-          "force": 30,
-          "endurance": 35,
-          "agilité": 40,
-          "intelligence": 45
-        },
-        "pouvoirs": [],
-        "evolutions": [
-          {
-            "description": "Reprise de confiance après l'horreur",
-            "effects": {"force": 0, "endurance": 1, "agilité": 0, "intelligence": 2}
-          }
-        ]
-      },
-      {
-        "id": 65,
-        "name": "Norm Richards",
-        "importance": "inconnu",
-        "description": "Braqueur admirateur de Michael, participant aux coups pour une faible part du butin.",
-        "characteristics": {
-          "force": 50,
-          "endurance": 50,
-          "agilité": 50,
-          "intelligence": 55
-        },
-        "pouvoirs": [],
-        "evolutions": [
-          {
-            "description": "Gains d'expérience dans le crime",
-            "effects": {"force": 1, "endurance": 1, "agilité": 1, "intelligence": 1}
-          }
-        ]
-      },
-      {
-        "id": 66,
-        "name": "Packie McReary",
-        "importance": "inconnu",
-        "description": "Braqueur réputé de Liberty City, intervenant dans les opérations du trio pour 12% du butin.",
-        "characteristics": {
-          "force": 60,
-          "endurance": 60,
-          "agilité": 60,
-          "intelligence": 60
-        },
-        "pouvoirs": [],
-        "evolutions": [
-          {
-            "description": "Perfectionnement de son art criminel",
-            "effects": {"force": 2, "endurance": 2, "agilité": 2, "intelligence": 2}
-          }
-        ]
-      },
-      {
-        "id": 67,
-        "name": "Chef (braqueur)",
-        "importance": "inconnu",
-        "description": "Braqueur spécialisé dans la fabrication de méthamphétamine, collaborant aux opérations de braquage.",
-        "characteristics": {
-          "force": 55,
-          "endurance": 55,
-          "agilité": 55,
-          "intelligence": 60
-        },
-        "pouvoirs": [],
-        "evolutions": [
-          {
-            "description": "Optimisation de sa production",
-            "effects": {"force": 0, "endurance": 1, "agilité": 0, "intelligence": 2}
-          }
-        ]
-      },
-      {
-        "id": 68,
-        "name": "Gustavo Mota",
-        "importance": "inconnu",
-        "description": "Ancien membre des Vagos reconverti en braqueur, offrant un travail de qualité pour 14% du butin.",
-        "characteristics": {
-          "force": 60,
-          "endurance": 60,
-          "agilité": 55,
-          "intelligence": 55
-        },
-        "pouvoirs": [],
-        "evolutions": [
-          {
-            "description": "Perfectionnement de ses méthodes",
-            "effects": {"force": 1, "endurance": 1, "agilité": 1, "intelligence": 1}
-          }
-        ]
-      },
-      {
-        "id": 69,
-        "name": "Karim Denz",
-        "importance": "inconnu",
-        "description": "Chauffeur peu compétent, engagé pour les plans de fuite lors des hold-up du trio.",
-        "characteristics": {
-          "force": 40,
-          "endurance": 45,
-          "agilité": 60,
-          "intelligence": 50
-        },
-        "pouvoirs": [],
-        "evolutions": [
-          {
-            "description": "Amélioration de ses compétences de conduite",
-            "effects": {"force": 0, "endurance": 0, "agilité": 2, "intelligence": 1}
-          }
-        ]
-      },
-      {
-        "id": 70,
-        "name": "Eddie Toh",
-        "importance": "inconnu",
-        "description": "L'un des meilleurs chauffeurs recrutés par Lester, motivé par le bien-être familial.",
-        "characteristics": {
-          "force": 50,
-          "endurance": 55,
-          "agilité": 65,
-          "intelligence": 55
-        },
-        "pouvoirs": [],
-        "evolutions": [
-          {
-            "description": "Perfectionnement de ses talents de fuite",
-            "effects": {"force": 0, "endurance": 1, "agilité": 2, "intelligence": 1}
-          }
-        ]
-      },
-      {
-        "id": 71,
-        "name": "Chauffeur inconnu (prologue)",
-        "importance": "inconnu",
-        "description": "Chauffeur discret du prologue, dont le destin se scelle rapidement lors d'une mission.",
-        "characteristics": {
-          "force": 45,
-          "endurance": 50,
-          "agilité": 55,
-          "intelligence": 50
-        },
-        "pouvoirs": [],
-        "evolutions": [
-          {
-            "description": "Effet de sa dernière course",
-            "effects": {"force": 0, "endurance": 1, "agilité": 1, "intelligence": 1}
-          }
-        ]
-      },
-      {
-        "id": 72,
-        "name": "Taliana Martinez",
-        "importance": "inconnu",
-        "description": "Chauffeuse talentueuse, offrant ses services lors d'événements aléatoires du trio.",
-        "characteristics": {
-          "force": 40,
-          "endurance": 45,
-          "agilité": 70,
-          "intelligence": 60
-        },
-        "pouvoirs": [],
-        "evolutions": [
-          {
-            "description": "Optimisation de ses réflexes",
-            "effects": {"force": 0, "endurance": 0, "agilité": 3, "intelligence": 1}
-          }
-        ]
-      },
-      {
-        "id": 73,
-        "name": "Rickie Lukens",
-        "importance": "inconnu",
-        "description": "Pirate informatique engagé lors d'un braquage pour infiltrer des systèmes de sécurité.",
-        "characteristics": {
-          "force": 50,
-          "endurance": 50,
-          "agilité": 55,
-          "intelligence": 60
-        },
-        "pouvoirs": [],
-        "evolutions": [
-          {
-            "description": "Renforcement de ses compétences en piratage",
-            "effects": {"force": 0, "endurance": 0, "agilité": 1, "intelligence": 2}
-          }
-        ]
-      },
-      {
-        "id": 74,
-        "name": "Christian Feltz",
-        "importance": "inconnu",
-        "description": "Pirate au savoir informatique moyen, participant aux opérations de piratage pour une part du butin.",
-        "characteristics": {
-          "force": 45,
-          "endurance": 50,
-          "agilité": 50,
-          "intelligence": 60
-        },
-        "pouvoirs": [],
-        "evolutions": [
-          {
-            "description": "Affinement de son savoir technique",
-            "effects": {"force": 0, "endurance": 0, "agilité": 0, "intelligence": 3}
-          }
-        ]
-      },
-      {
-        "id": 75,
-        "name": "Paige Harris",
-        "importance": "inconnu",
-        "description": "Seule femme braqueuse, experte en hacking, dont le passé difficile forge son engagement.",
-        "characteristics": {
-          "force": 40,
-          "endurance": 45,
-          "agilité": 60,
-          "intelligence": 65
-        },
-        "pouvoirs": [],
-        "evolutions": [
-          {
-            "description": "Montée en puissance de ses compétences informatiques",
-            "effects": {"force": 0, "endurance": 0, "agilité": 1, "intelligence": 3}
-          }
-        ]
-      },
-      {
-        "id": 76,
-        "name": "Brucie Kibbutz",
-        "importance": "inconnu",
-        "description": "Entrepreneur et porte-parole de Bullshark Testosterone, évoqué dans GTA Online comme coach de vie.",
-        "characteristics": {
-          "force": 60,
-          "endurance": 60,
-          "agilité": 60,
-          "intelligence": 70
-        },
-        "pouvoirs": [],
-        "evolutions": [
-          {
-            "description": "Optimisation de son image publique",
-            "effects": {"force": 0, "endurance": 0, "agilité": 0, "intelligence": 2}
-          }
-        ]
-      },
-      {
-        "id": 77,
-        "name": "Niko Bellic",
-        "importance": "inconnu",
-        "description": "Protagoniste de GTA IV, immigrant d'Europe de l'Est en quête du rêve américain, souvent évoqué dans l'univers GTA.",
-        "characteristics": {
-          "force": 70,
-          "endurance": 70,
-          "agilité": 70,
-          "intelligence": 75
-        },
-        "pouvoirs": [],
-        "evolutions": [
-          {
-            "description": "Adaptation à Liberty City",
-            "effects": {"force": 2, "endurance": 2, "agilité": 2, "intelligence": 2}
-          }
-        ]
-      },
-      {
-        "id": 78,
-        "name": "Little Jacob & Badman",
-        "importance": "inconnu",
-        "description": "Trafiquants jamaïcains, toujours associés et reconnaissables à leur accent, intervenant dans divers événements.",
-        "characteristics": {
-          "force": 65,
-          "endurance": 65,
-          "agilité": 65,
-          "intelligence": 70
-        },
-        "pouvoirs": [],
-        "evolutions": [
-          {
-            "description": "Synergie de leur duo",
-            "effects": {"force": 2, "endurance": 2, "agilité": 2, "intelligence": 2}
-          }
-        ]
+  "characters": [
+    {
+      "id": "1",
+      "name": "Michael De Santa",
+      "importance": "principal",
+      "description": "Ancien braqueur reconverti, il vit dans le luxe de Rockford Hills tout en peinant avec sa vie de famille et son passé criminel.",
+      "characteristics": {
+        "force": 70,
+        "endurance": 70,
+        "agilité": 65,
+        "intelligence": 80
+      },
+      "pouvoirs": [
+        "Bullet time"
+      ],
+      "evolutions": [
+        {
+          "description": "Retour dans le crime",
+          "effects": {
+            "force": 5,
+            "endurance": 0,
+            "agilité": 0,
+            "intelligence": 3
+          }
+        },
+        {
+          "description": "Rédemption personnelle",
+          "effects": {
+            "force": -3,
+            "endurance": 2,
+            "agilité": 0,
+            "intelligence": 5
+          }
+        }
+      ],
+      "notes": {
+        "a": "2",
+        "b": "1",
+        "c": "5"
       }
-    ]
-  }
-  
+    },
+    {
+      "id": "2",
+      "name": "Trevor Philips",
+      "importance": "principal",
+      "description": "Canadien au tempérament explosif, ancien pilote de chasse et criminel imprévisible, adepte du mode frénésie.",
+      "characteristics": {
+        "force": 90,
+        "endurance": 85,
+        "agilité": 60,
+        "intelligence": 50
+      },
+      "pouvoirs": [
+        "Double dégâts en frénésie"
+      ],
+      "evolutions": [
+        {
+          "description": "Maîtrise de sa frénésie",
+          "effects": {
+            "force": 4,
+            "endurance": 3,
+            "agilité": 0,
+            "intelligence": 2
+          }
+        },
+        {
+          "description": "Gestion de sa violence",
+          "effects": {
+            "force": -2,
+            "endurance": 2,
+            "agilité": 1,
+            "intelligence": 4
+          }
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Franklin Clinton",
+      "importance": "principal",
+      "description": "Jeune afro-américain issu des quartiers difficiles de Los Santos, il gravit les échelons du monde criminel.",
+      "characteristics": {
+        "force": 65,
+        "endurance": 70,
+        "agilité": 80,
+        "intelligence": 75
+      },
+      "pouvoirs": [
+        "Ralentissement du temps en conduite"
+      ],
+      "evolutions": [
+        {
+          "description": "Ascension criminelle",
+          "effects": {
+            "force": 3,
+            "endurance": 2,
+            "agilité": 2,
+            "intelligence": 3
+          }
+        },
+        {
+          "description": "Prise de responsabilités",
+          "effects": {
+            "force": 0,
+            "endurance": 3,
+            "agilité": 0,
+            "intelligence": 4
+          }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Amanda De Santa",
+      "importance": "secondaire",
+      "description": "Femme de Michael, symbole de la femme au foyer déracinée par une vie de luxe et de conflits conjugaux.",
+      "characteristics": {
+        "force": 40,
+        "endurance": 50,
+        "agilité": 55,
+        "intelligence": 70
+      },
+      "pouvoirs": [],
+      "evolutions": [
+        {
+          "description": "Éveil personnel",
+          "effects": {
+            "force": 0,
+            "endurance": 1,
+            "agilité": 0,
+            "intelligence": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Jimmy De Santa",
+      "importance": "secondaire",
+      "description": "Fils de Michael et Amanda, jeune homme paresseux et accro aux jeux vidéo, en quête de repères.",
+      "characteristics": {
+        "force": 30,
+        "endurance": 40,
+        "agilité": 50,
+        "intelligence": 45
+      },
+      "pouvoirs": [],
+      "evolutions": [
+        {
+          "description": "Déclic personnel",
+          "effects": {
+            "force": 1,
+            "endurance": 1,
+            "agilité": 2,
+            "intelligence": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Tracey De Santa",
+      "importance": "secondaire",
+      "description": "Fille de Michael, ambitieuse et en quête de célébrité, elle rêve d'une carrière dans la télé-réalité.",
+      "characteristics": {
+        "force": 35,
+        "endurance": 45,
+        "agilité": 60,
+        "intelligence": 50
+      },
+      "pouvoirs": [],
+      "evolutions": [
+        {
+          "description": "Passage à la célébrité",
+          "effects": {
+            "force": 0,
+            "endurance": 0,
+            "agilité": 3,
+            "intelligence": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "name": "Dave Norton",
+      "importance": "secondaire",
+      "description": "Agent du FIB corrompu, ami de Michael, ayant scellé un accord pour protéger son passé criminel.",
+      "characteristics": {
+        "force": 40,
+        "endurance": 50,
+        "agilité": 45,
+        "intelligence": 75
+      },
+      "pouvoirs": [],
+      "evolutions": [
+        {
+          "description": "Renforcement de sa couverture",
+          "effects": {
+            "force": 0,
+            "endurance": 2,
+            "agilité": 0,
+            "intelligence": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "name": "Steve Haines",
+      "importance": "secondaire",
+      "description": "Agent du FIB avide de célébrité, manipulateur et antagoniste qui se sert de Michael pour ses desseins.",
+      "characteristics": {
+        "force": 45,
+        "endurance": 55,
+        "agilité": 50,
+        "intelligence": 65
+      },
+      "pouvoirs": [],
+      "evolutions": [
+        {
+          "description": "Accroissement de son influence",
+          "effects": {
+            "force": 0,
+            "endurance": 1,
+            "agilité": 0,
+            "intelligence": 4
+          }
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "name": "Andreas Sanchez",
+      "importance": "secondaire",
+      "description": "Bras droit de Steve Haines, souvent présent lors des confrontations impliquant Michael et le FIB.",
+      "characteristics": {
+        "force": 50,
+        "endurance": 50,
+        "agilité": 55,
+        "intelligence": 60
+      },
+      "pouvoirs": [],
+      "evolutions": [
+        {
+          "description": "Expérience sur le terrain",
+          "effects": {
+            "force": 2,
+            "endurance": 2,
+            "agilité": 1,
+            "intelligence": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "name": "Tao Cheng",
+      "importance": "secondaire",
+      "description": "Fils de Wei Cheng, consommateur d'ecstasy et personnage parlant uniquement mandarin, souvent accompagné d'un interprète.",
+      "characteristics": {
+        "force": 45,
+        "endurance": 40,
+        "agilité": 50,
+        "intelligence": 55
+      },
+      "pouvoirs": [],
+      "evolutions": [
+        {
+          "description": "Adaptation culturelle",
+          "effects": {
+            "force": 0,
+            "endurance": 0,
+            "agilité": 2,
+            "intelligence": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "name": "Wei Cheng",
+      "importance": "secondaire",
+      "description": "Chef des Triades de Los Santos, prêt à tout pour se venger et imposer son règne.",
+      "characteristics": {
+        "force": 50,
+        "endurance": 60,
+        "agilité": 50,
+        "intelligence": 70
+      },
+      "pouvoirs": [],
+      "evolutions": [
+        {
+          "description": "Renforcement du clan",
+          "effects": {
+            "force": 2,
+            "endurance": 3,
+            "agilité": 0,
+            "intelligence": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "name": "Lamar Davis",
+      "importance": "secondaire",
+      "description": "Gangster des banlieues de Los Santos, ami de Franklin mais souvent en décalage avec ses ambitions.",
+      "characteristics": {
+        "force": 60,
+        "endurance": 60,
+        "agilité": 70,
+        "intelligence": 55
+      },
+      "pouvoirs": [],
+      "evolutions": [
+        {
+          "description": "Confrontation avec la réalité",
+          "effects": {
+            "force": 1,
+            "endurance": 1,
+            "agilité": 1,
+            "intelligence": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "name": "Harold 'Stretch' Joseph",
+      "importance": "secondaire",
+      "description": "Chef OG des Chamberlain Gangsters Families, manipulateur et traître, utilisant la naïveté de Lamar à ses fins.",
+      "characteristics": {
+        "force": 55,
+        "endurance": 60,
+        "agilité": 55,
+        "intelligence": 50
+      },
+      "pouvoirs": [],
+      "evolutions": [
+        {
+          "description": "Exploitation de la trahison",
+          "effects": {
+            "force": 0,
+            "endurance": 0,
+            "agilité": 2,
+            "intelligence": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "name": "Ron Jakowski",
+      "importance": "secondaire",
+      "description": "Ami paranoïaque de Trevor, théoricien du complot vivant dans une remorque et évitant tout affrontement.",
+      "characteristics": {
+        "force": 30,
+        "endurance": 40,
+        "agilité": 40,
+        "intelligence": 45
+      },
+      "pouvoirs": [],
+      "evolutions": [
+        {
+          "description": "Doute renforcé",
+          "effects": {
+            "force": 0,
+            "endurance": 0,
+            "agilité": 0,
+            "intelligence": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "name": "Brad Snider",
+      "importance": "secondaire",
+      "description": "Ancien complice de Trevor, trahi par Michael et dont le destin funeste se scelle au cimetière de Michael.",
+      "characteristics": {
+        "force": 60,
+        "endurance": 50,
+        "agilité": 55,
+        "intelligence": 40
+      },
+      "pouvoirs": [],
+      "evolutions": [
+        {
+          "description": "Acceptation de son sort",
+          "effects": {
+            "force": -2,
+            "endurance": 1,
+            "agilité": 0,
+            "intelligence": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "name": "Chop (animal)",
+      "importance": "secondaire",
+      "description": "Le fidèle rottweiler de Lamar, capable d'aider à la poursuite des ennemis grâce à son flair.",
+      "characteristics": {
+        "force": 70,
+        "endurance": 70,
+        "agilité": 80,
+        "intelligence": 30
+      },
+      "pouvoirs": [],
+      "evolutions": [
+        {
+          "description": "Perfectionnement de son flair",
+          "effects": {
+            "force": 0,
+            "endurance": 0,
+            "agilité": 3,
+            "intelligence": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "name": "Denise Clinton",
+      "importance": "secondaire",
+      "description": "Tante de Franklin, figure autoritaire et féministe, qui ne cache pas sa désapprobation envers son neveu.",
+      "characteristics": {
+        "force": 40,
+        "endurance": 45,
+        "agilité": 50,
+        "intelligence": 65
+      },
+      "pouvoirs": [],
+      "evolutions": [
+        {
+          "description": "Affirmation de son autorité",
+          "effects": {
+            "force": 0,
+            "endurance": 1,
+            "agilité": 0,
+            "intelligence": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "name": "Casey",
+      "importance": "secondaire",
+      "description": "Convoyeur de fonds pris en otage pour un braquage ambitieux à la Union Depository.",
+      "characteristics": {
+        "force": 50,
+        "endurance": 50,
+        "agilité": 50,
+        "intelligence": 60
+      },
+      "pouvoirs": [],
+      "evolutions": [
+        {
+          "description": "Survie extrême",
+          "effects": {
+            "force": 1,
+            "endurance": 2,
+            "agilité": 1,
+            "intelligence": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "name": "Lester Crest",
+      "importance": "secondaire",
+      "description": "Le cerveau des opérations de braquage, hacker et stratège malgré sa mobilité réduite.",
+      "characteristics": {
+        "force": 30,
+        "endurance": 40,
+        "agilité": 40,
+        "intelligence": 90
+      },
+      "pouvoirs": [
+        "Manipulation boursière",
+        "Planification de braquages"
+      ],
+      "evolutions": [
+        {
+          "description": "Optimisation de ses stratégies",
+          "effects": {
+            "force": 0,
+            "endurance": 0,
+            "agilité": 0,
+            "intelligence": 5
+          }
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "name": "Dr Isiah Friedlander",
+      "importance": "secondaire",
+      "description": "Le psychanalyste de Michael, dont les consultations chères masquent une ambition télévisuelle.",
+      "characteristics": {
+        "force": 20,
+        "endurance": 30,
+        "agilité": 30,
+        "intelligence": 85
+      },
+      "pouvoirs": [],
+      "evolutions": [
+        {
+          "description": "Évolution de sa méthode",
+          "effects": {
+            "force": 0,
+            "endurance": 1,
+            "agilité": 0,
+            "intelligence": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "name": "Simeon Yetarian",
+      "importance": "secondaire",
+      "description": "Concessionnaire véreux qui emploie Franklin pour saisir des voitures de luxe.",
+      "characteristics": {
+        "force": 40,
+        "endurance": 45,
+        "agilité": 50,
+        "intelligence": 60
+      },
+      "pouvoirs": [],
+      "evolutions": [
+        {
+          "description": "Modernisation de son business",
+          "effects": {
+            "force": 0,
+            "endurance": 0,
+            "agilité": 1,
+            "intelligence": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "name": "Martin Madrazo",
+      "importance": "secondaire",
+      "description": "Chef de gang mexicain contraint par ses dettes envers Michael, prêt à engager des tueurs pour se venger.",
+      "characteristics": {
+        "force": 60,
+        "endurance": 70,
+        "agilité": 55,
+        "intelligence": 65
+      },
+      "pouvoirs": [],
+      "evolutions": [
+        {
+          "description": "Accroissement de sa brutalité",
+          "effects": {
+            "force": 3,
+            "endurance": 2,
+            "agilité": 0,
+            "intelligence": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "name": "Patricia Madrazo",
+      "importance": "secondaire",
+      "description": "Épouse de Martin, en proie à des sentiments ambivalents après avoir été enlevée par Trevor.",
+      "characteristics": {
+        "force": 35,
+        "endurance": 45,
+        "agilité": 50,
+        "intelligence": 60
+      },
+      "pouvoirs": [],
+      "evolutions": [
+        {
+          "description": "Réconciliation douloureuse",
+          "effects": {
+            "force": 0,
+            "endurance": 0,
+            "agilité": 0,
+            "intelligence": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "name": "Tanisha Jackson",
+      "importance": "secondaire",
+      "description": "Ex-petite amie de Franklin, qui tente de renouer malgré un avenir incertain.",
+      "characteristics": {
+        "force": 40,
+        "endurance": 50,
+        "agilité": 55,
+        "intelligence": 70
+      },
+      "pouvoirs": [],
+      "evolutions": [
+        {
+          "description": "Prise de maturité",
+          "effects": {
+            "force": 0,
+            "endurance": 1,
+            "agilité": 1,
+            "intelligence": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "name": "Wade Hebert",
+      "importance": "secondaire",
+      "description": "Jeune toxicomane vivant avec Trevor, souvent naïf et dépassé par les événements.",
+      "characteristics": {
+        "force": 30,
+        "endurance": 40,
+        "agilité": 45,
+        "intelligence": 35
+      },
+      "pouvoirs": [],
+      "evolutions": [
+        {
+          "description": "Petit sursaut de lucidité",
+          "effects": {
+            "force": 1,
+            "endurance": 0,
+            "agilité": 0,
+            "intelligence": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "name": "Floyd Hebert",
+      "importance": "secondaire",
+      "description": "Cousin de Wade, docker et soumis, entraîné malgré lui dans les affaires de Trevor.",
+      "characteristics": {
+        "force": 40,
+        "endurance": 45,
+        "agilité": 45,
+        "intelligence": 50
+      },
+      "pouvoirs": [],
+      "evolutions": [
+        {
+          "description": "Réveil de sa force intérieure",
+          "effects": {
+            "force": 2,
+            "endurance": 1,
+            "agilité": 0,
+            "intelligence": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "name": "Debra",
+      "importance": "secondaire",
+      "description": "Fiancée de Floyd, avocate au caractère bien trempé et déterminée à protéger ses intérêts.",
+      "characteristics": {
+        "force": 35,
+        "endurance": 40,
+        "agilité": 40,
+        "intelligence": 70
+      },
+      "pouvoirs": [],
+      "evolutions": [
+        {
+          "description": "Affirmation professionnelle",
+          "effects": {
+            "force": 0,
+            "endurance": 0,
+            "agilité": 0,
+            "intelligence": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "name": "Fabien LaRouche",
+      "importance": "secondaire",
+      "description": "Professeur de yoga d'Amanda, d'accent français, qui initie Michael à la relaxation.",
+      "characteristics": {
+        "force": 30,
+        "endurance": 35,
+        "agilité": 40,
+        "intelligence": 75
+      },
+      "pouvoirs": [],
+      "evolutions": [
+        {
+          "description": "Équilibre intérieur",
+          "effects": {
+            "force": 0,
+            "endurance": 1,
+            "agilité": 0,
+            "intelligence": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "name": "Kyle Chavis",
+      "importance": "secondaire",
+      "description": "Professeur de tennis à domicile d'Amanda, présent lors de missions marquées par des dérives inattendues.",
+      "characteristics": {
+        "force": 50,
+        "endurance": 55,
+        "agilité": 60,
+        "intelligence": 60
+      },
+      "pouvoirs": [],
+      "evolutions": [
+        {
+          "description": "Amélioration de sa technique",
+          "effects": {
+            "force": 1,
+            "endurance": 0,
+            "agilité": 2,
+            "intelligence": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "name": "Devin Weston",
+      "importance": "secondaire",
+      "description": "Actionnaire impitoyable de Merryweather, dont la richesse et le mépris des règles en font un antagoniste majeur.",
+      "characteristics": {
+        "force": 45,
+        "endurance": 50,
+        "agilité": 45,
+        "intelligence": 80
+      },
+      "pouvoirs": [],
+      "evolutions": [
+        {
+          "description": "Intensification de son empire",
+          "effects": {
+            "force": 0,
+            "endurance": 2,
+            "agilité": 0,
+            "intelligence": 4
+          }
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "name": "Molly Schultz",
+      "importance": "secondaire",
+      "description": "Assistante juridique de Devin Weston, impliquée dans des affaires de vol et de trahison.",
+      "characteristics": {
+        "force": 30,
+        "endurance": 35,
+        "agilité": 40,
+        "intelligence": 70
+      },
+      "pouvoirs": [],
+      "evolutions": [
+        {
+          "description": "Maturation professionnelle",
+          "effects": {
+            "force": 0,
+            "endurance": 0,
+            "agilité": 0,
+            "intelligence": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "name": "Don Percival",
+      "importance": "secondaire",
+      "description": "PDG de Merryweather, dont les décisions influencent lourdement le destin de plusieurs protagonistes.",
+      "characteristics": {
+        "force": 35,
+        "endurance": 40,
+        "agilité": 40,
+        "intelligence": 75
+      },
+      "pouvoirs": [],
+      "evolutions": [
+        {
+          "description": "Optimisation de sa gestion",
+          "effects": {
+            "force": 0,
+            "endurance": 1,
+            "agilité": 0,
+            "intelligence": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "name": "Solomon Richards",
+      "importance": "secondaire",
+      "description": "Propriétaire du studio de cinéma 'Richards Majestic' et partenaire de Michael dans l'industrie du film.",
+      "characteristics": {
+        "force": 40,
+        "endurance": 45,
+        "agilité": 50,
+        "intelligence": 70
+      },
+      "pouvoirs": [],
+      "evolutions": [
+        {
+          "description": "Evolution artistique",
+          "effects": {
+            "force": 0,
+            "endurance": 0,
+            "agilité": 1,
+            "intelligence": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "name": "Johnny Klebitz",
+      "importance": "secondaire",
+      "description": "Leader du gang des Lost MC, dont le destin se scelle lors d'une violente dispute avec Trevor.",
+      "characteristics": {
+        "force": 65,
+        "endurance": 65,
+        "agilité": 70,
+        "intelligence": 60
+      },
+      "pouvoirs": [],
+      "evolutions": [
+        {
+          "description": "Confrontation fatale",
+          "effects": {
+            "force": 2,
+            "endurance": 1,
+            "agilité": 1,
+            "intelligence": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "name": "Ashley Butler",
+      "importance": "secondaire",
+      "description": "Petite amie de Johnny Klebitz, impliquée dans les conflits du gang avant le tragique dénouement.",
+      "characteristics": {
+        "force": 35,
+        "endurance": 40,
+        "agilité": 45,
+        "intelligence": 65
+      },
+      "pouvoirs": [],
+      "evolutions": [
+        {
+          "description": "Épreuve de loyauté",
+          "effects": {
+            "force": 0,
+            "endurance": 0,
+            "agilité": 0,
+            "intelligence": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "name": "Elwood O'Neil",
+      "importance": "secondaire",
+      "description": "Membre d'un gang de rednecks de Blaine County, rival de Trevor dans le milieu de la drogue.",
+      "characteristics": {
+        "force": 55,
+        "endurance": 60,
+        "agilité": 50,
+        "intelligence": 55
+      },
+      "pouvoirs": [],
+      "evolutions": [
+        {
+          "description": "Consolidation de son gang",
+          "effects": {
+            "force": 1,
+            "endurance": 1,
+            "agilité": 0,
+            "intelligence": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "name": "Chef (de Trevor)",
+      "importance": "secondaire",
+      "description": "Fabricant de méthamphétamine et collaborateur de Trevor, jouant un rôle clé dans la production illégale.",
+      "characteristics": {
+        "force": 50,
+        "endurance": 50,
+        "agilité": 50,
+        "intelligence": 60
+      },
+      "pouvoirs": [],
+      "evolutions": [
+        {
+          "description": "Perfectionnement de sa recette",
+          "effects": {
+            "force": 0,
+            "endurance": 0,
+            "agilité": 0,
+            "intelligence": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "name": "Lazlow Jones",
+      "importance": "secondaire",
+      "description": "Présentateur de télé-réalité et personnalité médiatique, présent dans divers médias de Los Santos.",
+      "characteristics": {
+        "force": 30,
+        "endurance": 35,
+        "agilité": 40,
+        "intelligence": 75
+      },
+      "pouvoirs": [],
+      "evolutions": [
+        {
+          "description": "Réinvention médiatique",
+          "effects": {
+            "force": 0,
+            "endurance": 0,
+            "agilité": 0,
+            "intelligence": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "name": "Jay Norris",
+      "importance": "secondaire",
+      "description": "Fondateur de LifeInvader, parodie des grands noms de la tech, impliqué dans des missions risquées.",
+      "characteristics": {
+        "force": 40,
+        "endurance": 45,
+        "agilité": 45,
+        "intelligence": 70
+      },
+      "pouvoirs": [],
+      "evolutions": [
+        {
+          "description": "Innovation technologique",
+          "effects": {
+            "force": 0,
+            "endurance": 0,
+            "agilité": 1,
+            "intelligence": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "name": "Terry Thorpe",
+      "importance": "secondaire",
+      "description": "Capitaine de Route des Lost MC, ami proche de Clay Simons et de Johnny Klebitz.",
+      "characteristics": {
+        "force": 60,
+        "endurance": 60,
+        "agilité": 55,
+        "intelligence": 50
+      },
+      "pouvoirs": [],
+      "evolutions": [
+        {
+          "description": "Renforcement de l'esprit de corps",
+          "effects": {
+            "force": 2,
+            "endurance": 2,
+            "agilité": 0,
+            "intelligence": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "name": "Clay Simons",
+      "importance": "secondaire",
+      "description": "Sergent des Lost MC, complice fidèle de Terry Thorpe et partenaire dans les activités du gang.",
+      "characteristics": {
+        "force": 60,
+        "endurance": 60,
+        "agilité": 55,
+        "intelligence": 50
+      },
+      "pouvoirs": [],
+      "evolutions": [
+        {
+          "description": "Cohésion gangsters",
+          "effects": {
+            "force": 1,
+            "endurance": 1,
+            "agilité": 0,
+            "intelligence": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "name": "M. K",
+      "importance": "inconnu",
+      "description": "Vendeur de home cinéma soupçonné d'être lié à une organisation terroriste, soumis à de vifs interrogatoires.",
+      "characteristics": {
+        "force": 40,
+        "endurance": 40,
+        "agilité": 40,
+        "intelligence": 50
+      },
+      "pouvoirs": [],
+      "evolutions": [
+        {
+          "description": "Survie face aux interrogatoires",
+          "effects": {
+            "force": 0,
+            "endurance": 1,
+            "agilité": 0,
+            "intelligence": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "43",
+      "name": "Karen",
+      "importance": "inconnu",
+      "description": "Agent de haut rang de l'IAA, chargée d'interroger M. K et d'assurer la surveillance.",
+      "characteristics": {
+        "force": 40,
+        "endurance": 45,
+        "agilité": 45,
+        "intelligence": 70
+      },
+      "pouvoirs": [],
+      "evolutions": [
+        {
+          "description": "Affinement de ses méthodes d'interrogatoire",
+          "effects": {
+            "force": 0,
+            "endurance": 0,
+            "agilité": 0,
+            "intelligence": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "name": "Edward T.Fortune alias 'Le Contact'",
+      "importance": "inconnu",
+      "description": "Membre senior d'une agence secrète, chargé de traquer les activités anti-américaines.",
+      "characteristics": {
+        "force": 40,
+        "endurance": 40,
+        "agilité": 40,
+        "intelligence": 65
+      },
+      "pouvoirs": [],
+      "evolutions": [
+        {
+          "description": "Affûtage de ses techniques d'investigation",
+          "effects": {
+            "force": 0,
+            "endurance": 0,
+            "agilité": 0,
+            "intelligence": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "name": "Rocco Pelosi",
+      "importance": "inconnu",
+      "description": "Agent corrompu de Los Santos, ancien membre d'une mafia de Liberty City, impliqué dans des arnaques.",
+      "characteristics": {
+        "force": 50,
+        "endurance": 50,
+        "agilité": 50,
+        "intelligence": 55
+      },
+      "pouvoirs": [],
+      "evolutions": [
+        {
+          "description": "Affinement de ses stratagèmes",
+          "effects": {
+            "force": 1,
+            "endurance": 1,
+            "agilité": 0,
+            "intelligence": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "name": "Abigail Mathers",
+      "importance": "inconnu",
+      "description": "Veuve d'un explorateur disparu en mer, elle demande à Michael d'enquêter sur d'étranges circonstances.",
+      "characteristics": {
+        "force": 40,
+        "endurance": 40,
+        "agilité": 45,
+        "intelligence": 60
+      },
+      "pouvoirs": [],
+      "evolutions": [
+        {
+          "description": "Reprise de confiance",
+          "effects": {
+            "force": 0,
+            "endurance": 0,
+            "agilité": 1,
+            "intelligence": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "47",
+      "name": "Barry",
+      "importance": "inconnu",
+      "description": "Militant pour la légalisation de la marijuana, confiant quelques missions de vol à Franklin.",
+      "characteristics": {
+        "force": 40,
+        "endurance": 45,
+        "agilité": 45,
+        "intelligence": 55
+      },
+      "pouvoirs": [],
+      "evolutions": [
+        {
+          "description": "Renforcement de sa cause",
+          "effects": {
+            "force": 0,
+            "endurance": 0,
+            "agilité": 0,
+            "intelligence": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "48",
+      "name": "Beverly Felton",
+      "importance": "inconnu",
+      "description": "Paparazzi local engagé par Franklin pour filmer des célébrités dans des situations compromettantes.",
+      "characteristics": {
+        "force": 35,
+        "endurance": 40,
+        "agilité": 40,
+        "intelligence": 50
+      },
+      "pouvoirs": [],
+      "evolutions": [
+        {
+          "description": "Perfectionnement de son œil critique",
+          "effects": {
+            "force": 0,
+            "endurance": 0,
+            "agilité": 1,
+            "intelligence": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "49",
+      "name": "Cletus Ewing",
+      "importance": "inconnu",
+      "description": "Chasseur rencontré par Trevor, proposant des missions de chasse pour débloquer de nouvelles activités.",
+      "characteristics": {
+        "force": 60,
+        "endurance": 60,
+        "agilité": 55,
+        "intelligence": 40
+      },
+      "pouvoirs": [],
+      "evolutions": [
+        {
+          "description": "Maîtrise des techniques de chasse",
+          "effects": {
+            "force": 2,
+            "endurance": 1,
+            "agilité": 1,
+            "intelligence": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "50",
+      "name": "Dom Beasley",
+      "importance": "inconnu",
+      "description": "Homme avide de sensations fortes, il initie Franklin au saut en parachute lors d'une mission.",
+      "characteristics": {
+        "force": 50,
+        "endurance": 55,
+        "agilité": 65,
+        "intelligence": 60
+      },
+      "pouvoirs": [],
+      "evolutions": [
+        {
+          "description": "Apprentissage du parachutisme",
+          "effects": {
+            "force": 0,
+            "endurance": 1,
+            "agilité": 2,
+            "intelligence": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "51",
+      "name": "Hao",
+      "importance": "inconnu",
+      "description": "Ami de Franklin travaillant dans un garage, informateur des nouvelles courses de voitures.",
+      "characteristics": {
+        "force": 40,
+        "endurance": 45,
+        "agilité": 50,
+        "intelligence": 60
+      },
+      "pouvoirs": [],
+      "evolutions": [
+        {
+          "description": "Actualisation des informations techniques",
+          "effects": {
+            "force": 0,
+            "endurance": 0,
+            "agilité": 1,
+            "intelligence": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "52",
+      "name": "Josh Bernstein",
+      "importance": "inconnu",
+      "description": "Ancien agent immobilier qui engage Trevor pour éliminer la concurrence.",
+      "characteristics": {
+        "force": 45,
+        "endurance": 50,
+        "agilité": 45,
+        "intelligence": 65
+      },
+      "pouvoirs": [],
+      "evolutions": [
+        {
+          "description": "Affinement de sa stratégie commerciale",
+          "effects": {
+            "force": 0,
+            "endurance": 0,
+            "agilité": 0,
+            "intelligence": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "53",
+      "name": "Joe & Josef",
+      "importance": "inconnu",
+      "description": "Membres de la patrouille frontalière, opposés à l'immigration, opérant en duo.",
+      "characteristics": {
+        "force": 40,
+        "endurance": 45,
+        "agilité": 40,
+        "intelligence": 50
+      },
+      "pouvoirs": [],
+      "evolutions": [
+        {
+          "description": "Cohésion d'équipe",
+          "effects": {
+            "force": 1,
+            "endurance": 1,
+            "agilité": 0,
+            "intelligence": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "54",
+      "name": "Maude Eccles",
+      "importance": "inconnu",
+      "description": "Habitante du désert, experte en dossiers de criminels recherchés et offrant des missions de prime à Trevor.",
+      "characteristics": {
+        "force": 35,
+        "endurance": 40,
+        "agilité": 40,
+        "intelligence": 70
+      },
+      "pouvoirs": [],
+      "evolutions": [
+        {
+          "description": "Affinement de son réseau d'infos",
+          "effects": {
+            "force": 0,
+            "endurance": 0,
+            "agilité": 1,
+            "intelligence": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "55",
+      "name": "Mary-Ann Quinn",
+      "importance": "inconnu",
+      "description": "Fan de sport organisant un triathlon, rencontrée lors d'une mission par les trois protagonistes.",
+      "characteristics": {
+        "force": 40,
+        "endurance": 45,
+        "agilité": 45,
+        "intelligence": 65
+      },
+      "pouvoirs": [],
+      "evolutions": [
+        {
+          "description": "Intensification de sa préparation",
+          "effects": {
+            "force": 0,
+            "endurance": 1,
+            "agilité": 1,
+            "intelligence": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "56",
+      "name": "Madame Philips",
+      "importance": "inconnu",
+      "description": "Mère de Trevor, ancienne prostituée et détenue, dont le passé explique en partie la violence de son fils.",
+      "characteristics": {
+        "force": 30,
+        "endurance": 35,
+        "agilité": 35,
+        "intelligence": 50
+      },
+      "pouvoirs": [],
+      "evolutions": [
+        {
+          "description": "Résilience face à son passé",
+          "effects": {
+            "force": 0,
+            "endurance": 1,
+            "agilité": 0,
+            "intelligence": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "57",
+      "name": "Nigel et Mme Thornhill",
+      "importance": "inconnu",
+      "description": "Touristes anglais âgés, obsédés par les célébrités de Los Santos et impliqués dans des missions insolites.",
+      "characteristics": {
+        "force": 35,
+        "endurance": 40,
+        "agilité": 40,
+        "intelligence": 60
+      },
+      "pouvoirs": [],
+      "evolutions": [
+        {
+          "description": "Découverte du glamour local",
+          "effects": {
+            "force": 0,
+            "endurance": 0,
+            "agilité": 0,
+            "intelligence": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "58",
+      "name": "Omega",
+      "importance": "inconnu",
+      "description": "Hippie du désert, passionné par les extraterrestres et confiant à Franklin la collecte de pièces de vaisseau.",
+      "characteristics": {
+        "force": 30,
+        "endurance": 35,
+        "agilité": 40,
+        "intelligence": 70
+      },
+      "pouvoirs": [],
+      "evolutions": [
+        {
+          "description": "Connexion cosmique",
+          "effects": {
+            "force": 0,
+            "endurance": 0,
+            "agilité": 0,
+            "intelligence": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "59",
+      "name": "Peter Dreyfuss",
+      "importance": "inconnu",
+      "description": "Suspecté d'avoir assassiné une actrice, son passé trouble refait surface lors d'une confrontation avec Franklin.",
+      "characteristics": {
+        "force": 40,
+        "endurance": 45,
+        "agilité": 45,
+        "intelligence": 60
+      },
+      "pouvoirs": [],
+      "evolutions": [
+        {
+          "description": "Affrontement avec son passé",
+          "effects": {
+            "force": 1,
+            "endurance": 1,
+            "agilité": 0,
+            "intelligence": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "60",
+      "name": "Tonya Wiggins",
+      "importance": "inconnu",
+      "description": "Amie d'enfance de Franklin, accro à la drogue, qui lui enseigne les rudiments du remorquage.",
+      "characteristics": {
+        "force": 40,
+        "endurance": 45,
+        "agilité": 50,
+        "intelligence": 55
+      },
+      "pouvoirs": [],
+      "evolutions": [
+        {
+          "description": "Initiation au remorquage",
+          "effects": {
+            "force": 0,
+            "endurance": 1,
+            "agilité": 1,
+            "intelligence": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "61",
+      "name": "Lacey Jonas",
+      "importance": "inconnu",
+      "description": "Célébrité locale cherchant à échapper aux paparazzis, reconduite par l'un des protagonistes.",
+      "characteristics": {
+        "force": 35,
+        "endurance": 40,
+        "agilité": 45,
+        "intelligence": 60
+      },
+      "pouvoirs": [],
+      "evolutions": [
+        {
+          "description": "Fuite médiatique",
+          "effects": {
+            "force": 0,
+            "endurance": 0,
+            "agilité": 1,
+            "intelligence": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "62",
+      "name": "La mariée en fuite",
+      "importance": "inconnu",
+      "description": "Femme tentant de fuir un mariage imposé, poursuivie par le futur époux dans une course-poursuite.",
+      "characteristics": {
+        "force": 30,
+        "endurance": 35,
+        "agilité": 40,
+        "intelligence": 55
+      },
+      "pouvoirs": [],
+      "evolutions": [
+        {
+          "description": "Détermination à se libérer",
+          "effects": {
+            "force": 0,
+            "endurance": 1,
+            "agilité": 1,
+            "intelligence": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "63",
+      "name": "Ursula",
+      "importance": "inconnu",
+      "description": "Jeune femme isolée et instable, potentiellement devenue tueuse en série après une perte douloureuse.",
+      "characteristics": {
+        "force": 40,
+        "endurance": 40,
+        "agilité": 45,
+        "intelligence": 50
+      },
+      "pouvoirs": [],
+      "evolutions": [
+        {
+          "description": "Basculement dans la folie",
+          "effects": {
+            "force": 0,
+            "endurance": 0,
+            "agilité": 0,
+            "intelligence": -1
+          }
+        }
+      ]
+    },
+    {
+      "id": "64",
+      "name": "Victime de la secte des altruistes",
+      "importance": "inconnu",
+      "description": "Jeune femme agressée par une secte, dont la mission se solde par une demande d'aide pour regagner sa maison.",
+      "characteristics": {
+        "force": 30,
+        "endurance": 35,
+        "agilité": 40,
+        "intelligence": 45
+      },
+      "pouvoirs": [],
+      "evolutions": [
+        {
+          "description": "Reprise de confiance après l'horreur",
+          "effects": {
+            "force": 0,
+            "endurance": 1,
+            "agilité": 0,
+            "intelligence": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "65",
+      "name": "Norm Richards",
+      "importance": "inconnu",
+      "description": "Braqueur admirateur de Michael, participant aux coups pour une faible part du butin.",
+      "characteristics": {
+        "force": 50,
+        "endurance": 50,
+        "agilité": 50,
+        "intelligence": 55
+      },
+      "pouvoirs": [],
+      "evolutions": [
+        {
+          "description": "Gains d'expérience dans le crime",
+          "effects": {
+            "force": 1,
+            "endurance": 1,
+            "agilité": 1,
+            "intelligence": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "66",
+      "name": "Packie McReary",
+      "importance": "inconnu",
+      "description": "Braqueur réputé de Liberty City, intervenant dans les opérations du trio pour 12% du butin.",
+      "characteristics": {
+        "force": 60,
+        "endurance": 60,
+        "agilité": 60,
+        "intelligence": 60
+      },
+      "pouvoirs": [],
+      "evolutions": [
+        {
+          "description": "Perfectionnement de son art criminel",
+          "effects": {
+            "force": 2,
+            "endurance": 2,
+            "agilité": 2,
+            "intelligence": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "67",
+      "name": "Chef (braqueur)",
+      "importance": "inconnu",
+      "description": "Braqueur spécialisé dans la fabrication de méthamphétamine, collaborant aux opérations de braquage.",
+      "characteristics": {
+        "force": 55,
+        "endurance": 55,
+        "agilité": 55,
+        "intelligence": 60
+      },
+      "pouvoirs": [],
+      "evolutions": [
+        {
+          "description": "Optimisation de sa production",
+          "effects": {
+            "force": 0,
+            "endurance": 1,
+            "agilité": 0,
+            "intelligence": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "68",
+      "name": "Gustavo Mota",
+      "importance": "inconnu",
+      "description": "Ancien membre des Vagos reconverti en braqueur, offrant un travail de qualité pour 14% du butin.",
+      "characteristics": {
+        "force": 60,
+        "endurance": 60,
+        "agilité": 55,
+        "intelligence": 55
+      },
+      "pouvoirs": [],
+      "evolutions": [
+        {
+          "description": "Perfectionnement de ses méthodes",
+          "effects": {
+            "force": 1,
+            "endurance": 1,
+            "agilité": 1,
+            "intelligence": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "69",
+      "name": "Karim Denz",
+      "importance": "inconnu",
+      "description": "Chauffeur peu compétent, engagé pour les plans de fuite lors des hold-up du trio.",
+      "characteristics": {
+        "force": 40,
+        "endurance": 45,
+        "agilité": 60,
+        "intelligence": 50
+      },
+      "pouvoirs": [],
+      "evolutions": [
+        {
+          "description": "Amélioration de ses compétences de conduite",
+          "effects": {
+            "force": 0,
+            "endurance": 0,
+            "agilité": 2,
+            "intelligence": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "70",
+      "name": "Eddie Toh",
+      "importance": "inconnu",
+      "description": "L'un des meilleurs chauffeurs recrutés par Lester, motivé par le bien-être familial.",
+      "characteristics": {
+        "force": 50,
+        "endurance": 55,
+        "agilité": 65,
+        "intelligence": 55
+      },
+      "pouvoirs": [],
+      "evolutions": [
+        {
+          "description": "Perfectionnement de ses talents de fuite",
+          "effects": {
+            "force": 0,
+            "endurance": 1,
+            "agilité": 2,
+            "intelligence": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "71",
+      "name": "Chauffeur inconnu (prologue)",
+      "importance": "inconnu",
+      "description": "Chauffeur discret du prologue, dont le destin se scelle rapidement lors d'une mission.",
+      "characteristics": {
+        "force": 45,
+        "endurance": 50,
+        "agilité": 55,
+        "intelligence": 50
+      },
+      "pouvoirs": [],
+      "evolutions": [
+        {
+          "description": "Effet de sa dernière course",
+          "effects": {
+            "force": 0,
+            "endurance": 1,
+            "agilité": 1,
+            "intelligence": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "72",
+      "name": "Taliana Martinez",
+      "importance": "inconnu",
+      "description": "Chauffeuse talentueuse, offrant ses services lors d'événements aléatoires du trio.",
+      "characteristics": {
+        "force": 40,
+        "endurance": 45,
+        "agilité": 70,
+        "intelligence": 60
+      },
+      "pouvoirs": [],
+      "evolutions": [
+        {
+          "description": "Optimisation de ses réflexes",
+          "effects": {
+            "force": 0,
+            "endurance": 0,
+            "agilité": 3,
+            "intelligence": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "73",
+      "name": "Rickie Lukens",
+      "importance": "inconnu",
+      "description": "Pirate informatique engagé lors d'un braquage pour infiltrer des systèmes de sécurité.",
+      "characteristics": {
+        "force": 50,
+        "endurance": 50,
+        "agilité": 55,
+        "intelligence": 60
+      },
+      "pouvoirs": [],
+      "evolutions": [
+        {
+          "description": "Renforcement de ses compétences en piratage",
+          "effects": {
+            "force": 0,
+            "endurance": 0,
+            "agilité": 1,
+            "intelligence": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "74",
+      "name": "Christian Feltz",
+      "importance": "inconnu",
+      "description": "Pirate au savoir informatique moyen, participant aux opérations de piratage pour une part du butin.",
+      "characteristics": {
+        "force": 45,
+        "endurance": 50,
+        "agilité": 50,
+        "intelligence": 60
+      },
+      "pouvoirs": [],
+      "evolutions": [
+        {
+          "description": "Affinement de son savoir technique",
+          "effects": {
+            "force": 0,
+            "endurance": 0,
+            "agilité": 0,
+            "intelligence": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "75",
+      "name": "Paige Harris",
+      "importance": "inconnu",
+      "description": "Seule femme braqueuse, experte en hacking, dont le passé difficile forge son engagement.",
+      "characteristics": {
+        "force": 40,
+        "endurance": 45,
+        "agilité": 60,
+        "intelligence": 65
+      },
+      "pouvoirs": [],
+      "evolutions": [
+        {
+          "description": "Montée en puissance de ses compétences informatiques",
+          "effects": {
+            "force": 0,
+            "endurance": 0,
+            "agilité": 1,
+            "intelligence": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "76",
+      "name": "Brucie Kibbutz",
+      "importance": "inconnu",
+      "description": "Entrepreneur et porte-parole de Bullshark Testosterone, évoqué dans GTA Online comme coach de vie.",
+      "characteristics": {
+        "force": 60,
+        "endurance": 60,
+        "agilité": 60,
+        "intelligence": 70
+      },
+      "pouvoirs": [],
+      "evolutions": [
+        {
+          "description": "Optimisation de son image publique",
+          "effects": {
+            "force": 0,
+            "endurance": 0,
+            "agilité": 0,
+            "intelligence": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "77",
+      "name": "Niko Bellic",
+      "importance": "inconnu",
+      "description": "Protagoniste de GTA IV, immigrant d'Europe de l'Est en quête du rêve américain, souvent évoqué dans l'univers GTA.",
+      "characteristics": {
+        "force": 70,
+        "endurance": 70,
+        "agilité": 70,
+        "intelligence": 75
+      },
+      "pouvoirs": [],
+      "evolutions": [
+        {
+          "description": "Adaptation à Liberty City",
+          "effects": {
+            "force": 2,
+            "endurance": 2,
+            "agilité": 2,
+            "intelligence": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "78",
+      "name": "Little Jacob & Badman",
+      "importance": "inconnu",
+      "description": "Trafiquants jamaïcains, toujours associés et reconnaissables à leur accent, intervenant dans divers événements.",
+      "characteristics": {
+        "force": 65,
+        "endurance": 65,
+        "agilité": 65,
+        "intelligence": 70
+      },
+      "pouvoirs": [],
+      "evolutions": [
+        {
+          "description": "Synergie de leur duo",
+          "effects": {
+            "force": 2,
+            "endurance": 2,
+            "agilité": 2,
+            "intelligence": 2
+          }
+        }
+      ]
+    }
+  ]
+}
