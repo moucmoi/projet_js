@@ -7,6 +7,8 @@ export default class Personnage {
         let request = Utils.parseRequestURL();
         // Récupération d'un personnage par son id
         let character = await CharacterProvider.getCharacter(request.id);
+        console.log(request.id);
+        console.log(character);
         let contient = Favoris.contientF(parseInt(character.id));
         
         window.toggleFavoris = toggleFavoris;
