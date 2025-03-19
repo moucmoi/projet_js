@@ -1,11 +1,10 @@
 import CharacterProvider from "../../services/CharacterProvider.js";
 import Favoris from "../../localStorage/Favoris.js";
 import Utils from "../../services/Utils.js";
-
-export default class Personnage {
+export default class Personnage{
     async render(id) {
         let request = Utils.parseRequestURL();
-        // Récupération d'un personnage par son id
+        // Récupération d'un personnage par son id (assure-toi que getCharacter est défini dans CharacterProvider)
         let character = await CharacterProvider.getCharacter(request.id);
         console.log(request.id);
         console.log(character);
@@ -45,14 +44,16 @@ export default class Personnage {
             ${character.evolutions.map(evo => `
                 <p>
                     ${evo.description} 
-                    (Effets : Force ${evo.effects.force}, Endurance ${evo.effects.endurance}, Agilité ${evo.effects.agilité}, Intelligence ${evo.effects.intelligence})
+                    (Effets : Force +${evo.effects.force}, Endurance +${evo.effects.endurance}, Agilité +${evo.effects.agilité}, Intelligence +${evo.effects.intelligence})
                 </p>
             `).join('')}
             <button id="favoris-btn-${parseInt(character.id)}" onclick="window.toggleFavoris(${parseInt(character.id)})">
                 ${contient ? 'Enlever des favoris' : 'Ajouter aux favoris'}
             </button>
+            <button id=btnNotation onclick=window.location.href='/#/notation/${character.id}'>ajouter une note</button>
         `;
         
         return view;
     }
+
 }
