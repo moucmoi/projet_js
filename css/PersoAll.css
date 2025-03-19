@@ -1,0 +1,28 @@
+/* PersoAll.css */
+
+/* Conteneur global pour aligner les personnages en grille */
+#personnage-all-container.personnage-all-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    min-height: 100vh; /* Pour un fond étendu sur toute la fenêtre */
+}
+
+/* Titre principal (ex.: “Les personnages”) */
+#personnage-title.personnage-title {
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Liens vers les personnages */
+a#personnage-card-link.personnage-card-link {
+    text-decoration: none;
+    color: inherit; /* On garde la couleur du conteneur/texte */
+}
