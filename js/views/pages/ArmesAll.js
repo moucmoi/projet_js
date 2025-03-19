@@ -11,7 +11,7 @@ export default class ArmesAll{
                 <h2 id="personnage-title" class="personnage-title">Les armes</h2>
         `;
         armes.forEach(arme => {
-            view += affichageArme.render(arme);
+            view += affichageArme.renderAll(arme);
         });
 
         // On ferme la div conteneur

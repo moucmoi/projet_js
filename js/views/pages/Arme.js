@@ -2,11 +2,10 @@ import ArmeProvider from "../../services/ArmeProvider.js";
 import Utils from "../../services/Utils.js";
 
 export default class Arme {
-    async render(id) {
+    async render() {
         let request = Utils.parseRequestURL();
         let arme = await ArmeProvider.getArme(request.id);
 
-        console.log(arme);
         
         let view = `
             <button><a href="http://localhost:8000/#/armes">Retour</a></button>

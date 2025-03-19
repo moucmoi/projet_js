@@ -18,7 +18,9 @@ const routes={
     '/notation/:id':Notation,
     '/armes/:id': Arme,
     '/favoris':Pagefavoris,
-    '/armes': ArmesAll
+    '/armes': ArmesAll,
+    //'/characters/:id/suppression':,
+    //'/characters/:id/suppression/:id':
 }
 
 const router=async ()=>{
