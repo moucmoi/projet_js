@@ -1,16 +1,16 @@
 import CharacterProvider from "../../services/CharacterProvider.js";
 import Favoris from "../../localStorage/Favoris.js";
 import Utils from "../../services/Utils.js";
-import ArmeProvider from "../../services/ArmeProvider.js"
-
-export default class Personnage {
+import ArmeProvider from "../../services/ArmeProvider.js";
+import AffichageArme from "./AffichageArme.js";
 export default class Personnage{
     async render(id) {
         let request = Utils.parseRequestURL();
         // Récupération d'un personnage par son id (assure-toi que getCharacter est défini dans CharacterProvider)
         let character = await CharacterProvider.getCharacter(request.id);
         let contient = Favoris.contientF(parseInt(character.id));
-        let html_armes=await ArmeProvider.getNom(character.armes_ids);
+        let armes=await ArmeProvider.getNom(character.armes_ids);
+        let affichageArme=new AffichageArme();
         window.toggleFavoris = Favoris.toggleFavoris;
 
         let view = `
@@ -31,12 +31,16 @@ export default class Personnage{
                     (Effets : Force +${evo.effects.force}, Endurance +${evo.effects.endurance}, Agilité +${evo.effects.agilité}, Intelligence +${evo.effects.intelligence})
                 </p>
             `).join('')}
-            <h3>Armes :</h3>
-                <p>${html_armes.join('')}</p>
-            <button id="favoris-btn-${parseInt(character.id)}" onclick="window.toggleFavoris(${parseInt(character.id)})">
+            <h3>Armes :</h3>`
+            armes.forEach(arme => {
+                view += affichageArme.renderAll(arme);
+            });
+
+            view+=`<button id="favoris-btn-${parseInt(character.id)}" onclick="window.toggleFavoris(${parseInt(character.id)})">
                 ${contient ? 'Enlever des favoris' : 'Ajouter aux favoris'}
             </button>
-            <button id=btnNotation onclick=window.location.href='/#/notation/${character.id}'>ajouter une note</button>
+            <button id=btnNotation onclick=window.location.href='/#/notation/${character.id}'>Ajouter une note</button>
+            <button onclick=window.location.href='/#/character/${character.id}/suppression'>Enlever une arme</button>
         `;
         
         return view;
