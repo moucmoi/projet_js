@@ -11,20 +11,27 @@ import Arme from "./views/pages/Arme.js";
 import ModifPerso from "./views/pages/ModifPerso.js";
 import NouveauPerso from "./views/pages/NouveauPerso.js";
 import SuppressionPerso from "./views/pages/SuppressionPerso.js";
+import ModifArme from "./views/pages/ModifArme.js";
 
 const routes={
+    // AUTRES
     '/':About,
     '/about':About,
+    '/connexion':Connexion,
+    '/favoris':Pagefavoris,
+
+    // PERSO
     '/characters':CharacterAll,
     '/characters/:id':Personnage,
-    '/connexion':Connexion,
-    '/notation/:id':Notation,
-    '/armes/:id': Arme,
-    '/favoris':Pagefavoris,
     '/characters/:id/modification':ModifPerso,
     '/characters/:id/suppression':SuppressionPerso,
     '/nouveau/:id': NouveauPerso,
-    '/armes': ArmesAll
+    '/notation/:id':Notation,
+
+    // ARMES
+    '/armes': ArmesAll,
+    '/armes/:id': Arme,
+    '/armes/:id/modification':ModifArme
 }
 
 const router=async ()=>{

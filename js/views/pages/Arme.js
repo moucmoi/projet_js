@@ -5,6 +5,7 @@ export default class Arme {
     async render(id) {
         let request = Utils.parseRequestURL();
         let arme = await ArmeProvider.getArme(request.id);
+        console.log(arme);
         
         let view = `
             <button><a href="http://localhost:8000/#/armes">Retour</a></button>
@@ -12,7 +13,7 @@ export default class Arme {
 
             <h3>Effets</h3>
             <p>
-                (Effets : Force ${arme.effects.force}, Endurance ${arme.effects.endurance}, Agilité ${arme.effects.agilité}, Intelligence ${arme.effects.intelligence})
+                (Effets : Force ${arme.effects.force}, Endurance ${arme.effects.endurance}, Agilité ${arme.effects.agilite}, Intelligence ${arme.effects.intelligence})
             </p>
         `;
         
