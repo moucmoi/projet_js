@@ -8,6 +8,9 @@ import Notation from "./views/pages/Notation.js";
 import Pagefavoris from "./views/pages/Pagefavoris.js";
 import ArmesAll from "./views/pages/ArmesAll.js";
 import Arme from "./views/pages/Arme.js";
+import ChoixEnleverArme from "./views/pages/ChoixEnleverArme.js";
+import EnleverArme from "./views/pages/EnleverArme.js";
+
 
 const routes={
     '/':About,
@@ -18,7 +21,9 @@ const routes={
     '/notation/:id':Notation,
     '/armes/:id': Arme,
     '/favoris':Pagefavoris,
-    '/armes': ArmesAll
+    '/armes': ArmesAll,
+    '/character/:id/suppression':ChoixEnleverArme,
+    '/characters/:id/suppression/:id2':EnleverArme
 }
 
 const router=async ()=>{
@@ -29,6 +34,8 @@ const router=async ()=>{
     let parseURL=(request.ressource ? '/'+request.ressource : '/') + (request.id ? '/:id' : '') + (request.verb ? '/'+request.verb : '');
     let page=routes[parseURL] ? new routes[parseURL] : new Error404;
     console.log(page);
+    console.log("aaaaaaaaaaaaaaaaa");
+
 
     content.innerHTML=await page.render();
 

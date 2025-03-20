@@ -73,9 +73,6 @@ export default class CharacterProvider{
         }
     }
 
-    
-
-
     static ajouterArme=async(idPerso,id)=>{
         const personnage=this.getCharacter(idPerso);
         let lesArmes= personnage["armes_ids"];
@@ -91,7 +88,6 @@ export default class CharacterProvider{
         personnage["armes_ids"]=lesArmes;
         this.updateCharacters();
     }
-
 
 }
 
