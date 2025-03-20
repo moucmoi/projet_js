@@ -12,8 +12,9 @@ import ChoixEnleverArme from "./views/pages/ChoixEnleverArme.js";
 import EnleverArme from "./views/pages/EnleverArme.js";
 import ChoixAjoutArme from "./views/pages/ChoixAjoutArme.js";
 import AjoutArme from "./views/pages/AjoutArme.js";
+import CharacterProvider from "./services/CharacterProvider.js";
 
-
+CharacterProvider.updateAllCharacter();
 
 const routes={
     '/':About,
