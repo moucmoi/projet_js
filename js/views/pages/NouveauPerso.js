@@ -14,7 +14,7 @@ export default class NouveauPerso {
 
             <label>Importance :</label>
             <select id="importance" required>
-                <option value="principale">Principale</option>
+                <option value="principal">Principal</option>
                 <option value="secondaire">Secondaire</option>
                 <option value="inconnu">Inconnu</option>
             </select>
@@ -81,7 +81,6 @@ export default class NouveauPerso {
                 ],
                 niveau,
                 image,
-                
             };
 
             let success = await CharacterProvider.addCharacter(characterData);

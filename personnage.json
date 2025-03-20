@@ -3910,41 +3910,6 @@
       ],
       "niveau": 0,
       "image": "/images/personnages/LittleJacob&Badman.png"
-    },
-    {
-      "id": "79",
-      "name": "test",
-      "description": "a",
-      "characteristics": {
-        "force": "5",
-        "agilite": "5",
-        "intelligence": "5",
-        "endurance": "5"
-      },
-      "evolutions": [
-        {
-          "effects": {}
-        }
-      ]
-    },
-    {
-      "id": "80",
-      "name": "test",
-      "importance": "inconnu",
-      "description": "adzd",
-      "characteristics": {
-        "force": "5",
-        "agilite": "5",
-        "intelligence": "5",
-        "endurance": "5"
-      },
-      "evolutions": [
-        {
-          "effects": {}
-        }
-      ],
-      "niveau": 0,
-      "image": "../../../images/personnages/no_image.png"
     }
   ]
 }

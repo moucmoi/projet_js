@@ -10,6 +10,7 @@ import ArmesAll from "./views/pages/ArmesAll.js";
 import Arme from "./views/pages/Arme.js";
 import ModifPerso from "./views/pages/ModifPerso.js";
 import NouveauPerso from "./views/pages/NouveauPerso.js";
+import SuppressionPerso from "./views/pages/SuppressionPerso.js";
 
 const routes={
     '/':About,
@@ -21,6 +22,7 @@ const routes={
     '/armes/:id': Arme,
     '/favoris':Pagefavoris,
     '/characters/:id/modification':ModifPerso,
+    '/characters/:id/suppression':SuppressionPerso,
     '/nouveau/:id': NouveauPerso,
     '/armes': ArmesAll
 }

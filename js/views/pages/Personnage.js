@@ -53,6 +53,7 @@ export default class Personnage{
             </button>
             <button id=btnNotation onclick=window.location.href='/#/notation/${character.id}'>ajouter une note</button>
             <button onclick=window.location.href='/#/characters/${character.id}/modification'>Modifier</button>
+            <button onclick=window.location.href='/#/characters/${character.id}/suppression'>Supprimer</button>
         `;
         
         return view;
