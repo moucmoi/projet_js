@@ -4,9 +4,10 @@ import Utils from "../../services/Utils.js";
 import ArmeProvider from "../../services/ArmeProvider.js"
 
 export default class Personnage {
+export default class Personnage{
     async render(id) {
         let request = Utils.parseRequestURL();
-        // Récupération d'un personnage par son id
+        // Récupération d'un personnage par son id (assure-toi que getCharacter est défini dans CharacterProvider)
         let character = await CharacterProvider.getCharacter(request.id);
         let contient = Favoris.contientF(parseInt(character.id));
         let html_armes=await ArmeProvider.getNom(character.armes_ids);
@@ -26,7 +27,8 @@ export default class Personnage {
             <h3>Évolutions</h3>
             ${character.evolutions.map(evo => `
                 <p>
-                    ${evo.description} (Effets : Force ${evo.effects.force}, Endurance ${evo.effects.endurance}, Agilité ${evo.effects.agilité}, Intelligence ${evo.effects.intelligence})
+                    ${evo.description} 
+                    (Effets : Force +${evo.effects.force}, Endurance +${evo.effects.endurance}, Agilité +${evo.effects.agilité}, Intelligence +${evo.effects.intelligence})
                 </p>
             `).join('')}
             <h3>Armes :</h3>
@@ -34,8 +36,10 @@ export default class Personnage {
             <button id="favoris-btn-${parseInt(character.id)}" onclick="window.toggleFavoris(${parseInt(character.id)})">
                 ${contient ? 'Enlever des favoris' : 'Ajouter aux favoris'}
             </button>
+            <button id=btnNotation onclick=window.location.href='/#/notation/${character.id}'>ajouter une note</button>
         `;
         
         return view;
     }
+
 }
