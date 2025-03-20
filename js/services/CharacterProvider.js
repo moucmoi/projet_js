@@ -31,7 +31,6 @@ export default class CharacterProvider{
             return json;
         }
         catch(err){
-            console.log("aaaaaaaaaaaa");
             console.log("Error getting documents",err);
         }
     }
@@ -70,6 +69,49 @@ export default class CharacterProvider{
             return response.ok;
         } catch (err) {
             console.error("Erreur lors de la notation :", err);
+            return false;
+        }
+    }
+
+    static async addCharacter(characterData) {
+        try {
+            let response = await fetch(`${ENDPOINTC}`, {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify(characterData),
+            });
+    
+            return response.ok;
+        } catch (err) {
+            console.error("Erreur lors de l'ajout du personnage :", err);
+            return false;
+        }
+    }
+
+    static async updateCharacter(id, characterData) {
+        try {
+            let response = await fetch(`${ENDPOINTC}/${id}`, {
+                method: "PATCH",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify(characterData),
+            });
+    
+            return response.ok;
+        } catch (err) {
+            console.error("Erreur lors de la modification du personnage :", err);
+            return false;
+        }
+    }
+
+    static async deleteCharacter(id) {
+        try {
+            let response = await fetch(`${ENDPOINTC}/${id}`, {
+                method: "DELETE",
+            });
+    
+            return response.ok;
+        } catch (err) {
+            console.error("Erreur lors de la suppression du personnage :", err);
             return false;
         }
     }

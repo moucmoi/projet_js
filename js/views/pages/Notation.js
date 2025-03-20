@@ -35,7 +35,7 @@ export default class Notation {
             let success = await CharacterProvider.rateCharacter(characterId, username, rating);
 
             if (success) {
-                window.location.href = `/#/characters/${characterId}`
+                window.location.href = `/#/characters/${characterId}`;
             } else {
                 document.getElementById("ratingMessage").textContent = "Erreur lors de l'enregistrement.";
             }

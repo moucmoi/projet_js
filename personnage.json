@@ -6,12 +6,11 @@
       "importance": "principal",
       "description": "Ancien braqueur reconverti, il vit dans le luxe de Rockford Hills tout en peinant avec sa vie de famille et son passé criminel.",
       "characteristics": {
-        "force": 6,
-        "endurance": 6,
-        "agilité": 6,
-        "intelligence": 8
+        "force": "4",
+        "agilite": "6",
+        "intelligence": "8",
+        "endurance": "6"
       },
-      "pouvoirs": [],
       "armes_ids": [
         1,
         2
@@ -22,7 +21,7 @@
           "effects": {
             "force": 2,
             "endurance": 3,
-            "agilité": 3,
+            "agilite": 3,
             "intelligence": 3
           },
           "condition": "Atteindre le niveau 10"
@@ -32,7 +31,7 @@
           "effects": {
             "force": 5,
             "endurance": 5,
-            "agilité": 4,
+            "agilite": 4,
             "intelligence": 5
           },
           "condition": "Atteindre le niveau 25"
@@ -42,13 +41,13 @@
           "effects": {
             "force": 8,
             "endurance": 6,
-            "agilité": 6,
+            "agilite": 6,
             "intelligence": 7
           },
           "condition": "Atteindre le niveau 50"
         }
       ],
-      "niveau": 0,
+      "niveau": 4,
       "image": "/images/personnages/MichaelDeSanta.png",
       "ratings": {
         "v": "1",
@@ -56,7 +55,11 @@
         "j": "4",
         "k": "5",
         "n": "4"
-      }
+      },
+      "force": "7",
+      "agilite": "6",
+      "intelligence": "8",
+      "endurance": "6"
     },
     {
       "id": "2",
@@ -66,10 +69,9 @@
       "characteristics": {
         "force": 7,
         "endurance": 6,
-        "agilité": 6,
+        "agilite": 6,
         "intelligence": 5
       },
-      "pouvoirs": [],
       "armes_ids": [
         3,
         4
@@ -80,7 +82,7 @@
           "effects": {
             "force": 3,
             "endurance": 3,
-            "agilité": 3,
+            "agilite": 3,
             "intelligence": 2
           },
           "condition": "Atteindre le niveau 10"
@@ -90,7 +92,7 @@
           "effects": {
             "force": 5,
             "endurance": 4,
-            "agilité": 4,
+            "agilite": 4,
             "intelligence": 3
           },
           "condition": "Atteindre le niveau 25"
@@ -100,7 +102,7 @@
           "effects": {
             "force": 7,
             "endurance": 6,
-            "agilité": 5,
+            "agilite": 5,
             "intelligence": 4
           },
           "condition": "Atteindre le niveau 50"
@@ -117,10 +119,9 @@
       "characteristics": {
         "force": 5,
         "endurance": 6,
-        "agilité": 7,
+        "agilite": 7,
         "intelligence": 7
       },
-      "pouvoirs": [],
       "armes_ids": [
         4,
         5
@@ -131,7 +132,7 @@
           "effects": {
             "force": 3,
             "endurance": 2,
-            "agilité": 3,
+            "agilite": 3,
             "intelligence": 3
           },
           "condition": "Atteindre le niveau 10"
@@ -141,7 +142,7 @@
           "effects": {
             "force": 4,
             "endurance": 4,
-            "agilité": 5,
+            "agilite": 5,
             "intelligence": 5
           },
           "condition": "Atteindre le niveau 25"
@@ -151,7 +152,7 @@
           "effects": {
             "force": 6,
             "endurance": 6,
-            "agilité": 7,
+            "agilite": 7,
             "intelligence": 7
           },
           "condition": "Atteindre le niveau 50"
@@ -168,10 +169,9 @@
       "characteristics": {
         "force": 3,
         "endurance": 4,
-        "agilité": 5,
+        "agilite": 5,
         "intelligence": 7
       },
-      "pouvoirs": [],
       "armes_ids": [
         2,
         6
@@ -182,7 +182,7 @@
           "effects": {
             "force": 1,
             "endurance": 3,
-            "agilité": 1,
+            "agilite": 1,
             "intelligence": 2
           },
           "condition": "Atteindre le niveau 10"
@@ -192,7 +192,7 @@
           "effects": {
             "force": 4,
             "endurance": 3,
-            "agilité": 3,
+            "agilite": 3,
             "intelligence": 4
           },
           "condition": "Atteindre le niveau 25"
@@ -202,7 +202,7 @@
           "effects": {
             "force": 6,
             "endurance": 4,
-            "agilité": 6,
+            "agilite": 6,
             "intelligence": 4
           },
           "condition": "Atteindre le niveau 50"
@@ -219,10 +219,9 @@
       "characteristics": {
         "force": 3,
         "endurance": 4,
-        "agilité": 5,
+        "agilite": 5,
         "intelligence": 4
       },
-      "pouvoirs": [],
       "armes_ids": [
         12,
         10
@@ -233,7 +232,7 @@
           "effects": {
             "force": 2,
             "endurance": 1,
-            "agilité": 1,
+            "agilite": 1,
             "intelligence": 3
           },
           "condition": "Atteindre le niveau 10"
@@ -243,7 +242,7 @@
           "effects": {
             "force": 2,
             "endurance": 2,
-            "agilité": 3,
+            "agilite": 3,
             "intelligence": 2
           },
           "condition": "Atteindre le niveau 25"
@@ -253,7 +252,7 @@
           "effects": {
             "force": 4,
             "endurance": 4,
-            "agilité": 5,
+            "agilite": 5,
             "intelligence": 4
           },
           "condition": "Atteindre le niveau 50"
@@ -270,10 +269,9 @@
       "characteristics": {
         "force": 3,
         "endurance": 4,
-        "agilité": 6,
+        "agilite": 6,
         "intelligence": 5
       },
-      "pouvoirs": [],
       "armes_ids": [
         5,
         6
@@ -284,7 +282,7 @@
           "effects": {
             "force": 2,
             "endurance": 2,
-            "agilité": 3,
+            "agilite": 3,
             "intelligence": 1
           },
           "condition": "Atteindre le niveau 10"
@@ -294,7 +292,7 @@
           "effects": {
             "force": 3,
             "endurance": 3,
-            "agilité": 4,
+            "agilite": 4,
             "intelligence": 3
           },
           "condition": "Atteindre le niveau 25"
@@ -304,7 +302,7 @@
           "effects": {
             "force": 6,
             "endurance": 4,
-            "agilité": 6,
+            "agilite": 6,
             "intelligence": 4
           },
           "condition": "Atteindre le niveau 50"
@@ -321,7 +319,7 @@
       "characteristics": {
         "force": 4,
         "endurance": 5,
-        "agilité": 4,
+        "agilite": 4,
         "intelligence": 7
       },
       "armes_ids": [
@@ -334,7 +332,7 @@
           "effects": {
             "force": 1,
             "endurance": 2,
-            "agilité": 1,
+            "agilite": 1,
             "intelligence": 2
           },
           "condition": "Atteindre le niveau 10"
@@ -344,7 +342,7 @@
           "effects": {
             "force": 4,
             "endurance": 4,
-            "agilité": 2,
+            "agilite": 2,
             "intelligence": 2
           },
           "condition": "Atteindre le niveau 25"
@@ -354,7 +352,7 @@
           "effects": {
             "force": 5,
             "endurance": 6,
-            "agilité": 3,
+            "agilite": 3,
             "intelligence": 5
           },
           "condition": "Atteindre le niveau 50"
@@ -371,7 +369,7 @@
       "characteristics": {
         "force": 5,
         "endurance": 5,
-        "agilité": 5,
+        "agilite": 5,
         "intelligence": 6
       },
       "armes_ids": [
@@ -384,7 +382,7 @@
           "effects": {
             "force": 2,
             "endurance": 3,
-            "agilité": 1,
+            "agilite": 1,
             "intelligence": 2
           },
           "condition": "Atteindre le niveau 10"
@@ -394,7 +392,7 @@
           "effects": {
             "force": 2,
             "endurance": 2,
-            "agilité": 4,
+            "agilite": 4,
             "intelligence": 3
           },
           "condition": "Atteindre le niveau 25"
@@ -404,7 +402,7 @@
           "effects": {
             "force": 5,
             "endurance": 4,
-            "agilité": 3,
+            "agilite": 3,
             "intelligence": 5
           },
           "condition": "Atteindre le niveau 50"
@@ -421,7 +419,7 @@
       "characteristics": {
         "force": 5,
         "endurance": 5,
-        "agilité": 5,
+        "agilite": 5,
         "intelligence": 5
       },
       "armes_ids": [
@@ -434,7 +432,7 @@
           "effects": {
             "force": 1,
             "endurance": 3,
-            "agilité": 3,
+            "agilite": 3,
             "intelligence": 1
           },
           "condition": "Atteindre le niveau 10"
@@ -444,7 +442,7 @@
           "effects": {
             "force": 3,
             "endurance": 3,
-            "agilité": 4,
+            "agilite": 4,
             "intelligence": 3
           },
           "condition": "Atteindre le niveau 25"
@@ -454,7 +452,7 @@
           "effects": {
             "force": 5,
             "endurance": 4,
-            "agilité": 3,
+            "agilite": 3,
             "intelligence": 3
           },
           "condition": "Atteindre le niveau 50"
@@ -471,7 +469,7 @@
       "characteristics": {
         "force": 5,
         "endurance": 4,
-        "agilité": 5,
+        "agilite": 5,
         "intelligence": 5
       },
       "armes_ids": [
@@ -484,7 +482,7 @@
           "effects": {
             "force": 2,
             "endurance": 2,
-            "agilité": 2,
+            "agilite": 2,
             "intelligence": 2
           },
           "condition": "Atteindre le niveau 10"
@@ -494,7 +492,7 @@
           "effects": {
             "force": 3,
             "endurance": 2,
-            "agilité": 4,
+            "agilite": 4,
             "intelligence": 4
           },
           "condition": "Atteindre le niveau 25"
@@ -504,7 +502,7 @@
           "effects": {
             "force": 4,
             "endurance": 3,
-            "agilité": 3,
+            "agilite": 3,
             "intelligence": 6
           },
           "condition": "Atteindre le niveau 50"
@@ -521,7 +519,7 @@
       "characteristics": {
         "force": 5,
         "endurance": 6,
-        "agilité": 5,
+        "agilite": 5,
         "intelligence": 7
       },
       "armes_ids": [
@@ -534,7 +532,7 @@
           "effects": {
             "force": 1,
             "endurance": 3,
-            "agilité": 3,
+            "agilite": 3,
             "intelligence": 3
           },
           "condition": "Atteindre le niveau 10"
@@ -544,7 +542,7 @@
           "effects": {
             "force": 3,
             "endurance": 3,
-            "agilité": 2,
+            "agilite": 2,
             "intelligence": 4
           },
           "condition": "Atteindre le niveau 25"
@@ -554,7 +552,7 @@
           "effects": {
             "force": 3,
             "endurance": 5,
-            "agilité": 3,
+            "agilite": 3,
             "intelligence": 6
           },
           "condition": "Atteindre le niveau 50"
@@ -571,7 +569,7 @@
       "characteristics": {
         "force": 6,
         "endurance": 6,
-        "agilité": 5,
+        "agilite": 5,
         "intelligence": 5
       },
       "armes_ids": [
@@ -584,7 +582,7 @@
           "effects": {
             "force": 1,
             "endurance": 2,
-            "agilité": 2,
+            "agilite": 2,
             "intelligence": 3
           },
           "condition": "Atteindre le niveau 10"
@@ -594,7 +592,7 @@
           "effects": {
             "force": 4,
             "endurance": 2,
-            "agilité": 4,
+            "agilite": 4,
             "intelligence": 4
           },
           "condition": "Atteindre le niveau 25"
@@ -604,7 +602,7 @@
           "effects": {
             "force": 6,
             "endurance": 4,
-            "agilité": 5,
+            "agilite": 5,
             "intelligence": 6
           },
           "condition": "Atteindre le niveau 50"
@@ -621,7 +619,7 @@
       "characteristics": {
         "force": 5,
         "endurance": 6,
-        "agilité": 5,
+        "agilite": 5,
         "intelligence": 5
       },
       "armes_ids": [
@@ -634,7 +632,7 @@
           "effects": {
             "force": 1,
             "endurance": 2,
-            "agilité": 1,
+            "agilite": 1,
             "intelligence": 2
           },
           "condition": "Atteindre le niveau 10"
@@ -644,7 +642,7 @@
           "effects": {
             "force": 3,
             "endurance": 2,
-            "agilité": 2,
+            "agilite": 2,
             "intelligence": 4
           },
           "condition": "Atteindre le niveau 25"
@@ -654,7 +652,7 @@
           "effects": {
             "force": 6,
             "endurance": 3,
-            "agilité": 3,
+            "agilite": 3,
             "intelligence": 4
           },
           "condition": "Atteindre le niveau 50"
@@ -671,7 +669,7 @@
       "characteristics": {
         "force": 3,
         "endurance": 4,
-        "agilité": 4,
+        "agilite": 4,
         "intelligence": 4
       },
       "armes_ids": [
@@ -684,7 +682,7 @@
           "effects": {
             "force": 3,
             "endurance": 3,
-            "agilité": 2,
+            "agilite": 2,
             "intelligence": 1
           },
           "condition": "Atteindre le niveau 10"
@@ -694,7 +692,7 @@
           "effects": {
             "force": 4,
             "endurance": 3,
-            "agilité": 2,
+            "agilite": 2,
             "intelligence": 4
           },
           "condition": "Atteindre le niveau 25"
@@ -704,7 +702,7 @@
           "effects": {
             "force": 6,
             "endurance": 6,
-            "agilité": 5,
+            "agilite": 5,
             "intelligence": 3
           },
           "condition": "Atteindre le niveau 50"
@@ -721,7 +719,7 @@
       "characteristics": {
         "force": 5,
         "endurance": 4,
-        "agilité": 5,
+        "agilite": 5,
         "intelligence": 3
       },
       "armes_ids": [
@@ -734,7 +732,7 @@
           "effects": {
             "force": 3,
             "endurance": 3,
-            "agilité": 1,
+            "agilite": 1,
             "intelligence": 2
           },
           "condition": "Atteindre le niveau 10"
@@ -744,7 +742,7 @@
           "effects": {
             "force": 2,
             "endurance": 3,
-            "agilité": 3,
+            "agilite": 3,
             "intelligence": 4
           },
           "condition": "Atteindre le niveau 25"
@@ -754,7 +752,7 @@
           "effects": {
             "force": 4,
             "endurance": 3,
-            "agilité": 5,
+            "agilite": 5,
             "intelligence": 5
           },
           "condition": "Atteindre le niveau 50"
@@ -771,7 +769,7 @@
       "characteristics": {
         "force": 6,
         "endurance": 6,
-        "agilité": 6,
+        "agilite": 6,
         "intelligence": 3
       },
       "armes_ids": [
@@ -784,7 +782,7 @@
           "effects": {
             "force": 3,
             "endurance": 2,
-            "agilité": 3,
+            "agilite": 3,
             "intelligence": 2
           },
           "condition": "Atteindre le niveau 10"
@@ -794,7 +792,7 @@
           "effects": {
             "force": 2,
             "endurance": 3,
-            "agilité": 4,
+            "agilite": 4,
             "intelligence": 2
           },
           "condition": "Atteindre le niveau 25"
@@ -804,7 +802,7 @@
           "effects": {
             "force": 4,
             "endurance": 5,
-            "agilité": 6,
+            "agilite": 6,
             "intelligence": 4
           },
           "condition": "Atteindre le niveau 50"
@@ -821,7 +819,7 @@
       "characteristics": {
         "force": 4,
         "endurance": 4,
-        "agilité": 5,
+        "agilite": 5,
         "intelligence": 6
       },
       "armes_ids": [
@@ -834,7 +832,7 @@
           "effects": {
             "force": 2,
             "endurance": 1,
-            "agilité": 1,
+            "agilite": 1,
             "intelligence": 3
           },
           "condition": "Atteindre le niveau 10"
@@ -844,7 +842,7 @@
           "effects": {
             "force": 3,
             "endurance": 2,
-            "agilité": 4,
+            "agilite": 4,
             "intelligence": 4
           },
           "condition": "Atteindre le niveau 25"
@@ -854,7 +852,7 @@
           "effects": {
             "force": 5,
             "endurance": 4,
-            "agilité": 4,
+            "agilite": 4,
             "intelligence": 5
           },
           "condition": "Atteindre le niveau 50"
@@ -871,7 +869,7 @@
       "characteristics": {
         "force": 5,
         "endurance": 5,
-        "agilité": 5,
+        "agilite": 5,
         "intelligence": 6
       },
       "armes_ids": [
@@ -884,7 +882,7 @@
           "effects": {
             "force": 2,
             "endurance": 2,
-            "agilité": 3,
+            "agilite": 3,
             "intelligence": 1
           },
           "condition": "Atteindre le niveau 10"
@@ -894,7 +892,7 @@
           "effects": {
             "force": 3,
             "endurance": 2,
-            "agilité": 4,
+            "agilite": 4,
             "intelligence": 3
           },
           "condition": "Atteindre le niveau 25"
@@ -904,7 +902,7 @@
           "effects": {
             "force": 5,
             "endurance": 4,
-            "agilité": 3,
+            "agilite": 3,
             "intelligence": 4
           },
           "condition": "Atteindre le niveau 50"
@@ -921,7 +919,7 @@
       "characteristics": {
         "force": 3,
         "endurance": 4,
-        "agilité": 4,
+        "agilite": 4,
         "intelligence": 6
       },
       "armes_ids": [
@@ -934,7 +932,7 @@
           "effects": {
             "force": 3,
             "endurance": 1,
-            "agilité": 3,
+            "agilite": 3,
             "intelligence": 3
           },
           "condition": "Atteindre le niveau 10"
@@ -944,7 +942,7 @@
           "effects": {
             "force": 4,
             "endurance": 3,
-            "agilité": 3,
+            "agilite": 3,
             "intelligence": 4
           },
           "condition": "Atteindre le niveau 25"
@@ -954,7 +952,7 @@
           "effects": {
             "force": 3,
             "endurance": 5,
-            "agilité": 4,
+            "agilite": 4,
             "intelligence": 6
           },
           "condition": "Atteindre le niveau 50"
@@ -971,7 +969,7 @@
       "characteristics": {
         "force": 3,
         "endurance": 3,
-        "agilité": 3,
+        "agilite": 3,
         "intelligence": 7
       },
       "armes_ids": [
@@ -984,7 +982,7 @@
           "effects": {
             "force": 1,
             "endurance": 2,
-            "agilité": 2,
+            "agilite": 2,
             "intelligence": 2
           },
           "condition": "Atteindre le niveau 10"
@@ -994,7 +992,7 @@
           "effects": {
             "force": 4,
             "endurance": 4,
-            "agilité": 3,
+            "agilite": 3,
             "intelligence": 3
           },
           "condition": "Atteindre le niveau 25"
@@ -1004,7 +1002,7 @@
           "effects": {
             "force": 4,
             "endurance": 4,
-            "agilité": 3,
+            "agilite": 3,
             "intelligence": 5
           },
           "condition": "Atteindre le niveau 50"
@@ -1021,7 +1019,7 @@
       "characteristics": {
         "force": 4,
         "endurance": 4,
-        "agilité": 5,
+        "agilite": 5,
         "intelligence": 5
       },
       "armes_ids": [
@@ -1034,7 +1032,7 @@
           "effects": {
             "force": 3,
             "endurance": 1,
-            "agilité": 1,
+            "agilite": 1,
             "intelligence": 2
           },
           "condition": "Atteindre le niveau 10"
@@ -1044,7 +1042,7 @@
           "effects": {
             "force": 2,
             "endurance": 3,
-            "agilité": 4,
+            "agilite": 4,
             "intelligence": 3
           },
           "condition": "Atteindre le niveau 25"
@@ -1054,7 +1052,7 @@
           "effects": {
             "force": 6,
             "endurance": 3,
-            "agilité": 4,
+            "agilite": 4,
             "intelligence": 4
           },
           "condition": "Atteindre le niveau 50"
@@ -1071,7 +1069,7 @@
       "characteristics": {
         "force": 6,
         "endurance": 6,
-        "agilité": 5,
+        "agilite": 5,
         "intelligence": 5
       },
       "armes_ids": [
@@ -1084,7 +1082,7 @@
           "effects": {
             "force": 2,
             "endurance": 1,
-            "agilité": 2,
+            "agilite": 2,
             "intelligence": 2
           },
           "condition": "Atteindre le niveau 10"
@@ -1094,7 +1092,7 @@
           "effects": {
             "force": 4,
             "endurance": 3,
-            "agilité": 2,
+            "agilite": 2,
             "intelligence": 4
           },
           "condition": "Atteindre le niveau 25"
@@ -1104,7 +1102,7 @@
           "effects": {
             "force": 3,
             "endurance": 4,
-            "agilité": 5,
+            "agilite": 5,
             "intelligence": 6
           },
           "condition": "Atteindre le niveau 50"
@@ -1121,7 +1119,7 @@
       "characteristics": {
         "force": 3,
         "endurance": 4,
-        "agilité": 5,
+        "agilite": 5,
         "intelligence": 5
       },
       "armes_ids": [
@@ -1134,7 +1132,7 @@
           "effects": {
             "force": 3,
             "endurance": 3,
-            "agilité": 1,
+            "agilite": 1,
             "intelligence": 1
           },
           "condition": "Atteindre le niveau 10"
@@ -1144,7 +1142,7 @@
           "effects": {
             "force": 3,
             "endurance": 2,
-            "agilité": 3,
+            "agilite": 3,
             "intelligence": 4
           },
           "condition": "Atteindre le niveau 25"
@@ -1154,7 +1152,7 @@
           "effects": {
             "force": 4,
             "endurance": 3,
-            "agilité": 4,
+            "agilite": 4,
             "intelligence": 3
           },
           "condition": "Atteindre le niveau 50"
@@ -1171,7 +1169,7 @@
       "characteristics": {
         "force": 4,
         "endurance": 5,
-        "agilité": 5,
+        "agilite": 5,
         "intelligence": 6
       },
       "armes_ids": [
@@ -1184,7 +1182,7 @@
           "effects": {
             "force": 1,
             "endurance": 2,
-            "agilité": 1,
+            "agilite": 1,
             "intelligence": 3
           },
           "condition": "Atteindre le niveau 10"
@@ -1194,7 +1192,7 @@
           "effects": {
             "force": 3,
             "endurance": 2,
-            "agilité": 2,
+            "agilite": 2,
             "intelligence": 3
           },
           "condition": "Atteindre le niveau 25"
@@ -1204,7 +1202,7 @@
           "effects": {
             "force": 4,
             "endurance": 3,
-            "agilité": 4,
+            "agilite": 4,
             "intelligence": 6
           },
           "condition": "Atteindre le niveau 50"
@@ -1221,7 +1219,7 @@
       "characteristics": {
         "force": 3,
         "endurance": 4,
-        "agilité": 4,
+        "agilite": 4,
         "intelligence": 3
       },
       "armes_ids": [
@@ -1234,7 +1232,7 @@
           "effects": {
             "force": 1,
             "endurance": 2,
-            "agilité": 3,
+            "agilite": 3,
             "intelligence": 3
           },
           "condition": "Atteindre le niveau 10"
@@ -1244,7 +1242,7 @@
           "effects": {
             "force": 3,
             "endurance": 4,
-            "agilité": 3,
+            "agilite": 3,
             "intelligence": 4
           },
           "condition": "Atteindre le niveau 25"
@@ -1254,7 +1252,7 @@
           "effects": {
             "force": 3,
             "endurance": 6,
-            "agilité": 6,
+            "agilite": 6,
             "intelligence": 6
           },
           "condition": "Atteindre le niveau 50"
@@ -1271,7 +1269,7 @@
       "characteristics": {
         "force": 4,
         "endurance": 4,
-        "agilité": 4,
+        "agilite": 4,
         "intelligence": 5
       },
       "armes_ids": [
@@ -1284,7 +1282,7 @@
           "effects": {
             "force": 2,
             "endurance": 3,
-            "agilité": 1,
+            "agilite": 1,
             "intelligence": 2
           },
           "condition": "Atteindre le niveau 10"
@@ -1294,7 +1292,7 @@
           "effects": {
             "force": 3,
             "endurance": 4,
-            "agilité": 3,
+            "agilite": 3,
             "intelligence": 2
           },
           "condition": "Atteindre le niveau 25"
@@ -1304,7 +1302,7 @@
           "effects": {
             "force": 4,
             "endurance": 6,
-            "agilité": 5,
+            "agilite": 5,
             "intelligence": 5
           },
           "condition": "Atteindre le niveau 50"
@@ -1321,7 +1319,7 @@
       "characteristics": {
         "force": 3,
         "endurance": 4,
-        "agilité": 4,
+        "agilite": 4,
         "intelligence": 7
       },
       "armes_ids": [
@@ -1334,7 +1332,7 @@
           "effects": {
             "force": 2,
             "endurance": 1,
-            "agilité": 2,
+            "agilite": 2,
             "intelligence": 1
           },
           "condition": "Atteindre le niveau 10"
@@ -1344,7 +1342,7 @@
           "effects": {
             "force": 3,
             "endurance": 4,
-            "agilité": 4,
+            "agilite": 4,
             "intelligence": 3
           },
           "condition": "Atteindre le niveau 25"
@@ -1354,7 +1352,7 @@
           "effects": {
             "force": 6,
             "endurance": 4,
-            "agilité": 4,
+            "agilite": 4,
             "intelligence": 6
           },
           "condition": "Atteindre le niveau 50"
@@ -1371,7 +1369,7 @@
       "characteristics": {
         "force": 3,
         "endurance": 3,
-        "agilité": 4,
+        "agilite": 4,
         "intelligence": 6
       },
       "armes_ids": [
@@ -1384,7 +1382,7 @@
           "effects": {
             "force": 3,
             "endurance": 1,
-            "agilité": 3,
+            "agilite": 3,
             "intelligence": 3
           },
           "condition": "Atteindre le niveau 10"
@@ -1394,7 +1392,7 @@
           "effects": {
             "force": 3,
             "endurance": 2,
-            "agilité": 4,
+            "agilite": 4,
             "intelligence": 4
           },
           "condition": "Atteindre le niveau 25"
@@ -1404,7 +1402,7 @@
           "effects": {
             "force": 5,
             "endurance": 3,
-            "agilité": 5,
+            "agilite": 5,
             "intelligence": 6
           },
           "condition": "Atteindre le niveau 50"
@@ -1421,7 +1419,7 @@
       "characteristics": {
         "force": 5,
         "endurance": 5,
-        "agilité": 6,
+        "agilite": 6,
         "intelligence": 6
       },
       "armes_ids": [
@@ -1434,7 +1432,7 @@
           "effects": {
             "force": 1,
             "endurance": 3,
-            "agilité": 1,
+            "agilite": 1,
             "intelligence": 2
           },
           "condition": "Atteindre le niveau 10"
@@ -1444,7 +1442,7 @@
           "effects": {
             "force": 3,
             "endurance": 3,
-            "agilité": 3,
+            "agilite": 3,
             "intelligence": 4
           },
           "condition": "Atteindre le niveau 25"
@@ -1454,7 +1452,7 @@
           "effects": {
             "force": 6,
             "endurance": 6,
-            "agilité": 5,
+            "agilite": 5,
             "intelligence": 5
           },
           "condition": "Atteindre le niveau 50"
@@ -1471,7 +1469,7 @@
       "characteristics": {
         "force": 5,
         "endurance": 5,
-        "agilité": 5,
+        "agilite": 5,
         "intelligence": 7
       },
       "armes_ids": [
@@ -1484,7 +1482,7 @@
           "effects": {
             "force": 2,
             "endurance": 2,
-            "agilité": 2,
+            "agilite": 2,
             "intelligence": 3
           },
           "condition": "Atteindre le niveau 10"
@@ -1494,7 +1492,7 @@
           "effects": {
             "force": 2,
             "endurance": 2,
-            "agilité": 4,
+            "agilite": 4,
             "intelligence": 3
           },
           "condition": "Atteindre le niveau 25"
@@ -1504,7 +1502,7 @@
           "effects": {
             "force": 4,
             "endurance": 3,
-            "agilité": 5,
+            "agilite": 5,
             "intelligence": 6
           },
           "condition": "Atteindre le niveau 50"
@@ -1521,7 +1519,7 @@
       "characteristics": {
         "force": 3,
         "endurance": 3,
-        "agilité": 4,
+        "agilite": 4,
         "intelligence": 7
       },
       "armes_ids": [
@@ -1534,7 +1532,7 @@
           "effects": {
             "force": 2,
             "endurance": 2,
-            "agilité": 1,
+            "agilite": 1,
             "intelligence": 2
           },
           "condition": "Atteindre le niveau 10"
@@ -1544,7 +1542,7 @@
           "effects": {
             "force": 4,
             "endurance": 3,
-            "agilité": 4,
+            "agilite": 4,
             "intelligence": 4
           },
           "condition": "Atteindre le niveau 25"
@@ -1554,7 +1552,7 @@
           "effects": {
             "force": 6,
             "endurance": 5,
-            "agilité": 5,
+            "agilite": 5,
             "intelligence": 4
           },
           "condition": "Atteindre le niveau 50"
@@ -1571,7 +1569,7 @@
       "characteristics": {
         "force": 3,
         "endurance": 4,
-        "agilité": 4,
+        "agilite": 4,
         "intelligence": 6
       },
       "armes_ids": [
@@ -1584,7 +1582,7 @@
           "effects": {
             "force": 1,
             "endurance": 2,
-            "agilité": 3,
+            "agilite": 3,
             "intelligence": 3
           },
           "condition": "Atteindre le niveau 10"
@@ -1594,7 +1592,7 @@
           "effects": {
             "force": 3,
             "endurance": 4,
-            "agilité": 2,
+            "agilite": 2,
             "intelligence": 4
           },
           "condition": "Atteindre le niveau 25"
@@ -1604,7 +1602,7 @@
           "effects": {
             "force": 5,
             "endurance": 4,
-            "agilité": 4,
+            "agilite": 4,
             "intelligence": 5
           },
           "condition": "Atteindre le niveau 50"
@@ -1621,7 +1619,7 @@
       "characteristics": {
         "force": 4,
         "endurance": 4,
-        "agilité": 5,
+        "agilite": 5,
         "intelligence": 6
       },
       "armes_ids": [
@@ -1634,7 +1632,7 @@
           "effects": {
             "force": 3,
             "endurance": 1,
-            "agilité": 1,
+            "agilite": 1,
             "intelligence": 3
           },
           "condition": "Atteindre le niveau 10"
@@ -1644,7 +1642,7 @@
           "effects": {
             "force": 2,
             "endurance": 3,
-            "agilité": 3,
+            "agilite": 3,
             "intelligence": 2
           },
           "condition": "Atteindre le niveau 25"
@@ -1654,7 +1652,7 @@
           "effects": {
             "force": 6,
             "endurance": 5,
-            "agilité": 3,
+            "agilite": 3,
             "intelligence": 4
           },
           "condition": "Atteindre le niveau 50"
@@ -1671,7 +1669,7 @@
       "characteristics": {
         "force": 5,
         "endurance": 5,
-        "agilité": 6,
+        "agilite": 6,
         "intelligence": 5
       },
       "armes_ids": [
@@ -1684,7 +1682,7 @@
           "effects": {
             "force": 2,
             "endurance": 3,
-            "agilité": 1,
+            "agilite": 1,
             "intelligence": 1
           },
           "condition": "Atteindre le niveau 10"
@@ -1694,7 +1692,7 @@
           "effects": {
             "force": 4,
             "endurance": 2,
-            "agilité": 4,
+            "agilite": 4,
             "intelligence": 2
           },
           "condition": "Atteindre le niveau 25"
@@ -1704,7 +1702,7 @@
           "effects": {
             "force": 6,
             "endurance": 6,
-            "agilité": 3,
+            "agilite": 3,
             "intelligence": 4
           },
           "condition": "Atteindre le niveau 50"
@@ -1721,7 +1719,7 @@
       "characteristics": {
         "force": 3,
         "endurance": 4,
-        "agilité": 4,
+        "agilite": 4,
         "intelligence": 6
       },
       "armes_ids": [
@@ -1734,7 +1732,7 @@
           "effects": {
             "force": 2,
             "endurance": 1,
-            "agilité": 1,
+            "agilite": 1,
             "intelligence": 2
           },
           "condition": "Atteindre le niveau 10"
@@ -1744,7 +1742,7 @@
           "effects": {
             "force": 3,
             "endurance": 4,
-            "agilité": 4,
+            "agilite": 4,
             "intelligence": 2
           },
           "condition": "Atteindre le niveau 25"
@@ -1754,7 +1752,7 @@
           "effects": {
             "force": 3,
             "endurance": 5,
-            "agilité": 4,
+            "agilite": 4,
             "intelligence": 6
           },
           "condition": "Atteindre le niveau 50"
@@ -1771,7 +1769,7 @@
       "characteristics": {
         "force": 5,
         "endurance": 6,
-        "agilité": 5,
+        "agilite": 5,
         "intelligence": 5
       },
       "armes_ids": [
@@ -1784,7 +1782,7 @@
           "effects": {
             "force": 1,
             "endurance": 1,
-            "agilité": 2,
+            "agilite": 2,
             "intelligence": 3
           },
           "condition": "Atteindre le niveau 10"
@@ -1794,7 +1792,7 @@
           "effects": {
             "force": 3,
             "endurance": 3,
-            "agilité": 2,
+            "agilite": 2,
             "intelligence": 3
           },
           "condition": "Atteindre le niveau 25"
@@ -1804,7 +1802,7 @@
           "effects": {
             "force": 5,
             "endurance": 3,
-            "agilité": 3,
+            "agilite": 3,
             "intelligence": 5
           },
           "condition": "Atteindre le niveau 50"
@@ -1821,7 +1819,7 @@
       "characteristics": {
         "force": 5,
         "endurance": 5,
-        "agilité": 5,
+        "agilite": 5,
         "intelligence": 6
       },
       "armes_ids": [
@@ -1834,7 +1832,7 @@
           "effects": {
             "force": 3,
             "endurance": 2,
-            "agilité": 3,
+            "agilite": 3,
             "intelligence": 1
           },
           "condition": "Atteindre le niveau 10"
@@ -1844,7 +1842,7 @@
           "effects": {
             "force": 2,
             "endurance": 2,
-            "agilité": 4,
+            "agilite": 4,
             "intelligence": 4
           },
           "condition": "Atteindre le niveau 25"
@@ -1854,7 +1852,7 @@
           "effects": {
             "force": 6,
             "endurance": 6,
-            "agilité": 3,
+            "agilite": 3,
             "intelligence": 5
           },
           "condition": "Atteindre le niveau 50"
@@ -1871,7 +1869,7 @@
       "characteristics": {
         "force": 3,
         "endurance": 3,
-        "agilité": 4,
+        "agilite": 4,
         "intelligence": 6
       },
       "armes_ids": [
@@ -1884,7 +1882,7 @@
           "effects": {
             "force": 1,
             "endurance": 3,
-            "agilité": 1,
+            "agilite": 1,
             "intelligence": 2
           },
           "condition": "Atteindre le niveau 10"
@@ -1894,7 +1892,7 @@
           "effects": {
             "force": 2,
             "endurance": 2,
-            "agilité": 4,
+            "agilite": 4,
             "intelligence": 4
           },
           "condition": "Atteindre le niveau 25"
@@ -1904,7 +1902,7 @@
           "effects": {
             "force": 6,
             "endurance": 6,
-            "agilité": 4,
+            "agilite": 4,
             "intelligence": 5
           },
           "condition": "Atteindre le niveau 50"
@@ -1921,7 +1919,7 @@
       "characteristics": {
         "force": 4,
         "endurance": 4,
-        "agilité": 4,
+        "agilite": 4,
         "intelligence": 6
       },
       "armes_ids": [
@@ -1934,7 +1932,7 @@
           "effects": {
             "force": 0,
             "endurance": 2,
-            "agilité": 1,
+            "agilite": 1,
             "intelligence": 2
           },
           "condition": "Atteindre le niveau 10"
@@ -1944,7 +1942,7 @@
           "effects": {
             "force": 2,
             "endurance": 2,
-            "agilité": 3,
+            "agilite": 3,
             "intelligence": 3
           },
           "condition": "Atteindre le niveau 25"
@@ -1954,7 +1952,7 @@
           "effects": {
             "force": 3,
             "endurance": 3,
-            "agilité": 5,
+            "agilite": 5,
             "intelligence": 6
           },
           "condition": "Atteindre le niveau 50"
@@ -1971,7 +1969,7 @@
       "characteristics": {
         "force": 6,
         "endurance": 6,
-        "agilité": 5,
+        "agilite": 5,
         "intelligence": 5
       },
       "armes_ids": [
@@ -1984,7 +1982,7 @@
           "effects": {
             "force": 2,
             "endurance": 2,
-            "agilité": 2,
+            "agilite": 2,
             "intelligence": 1
           },
           "condition": "Atteindre le niveau 10"
@@ -1994,7 +1992,7 @@
           "effects": {
             "force": 3,
             "endurance": 4,
-            "agilité": 4,
+            "agilite": 4,
             "intelligence": 3
           },
           "condition": "Atteindre le niveau 25"
@@ -2004,7 +2002,7 @@
           "effects": {
             "force": 5,
             "endurance": 4,
-            "agilité": 6,
+            "agilite": 6,
             "intelligence": 5
           },
           "condition": "Atteindre le niveau 50"
@@ -2021,7 +2019,7 @@
       "characteristics": {
         "force": 6,
         "endurance": 6,
-        "agilité": 5,
+        "agilite": 5,
         "intelligence": 5
       },
       "armes_ids": [
@@ -2034,7 +2032,7 @@
           "effects": {
             "force": 1,
             "endurance": 3,
-            "agilité": 2,
+            "agilite": 2,
             "intelligence": 2
           },
           "condition": "Atteindre le niveau 10"
@@ -2044,7 +2042,7 @@
           "effects": {
             "force": 4,
             "endurance": 2,
-            "agilité": 2,
+            "agilite": 2,
             "intelligence": 2
           },
           "condition": "Atteindre le niveau 25"
@@ -2054,7 +2052,7 @@
           "effects": {
             "force": 5,
             "endurance": 3,
-            "agilité": 4,
+            "agilite": 4,
             "intelligence": 6
           },
           "condition": "Atteindre le niveau 50"
@@ -2071,7 +2069,7 @@
       "characteristics": {
         "force": 4,
         "endurance": 4,
-        "agilité": 4,
+        "agilite": 4,
         "intelligence": 5
       },
       "armes_ids": [
@@ -2084,7 +2082,7 @@
           "effects": {
             "force": 1,
             "endurance": 3,
-            "agilité": 1,
+            "agilite": 1,
             "intelligence": 2
           },
           "condition": "Atteindre le niveau 10"
@@ -2094,7 +2092,7 @@
           "effects": {
             "force": 3,
             "endurance": 4,
-            "agilité": 4,
+            "agilite": 4,
             "intelligence": 2
           },
           "condition": "Atteindre le niveau 25"
@@ -2104,7 +2102,7 @@
           "effects": {
             "force": 3,
             "endurance": 4,
-            "agilité": 3,
+            "agilite": 3,
             "intelligence": 4
           },
           "condition": "Atteindre le niveau 50"
@@ -2121,7 +2119,7 @@
       "characteristics": {
         "force": 4,
         "endurance": 4,
-        "agilité": 4,
+        "agilite": 4,
         "intelligence": 6
       },
       "armes_ids": [
@@ -2134,7 +2132,7 @@
           "effects": {
             "force": 1,
             "endurance": 2,
-            "agilité": 3,
+            "agilite": 3,
             "intelligence": 3
           },
           "condition": "Atteindre le niveau 10"
@@ -2144,7 +2142,7 @@
           "effects": {
             "force": 3,
             "endurance": 3,
-            "agilité": 4,
+            "agilite": 4,
             "intelligence": 4
           },
           "condition": "Atteindre le niveau 25"
@@ -2154,7 +2152,7 @@
           "effects": {
             "force": 6,
             "endurance": 5,
-            "agilité": 3,
+            "agilite": 3,
             "intelligence": 5
           },
           "condition": "Atteindre le niveau 50"
@@ -2171,7 +2169,7 @@
       "characteristics": {
         "force": 4,
         "endurance": 4,
-        "agilité": 4,
+        "agilite": 4,
         "intelligence": 5
       },
       "armes_ids": [
@@ -2184,7 +2182,7 @@
           "effects": {
             "force": 3,
             "endurance": 2,
-            "agilité": 1,
+            "agilite": 1,
             "intelligence": 3
           },
           "condition": "Atteindre le niveau 10"
@@ -2194,7 +2192,7 @@
           "effects": {
             "force": 2,
             "endurance": 2,
-            "agilité": 4,
+            "agilite": 4,
             "intelligence": 3
           },
           "condition": "Atteindre le niveau 25"
@@ -2204,7 +2202,7 @@
           "effects": {
             "force": 3,
             "endurance": 3,
-            "agilité": 5,
+            "agilite": 5,
             "intelligence": 3
           },
           "condition": "Atteindre le niveau 50"
@@ -2221,7 +2219,7 @@
       "characteristics": {
         "force": 5,
         "endurance": 5,
-        "agilité": 5,
+        "agilite": 5,
         "intelligence": 5
       },
       "armes_ids": [
@@ -2234,7 +2232,7 @@
           "effects": {
             "force": 1,
             "endurance": 1,
-            "agilité": 1,
+            "agilite": 1,
             "intelligence": 2
           },
           "condition": "Atteindre le niveau 10"
@@ -2244,7 +2242,7 @@
           "effects": {
             "force": 4,
             "endurance": 2,
-            "agilité": 2,
+            "agilite": 2,
             "intelligence": 2
           },
           "condition": "Atteindre le niveau 25"
@@ -2254,7 +2252,7 @@
           "effects": {
             "force": 5,
             "endurance": 4,
-            "agilité": 5,
+            "agilite": 5,
             "intelligence": 5
           },
           "condition": "Atteindre le niveau 50"
@@ -2271,7 +2269,7 @@
       "characteristics": {
         "force": 4,
         "endurance": 4,
-        "agilité": 5,
+        "agilite": 5,
         "intelligence": 6
       },
       "armes_ids": [
@@ -2284,7 +2282,7 @@
           "effects": {
             "force": 0,
             "endurance": 0,
-            "agilité": 1,
+            "agilite": 1,
             "intelligence": 2
           },
           "condition": "Atteindre le niveau 10"
@@ -2294,7 +2292,7 @@
           "effects": {
             "force": 3,
             "endurance": 2,
-            "agilité": 2,
+            "agilite": 2,
             "intelligence": 3
           },
           "condition": "Atteindre le niveau 25"
@@ -2304,7 +2302,7 @@
           "effects": {
             "force": 3,
             "endurance": 3,
-            "agilité": 5,
+            "agilite": 5,
             "intelligence": 5
           },
           "condition": "Atteindre le niveau 50"
@@ -2321,7 +2319,7 @@
       "characteristics": {
         "force": 4,
         "endurance": 4,
-        "agilité": 4,
+        "agilite": 4,
         "intelligence": 5
       },
       "armes_ids": [
@@ -2334,7 +2332,7 @@
           "effects": {
             "force": 0,
             "endurance": 0,
-            "agilité": 0,
+            "agilite": 0,
             "intelligence": 2
           },
           "condition": "Atteindre le niveau 10"
@@ -2344,7 +2342,7 @@
           "effects": {
             "force": 3,
             "endurance": 3,
-            "agilité": 2,
+            "agilite": 2,
             "intelligence": 2
           },
           "condition": "Atteindre le niveau 25"
@@ -2354,7 +2352,7 @@
           "effects": {
             "force": 5,
             "endurance": 5,
-            "agilité": 3,
+            "agilite": 3,
             "intelligence": 5
           },
           "condition": "Atteindre le niveau 50"
@@ -2371,7 +2369,7 @@
       "characteristics": {
         "force": 3,
         "endurance": 4,
-        "agilité": 4,
+        "agilite": 4,
         "intelligence": 5
       },
       "armes_ids": [
@@ -2384,7 +2382,7 @@
           "effects": {
             "force": 0,
             "endurance": 0,
-            "agilité": 1,
+            "agilite": 1,
             "intelligence": 2
           },
           "condition": "Atteindre le niveau 10"
@@ -2394,7 +2392,7 @@
           "effects": {
             "force": 4,
             "endurance": 2,
-            "agilité": 2,
+            "agilite": 2,
             "intelligence": 4
           },
           "condition": "Atteindre le niveau 25"
@@ -2404,7 +2402,7 @@
           "effects": {
             "force": 5,
             "endurance": 4,
-            "agilité": 4,
+            "agilite": 4,
             "intelligence": 5
           },
           "condition": "Atteindre le niveau 50"
@@ -2421,7 +2419,7 @@
       "characteristics": {
         "force": 6,
         "endurance": 6,
-        "agilité": 5,
+        "agilite": 5,
         "intelligence": 4
       },
       "armes_ids": [
@@ -2434,7 +2432,7 @@
           "effects": {
             "force": 2,
             "endurance": 1,
-            "agilité": 1,
+            "agilite": 1,
             "intelligence": 0
           },
           "condition": "Atteindre le niveau 10"
@@ -2444,7 +2442,7 @@
           "effects": {
             "force": 4,
             "endurance": 3,
-            "agilité": 4,
+            "agilite": 4,
             "intelligence": 3
           },
           "condition": "Atteindre le niveau 25"
@@ -2454,7 +2452,7 @@
           "effects": {
             "force": 4,
             "endurance": 3,
-            "agilité": 6,
+            "agilite": 6,
             "intelligence": 4
           },
           "condition": "Atteindre le niveau 50"
@@ -2471,7 +2469,7 @@
       "characteristics": {
         "force": 5,
         "endurance": 5,
-        "agilité": 6,
+        "agilite": 6,
         "intelligence": 6
       },
       "armes_ids": [
@@ -2484,7 +2482,7 @@
           "effects": {
             "force": 0,
             "endurance": 1,
-            "agilité": 2,
+            "agilite": 2,
             "intelligence": 1
           },
           "condition": "Atteindre le niveau 10"
@@ -2494,7 +2492,7 @@
           "effects": {
             "force": 3,
             "endurance": 2,
-            "agilité": 4,
+            "agilite": 4,
             "intelligence": 4
           },
           "condition": "Atteindre le niveau 25"
@@ -2504,7 +2502,7 @@
           "effects": {
             "force": 4,
             "endurance": 4,
-            "agilité": 6,
+            "agilite": 6,
             "intelligence": 6
           },
           "condition": "Atteindre le niveau 50"
@@ -2521,7 +2519,7 @@
       "characteristics": {
         "force": 4,
         "endurance": 4,
-        "agilité": 5,
+        "agilite": 5,
         "intelligence": 6
       },
       "armes_ids": [
@@ -2534,7 +2532,7 @@
           "effects": {
             "force": 0,
             "endurance": 0,
-            "agilité": 1,
+            "agilite": 1,
             "intelligence": 2
           },
           "condition": "Atteindre le niveau 10"
@@ -2544,7 +2542,7 @@
           "effects": {
             "force": 4,
             "endurance": 2,
-            "agilité": 3,
+            "agilite": 3,
             "intelligence": 2
           },
           "condition": "Atteindre le niveau 25"
@@ -2554,7 +2552,7 @@
           "effects": {
             "force": 5,
             "endurance": 3,
-            "agilité": 5,
+            "agilite": 5,
             "intelligence": 3
           },
           "condition": "Atteindre le niveau 50"
@@ -2571,7 +2569,7 @@
       "characteristics": {
         "force": 5,
         "endurance": 5,
-        "agilité": 5,
+        "agilite": 5,
         "intelligence": 6
       },
       "armes_ids": [
@@ -2584,7 +2582,7 @@
           "effects": {
             "force": 0,
             "endurance": 0,
-            "agilité": 0,
+            "agilite": 0,
             "intelligence": 3
           },
           "condition": "Atteindre le niveau 10"
@@ -2594,7 +2592,7 @@
           "effects": {
             "force": 2,
             "endurance": 4,
-            "agilité": 2,
+            "agilite": 2,
             "intelligence": 2
           },
           "condition": "Atteindre le niveau 25"
@@ -2604,7 +2602,7 @@
           "effects": {
             "force": 5,
             "endurance": 3,
-            "agilité": 3,
+            "agilite": 3,
             "intelligence": 5
           },
           "condition": "Atteindre le niveau 50"
@@ -2621,7 +2619,7 @@
       "characteristics": {
         "force": 4,
         "endurance": 4,
-        "agilité": 4,
+        "agilite": 4,
         "intelligence": 5
       },
       "armes_ids": [
@@ -2634,7 +2632,7 @@
           "effects": {
             "force": 1,
             "endurance": 1,
-            "agilité": 0,
+            "agilite": 0,
             "intelligence": 1
           },
           "condition": "Atteindre le niveau 10"
@@ -2644,7 +2642,7 @@
           "effects": {
             "force": 2,
             "endurance": 4,
-            "agilité": 2,
+            "agilite": 2,
             "intelligence": 3
           },
           "condition": "Atteindre le niveau 25"
@@ -2654,7 +2652,7 @@
           "effects": {
             "force": 4,
             "endurance": 3,
-            "agilité": 4,
+            "agilite": 4,
             "intelligence": 5
           },
           "condition": "Atteindre le niveau 50"
@@ -2671,7 +2669,7 @@
       "characteristics": {
         "force": 3,
         "endurance": 4,
-        "agilité": 4,
+        "agilite": 4,
         "intelligence": 6
       },
       "armes_ids": [
@@ -2684,7 +2682,7 @@
           "effects": {
             "force": 0,
             "endurance": 0,
-            "agilité": 1,
+            "agilite": 1,
             "intelligence": 3
           },
           "condition": "Atteindre le niveau 10"
@@ -2694,7 +2692,7 @@
           "effects": {
             "force": 4,
             "endurance": 3,
-            "agilité": 2,
+            "agilite": 2,
             "intelligence": 2
           },
           "condition": "Atteindre le niveau 25"
@@ -2704,7 +2702,7 @@
           "effects": {
             "force": 4,
             "endurance": 3,
-            "agilité": 4,
+            "agilite": 4,
             "intelligence": 6
           },
           "condition": "Atteindre le niveau 50"
@@ -2721,7 +2719,7 @@
       "characteristics": {
         "force": 4,
         "endurance": 4,
-        "agilité": 4,
+        "agilite": 4,
         "intelligence": 6
       },
       "armes_ids": [
@@ -2734,7 +2732,7 @@
           "effects": {
             "force": 0,
             "endurance": 1,
-            "agilité": 1,
+            "agilite": 1,
             "intelligence": 2
           },
           "condition": "Atteindre le niveau 10"
@@ -2744,7 +2742,7 @@
           "effects": {
             "force": 4,
             "endurance": 2,
-            "agilité": 2,
+            "agilite": 2,
             "intelligence": 4
           },
           "condition": "Atteindre le niveau 25"
@@ -2754,7 +2752,7 @@
           "effects": {
             "force": 6,
             "endurance": 4,
-            "agilité": 4,
+            "agilite": 4,
             "intelligence": 6
           },
           "condition": "Atteindre le niveau 50"
@@ -2771,7 +2769,7 @@
       "characteristics": {
         "force": 3,
         "endurance": 3,
-        "agilité": 3,
+        "agilite": 3,
         "intelligence": 5
       },
       "armes_ids": [
@@ -2784,7 +2782,7 @@
           "effects": {
             "force": 0,
             "endurance": 1,
-            "agilité": 0,
+            "agilite": 0,
             "intelligence": 2
           },
           "condition": "Atteindre le niveau 10"
@@ -2794,7 +2792,7 @@
           "effects": {
             "force": 3,
             "endurance": 4,
-            "agilité": 2,
+            "agilite": 2,
             "intelligence": 3
           },
           "condition": "Atteindre le niveau 25"
@@ -2804,7 +2802,7 @@
           "effects": {
             "force": 6,
             "endurance": 5,
-            "agilité": 5,
+            "agilite": 5,
             "intelligence": 5
           },
           "condition": "Atteindre le niveau 50"
@@ -2821,7 +2819,7 @@
       "characteristics": {
         "force": 3,
         "endurance": 4,
-        "agilité": 4,
+        "agilite": 4,
         "intelligence": 6
       },
       "armes_ids": [
@@ -2834,7 +2832,7 @@
           "effects": {
             "force": 0,
             "endurance": 0,
-            "agilité": 0,
+            "agilite": 0,
             "intelligence": 2
           },
           "condition": "Atteindre le niveau 10"
@@ -2844,7 +2842,7 @@
           "effects": {
             "force": 2,
             "endurance": 4,
-            "agilité": 2,
+            "agilite": 2,
             "intelligence": 3
           },
           "condition": "Atteindre le niveau 25"
@@ -2854,7 +2852,7 @@
           "effects": {
             "force": 5,
             "endurance": 5,
-            "agilité": 3,
+            "agilite": 3,
             "intelligence": 5
           },
           "condition": "Atteindre le niveau 50"
@@ -2871,7 +2869,7 @@
       "characteristics": {
         "force": 3,
         "endurance": 3,
-        "agilité": 4,
+        "agilite": 4,
         "intelligence": 6
       },
       "armes_ids": [
@@ -2884,7 +2882,7 @@
           "effects": {
             "force": 0,
             "endurance": 0,
-            "agilité": 0,
+            "agilite": 0,
             "intelligence": 3
           },
           "condition": "Atteindre le niveau 10"
@@ -2894,7 +2892,7 @@
           "effects": {
             "force": 3,
             "endurance": 4,
-            "agilité": 3,
+            "agilite": 3,
             "intelligence": 4
           },
           "condition": "Atteindre le niveau 25"
@@ -2904,7 +2902,7 @@
           "effects": {
             "force": 5,
             "endurance": 6,
-            "agilité": 5,
+            "agilite": 5,
             "intelligence": 6
           },
           "condition": "Atteindre le niveau 50"
@@ -2921,7 +2919,7 @@
       "characteristics": {
         "force": 4,
         "endurance": 4,
-        "agilité": 4,
+        "agilite": 4,
         "intelligence": 6
       },
       "armes_ids": [
@@ -2934,7 +2932,7 @@
           "effects": {
             "force": 1,
             "endurance": 1,
-            "agilité": 0,
+            "agilite": 0,
             "intelligence": 2
           },
           "condition": "Atteindre le niveau 10"
@@ -2944,7 +2942,7 @@
           "effects": {
             "force": 2,
             "endurance": 4,
-            "agilité": 3,
+            "agilite": 3,
             "intelligence": 2
           },
           "condition": "Atteindre le niveau 25"
@@ -2954,7 +2952,7 @@
           "effects": {
             "force": 5,
             "endurance": 5,
-            "agilité": 5,
+            "agilite": 5,
             "intelligence": 6
           },
           "condition": "Atteindre le niveau 50"
@@ -2971,7 +2969,7 @@
       "characteristics": {
         "force": 4,
         "endurance": 4,
-        "agilité": 5,
+        "agilite": 5,
         "intelligence": 5
       },
       "armes_ids": [
@@ -2984,7 +2982,7 @@
           "effects": {
             "force": 0,
             "endurance": 1,
-            "agilité": 1,
+            "agilite": 1,
             "intelligence": 1
           },
           "condition": "Atteindre le niveau 10"
@@ -2994,7 +2992,7 @@
           "effects": {
             "force": 4,
             "endurance": 3,
-            "agilité": 3,
+            "agilite": 3,
             "intelligence": 2
           },
           "condition": "Atteindre le niveau 25"
@@ -3004,7 +3002,7 @@
           "effects": {
             "force": 5,
             "endurance": 5,
-            "agilité": 4,
+            "agilite": 4,
             "intelligence": 5
           },
           "condition": "Atteindre le niveau 50"
@@ -3021,7 +3019,7 @@
       "characteristics": {
         "force": 3,
         "endurance": 4,
-        "agilité": 4,
+        "agilite": 4,
         "intelligence": 6
       },
       "armes_ids": [
@@ -3034,7 +3032,7 @@
           "effects": {
             "force": 0,
             "endurance": 0,
-            "agilité": 1,
+            "agilite": 1,
             "intelligence": 2
           },
           "condition": "Atteindre le niveau 10"
@@ -3044,7 +3042,7 @@
           "effects": {
             "force": 2,
             "endurance": 3,
-            "agilité": 2,
+            "agilite": 2,
             "intelligence": 3
           },
           "condition": "Atteindre le niveau 25"
@@ -3054,7 +3052,7 @@
           "effects": {
             "force": 4,
             "endurance": 4,
-            "agilité": 4,
+            "agilite": 4,
             "intelligence": 5
           },
           "condition": "Atteindre le niveau 50"
@@ -3071,7 +3069,7 @@
       "characteristics": {
         "force": 3,
         "endurance": 3,
-        "agilité": 4,
+        "agilite": 4,
         "intelligence": 5
       },
       "armes_ids": [
@@ -3084,7 +3082,7 @@
           "effects": {
             "force": 0,
             "endurance": 1,
-            "agilité": 1,
+            "agilite": 1,
             "intelligence": 1
           },
           "condition": "Atteindre le niveau 10"
@@ -3094,7 +3092,7 @@
           "effects": {
             "force": 4,
             "endurance": 3,
-            "agilité": 3,
+            "agilite": 3,
             "intelligence": 4
           },
           "condition": "Atteindre le niveau 25"
@@ -3104,7 +3102,7 @@
           "effects": {
             "force": 5,
             "endurance": 5,
-            "agilité": 4,
+            "agilite": 4,
             "intelligence": 5
           },
           "condition": "Atteindre le niveau 50"
@@ -3121,7 +3119,7 @@
       "characteristics": {
         "force": 4,
         "endurance": 4,
-        "agilité": 4,
+        "agilite": 4,
         "intelligence": 5
       },
       "armes_ids": [
@@ -3134,7 +3132,7 @@
           "effects": {
             "force": 0,
             "endurance": 0,
-            "agilité": 0,
+            "agilite": 0,
             "intelligence": -1
           },
           "condition": "Atteindre le niveau 10"
@@ -3144,7 +3142,7 @@
           "effects": {
             "force": 2,
             "endurance": 4,
-            "agilité": 3,
+            "agilite": 3,
             "intelligence": 4
           },
           "condition": "Atteindre le niveau 25"
@@ -3154,7 +3152,7 @@
           "effects": {
             "force": 3,
             "endurance": 4,
-            "agilité": 5,
+            "agilite": 5,
             "intelligence": 5
           },
           "condition": "Atteindre le niveau 50"
@@ -3171,7 +3169,7 @@
       "characteristics": {
         "force": 3,
         "endurance": 3,
-        "agilité": 4,
+        "agilite": 4,
         "intelligence": 4
       },
       "armes_ids": [
@@ -3184,7 +3182,7 @@
           "effects": {
             "force": 0,
             "endurance": 1,
-            "agilité": 0,
+            "agilite": 0,
             "intelligence": 2
           },
           "condition": "Atteindre le niveau 10"
@@ -3194,7 +3192,7 @@
           "effects": {
             "force": 2,
             "endurance": 4,
-            "agilité": 2,
+            "agilite": 2,
             "intelligence": 4
           },
           "condition": "Atteindre le niveau 25"
@@ -3204,7 +3202,7 @@
           "effects": {
             "force": 5,
             "endurance": 4,
-            "agilité": 4,
+            "agilite": 4,
             "intelligence": 5
           },
           "condition": "Atteindre le niveau 50"
@@ -3221,7 +3219,7 @@
       "characteristics": {
         "force": 5,
         "endurance": 5,
-        "agilité": 5,
+        "agilite": 5,
         "intelligence": 5
       },
       "armes_ids": [
@@ -3234,7 +3232,7 @@
           "effects": {
             "force": 1,
             "endurance": 1,
-            "agilité": 1,
+            "agilite": 1,
             "intelligence": 1
           },
           "condition": "Atteindre le niveau 10"
@@ -3244,7 +3242,7 @@
           "effects": {
             "force": 3,
             "endurance": 4,
-            "agilité": 3,
+            "agilite": 3,
             "intelligence": 2
           },
           "condition": "Atteindre le niveau 25"
@@ -3254,7 +3252,7 @@
           "effects": {
             "force": 4,
             "endurance": 5,
-            "agilité": 3,
+            "agilite": 3,
             "intelligence": 3
           },
           "condition": "Atteindre le niveau 50"
@@ -3271,7 +3269,7 @@
       "characteristics": {
         "force": 5,
         "endurance": 5,
-        "agilité": 5,
+        "agilite": 5,
         "intelligence": 5
       },
       "armes_ids": [
@@ -3284,7 +3282,7 @@
           "effects": {
             "force": 2,
             "endurance": 2,
-            "agilité": 3,
+            "agilite": 3,
             "intelligence": 2
           },
           "condition": "Atteindre le niveau 10"
@@ -3294,7 +3292,7 @@
           "effects": {
             "force": 4,
             "endurance": 2,
-            "agilité": 4,
+            "agilite": 4,
             "intelligence": 4
           },
           "condition": "Atteindre le niveau 25"
@@ -3304,7 +3302,7 @@
           "effects": {
             "force": 4,
             "endurance": 3,
-            "agilité": 3,
+            "agilite": 3,
             "intelligence": 4
           },
           "condition": "Atteindre le niveau 50"
@@ -3321,7 +3319,7 @@
       "characteristics": {
         "force": 5,
         "endurance": 5,
-        "agilité": 5,
+        "agilite": 5,
         "intelligence": 5
       },
       "armes_ids": [
@@ -3334,7 +3332,7 @@
           "effects": {
             "force": 3,
             "endurance": 2,
-            "agilité": 1,
+            "agilite": 1,
             "intelligence": 1
           },
           "condition": "Atteindre le niveau 10"
@@ -3344,7 +3342,7 @@
           "effects": {
             "force": 3,
             "endurance": 2,
-            "agilité": 4,
+            "agilite": 4,
             "intelligence": 3
           },
           "condition": "Atteindre le niveau 25"
@@ -3354,7 +3352,7 @@
           "effects": {
             "force": 6,
             "endurance": 6,
-            "agilité": 3,
+            "agilite": 3,
             "intelligence": 5
           },
           "condition": "Atteindre le niveau 50"
@@ -3371,7 +3369,7 @@
       "characteristics": {
         "force": 5,
         "endurance": 5,
-        "agilité": 5,
+        "agilite": 5,
         "intelligence": 5
       },
       "armes_ids": [
@@ -3384,7 +3382,7 @@
           "effects": {
             "force": 2,
             "endurance": 1,
-            "agilité": 1,
+            "agilite": 1,
             "intelligence": 1
           },
           "condition": "Atteindre le niveau 10"
@@ -3394,7 +3392,7 @@
           "effects": {
             "force": 4,
             "endurance": 2,
-            "agilité": 2,
+            "agilite": 2,
             "intelligence": 3
           },
           "condition": "Atteindre le niveau 25"
@@ -3404,7 +3402,7 @@
           "effects": {
             "force": 3,
             "endurance": 6,
-            "agilité": 6,
+            "agilite": 6,
             "intelligence": 5
           },
           "condition": "Atteindre le niveau 50"
@@ -3421,7 +3419,7 @@
       "characteristics": {
         "force": 3,
         "endurance": 4,
-        "agilité": 5,
+        "agilite": 5,
         "intelligence": 4
       },
       "armes_ids": [
@@ -3434,7 +3432,7 @@
           "effects": {
             "force": 1,
             "endurance": 3,
-            "agilité": 3,
+            "agilite": 3,
             "intelligence": 2
           },
           "condition": "Atteindre le niveau 10"
@@ -3444,7 +3442,7 @@
           "effects": {
             "force": 2,
             "endurance": 3,
-            "agilité": 4,
+            "agilite": 4,
             "intelligence": 3
           },
           "condition": "Atteindre le niveau 25"
@@ -3454,7 +3452,7 @@
           "effects": {
             "force": 4,
             "endurance": 3,
-            "agilité": 6,
+            "agilite": 6,
             "intelligence": 6
           },
           "condition": "Atteindre le niveau 50"
@@ -3471,7 +3469,7 @@
       "characteristics": {
         "force": 4,
         "endurance": 5,
-        "agilité": 5,
+        "agilite": 5,
         "intelligence": 5
       },
       "armes_ids": [
@@ -3484,7 +3482,7 @@
           "effects": {
             "force": 2,
             "endurance": 3,
-            "agilité": 1,
+            "agilite": 1,
             "intelligence": 3
           },
           "condition": "Atteindre le niveau 10"
@@ -3494,7 +3492,7 @@
           "effects": {
             "force": 4,
             "endurance": 3,
-            "agilité": 4,
+            "agilite": 4,
             "intelligence": 4
           },
           "condition": "Atteindre le niveau 25"
@@ -3504,7 +3502,7 @@
           "effects": {
             "force": 3,
             "endurance": 4,
-            "agilité": 5,
+            "agilite": 5,
             "intelligence": 6
           },
           "condition": "Atteindre le niveau 50"
@@ -3521,7 +3519,7 @@
       "characteristics": {
         "force": 4,
         "endurance": 4,
-        "agilité": 5,
+        "agilite": 5,
         "intelligence": 4
       },
       "armes_ids": [
@@ -3534,7 +3532,7 @@
           "effects": {
             "force": 3,
             "endurance": 3,
-            "agilité": 1,
+            "agilite": 1,
             "intelligence": 2
           },
           "condition": "Atteindre le niveau 10"
@@ -3544,7 +3542,7 @@
           "effects": {
             "force": 2,
             "endurance": 4,
-            "agilité": 4,
+            "agilite": 4,
             "intelligence": 2
           },
           "condition": "Atteindre le niveau 25"
@@ -3554,7 +3552,7 @@
           "effects": {
             "force": 6,
             "endurance": 5,
-            "agilité": 3,
+            "agilite": 3,
             "intelligence": 4
           },
           "condition": "Atteindre le niveau 50"
@@ -3571,7 +3569,7 @@
       "characteristics": {
         "force": 3,
         "endurance": 4,
-        "agilité": 6,
+        "agilite": 6,
         "intelligence": 5
       },
       "armes_ids": [
@@ -3584,7 +3582,7 @@
           "effects": {
             "force": 1,
             "endurance": 3,
-            "agilité": 2,
+            "agilite": 2,
             "intelligence": 1
           },
           "condition": "Atteindre le niveau 10"
@@ -3594,7 +3592,7 @@
           "effects": {
             "force": 3,
             "endurance": 4,
-            "agilité": 3,
+            "agilite": 3,
             "intelligence": 4
           },
           "condition": "Atteindre le niveau 25"
@@ -3604,7 +3602,7 @@
           "effects": {
             "force": 5,
             "endurance": 6,
-            "agilité": 3,
+            "agilite": 3,
             "intelligence": 4
           },
           "condition": "Atteindre le niveau 50"
@@ -3621,7 +3619,7 @@
       "characteristics": {
         "force": 4,
         "endurance": 4,
-        "agilité": 5,
+        "agilite": 5,
         "intelligence": 5
       },
       "armes_ids": [
@@ -3634,7 +3632,7 @@
           "effects": {
             "force": 1,
             "endurance": 2,
-            "agilité": 1,
+            "agilite": 1,
             "intelligence": 3
           },
           "condition": "Atteindre le niveau 10"
@@ -3644,7 +3642,7 @@
           "effects": {
             "force": 3,
             "endurance": 2,
-            "agilité": 4,
+            "agilite": 4,
             "intelligence": 3
           },
           "condition": "Atteindre le niveau 25"
@@ -3654,7 +3652,7 @@
           "effects": {
             "force": 5,
             "endurance": 4,
-            "agilité": 3,
+            "agilite": 3,
             "intelligence": 5
           },
           "condition": "Atteindre le niveau 50"
@@ -3671,7 +3669,7 @@
       "characteristics": {
         "force": 4,
         "endurance": 4,
-        "agilité": 4,
+        "agilite": 4,
         "intelligence": 5
       },
       "armes_ids": [
@@ -3684,7 +3682,7 @@
           "effects": {
             "force": 1,
             "endurance": 3,
-            "agilité": 1,
+            "agilite": 1,
             "intelligence": 2
           },
           "condition": "Atteindre le niveau 10"
@@ -3694,7 +3692,7 @@
           "effects": {
             "force": 4,
             "endurance": 3,
-            "agilité": 2,
+            "agilite": 2,
             "intelligence": 2
           },
           "condition": "Atteindre le niveau 25"
@@ -3704,7 +3702,7 @@
           "effects": {
             "force": 3,
             "endurance": 3,
-            "agilité": 3,
+            "agilite": 3,
             "intelligence": 5
           },
           "condition": "Atteindre le niveau 50"
@@ -3721,7 +3719,7 @@
       "characteristics": {
         "force": 3,
         "endurance": 4,
-        "agilité": 5,
+        "agilite": 5,
         "intelligence": 5
       },
       "armes_ids": [
@@ -3734,7 +3732,7 @@
           "effects": {
             "force": 3,
             "endurance": 1,
-            "agilité": 2,
+            "agilite": 2,
             "intelligence": 2
           },
           "condition": "Atteindre le niveau 10"
@@ -3744,7 +3742,7 @@
           "effects": {
             "force": 2,
             "endurance": 4,
-            "agilité": 3,
+            "agilite": 3,
             "intelligence": 4
           },
           "condition": "Atteindre le niveau 25"
@@ -3754,7 +3752,7 @@
           "effects": {
             "force": 6,
             "endurance": 6,
-            "agilité": 5,
+            "agilite": 5,
             "intelligence": 3
           },
           "condition": "Atteindre le niveau 50"
@@ -3771,7 +3769,7 @@
       "characteristics": {
         "force": 5,
         "endurance": 5,
-        "agilité": 5,
+        "agilite": 5,
         "intelligence": 6
       },
       "armes_ids": [
@@ -3784,7 +3782,7 @@
           "effects": {
             "force": 1,
             "endurance": 2,
-            "agilité": 3,
+            "agilite": 3,
             "intelligence": 3
           },
           "condition": "Atteindre le niveau 10"
@@ -3794,7 +3792,7 @@
           "effects": {
             "force": 2,
             "endurance": 3,
-            "agilité": 3,
+            "agilite": 3,
             "intelligence": 3
           },
           "condition": "Atteindre le niveau 25"
@@ -3804,7 +3802,7 @@
           "effects": {
             "force": 5,
             "endurance": 3,
-            "agilité": 6,
+            "agilite": 6,
             "intelligence": 3
           },
           "condition": "Atteindre le niveau 50"
@@ -3821,7 +3819,7 @@
       "characteristics": {
         "force": 6,
         "endurance": 6,
-        "agilité": 6,
+        "agilite": 6,
         "intelligence": 6
       },
       "armes_ids": [
@@ -3834,7 +3832,7 @@
           "effects": {
             "force": 3,
             "endurance": 3,
-            "agilité": 1,
+            "agilite": 1,
             "intelligence": 3
           },
           "condition": "Atteindre le niveau 10"
@@ -3844,7 +3842,7 @@
           "effects": {
             "force": 2,
             "endurance": 2,
-            "agilité": 4,
+            "agilite": 4,
             "intelligence": 2
           },
           "condition": "Atteindre le niveau 25"
@@ -3854,7 +3852,7 @@
           "effects": {
             "force": 5,
             "endurance": 5,
-            "agilité": 6,
+            "agilite": 6,
             "intelligence": 6
           },
           "condition": "Atteindre le niveau 50"
@@ -3871,7 +3869,7 @@
       "characteristics": {
         "force": 5,
         "endurance": 5,
-        "agilité": 5,
+        "agilite": 5,
         "intelligence": 6
       },
       "armes_ids": [
@@ -3884,7 +3882,7 @@
           "effects": {
             "force": 3,
             "endurance": 3,
-            "agilité": 2,
+            "agilite": 2,
             "intelligence": 1
           },
           "condition": "Atteindre le niveau 10"
@@ -3894,7 +3892,7 @@
           "effects": {
             "force": 4,
             "endurance": 3,
-            "agilité": 2,
+            "agilite": 2,
             "intelligence": 4
           },
           "condition": "Atteindre le niveau 25"
@@ -3904,7 +3902,7 @@
           "effects": {
             "force": 3,
             "endurance": 5,
-            "agilité": 4,
+            "agilite": 4,
             "intelligence": 6
           },
           "condition": "Atteindre le niveau 50"

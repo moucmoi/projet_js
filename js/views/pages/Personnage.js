@@ -1,6 +1,7 @@
 import CharacterProvider from "../../services/CharacterProvider.js";
 import Favoris from "../../localStorage/Favoris.js";
 import Utils from "../../services/Utils.js";
+
 export default class Personnage{
     async render(id) {
         let request = Utils.parseRequestURL();
@@ -37,7 +38,7 @@ export default class Personnage{
             <ul>
                 <li>Force : ${character.characteristics.force}</li>
                 <li>Endurance : ${character.characteristics.endurance}</li>
-                <li>Agilité : ${character.characteristics['agilité']}</li>
+                <li>Agilité : ${character.characteristics.agilite}</li>
                 <li>Intelligence : ${character.characteristics.intelligence}</li>
             </ul>
             <h3>Évolutions</h3>
@@ -51,6 +52,8 @@ export default class Personnage{
                 ${contient ? 'Enlever des favoris' : 'Ajouter aux favoris'}
             </button>
             <button id=btnNotation onclick=window.location.href='/#/notation/${character.id}'>ajouter une note</button>
+            <button onclick=window.location.href='/#/characters/${character.id}/modification'>Modifier</button>
+            <button onclick=window.location.href='/#/characters/${character.id}/suppression'>Supprimer</button>
         `;
         
         return view;
