@@ -7,7 +7,7 @@ export default class Pagefavoris{
         let view = `
             <link rel="stylesheet" href='../../../css/PersoAll.css'>
             <div id="personnage-all-container" class="personnage-all-container">
-                <h2 id="personnage-title" class="personnage-title">Les personnages</h2>
+                <h2 id="personnage-title" class="personnage-title">Vos favoris</h2>
         `;
 
         favoris.forEach(character => {

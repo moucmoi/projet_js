@@ -12,10 +12,7 @@
         "intelligence": 8
       },
       "pouvoirs": [],
-      "armes_ids": [
-        1,
-        2
-      ],
+      "armes_ids": [],
       "evolutions": [
         {
           "description": "Évolution Novice",
@@ -71,7 +68,6 @@
       },
       "pouvoirs": [],
       "armes_ids": [
-        3,
         4
       ],
       "evolutions": [
@@ -123,7 +119,9 @@
       "pouvoirs": [],
       "armes_ids": [
         4,
-        5
+        5,
+        11,
+        2
       ],
       "evolutions": [
         {
@@ -2975,8 +2973,7 @@
         "intelligence": 5
       },
       "armes_ids": [
-        12,
-        6
+        12
       ],
       "evolutions": [
         {

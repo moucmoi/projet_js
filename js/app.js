@@ -10,6 +10,9 @@ import ArmesAll from "./views/pages/ArmesAll.js";
 import Arme from "./views/pages/Arme.js";
 import ChoixEnleverArme from "./views/pages/ChoixEnleverArme.js";
 import EnleverArme from "./views/pages/EnleverArme.js";
+import ChoixAjoutArme from "./views/pages/ChoixAjoutArme.js";
+import AjoutArme from "./views/pages/AjoutArme.js";
+
 
 
 const routes={
@@ -23,7 +26,10 @@ const routes={
     '/favoris':Pagefavoris,
     '/armes': ArmesAll,
     '/character/:id/suppression':ChoixEnleverArme,
-    '/characters/:id/suppression/:id2':EnleverArme
+    '/characters/:id/suppression/:id2':EnleverArme,
+    '/character/:id/ajout':ChoixAjoutArme,
+    '/characters/:id/ajout/:id2':AjoutArme
+
 }
 
 const router=async ()=>{
@@ -31,11 +37,8 @@ const router=async ()=>{
 
     let request=Utils.parseRequestURL();
 
-    let parseURL=(request.ressource ? '/'+request.ressource : '/') + (request.id ? '/:id' : '') + (request.verb ? '/'+request.verb : '');
+    let parseURL =(request.ressource ? '/' + request.ressource : '/') + (request.id ? '/:id' : '') + (request.verb      ? '/' + request.verb : '') + (request.id2       ? '/:id2' : '');
     let page=routes[parseURL] ? new routes[parseURL] : new Error404;
-    console.log(page);
-    console.log("aaaaaaaaaaaaaaaaa");
-
 
     content.innerHTML=await page.render();
 
