@@ -4,7 +4,7 @@ import {ENDPOINTC} from "../../config.js";
 
 export default class CharacterAll {
     async render() {
-        let characters = await CharacterProvider.fetchCharacter(78);
+        let characters = await CharacterProvider.fetchCharacter(100);
         let affichagePerso = new AffichagePerso();
         let response = await fetch(`${ENDPOINTC}`, { method: "GET" });
 
@@ -15,7 +15,7 @@ export default class CharacterAll {
             <link rel="stylesheet" href='../../../css/PersoAll.css'>
             <div id="personnage-all-container" class="personnage-all-container">
                 <h2 id="personnage-title" class="personnage-title">Les personnages</h2>
-                <a href='/#/characters/${idMax+1}' class="personnage-card-link" id="personnage-card-link">
+                <a href='/#/nouveau/${idMax+1}' class="personnage-card-link" id="personnage-card-link">
                     <section class="personnage-section" id="personnage-section">
                         <img src="../../../images/autres/plus.png" alt="Creer personnage" class="personnage-img" id="personnage-img">
                         <h3 class="personnage-name" id="personnage-name">Créer personnage</h3>
@@ -28,7 +28,6 @@ export default class CharacterAll {
             view += affichagePerso.render(character);
         });
 
-        // On ferme la div conteneur
         view += `</div>`;
         return view;
     }

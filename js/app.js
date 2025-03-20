@@ -9,6 +9,7 @@ import Pagefavoris from "./views/pages/Pagefavoris.js";
 import ArmesAll from "./views/pages/ArmesAll.js";
 import Arme from "./views/pages/Arme.js";
 import ModifPerso from "./views/pages/ModifPerso.js";
+import NouveauPerso from "./views/pages/NouveauPerso.js";
 
 const routes={
     '/':About,
@@ -20,6 +21,7 @@ const routes={
     '/armes/:id': Arme,
     '/favoris':Pagefavoris,
     '/characters/:id/modification':ModifPerso,
+    '/nouveau/:id': NouveauPerso,
     '/armes': ArmesAll
 }
 
@@ -27,7 +29,7 @@ const router=async ()=>{
     const content=document.querySelector('#content');
 
     let request=Utils.parseRequestURL();
-
+    console.log(request);
     let parseURL=(request.ressource ? '/'+request.ressource : '/') + (request.id ? '/:id' : '') + (request.verb ? '/'+request.verb : '');
     let page=routes[parseURL] ? new routes[parseURL] : new Error404;
 
