@@ -8,7 +8,7 @@ export default class NouveauPerso {
 
         return `
         <h2>Etes vous sur de vouloir supprmier ${character.name}</h2>
-        <button id="annuler" href="/#/characters">Annuler</button>
+        <button id="annuler" onclick=location.href = "/#/characters">Annuler</button>
         <button id="confirmer">Oui</button>
         `
     }
