@@ -26,6 +26,7 @@ export default class ModifPerso {
             <label>Endurance :</label>
             <input type="number" id="endurance" value="${character.characteristics.endurance}" required />
 
+            <button id="annuler" onclick="location.href = '/#/characters/${character.id}';">Annuler</button>
             <button id="modifPerso">Modifier</button>
             <p id="message"></p>
         `;
