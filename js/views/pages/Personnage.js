@@ -12,6 +12,7 @@ export default class Personnage{
         let armes=await ArmeProvider.getNom(character.armes_ids);
         let affichageArme=new AffichageArme();
         window.toggleFavoris = Favoris.toggleFavoris;
+        console.log(character.bonus.force);
 
         let view = `
             <button><a href="http://localhost:8000/#/characters">Retour</a></button>
@@ -19,10 +20,10 @@ export default class Personnage{
             <p>${character.description}</p>
             <h3>Caractéristiques</h3>
             <ul>
-                <li>Force : ${character.characteristics.force}</li>
-                <li>Endurance : ${character.characteristics.endurance}</li>
-                <li>Agilité : ${character.characteristics['agilité']}</li>
-                <li>Intelligence : ${character.characteristics.intelligence}</li>
+                <li>Force : ${character.characteristics.force+character.bonus.force}</li>
+                <li>Endurance : ${character.characteristics.endurance+character.bonus.endurance}</li>
+                <li>Agilité : ${character.characteristics.agilité+character.bonus.agilite}</li>
+                <li>Intelligence : ${character.characteristics.intelligence+character.bonus.intelligence}</li>
             </ul>
             <h3>Évolutions</h3>
             ${character.evolutions.map(evo => `
