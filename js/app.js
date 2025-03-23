@@ -17,7 +17,10 @@ import ChoixAjoutArme from "./views/pages/ChoixAjoutArme.js";
 import AjoutArme from "./views/pages/AjoutArme.js";
 import CharacterProvider from "./services/CharacterProvider.js";
 
+console.log("bbbbbbbb");
 CharacterProvider.updateAllCharacter();
+console.log("bbbbbbbb");
+
 
 const routes={
     '/':About,
@@ -36,8 +39,9 @@ const routes={
     '/characters/:id/suppression/:id2':EnleverArme,
     '/character/:id/ajout':ChoixAjoutArme,
     '/characters/:id/ajout/:id2':AjoutArme
-
 }
+
+
 
 const router=async ()=>{
     const content=document.querySelector('#content');

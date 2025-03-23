@@ -56,54 +56,44 @@ export default class CharacterProvider {
 
   static async updateAllCharacter() {
     try {
-      // Récupère le personnage
       const personnages = await this.fetchCharacter(100);
-
+  
       for (const personnage of personnages) {
+        const id = personnage.id;
+  
         const statsFinales = {
-          "force": 0,
-          "endurance": 0,
-          "agilite": 0,
-          "intelligence": 0
+          force: 0,
+          endurance: 0,
+          agilite: 0,
+          intelligence: 0
         };
-        // Parcours chaque arme et met à jour les caractéristiques
-        for (const idarme of personnage["armes_ids"]) {
+  
+        for (const idarme of personnage.armes_ids) {
           const arme = await ArmeProvider.getArme(idarme);
-          const statsFinales = { ...personnage.characteristics };
-
+  
           statsFinales.force += arme.effects.force;
           statsFinales.endurance += arme.effects.endurance;
           statsFinales.agilite += arme.effects.agilité;
           statsFinales.intelligence += arme.effects.intelligence;
         }
-
-        console.log(statsFinales);
-
+  
         const payload = {
-          armes_ids: personnage["armes_ids"],
           bonus: statsFinales
         };
-
-        const options = {
+  
+        const response = await fetch(`${ENDPOINTC}/${id}`, {
           method: 'PATCH',
-          headers: {
-            'Content-Type': 'application/json'
-          },
+          headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify(payload)
-        };
-
-        // Envoi de la requête de mise à jour
-        const response = await fetch(`${ENDPOINTC}/${personnage.id}`, options);
-        if (!response.ok) {
-          throw new Error(`Erreur lors de la mise à jour : ${response.statusText}`);
-        }
-
-        const data = await response.json();
+        });
+  
+        return response.ok;
       }
     } catch (err) {
-      console.error("Erreur lors de la mise à jour du personnage :", err);
+      return false;
     }
   }
+  
 
   static async updateCharacter(id) {
     const statsFinales = {
@@ -123,10 +113,10 @@ export default class CharacterProvider {
         const arme = await ArmeProvider.getArme(idarme);
         console.log("Arme récupérée :", arme);
 
-        statsFinales.force += arme.effects.force ?? 0;
-        statsFinales.endurance += arme.effects.endurance ?? 0;
-        statsFinales.agilite += arme.effects.agilité ?? 0;
-        statsFinales.intelligence += arme.effects.intelligence ?? 0;
+        statsFinales.force += arme.effects.force;
+        statsFinales.endurance += arme.effects.endurance;
+        statsFinales.agilite += arme.effects.agilité;
+        statsFinales.intelligence += arme.effects.intelligence;
 
         console.log("Stats après ajout :", statsFinales);
       }
