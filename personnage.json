@@ -6,14 +6,16 @@
       "importance": "principal",
       "description": "Ancien braqueur reconverti, il vit dans le luxe de Rockford Hills tout en peinant avec sa vie de famille et son passé criminel.",
       "characteristics": {
-        "force": "4",
-        "agilite": "6",
-        "intelligence": "8",
-        "endurance": "6"
+        "force": 31,
+        "endurance": 1,
+        "agilité": 13,
+        "intelligence": 24
       },
+      "pouvoirs": [],
       "armes_ids": [
-        1,
-        2
+        4,
+        7,
+        10
       ],
       "evolutions": [
         {
@@ -56,10 +58,12 @@
         "k": "5",
         "n": "4"
       },
-      "force": "7",
-      "agilite": "6",
-      "intelligence": "8",
-      "endurance": "6"
+      "bonus": {
+        "force": 6,
+        "endurance": 4,
+        "agilite": 0,
+        "intelligence": 0
+      }
     },
     {
       "id": "2",
@@ -67,14 +71,14 @@
       "importance": "principal",
       "description": "Canadien au tempérament explosif, ancien pilote de chasse et criminel imprévisible, adepte du mode frénésie.",
       "characteristics": {
-        "force": 7,
-        "endurance": 6,
-        "agilite": 6,
-        "intelligence": 5
+        "force": 22,
+        "endurance": 50,
+        "agilité": 6,
+        "intelligence": 15
       },
       "armes_ids": [
-        3,
-        4
+        10,
+        9
       ],
       "evolutions": [
         {
@@ -109,7 +113,13 @@
         }
       ],
       "niveau": 0,
-      "image": "/images/personnages/TrevorPhilips.png"
+      "image": "/images/personnages/TrevorPhilips.png",
+      "bonus": {
+        "force": 3,
+        "endurance": 4,
+        "agilite": 0,
+        "intelligence": 2
+      }
     },
     {
       "id": "3",
@@ -118,13 +128,14 @@
       "description": "Jeune afro-américain issu des quartiers difficiles de Los Santos, il gravit les échelons du monde criminel.",
       "characteristics": {
         "force": 5,
-        "endurance": 6,
-        "agilite": 7,
+        "endurance": 54,
+        "agilité": 7,
         "intelligence": 7
       },
       "armes_ids": [
-        4,
-        5
+        5,
+        2,
+        10
       ],
       "evolutions": [
         {
@@ -159,7 +170,13 @@
         }
       ],
       "niveau": 0,
-      "image": "/images/personnages/FranklinClinton.png"
+      "image": "/images/personnages/FranklinClinton.png",
+      "bonus": {
+        "force": 6,
+        "endurance": 3,
+        "agilite": 0,
+        "intelligence": 0
+      }
     },
     {
       "id": "4",
@@ -168,9 +185,9 @@
       "description": "Femme de Michael, symbole de la femme au foyer déracinée par une vie de luxe et de conflits conjugaux.",
       "characteristics": {
         "force": 3,
-        "endurance": 4,
-        "agilite": 5,
-        "intelligence": 7
+        "endurance": 14,
+        "agilité": 55,
+        "intelligence": 17
       },
       "armes_ids": [
         2,
@@ -209,7 +226,13 @@
         }
       ],
       "niveau": 0,
-      "image": "/images/personnages/AmandaDeSanta.png"
+      "image": "/images/personnages/AmandaDeSanta.png",
+      "bonus": {
+        "force": 3,
+        "endurance": 0,
+        "agilite": 5,
+        "intelligence": 1
+      }
     },
     {
       "id": "5",
@@ -218,8 +241,8 @@
       "description": "Fils de Michael et Amanda, jeune homme paresseux et accro aux jeux vidéo, en quête de repères.",
       "characteristics": {
         "force": 3,
-        "endurance": 4,
-        "agilite": 5,
+        "endurance": 44,
+        "agilité": 5,
         "intelligence": 4
       },
       "armes_ids": [
@@ -259,7 +282,13 @@
         }
       ],
       "niveau": 0,
-      "image": "/images/personnages/JimmyDeSanta.png"
+      "image": "/images/personnages/JimmyDeSanta.png",
+      "bonus": {
+        "force": 0,
+        "endurance": 4,
+        "agilite": 2,
+        "intelligence": 3
+      }
     },
     {
       "id": "6",
@@ -268,9 +297,9 @@
       "description": "Fille de Michael, ambitieuse et en quête de célébrité, elle rêve d'une carrière dans la télé-réalité.",
       "characteristics": {
         "force": 3,
-        "endurance": 4,
-        "agilite": 6,
-        "intelligence": 5
+        "endurance": 14,
+        "agilité": 56,
+        "intelligence": 15
       },
       "armes_ids": [
         5,
@@ -309,7 +338,13 @@
         }
       ],
       "niveau": 0,
-      "image": "/images/personnages/TraceyDeSanta.png"
+      "image": "/images/personnages/TraceyDeSanta.png",
+      "bonus": {
+        "force": 3,
+        "endurance": 1,
+        "agilite": 5,
+        "intelligence": 1
+      }
     },
     {
       "id": "7",
@@ -317,10 +352,10 @@
       "importance": "secondaire",
       "description": "Agent du FIB corrompu, ami de Michael, ayant scellé un accord pour protéger son passé criminel.",
       "characteristics": {
-        "force": 4,
+        "force": 24,
         "endurance": 5,
-        "agilite": 4,
-        "intelligence": 7
+        "agilité": 4,
+        "intelligence": 27
       },
       "armes_ids": [
         12,
@@ -359,7 +394,13 @@
         }
       ],
       "niveau": 0,
-      "image": "/images/personnages/DaveNorton.png"
+      "image": "/images/personnages/DaveNorton.png",
+      "bonus": {
+        "force": 2,
+        "endurance": 0,
+        "agilite": 2,
+        "intelligence": 5
+      }
     },
     {
       "id": "8",
@@ -367,9 +408,9 @@
       "importance": "secondaire",
       "description": "Agent du FIB avide de célébrité, manipulateur et antagoniste qui se sert de Michael pour ses desseins.",
       "characteristics": {
-        "force": 5,
+        "force": 25,
         "endurance": 5,
-        "agilite": 5,
+        "agilité": 15,
         "intelligence": 6
       },
       "armes_ids": [
@@ -409,7 +450,13 @@
         }
       ],
       "niveau": 0,
-      "image": "/images/personnages/SteveHaines.png"
+      "image": "/images/personnages/SteveHaines.png",
+      "bonus": {
+        "force": 2,
+        "endurance": 1,
+        "agilite": 6,
+        "intelligence": 1
+      }
     },
     {
       "id": "9",
@@ -418,9 +465,9 @@
       "description": "Bras droit de Steve Haines, souvent présent lors des confrontations impliquant Michael et le FIB.",
       "characteristics": {
         "force": 5,
-        "endurance": 5,
-        "agilite": 5,
-        "intelligence": 5
+        "endurance": 15,
+        "agilité": 55,
+        "intelligence": 15
       },
       "armes_ids": [
         5,
@@ -459,7 +506,13 @@
         }
       ],
       "niveau": 0,
-      "image": "/images/personnages/AndreasSanchez.png"
+      "image": "/images/personnages/AndreasSanchez.png",
+      "bonus": {
+        "force": 3,
+        "endurance": 1,
+        "agilite": 5,
+        "intelligence": 1
+      }
     },
     {
       "id": "10",
@@ -467,9 +520,9 @@
       "importance": "secondaire",
       "description": "Fils de Wei Cheng, consommateur d'ecstasy et personnage parlant uniquement mandarin, souvent accompagné d'un interprète.",
       "characteristics": {
-        "force": 5,
-        "endurance": 4,
-        "agilite": 5,
+        "force": 35,
+        "endurance": -6,
+        "agilité": 5,
         "intelligence": 5
       },
       "armes_ids": [
@@ -509,7 +562,13 @@
         }
       ],
       "niveau": 0,
-      "image": "/images/personnages/TaoCheng.png"
+      "image": "/images/personnages/TaoCheng.png",
+      "bonus": {
+        "force": 11,
+        "endurance": -1,
+        "agilite": -2,
+        "intelligence": 0
+      }
     },
     {
       "id": "11",
@@ -517,9 +576,9 @@
       "importance": "secondaire",
       "description": "Chef des Triades de Los Santos, prêt à tout pour se venger et imposer son règne.",
       "characteristics": {
-        "force": 5,
+        "force": 25,
         "endurance": 6,
-        "agilite": 5,
+        "agilité": 15,
         "intelligence": 7
       },
       "armes_ids": [
@@ -559,7 +618,13 @@
         }
       ],
       "niveau": 0,
-      "image": "/images/personnages/WeiCheng.png"
+      "image": "/images/personnages/WeiCheng.png",
+      "bonus": {
+        "force": 5,
+        "endurance": -1,
+        "agilite": 1,
+        "intelligence": 0
+      }
     },
     {
       "id": "12",
@@ -569,8 +634,8 @@
       "characteristics": {
         "force": 6,
         "endurance": 6,
-        "agilite": 5,
-        "intelligence": 5
+        "agilité": 25,
+        "intelligence": 35
       },
       "armes_ids": [
         5,
@@ -609,7 +674,13 @@
         }
       ],
       "niveau": 0,
-      "image": "/images/personnages/LamarDavis.png"
+      "image": "/images/personnages/LamarDavis.png",
+      "bonus": {
+        "force": 3,
+        "endurance": 0,
+        "agilite": 2,
+        "intelligence": 3
+      }
     },
     {
       "id": "13",
@@ -617,9 +688,9 @@
       "importance": "secondaire",
       "description": "Chef OG des Chamberlain Gangsters Families, manipulateur et traître, utilisant la naïveté de Lamar à ses fins.",
       "characteristics": {
-        "force": 5,
-        "endurance": 6,
-        "agilite": 5,
+        "force": 35,
+        "endurance": -4,
+        "agilité": 5,
         "intelligence": 5
       },
       "armes_ids": [
@@ -659,7 +730,13 @@
         }
       ],
       "niveau": 0,
-      "image": "/images/personnages/Harold'Stretch'Joseph.png"
+      "image": "/images/personnages/Harold'Stretch'Joseph.png",
+      "bonus": {
+        "force": 10,
+        "endurance": 2,
+        "agilite": 0,
+        "intelligence": 0
+      }
     },
     {
       "id": "14",
@@ -667,9 +744,9 @@
       "importance": "secondaire",
       "description": "Ami paranoïaque de Trevor, théoricien du complot vivant dans une remorque et évitant tout affrontement.",
       "characteristics": {
-        "force": 3,
-        "endurance": 4,
-        "agilite": 4,
+        "force": 33,
+        "endurance": -6,
+        "agilité": 4,
         "intelligence": 4
       },
       "armes_ids": [
@@ -709,7 +786,13 @@
         }
       ],
       "niveau": 0,
-      "image": "/images/personnages/RonJakowski.png"
+      "image": "/images/personnages/RonJakowski.png",
+      "bonus": {
+        "force": 3,
+        "endurance": -1,
+        "agilite": 1,
+        "intelligence": 3
+      }
     },
     {
       "id": "15",
@@ -717,10 +800,10 @@
       "importance": "secondaire",
       "description": "Ancien complice de Trevor, trahi par Michael et dont le destin funeste se scelle au cimetière de Michael.",
       "characteristics": {
-        "force": 5,
+        "force": 35,
         "endurance": 4,
-        "agilite": 5,
-        "intelligence": 3
+        "agilité": 5,
+        "intelligence": 23
       },
       "armes_ids": [
         5,
@@ -759,7 +842,13 @@
         }
       ],
       "niveau": 0,
-      "image": "/images/personnages/BradSnider.png"
+      "image": "/images/personnages/BradSnider.png",
+      "bonus": {
+        "force": 6,
+        "endurance": 0,
+        "agilite": 0,
+        "intelligence": 2
+      }
     },
     {
       "id": "16",
@@ -767,10 +856,10 @@
       "importance": "secondaire",
       "description": "Le fidèle rottweiler de Lamar, capable d'aider à la poursuite des ennemis grâce à son flair.",
       "characteristics": {
-        "force": 6,
+        "force": 26,
         "endurance": 6,
-        "agilite": 6,
-        "intelligence": 3
+        "agilité": 6,
+        "intelligence": 23
       },
       "armes_ids": [
         8,
@@ -809,7 +898,13 @@
         }
       ],
       "niveau": 0,
-      "image": "/images/personnages/Chop.png"
+      "image": "/images/personnages/Chop.png",
+      "bonus": {
+        "force": 9,
+        "endurance": 3,
+        "agilite": 0,
+        "intelligence": 2
+      }
     },
     {
       "id": "17",
@@ -817,9 +912,9 @@
       "importance": "secondaire",
       "description": "Tante de Franklin, figure autoritaire et féministe, qui ne cache pas sa désapprobation envers son neveu.",
       "characteristics": {
-        "force": 4,
-        "endurance": 4,
-        "agilite": 5,
+        "force": 34,
+        "endurance": -6,
+        "agilité": 5,
         "intelligence": 6
       },
       "armes_ids": [
@@ -859,7 +954,13 @@
         }
       ],
       "niveau": 0,
-      "image": "/images/personnages/DeniseClinton.png"
+      "image": "/images/personnages/DeniseClinton.png",
+      "bonus": {
+        "force": 3,
+        "endurance": 0,
+        "agilite": 5,
+        "intelligence": 1
+      }
     },
     {
       "id": "18",
@@ -869,8 +970,8 @@
       "characteristics": {
         "force": 5,
         "endurance": 5,
-        "agilite": 5,
-        "intelligence": 6
+        "agilité": 15,
+        "intelligence": 36
       },
       "armes_ids": [
         8,
@@ -909,7 +1010,13 @@
         }
       ],
       "niveau": 0,
-      "image": "/images/personnages/Casey.png"
+      "image": "/images/personnages/Casey.png",
+      "bonus": {
+        "force": 7,
+        "endurance": 3,
+        "agilite": 1,
+        "intelligence": 3
+      }
     },
     {
       "id": "19",
@@ -919,8 +1026,8 @@
       "characteristics": {
         "force": 3,
         "endurance": 4,
-        "agilite": 4,
-        "intelligence": 6
+        "agilité": 24,
+        "intelligence": 36
       },
       "armes_ids": [
         10,
@@ -959,7 +1066,13 @@
         }
       ],
       "niveau": 0,
-      "image": "/images/personnages/LesterCrest.png"
+      "image": "/images/personnages/LesterCrest.png",
+      "bonus": {
+        "force": 0,
+        "endurance": 4,
+        "agilite": 2,
+        "intelligence": 3
+      }
     },
     {
       "id": "20",
@@ -968,9 +1081,9 @@
       "description": "Le psychanalyste de Michael, dont les consultations chères masquent une ambition télévisuelle.",
       "characteristics": {
         "force": 3,
-        "endurance": 3,
-        "agilite": 3,
-        "intelligence": 7
+        "endurance": 13,
+        "agilité": 53,
+        "intelligence": 17
       },
       "armes_ids": [
         5,
@@ -1009,7 +1122,13 @@
         }
       ],
       "niveau": 0,
-      "image": "/images/personnages/DrIsiahFriedlander.png"
+      "image": "/images/personnages/DrIsiahFriedlander.png",
+      "bonus": {
+        "force": 3,
+        "endurance": 1,
+        "agilite": 5,
+        "intelligence": 1
+      }
     },
     {
       "id": "21",
@@ -1017,9 +1136,9 @@
       "importance": "secondaire",
       "description": "Concessionnaire véreux qui emploie Franklin pour saisir des voitures de luxe.",
       "characteristics": {
-        "force": 4,
-        "endurance": 4,
-        "agilite": 5,
+        "force": 74,
+        "endurance": 34,
+        "agilité": 5,
         "intelligence": 5
       },
       "armes_ids": [
@@ -1059,7 +1178,13 @@
         }
       ],
       "niveau": 0,
-      "image": "/images/personnages/SimeonYetarian.png"
+      "image": "/images/personnages/SimeonYetarian.png",
+      "bonus": {
+        "force": 9,
+        "endurance": 3,
+        "agilite": 1,
+        "intelligence": 0
+      }
     },
     {
       "id": "22",
@@ -1068,9 +1193,9 @@
       "description": "Chef de gang mexicain contraint par ses dettes envers Michael, prêt à engager des tueurs pour se venger.",
       "characteristics": {
         "force": 6,
-        "endurance": 6,
-        "agilite": 5,
-        "intelligence": 5
+        "endurance": 16,
+        "agilité": 55,
+        "intelligence": 15
       },
       "armes_ids": [
         4,
@@ -1109,7 +1234,13 @@
         }
       ],
       "niveau": 0,
-      "image": "/images/personnages/MartinMadrazo.png"
+      "image": "/images/personnages/MartinMadrazo.png",
+      "bonus": {
+        "force": 2,
+        "endurance": 1,
+        "agilite": 5,
+        "intelligence": 3
+      }
     },
     {
       "id": "23",
@@ -1117,9 +1248,9 @@
       "importance": "secondaire",
       "description": "Épouse de Martin, en proie à des sentiments ambivalents après avoir été enlevée par Trevor.",
       "characteristics": {
-        "force": 3,
+        "force": 83,
         "endurance": 4,
-        "agilite": 5,
+        "agilité": -15,
         "intelligence": 5
       },
       "armes_ids": [
@@ -1159,7 +1290,13 @@
         }
       ],
       "niveau": 0,
-      "image": "/images/personnages/PatriciaMadrazo.png"
+      "image": "/images/personnages/PatriciaMadrazo.png",
+      "bonus": {
+        "force": 8,
+        "endurance": 0,
+        "agilite": 0,
+        "intelligence": 3
+      }
     },
     {
       "id": "24",
@@ -1167,7 +1304,7 @@
       "importance": "secondaire",
       "description": "Ex-petite amie de Franklin, qui tente de renouer malgré un avenir incertain.",
       "characteristics": {
-        "force": 4,
+        "force": 34,
         "endurance": 5,
         "agilite": 5,
         "intelligence": 6
@@ -1209,7 +1346,13 @@
         }
       ],
       "niveau": 0,
-      "image": "/images/personnages/TanishaJackson.png"
+      "image": "/images/personnages/TanishaJackson.png",
+      "bonus": {
+        "force": 10,
+        "endurance": 3,
+        "agilite": 0,
+        "intelligence": 0
+      }
     },
     {
       "id": "25",
@@ -1217,10 +1360,10 @@
       "importance": "secondaire",
       "description": "Jeune toxicomane vivant avec Trevor, souvent naïf et dépassé par les événements.",
       "characteristics": {
-        "force": 3,
+        "force": 43,
         "endurance": 4,
-        "agilite": 4,
-        "intelligence": 3
+        "agilité": 4,
+        "intelligence": -17
       },
       "armes_ids": [
         1,
@@ -1259,7 +1402,13 @@
         }
       ],
       "niveau": 0,
-      "image": "/images/personnages/WadeHebert.png"
+      "image": "/images/personnages/WadeHebert.png",
+      "bonus": {
+        "force": 4,
+        "endurance": 0,
+        "agilite": 1,
+        "intelligence": 1
+      }
     },
     {
       "id": "26",
@@ -1269,8 +1418,8 @@
       "characteristics": {
         "force": 4,
         "endurance": 4,
-        "agilite": 4,
-        "intelligence": 5
+        "agilité": 24,
+        "intelligence": 35
       },
       "armes_ids": [
         8,
@@ -1309,7 +1458,13 @@
         }
       ],
       "niveau": 0,
-      "image": "/images/personnages/FloydHebert.png"
+      "image": "/images/personnages/FloydHebert.png",
+      "bonus": {
+        "force": 7,
+        "endurance": 3,
+        "agilite": 2,
+        "intelligence": 3
+      }
     },
     {
       "id": "27",
@@ -1317,10 +1472,10 @@
       "importance": "secondaire",
       "description": "Fiancée de Floyd, avocate au caractère bien trempé et déterminée à protéger ses intérêts.",
       "characteristics": {
-        "force": 3,
+        "force": 43,
         "endurance": 4,
-        "agilite": 4,
-        "intelligence": 7
+        "agilité": 4,
+        "intelligence": -13
       },
       "armes_ids": [
         2,
@@ -1359,7 +1514,13 @@
         }
       ],
       "niveau": 0,
-      "image": "/images/personnages/Debra.png"
+      "image": "/images/personnages/Debra.png",
+      "bonus": {
+        "force": 7,
+        "endurance": -1,
+        "agilite": 0,
+        "intelligence": -2
+      }
     },
     {
       "id": "28",
@@ -1368,8 +1529,8 @@
       "description": "Professeur de yoga d'Amanda, d'accent français, qui initie Michael à la relaxation.",
       "characteristics": {
         "force": 3,
-        "endurance": 3,
-        "agilite": 4,
+        "endurance": 43,
+        "agilité": 4,
         "intelligence": 6
       },
       "armes_ids": [
@@ -1409,7 +1570,13 @@
         }
       ],
       "niveau": 0,
-      "image": "/images/personnages/FabienLaRouche.png"
+      "image": "/images/personnages/FabienLaRouche.png",
+      "bonus": {
+        "force": 0,
+        "endurance": 5,
+        "agilite": 5,
+        "intelligence": 1
+      }
     },
     {
       "id": "29",
@@ -1417,10 +1584,10 @@
       "importance": "secondaire",
       "description": "Professeur de tennis à domicile d'Amanda, présent lors de missions marquées par des dérives inattendues.",
       "characteristics": {
-        "force": 5,
+        "force": 45,
         "endurance": 5,
-        "agilite": 6,
-        "intelligence": 6
+        "agilité": 6,
+        "intelligence": -14
       },
       "armes_ids": [
         5,
@@ -1459,7 +1626,13 @@
         }
       ],
       "niveau": 0,
-      "image": "/images/personnages/KyleChavis.png"
+      "image": "/images/personnages/KyleChavis.png",
+      "bonus": {
+        "force": 7,
+        "endurance": 0,
+        "agilite": 0,
+        "intelligence": -2
+      }
     },
     {
       "id": "30",
@@ -1469,8 +1642,8 @@
       "characteristics": {
         "force": 5,
         "endurance": 5,
-        "agilite": 5,
-        "intelligence": 7
+        "agilité": 15,
+        "intelligence": 37
       },
       "armes_ids": [
         7,
@@ -1509,7 +1682,13 @@
         }
       ],
       "niveau": 0,
-      "image": "/images/personnages/DevinWeston.png"
+      "image": "/images/personnages/DevinWeston.png",
+      "bonus": {
+        "force": 4,
+        "endurance": 0,
+        "agilite": 1,
+        "intelligence": 1
+      }
     },
     {
       "id": "31",
@@ -1517,7 +1696,7 @@
       "importance": "secondaire",
       "description": "Assistante juridique de Devin Weston, impliquée dans des affaires de vol et de trahison.",
       "characteristics": {
-        "force": 3,
+        "force": 33,
         "endurance": 3,
         "agilite": 4,
         "intelligence": 7
@@ -1559,7 +1738,13 @@
         }
       ],
       "niveau": 0,
-      "image": "/images/personnages/MollySchultz.png"
+      "image": "/images/personnages/MollySchultz.png",
+      "bonus": {
+        "force": 6,
+        "endurance": 0,
+        "agilite": 0,
+        "intelligence": 2
+      }
     },
     {
       "id": "32",
@@ -1567,9 +1752,9 @@
       "importance": "secondaire",
       "description": "PDG de Merryweather, dont les décisions influencent lourdement le destin de plusieurs protagonistes.",
       "characteristics": {
-        "force": 3,
+        "force": 23,
         "endurance": 4,
-        "agilite": 4,
+        "agilité": 14,
         "intelligence": 6
       },
       "armes_ids": [
@@ -1609,7 +1794,13 @@
         }
       ],
       "niveau": 0,
-      "image": "/images/personnages/DonPercival.png"
+      "image": "/images/personnages/DonPercival.png",
+      "bonus": {
+        "force": 9,
+        "endurance": 3,
+        "agilite": 1,
+        "intelligence": 0
+      }
     },
     {
       "id": "33",
@@ -1617,10 +1808,10 @@
       "importance": "secondaire",
       "description": "Propriétaire du studio de cinéma 'Richards Majestic' et partenaire de Michael dans l'industrie du film.",
       "characteristics": {
-        "force": 4,
+        "force": 24,
         "endurance": 4,
-        "agilite": 5,
-        "intelligence": 6
+        "agilité": 5,
+        "intelligence": 26
       },
       "armes_ids": [
         2,
@@ -1659,7 +1850,13 @@
         }
       ],
       "niveau": 0,
-      "image": "/images/personnages/SolomonRichards.png"
+      "image": "/images/personnages/SolomonRichards.png",
+      "bonus": {
+        "force": 5,
+        "endurance": -1,
+        "agilite": 0,
+        "intelligence": 2
+      }
     },
     {
       "id": "34",
@@ -1667,10 +1864,10 @@
       "importance": "secondaire",
       "description": "Leader du gang des Lost MC, dont le destin se scelle lors d'une violente dispute avec Trevor.",
       "characteristics": {
-        "force": 5,
+        "force": 25,
         "endurance": 5,
-        "agilite": 6,
-        "intelligence": 5
+        "agilité": 6,
+        "intelligence": 25
       },
       "armes_ids": [
         5,
@@ -1709,7 +1906,13 @@
         }
       ],
       "niveau": 0,
-      "image": "/images/personnages/JohnnyKlebitz.png"
+      "image": "/images/personnages/JohnnyKlebitz.png",
+      "bonus": {
+        "force": 5,
+        "endurance": 0,
+        "agilite": 0,
+        "intelligence": 2
+      }
     },
     {
       "id": "35",
@@ -1717,9 +1920,9 @@
       "importance": "secondaire",
       "description": "Petite amie de Johnny Klebitz, impliquée dans les conflits du gang avant le tragique dénouement.",
       "characteristics": {
-        "force": 3,
+        "force": 23,
         "endurance": 4,
-        "agilite": 4,
+        "agilité": 14,
         "intelligence": 6
       },
       "armes_ids": [
@@ -1759,7 +1962,13 @@
         }
       ],
       "niveau": 0,
-      "image": "/images/personnages/AshleyButler.png"
+      "image": "/images/personnages/AshleyButler.png",
+      "bonus": {
+        "force": 9,
+        "endurance": 3,
+        "agilite": 1,
+        "intelligence": 0
+      }
     },
     {
       "id": "36",
@@ -1767,7 +1976,7 @@
       "importance": "secondaire",
       "description": "Membre d'un gang de rednecks de Blaine County, rival de Trevor dans le milieu de la drogue.",
       "characteristics": {
-        "force": 5,
+        "force": 35,
         "endurance": 6,
         "agilite": 5,
         "intelligence": 5
@@ -1809,7 +2018,13 @@
         }
       ],
       "niveau": 0,
-      "image": "/images/personnages/ElwoodO'Neil.png"
+      "image": "/images/personnages/ElwoodO'Neil.png",
+      "bonus": {
+        "force": 3,
+        "endurance": 4,
+        "agilite": 0,
+        "intelligence": 0
+      }
     },
     {
       "id": "37",
@@ -1817,10 +2032,10 @@
       "importance": "secondaire",
       "description": "Fabricant de méthamphétamine et collaborateur de Trevor, jouant un rôle clé dans la production illégale.",
       "characteristics": {
-        "force": 5,
+        "force": 25,
         "endurance": 5,
-        "agilite": 5,
-        "intelligence": 6
+        "agilité": 5,
+        "intelligence": 26
       },
       "armes_ids": [
         2,
@@ -1859,7 +2074,13 @@
         }
       ],
       "niveau": 0,
-      "image": "/images/personnages/Chef(deTrevor).png"
+      "image": "/images/personnages/Chef(deTrevor).png",
+      "bonus": {
+        "force": 5,
+        "endurance": -1,
+        "agilite": 0,
+        "intelligence": 2
+      }
     },
     {
       "id": "38",
@@ -1867,9 +2088,9 @@
       "importance": "secondaire",
       "description": "Présentateur de télé-réalité et personnalité médiatique, présent dans divers médias de Los Santos.",
       "characteristics": {
-        "force": 3,
+        "force": 83,
         "endurance": 3,
-        "agilite": 4,
+        "agilité": -16,
         "intelligence": 6
       },
       "armes_ids": [
@@ -1909,7 +2130,13 @@
         }
       ],
       "niveau": 0,
-      "image": "/images/personnages/LazlowJones.png"
+      "image": "/images/personnages/LazlowJones.png",
+      "bonus": {
+        "force": 10,
+        "endurance": 0,
+        "agilite": -1,
+        "intelligence": 0
+      }
     },
     {
       "id": "39",
@@ -1917,10 +2144,10 @@
       "importance": "secondaire",
       "description": "Fondateur de LifeInvader, parodie des grands noms de la tech, impliqué dans des missions risquées.",
       "characteristics": {
-        "force": 4,
+        "force": 24,
         "endurance": 4,
-        "agilite": 4,
-        "intelligence": 6
+        "agilité": 4,
+        "intelligence": 26
       },
       "armes_ids": [
         6,
@@ -1930,9 +2157,9 @@
         {
           "description": "Évolution Novice",
           "effects": {
-            "force": 0,
-            "endurance": 2,
-            "agilite": 1,
+            "force": 1,
+            "endurance": 1,
+            "agilité": 0,
             "intelligence": 2
           },
           "condition": "Atteindre le niveau 10"
@@ -1959,7 +2186,13 @@
         }
       ],
       "niveau": 0,
-      "image": "/images/personnages/JayNorris.png"
+      "image": "/images/personnages/JayNorris.png",
+      "bonus": {
+        "force": 2,
+        "endurance": 1,
+        "agilite": 5,
+        "intelligence": 3
+      }
     },
     {
       "id": "40",
@@ -1968,8 +2201,8 @@
       "description": "Capitaine de Route des Lost MC, ami proche de Clay Simons et de Johnny Klebitz.",
       "characteristics": {
         "force": 6,
-        "endurance": 6,
-        "agilite": 5,
+        "endurance": 46,
+        "agilité": 5,
         "intelligence": 5
       },
       "armes_ids": [
@@ -2009,7 +2242,13 @@
         }
       ],
       "niveau": 0,
-      "image": "/images/personnages/TerryThorpe.png"
+      "image": "/images/personnages/TerryThorpe.png",
+      "bonus": {
+        "force": 0,
+        "endurance": 4,
+        "agilite": 2,
+        "intelligence": 3
+      }
     },
     {
       "id": "41",
@@ -2017,7 +2256,7 @@
       "importance": "secondaire",
       "description": "Sergent des Lost MC, complice fidèle de Terry Thorpe et partenaire dans les activités du gang.",
       "characteristics": {
-        "force": 6,
+        "force": 36,
         "endurance": 6,
         "agilite": 5,
         "intelligence": 5
@@ -2059,7 +2298,13 @@
         }
       ],
       "niveau": 0,
-      "image": "/images/personnages/ClaySimons.png"
+      "image": "/images/personnages/ClaySimons.png",
+      "bonus": {
+        "force": 5,
+        "endurance": 0,
+        "agilite": 1,
+        "intelligence": 0
+      }
     },
     {
       "id": "42",
@@ -2067,10 +2312,10 @@
       "importance": "inconnu",
       "description": "Vendeur de home cinéma soupçonné d'être lié à une organisation terroriste, soumis à de vifs interrogatoires.",
       "characteristics": {
-        "force": 4,
+        "force": 44,
         "endurance": 4,
-        "agilite": 4,
-        "intelligence": 5
+        "agilité": 4,
+        "intelligence": -15
       },
       "armes_ids": [
         10,
@@ -2109,7 +2354,13 @@
         }
       ],
       "niveau": 0,
-      "image": "/images/personnages/M.K.png"
+      "image": "/images/personnages/M.K.png",
+      "bonus": {
+        "force": 4,
+        "endurance": 4,
+        "agilite": 0,
+        "intelligence": -2
+      }
     },
     {
       "id": "43",
@@ -2117,9 +2368,9 @@
       "importance": "inconnu",
       "description": "Agent de haut rang de l'IAA, chargée d'interroger M. K et d'assurer la surveillance.",
       "characteristics": {
-        "force": 4,
-        "endurance": 4,
-        "agilite": 4,
+        "force": 34,
+        "endurance": -6,
+        "agilité": 4,
         "intelligence": 6
       },
       "armes_ids": [
@@ -2159,7 +2410,13 @@
         }
       ],
       "niveau": 0,
-      "image": "/images/personnages/Karen.png"
+      "image": "/images/personnages/Karen.png",
+      "bonus": {
+        "force": 11,
+        "endurance": -1,
+        "agilite": -2,
+        "intelligence": 0
+      }
     },
     {
       "id": "44",
@@ -2167,9 +2424,9 @@
       "importance": "inconnu",
       "description": "Membre senior d'une agence secrète, chargé de traquer les activités anti-américaines.",
       "characteristics": {
-        "force": 4,
+        "force": 24,
         "endurance": 4,
-        "agilite": 4,
+        "agilité": 14,
         "intelligence": 5
       },
       "armes_ids": [
@@ -2209,7 +2466,13 @@
         }
       ],
       "niveau": 0,
-      "image": "/images/personnages/EdwardT.Fortunealias'LeContact'.png"
+      "image": "/images/personnages/EdwardT.Fortunealias'LeContact'.png",
+      "bonus": {
+        "force": 5,
+        "endurance": 0,
+        "agilite": 1,
+        "intelligence": 2
+      }
     },
     {
       "id": "45",
@@ -2219,8 +2482,8 @@
       "characteristics": {
         "force": 5,
         "endurance": 5,
-        "agilite": 5,
-        "intelligence": 5
+        "agilité": 25,
+        "intelligence": 35
       },
       "armes_ids": [
         10,
@@ -2259,7 +2522,13 @@
         }
       ],
       "niveau": 0,
-      "image": "/images/personnages/RoccoPelosi.png"
+      "image": "/images/personnages/RoccoPelosi.png",
+      "bonus": {
+        "force": 0,
+        "endurance": 4,
+        "agilite": 2,
+        "intelligence": 3
+      }
     },
     {
       "id": "46",
@@ -2267,9 +2536,9 @@
       "importance": "inconnu",
       "description": "Veuve d'un explorateur disparu en mer, elle demande à Michael d'enquêter sur d'étranges circonstances.",
       "characteristics": {
-        "force": 4,
-        "endurance": 4,
-        "agilite": 5,
+        "force": 34,
+        "endurance": -6,
+        "agilité": 5,
         "intelligence": 6
       },
       "armes_ids": [
@@ -2309,7 +2578,13 @@
         }
       ],
       "niveau": 0,
-      "image": "/images/personnages/AbigailMathers.png"
+      "image": "/images/personnages/AbigailMathers.png",
+      "bonus": {
+        "force": 3,
+        "endurance": 0,
+        "agilite": 5,
+        "intelligence": 1
+      }
     },
     {
       "id": "47",
@@ -2317,9 +2592,9 @@
       "importance": "inconnu",
       "description": "Militant pour la légalisation de la marijuana, confiant quelques missions de vol à Franklin.",
       "characteristics": {
-        "force": 4,
-        "endurance": 4,
-        "agilite": 4,
+        "force": 74,
+        "endurance": 34,
+        "agilité": 4,
         "intelligence": 5
       },
       "armes_ids": [
@@ -2359,7 +2634,13 @@
         }
       ],
       "niveau": 0,
-      "image": "/images/personnages/Barry.png"
+      "image": "/images/personnages/Barry.png",
+      "bonus": {
+        "force": 10,
+        "endurance": 3,
+        "agilite": 0,
+        "intelligence": 0
+      }
     },
     {
       "id": "48",
@@ -2367,9 +2648,9 @@
       "importance": "inconnu",
       "description": "Paparazzi local engagé par Franklin pour filmer des célébrités dans des situations compromettantes.",
       "characteristics": {
-        "force": 3,
+        "force": 23,
         "endurance": 4,
-        "agilite": 4,
+        "agilité": 14,
         "intelligence": 5
       },
       "armes_ids": [
@@ -2409,7 +2690,13 @@
         }
       ],
       "niveau": 0,
-      "image": "/images/personnages/BeverlyFelton.png"
+      "image": "/images/personnages/BeverlyFelton.png",
+      "bonus": {
+        "force": 2,
+        "endurance": 4,
+        "agilite": 1,
+        "intelligence": 0
+      }
     },
     {
       "id": "49",
@@ -2417,9 +2704,9 @@
       "importance": "inconnu",
       "description": "Chasseur rencontré par Trevor, proposant des missions de chasse pour débloquer de nouvelles activités.",
       "characteristics": {
-        "force": 6,
-        "endurance": 6,
-        "agilite": 5,
+        "force": 36,
+        "endurance": -4,
+        "agilité": 5,
         "intelligence": 4
       },
       "armes_ids": [
@@ -2459,7 +2746,13 @@
         }
       ],
       "niveau": 0,
-      "image": "/images/personnages/CletusEwing.png"
+      "image": "/images/personnages/CletusEwing.png",
+      "bonus": {
+        "force": 5,
+        "endurance": -1,
+        "agilite": 1,
+        "intelligence": 0
+      }
     },
     {
       "id": "50",
@@ -2469,8 +2762,8 @@
       "characteristics": {
         "force": 5,
         "endurance": 5,
-        "agilite": 6,
-        "intelligence": 6
+        "agilité": 16,
+        "intelligence": 36
       },
       "armes_ids": [
         10,
@@ -2509,7 +2802,13 @@
         }
       ],
       "niveau": 0,
-      "image": "/images/personnages/DomBeasley.png"
+      "image": "/images/personnages/DomBeasley.png",
+      "bonus": {
+        "force": 0,
+        "endurance": 4,
+        "agilite": 1,
+        "intelligence": 3
+      }
     },
     {
       "id": "51",
@@ -2519,8 +2818,8 @@
       "characteristics": {
         "force": 4,
         "endurance": 4,
-        "agilite": 5,
-        "intelligence": 6
+        "agilité": 15,
+        "intelligence": 36
       },
       "armes_ids": [
         3,
@@ -2559,7 +2858,13 @@
         }
       ],
       "niveau": 0,
-      "image": "/images/personnages/Hao.png"
+      "image": "/images/personnages/Hao.png",
+      "bonus": {
+        "force": 2,
+        "endurance": 0,
+        "agilite": 2,
+        "intelligence": 3
+      }
     },
     {
       "id": "52",
@@ -2567,10 +2872,10 @@
       "importance": "inconnu",
       "description": "Ancien agent immobilier qui engage Trevor pour éliminer la concurrence.",
       "characteristics": {
-        "force": 5,
+        "force": 45,
         "endurance": 5,
-        "agilite": 5,
-        "intelligence": 6
+        "agilité": 5,
+        "intelligence": -14
       },
       "armes_ids": [
         10,
@@ -2609,7 +2914,13 @@
         }
       ],
       "niveau": 0,
-      "image": "/images/personnages/JoshBernstein.png"
+      "image": "/images/personnages/JoshBernstein.png",
+      "bonus": {
+        "force": 4,
+        "endurance": 4,
+        "agilite": 0,
+        "intelligence": -2
+      }
     },
     {
       "id": "53",
@@ -2617,10 +2928,10 @@
       "importance": "inconnu",
       "description": "Membres de la patrouille frontalière, opposés à l'immigration, opérant en duo.",
       "characteristics": {
-        "force": 4,
+        "force": 34,
         "endurance": 4,
-        "agilite": 4,
-        "intelligence": 5
+        "agilité": 4,
+        "intelligence": 25
       },
       "armes_ids": [
         5,
@@ -2659,7 +2970,13 @@
         }
       ],
       "niveau": 0,
-      "image": "/images/personnages/Joe&Josef.png"
+      "image": "/images/personnages/Joe&Josef.png",
+      "bonus": {
+        "force": 6,
+        "endurance": 0,
+        "agilite": 0,
+        "intelligence": 2
+      }
     },
     {
       "id": "54",
@@ -2669,8 +2986,8 @@
       "characteristics": {
         "force": 3,
         "endurance": 4,
-        "agilite": 4,
-        "intelligence": 6
+        "agilité": 24,
+        "intelligence": 36
       },
       "armes_ids": [
         2,
@@ -2709,7 +3026,13 @@
         }
       ],
       "niveau": 0,
-      "image": "/images/personnages/MaudeEccles.png"
+      "image": "/images/personnages/MaudeEccles.png",
+      "bonus": {
+        "force": 3,
+        "endurance": -1,
+        "agilite": 2,
+        "intelligence": 3
+      }
     },
     {
       "id": "55",
@@ -2717,10 +3040,10 @@
       "importance": "inconnu",
       "description": "Fan de sport organisant un triathlon, rencontrée lors d'une mission par les trois protagonistes.",
       "characteristics": {
-        "force": 4,
+        "force": 34,
         "endurance": 4,
-        "agilite": 4,
-        "intelligence": 6
+        "agilité": 4,
+        "intelligence": 26
       },
       "armes_ids": [
         10,
@@ -2759,7 +3082,13 @@
         }
       ],
       "niveau": 0,
-      "image": "/images/personnages/Mary-AnnQuinn.png"
+      "image": "/images/personnages/Mary-AnnQuinn.png",
+      "bonus": {
+        "force": 3,
+        "endurance": 4,
+        "agilite": 0,
+        "intelligence": 2
+      }
     },
     {
       "id": "56",
@@ -2767,9 +3096,9 @@
       "importance": "inconnu",
       "description": "Mère de Trevor, ancienne prostituée et détenue, dont le passé explique en partie la violence de son fils.",
       "characteristics": {
-        "force": 3,
+        "force": 83,
         "endurance": 3,
-        "agilite": 3,
+        "agilité": -17,
         "intelligence": 5
       },
       "armes_ids": [
@@ -2809,7 +3138,13 @@
         }
       ],
       "niveau": 0,
-      "image": "/images/personnages/MadamePhilips.png"
+      "image": "/images/personnages/MadamePhilips.png",
+      "bonus": {
+        "force": 8,
+        "endurance": 1,
+        "agilite": 3,
+        "intelligence": 1
+      }
     },
     {
       "id": "57",
@@ -2819,8 +3154,8 @@
       "characteristics": {
         "force": 3,
         "endurance": 4,
-        "agilite": 4,
-        "intelligence": 6
+        "agilité": 14,
+        "intelligence": 36
       },
       "armes_ids": [
         3,
@@ -2859,7 +3194,13 @@
         }
       ],
       "niveau": 0,
-      "image": "/images/personnages/NigeletMmeThornhill.png"
+      "image": "/images/personnages/NigeletMmeThornhill.png",
+      "bonus": {
+        "force": 2,
+        "endurance": 0,
+        "agilite": 2,
+        "intelligence": 3
+      }
     },
     {
       "id": "58",
@@ -2867,10 +3208,10 @@
       "importance": "inconnu",
       "description": "Hippie du désert, passionné par les extraterrestres et confiant à Franklin la collecte de pièces de vaisseau.",
       "characteristics": {
-        "force": 3,
+        "force": 23,
         "endurance": 3,
-        "agilite": 4,
-        "intelligence": 6
+        "agilité": 4,
+        "intelligence": 26
       },
       "armes_ids": [
         5,
@@ -2909,7 +3250,13 @@
         }
       ],
       "niveau": 0,
-      "image": "/images/personnages/Omega.png"
+      "image": "/images/personnages/Omega.png",
+      "bonus": {
+        "force": 5,
+        "endurance": 0,
+        "agilite": 0,
+        "intelligence": 2
+      }
     },
     {
       "id": "59",
@@ -2917,9 +3264,9 @@
       "importance": "inconnu",
       "description": "Suspecté d'avoir assassiné une actrice, son passé trouble refait surface lors d'une confrontation avec Franklin.",
       "characteristics": {
-        "force": 4,
+        "force": 24,
         "endurance": 4,
-        "agilite": 4,
+        "agilité": 14,
         "intelligence": 6
       },
       "armes_ids": [
@@ -2959,7 +3306,13 @@
         }
       ],
       "niveau": 0,
-      "image": "/images/personnages/PeterDreyfuss.png"
+      "image": "/images/personnages/PeterDreyfuss.png",
+      "bonus": {
+        "force": 6,
+        "endurance": 0,
+        "agilite": 1,
+        "intelligence": -2
+      }
     },
     {
       "id": "60",
@@ -2969,12 +3322,11 @@
       "characteristics": {
         "force": 4,
         "endurance": 4,
-        "agilite": 5,
-        "intelligence": 5
+        "agilité": 25,
+        "intelligence": 35
       },
       "armes_ids": [
-        12,
-        6
+        12
       ],
       "evolutions": [
         {
@@ -3009,7 +3361,13 @@
         }
       ],
       "niveau": 0,
-      "image": "/images/personnages/TonyaWiggins.png"
+      "image": "/images/personnages/TonyaWiggins.png",
+      "bonus": {
+        "force": 0,
+        "endurance": 0,
+        "agilite": 2,
+        "intelligence": 3
+      }
     },
     {
       "id": "61",
@@ -3017,9 +3375,9 @@
       "importance": "inconnu",
       "description": "Célébrité locale cherchant à échapper aux paparazzis, reconduite par l'un des protagonistes.",
       "characteristics": {
-        "force": 3,
+        "force": 23,
         "endurance": 4,
-        "agilite": 4,
+        "agilité": 14,
         "intelligence": 6
       },
       "armes_ids": [
@@ -3059,7 +3417,13 @@
         }
       ],
       "niveau": 0,
-      "image": "/images/personnages/LaceyJonas.png"
+      "image": "/images/personnages/LaceyJonas.png",
+      "bonus": {
+        "force": 5,
+        "endurance": -1,
+        "agilite": 1,
+        "intelligence": 0
+      }
     },
     {
       "id": "62",
@@ -3067,9 +3431,9 @@
       "importance": "inconnu",
       "description": "Femme tentant de fuir un mariage imposé, poursuivie par le futur époux dans une course-poursuite.",
       "characteristics": {
-        "force": 3,
+        "force": 23,
         "endurance": 3,
-        "agilite": 4,
+        "agilité": 14,
         "intelligence": 5
       },
       "armes_ids": [
@@ -3109,7 +3473,13 @@
         }
       ],
       "niveau": 0,
-      "image": "/images/personnages/Lamariéeenfuite.png"
+      "image": "/images/personnages/Lamariéeenfuite.png",
+      "bonus": {
+        "force": 5,
+        "endurance": 0,
+        "agilite": 1,
+        "intelligence": 2
+      }
     },
     {
       "id": "63",
@@ -3117,7 +3487,7 @@
       "importance": "inconnu",
       "description": "Jeune femme isolée et instable, potentiellement devenue tueuse en série après une perte douloureuse.",
       "characteristics": {
-        "force": 4,
+        "force": 34,
         "endurance": 4,
         "agilite": 4,
         "intelligence": 5
@@ -3159,7 +3529,13 @@
         }
       ],
       "niveau": 0,
-      "image": "/images/personnages/Ursula.png"
+      "image": "/images/personnages/Ursula.png",
+      "bonus": {
+        "force": 7,
+        "endurance": 0,
+        "agilite": 0,
+        "intelligence": -2
+      }
     },
     {
       "id": "64",
@@ -3167,7 +3543,7 @@
       "importance": "inconnu",
       "description": "Jeune femme agressée par une secte, dont la mission se solde par une demande d'aide pour regagner sa maison.",
       "characteristics": {
-        "force": 3,
+        "force": 33,
         "endurance": 3,
         "agilite": 4,
         "intelligence": 4
@@ -3209,7 +3585,13 @@
         }
       ],
       "niveau": 0,
-      "image": "/images/personnages/Victimedelasectedesaltruistes.png"
+      "image": "/images/personnages/Victimedelasectedesaltruistes.png",
+      "bonus": {
+        "force": 3,
+        "endurance": 0,
+        "agilite": 1,
+        "intelligence": 3
+      }
     },
     {
       "id": "65",
@@ -3217,9 +3599,9 @@
       "importance": "inconnu",
       "description": "Braqueur admirateur de Michael, participant aux coups pour une faible part du butin.",
       "characteristics": {
-        "force": 5,
+        "force": 85,
         "endurance": 5,
-        "agilite": 5,
+        "agilité": -15,
         "intelligence": 5
       },
       "armes_ids": [
@@ -3259,7 +3641,13 @@
         }
       ],
       "niveau": 0,
-      "image": "/images/personnages/NormRichards.png"
+      "image": "/images/personnages/NormRichards.png",
+      "bonus": {
+        "force": 10,
+        "endurance": 0,
+        "agilite": -1,
+        "intelligence": 0
+      }
     },
     {
       "id": "66",
@@ -3267,10 +3655,10 @@
       "importance": "inconnu",
       "description": "Braqueur réputé de Liberty City, intervenant dans les opérations du trio pour 12% du butin.",
       "characteristics": {
-        "force": 5,
+        "force": 45,
         "endurance": 5,
-        "agilite": 5,
-        "intelligence": 5
+        "agilité": 5,
+        "intelligence": -15
       },
       "armes_ids": [
         10,
@@ -3309,7 +3697,13 @@
         }
       ],
       "niveau": 0,
-      "image": "/images/personnages/PackieMcReary.png"
+      "image": "/images/personnages/PackieMcReary.png",
+      "bonus": {
+        "force": 4,
+        "endurance": 4,
+        "agilite": 0,
+        "intelligence": -2
+      }
     },
     {
       "id": "67",
@@ -3317,10 +3711,10 @@
       "importance": "inconnu",
       "description": "Braqueur spécialisé dans la fabrication de méthamphétamine, collaborant aux opérations de braquage.",
       "characteristics": {
-        "force": 5,
+        "force": 25,
         "endurance": 5,
-        "agilite": 5,
-        "intelligence": 5
+        "agilité": 5,
+        "intelligence": 25
       },
       "armes_ids": [
         3,
@@ -3359,7 +3753,13 @@
         }
       ],
       "niveau": 0,
-      "image": "/images/personnages/Chef(braqueur).png"
+      "image": "/images/personnages/Chef(braqueur).png",
+      "bonus": {
+        "force": 4,
+        "endurance": 0,
+        "agilite": 1,
+        "intelligence": 2
+      }
     },
     {
       "id": "68",
@@ -3367,9 +3767,9 @@
       "importance": "inconnu",
       "description": "Ancien membre des Vagos reconverti en braqueur, offrant un travail de qualité pour 14% du butin.",
       "characteristics": {
-        "force": 5,
+        "force": 25,
         "endurance": 5,
-        "agilite": 5,
+        "agilité": 15,
         "intelligence": 5
       },
       "armes_ids": [
@@ -3409,7 +3809,13 @@
         }
       ],
       "niveau": 0,
-      "image": "/images/personnages/GustavoMota.png"
+      "image": "/images/personnages/GustavoMota.png",
+      "bonus": {
+        "force": 5,
+        "endurance": -1,
+        "agilite": 1,
+        "intelligence": 0
+      }
     },
     {
       "id": "69",
@@ -3419,8 +3825,8 @@
       "characteristics": {
         "force": 3,
         "endurance": 4,
-        "agilite": 5,
-        "intelligence": 4
+        "agilité": 25,
+        "intelligence": 34
       },
       "armes_ids": [
         10,
@@ -3459,7 +3865,13 @@
         }
       ],
       "niveau": 0,
-      "image": "/images/personnages/KarimDenz.png"
+      "image": "/images/personnages/KarimDenz.png",
+      "bonus": {
+        "force": 0,
+        "endurance": 4,
+        "agilite": 2,
+        "intelligence": 3
+      }
     },
     {
       "id": "70",
@@ -3467,9 +3879,9 @@
       "importance": "inconnu",
       "description": "L'un des meilleurs chauffeurs recrutés par Lester, motivé par le bien-être familial.",
       "characteristics": {
-        "force": 4,
-        "endurance": 5,
-        "agilite": 5,
+        "force": 34,
+        "endurance": -5,
+        "agilité": 5,
         "intelligence": 5
       },
       "armes_ids": [
@@ -3509,7 +3921,13 @@
         }
       ],
       "niveau": 0,
-      "image": "/images/personnages/EddieToh.png"
+      "image": "/images/personnages/EddieToh.png",
+      "bonus": {
+        "force": 5,
+        "endurance": -1,
+        "agilite": 1,
+        "intelligence": 0
+      }
     },
     {
       "id": "71",
@@ -3517,10 +3935,10 @@
       "importance": "inconnu",
       "description": "Chauffeur discret du prologue, dont le destin se scelle rapidement lors d'une mission.",
       "characteristics": {
-        "force": 4,
+        "force": 34,
         "endurance": 4,
-        "agilite": 5,
-        "intelligence": 4
+        "agilité": 5,
+        "intelligence": 24
       },
       "armes_ids": [
         3,
@@ -3559,7 +3977,13 @@
         }
       ],
       "niveau": 0,
-      "image": "/images/personnages/Chauffeurinconnu(prologue).png"
+      "image": "/images/personnages/Chauffeurinconnu(prologue).png",
+      "bonus": {
+        "force": 5,
+        "endurance": 0,
+        "agilite": 1,
+        "intelligence": 2
+      }
     },
     {
       "id": "72",
@@ -3569,8 +3993,8 @@
       "characteristics": {
         "force": 3,
         "endurance": 4,
-        "agilite": 6,
-        "intelligence": 5
+        "agilité": 26,
+        "intelligence": 35
       },
       "armes_ids": [
         6,
@@ -3609,7 +4033,13 @@
         }
       ],
       "niveau": 0,
-      "image": "/images/personnages/TalianaMartinez.png"
+      "image": "/images/personnages/TalianaMartinez.png",
+      "bonus": {
+        "force": 0,
+        "endurance": 1,
+        "agilite": 7,
+        "intelligence": 4
+      }
     },
     {
       "id": "73",
@@ -3617,10 +4047,10 @@
       "importance": "inconnu",
       "description": "Pirate informatique engagé lors d'un braquage pour infiltrer des systèmes de sécurité.",
       "characteristics": {
-        "force": 4,
+        "force": 34,
         "endurance": 4,
-        "agilite": 5,
-        "intelligence": 5
+        "agilité": 5,
+        "intelligence": 25
       },
       "armes_ids": [
         5,
@@ -3659,7 +4089,13 @@
         }
       ],
       "niveau": 0,
-      "image": "/images/personnages/RickieLukens.png"
+      "image": "/images/personnages/RickieLukens.png",
+      "bonus": {
+        "force": 6,
+        "endurance": 0,
+        "agilite": 0,
+        "intelligence": 2
+      }
     },
     {
       "id": "74",
@@ -3667,9 +4103,9 @@
       "importance": "inconnu",
       "description": "Pirate au savoir informatique moyen, participant aux opérations de piratage pour une part du butin.",
       "characteristics": {
-        "force": 4,
+        "force": 24,
         "endurance": 4,
-        "agilite": 4,
+        "agilité": 14,
         "intelligence": 5
       },
       "armes_ids": [
@@ -3709,7 +4145,13 @@
         }
       ],
       "niveau": 0,
-      "image": "/images/personnages/ChristianFeltz.png"
+      "image": "/images/personnages/ChristianFeltz.png",
+      "bonus": {
+        "force": 2,
+        "endurance": 0,
+        "agilite": 3,
+        "intelligence": 3
+      }
     },
     {
       "id": "75",
@@ -3719,8 +4161,8 @@
       "characteristics": {
         "force": 3,
         "endurance": 4,
-        "agilite": 5,
-        "intelligence": 5
+        "agilité": 25,
+        "intelligence": 35
       },
       "armes_ids": [
         10,
@@ -3759,7 +4201,13 @@
         }
       ],
       "niveau": 0,
-      "image": "/images/personnages/PaigeHarris.png"
+      "image": "/images/personnages/PaigeHarris.png",
+      "bonus": {
+        "force": 0,
+        "endurance": 4,
+        "agilite": 2,
+        "intelligence": 3
+      }
     },
     {
       "id": "76",
@@ -3767,9 +4215,9 @@
       "importance": "inconnu",
       "description": "Entrepreneur et porte-parole de Bullshark Testosterone, évoqué dans GTA Online comme coach de vie.",
       "characteristics": {
-        "force": 5,
+        "force": 25,
         "endurance": 5,
-        "agilite": 5,
+        "agilité": 15,
         "intelligence": 6
       },
       "armes_ids": [
@@ -3809,7 +4257,13 @@
         }
       ],
       "niveau": 0,
-      "image": "/images/personnages/BrucieKibbutz.png"
+      "image": "/images/personnages/BrucieKibbutz.png",
+      "bonus": {
+        "force": 5,
+        "endurance": -1,
+        "agilite": 1,
+        "intelligence": 0
+      }
     },
     {
       "id": "77",
@@ -3817,10 +4271,10 @@
       "importance": "inconnu",
       "description": "Protagoniste de GTA IV, immigrant d'Europe de l'Est en quête du rêve américain, souvent évoqué dans l'univers GTA.",
       "characteristics": {
-        "force": 6,
+        "force": 46,
         "endurance": 6,
-        "agilite": 6,
-        "intelligence": 6
+        "agilité": 6,
+        "intelligence": -14
       },
       "armes_ids": [
         9,
@@ -3859,7 +4313,13 @@
         }
       ],
       "niveau": 0,
-      "image": "/images/personnages/NikoBellic.png"
+      "image": "/images/personnages/NikoBellic.png",
+      "bonus": {
+        "force": 7,
+        "endurance": 0,
+        "agilite": 0,
+        "intelligence": 0
+      }
     },
     {
       "id": "78",
@@ -3868,13 +4328,13 @@
       "description": "Trafiquants jamaïcains, toujours associés et reconnaissables à leur accent, intervenant dans divers événements.",
       "characteristics": {
         "force": 5,
-        "endurance": 5,
-        "agilite": 5,
-        "intelligence": 6
+        "endurance": 15,
+        "agilité": 55,
+        "intelligence": 16
       },
       "armes_ids": [
-        7,
-        11
+        11,
+        6
       ],
       "evolutions": [
         {
@@ -3909,7 +4369,13 @@
         }
       ],
       "niveau": 0,
-      "image": "/images/personnages/LittleJacob&Badman.png"
+      "image": "/images/personnages/LittleJacob&Badman.png",
+      "bonus": {
+        "force": 8,
+        "endurance": 1,
+        "agilite": 3,
+        "intelligence": 1
+      }
     }
   ]
 }
