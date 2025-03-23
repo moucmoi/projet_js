@@ -17,9 +17,8 @@ import ChoixAjoutArme from "./views/pages/ChoixAjoutArme.js";
 import AjoutArme from "./views/pages/AjoutArme.js";
 import CharacterProvider from "./services/CharacterProvider.js";
 
-console.log("bbbbbbbb");
+
 CharacterProvider.updateAllCharacter();
-console.log("bbbbbbbb");
 
 
 const routes={
