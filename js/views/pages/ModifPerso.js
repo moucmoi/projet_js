@@ -49,7 +49,7 @@ export default class ModifPerso {
                 return;
             }
 
-            if (isNaN(force) || force <= 0 || isNaN(agilite) || agilite <= 0 || isNaN(intelligence) || intelligence <= 0 || isNaN(endurance) || endurance <= 0) {
+            if (isNaN(force) || force < 0 || isNaN(agilite) || agilite < 0 || isNaN(intelligence) || intelligence < 0 || isNaN(endurance) || endurance < 0) {
                 document.getElementById("message").textContent = "Les caractéristiques doivent être des nombres positifs.";
                 return;
             }

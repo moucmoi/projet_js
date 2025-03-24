@@ -15,8 +15,9 @@ export default class Arme {
             <p>
                 (Effets : Force ${arme.effects.force}, Endurance ${arme.effects.endurance}, Agilité ${arme.effects.agilite}, Intelligence ${arme.effects.intelligence})
             </p>
+            <button onclick=window.location.href='/#/armes/${arme.id}/modification'>Modifier</button>
+            <button onclick=window.location.href='/#/armes/${arme.id}/suppression'>Supprimer</button>
         `;
-        
         return view;
     }
 }

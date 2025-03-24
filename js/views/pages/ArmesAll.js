@@ -14,7 +14,7 @@ export default class ArmesAll{
             <link rel="stylesheet" href='../../../css/PersoAll.css'>
             <div id="personnage-all-container" class="personnage-all-container">
                 <h2 id="personnage-title" class="personnage-title">Les armes</h2>
-                <a href='/#/armes/${idMax+1}' class="personnage-card-link" id="personnage-card-link">
+                <a href='/#/nouvelle/${idMax+1}' class="personnage-card-link" id="personnage-card-link">
                     <section class="personnage-section" id="personnage-section">
                         <img src="../../../images/autres/plus.png" alt="creer arme" class="personnage-img" id="personnage-img">
                         <h3 class="personnage-name" id="personnage-name">Créer arme</h3>

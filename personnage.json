@@ -110,7 +110,10 @@
         }
       ],
       "niveau": 0,
-      "image": "/images/personnages/TrevorPhilips.png"
+      "image": "/images/personnages/TrevorPhilips.png",
+      "ratings": {
+        "x": "1"
+      }
     },
     {
       "id": "3",
