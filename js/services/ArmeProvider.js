@@ -75,6 +75,7 @@ export default class ArmeProvider{
             console.error("Erreur lors de la suppression de l'arme :", err);
             return false;
         }
+    }
 
     static getNom=async(listeId)=>{
         let armesHtml = await Promise.all(

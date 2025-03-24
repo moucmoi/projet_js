@@ -61,7 +61,7 @@
       "bonus": {
         "force": 2,
         "endurance": 4,
-        "agilite": 0,
+        "agilite": null,
         "intelligence": 2
       }
     },
