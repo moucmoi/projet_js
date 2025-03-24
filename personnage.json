@@ -61,10 +61,10 @@
         "x": "1"
       },
       "bonus": {
-        "force": 9,
-        "endurance": 4,
+        "force": "00225",
+        "endurance": "04000",
         "agilite": null,
-        "intelligence": 2
+        "intelligence": "01020"
       }
     },
     {
