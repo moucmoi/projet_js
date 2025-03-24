@@ -3,26 +3,32 @@ import Utils from "../../services/Utils.js";
 
 export default class NouvelleArme {
     async render() {
-
         return `
-            <h2>Creer une nouvelle arme</h2>
-            <label>Nom :</label>
-            <input type="text" id="name" required />
+            <link href="./../../../css/AjoutSupp.css" rel="stylesheet" />
+            <div id="nouvelle-arme" class="page-container">
+                <h2>Créer une nouvelle arme</h2>
 
-            <label>bonus de Force :</label>
-            <input type="number" id="force" required />
+                <label for="name">Nom :</label>
+                <input type="text" id="name" required />
 
-            <label>bonus d'Agilité :</label>
-            <input type="number" id="agilite" required />
+                <label for="force">Bonus de Force :</label>
+                <input type="number" id="force" required />
 
-            <label>bonus d'Intelligence :</label>
-            <input type="number" id="intelligence" required />
+                <label for="agilite">Bonus d'Agilité :</label>
+                <input type="number" id="agilite" required />
 
-            <label>bonus d'Endurance :</label>
-            <input type="number" id="endurance" required />
+                <label for="intelligence">Bonus d'Intelligence :</label>
+                <input type="number" id="intelligence" required />
 
-            <button id="creerArme">Créer</button>
-            <p id="message"></p>
+                <label for="endurance">Bonus d'Endurance :</label>
+                <input type="number" id="endurance" required />
+
+                <div class="page-buttons">
+                    <button id="creerArme">Créer</button>
+                </div>
+
+                <p id="message"></p>
+            </div>
         `;
     }
 
