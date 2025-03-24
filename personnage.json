@@ -13,8 +13,10 @@
       },
       "pouvoirs": [],
       "armes_ids": [
+        10,
+        3,
         4,
-        10
+        11
       ],
       "evolutions": [
         {
@@ -51,16 +53,16 @@
       "niveau": 4,
       "image": "/images/personnages/MichaelDeSanta.png",
       "ratings": {
-        "v": "1",
+        "v": "5",
         "a": "1",
         "j": "4",
         "k": "5",
         "n": "4"
       },
       "bonus": {
-        "force": 2,
+        "force": 12,
         "endurance": 4,
-        "agilite": 0,
+        "agilite": -1,
         "intelligence": 2
       }
     },
@@ -581,8 +583,8 @@
         "intelligence": 7
       },
       "armes_ids": [
-        2,
-        3
+        3,
+        7
       ],
       "evolutions": [
         {
@@ -619,10 +621,13 @@
       "niveau": 0,
       "image": "/images/personnages/WeiCheng.png",
       "bonus": {
-        "force": 5,
-        "endurance": -1,
+        "force": 6,
+        "endurance": 0,
         "agilite": 1,
-        "intelligence": 0
+        "intelligence": -2
+      },
+      "ratings": {
+        "v": "4"
       }
     },
     {
@@ -2149,8 +2154,7 @@
         "intelligence": 26
       },
       "armes_ids": [
-        6,
-        4
+        6
       ],
       "evolutions": [
         {
@@ -2187,10 +2191,10 @@
       "niveau": 0,
       "image": "/images/personnages/JayNorris.png",
       "bonus": {
-        "force": 2,
+        "force": 0,
         "endurance": 1,
         "agilite": 5,
-        "intelligence": 3
+        "intelligence": 1
       }
     },
     {
