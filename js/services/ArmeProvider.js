@@ -33,7 +33,7 @@ export default class ArmeProvider{
             console.log("Error getting documents",err);
         }
     }
-
+  
     static async addArme(armeData) {
         try {
             let response = await fetch(`${ENDPOINTA}`, {
@@ -75,6 +75,16 @@ export default class ArmeProvider{
             console.error("Erreur lors de la suppression de l'arme :", err);
             return false;
         }
+
+    static getNom=async(listeId)=>{
+        let armesHtml = await Promise.all(
+            listeId.map(async (idA) => {
+                let arme = await this.getArme(idA); 
+                return arme;
+            })
+        );
+        return armesHtml;
+
     }
 }
 

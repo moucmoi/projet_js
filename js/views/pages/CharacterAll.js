@@ -17,7 +17,7 @@ export default class CharacterAll {
                 <h2 id="personnage-title" class="personnage-title">Les personnages</h2>
                 <a href='/#/nouveau/${idMax+1}' class="personnage-card-link" id="personnage-card-link">
                     <section class="personnage-section" id="personnage-section">
-                        <img src="../../../images/autres/plus.png" alt="Creer personnage" class="personnage-img" id="personnage-img">
+                        <img loading="lazy"  src="../../../images/autres/plus.png" alt="Creer personnage" class="personnage-img" id="personnage-img">
                         <h3 class="personnage-name" id="personnage-name">Créer personnage</h3>
                         <h4 class="personnage-importance" id="personnage-importance">nouveau</h4>
                     </section>

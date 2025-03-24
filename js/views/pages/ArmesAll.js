@@ -22,8 +22,7 @@ export default class ArmesAll{
                 </a>
         `;
         armes.forEach(arme => {
-            console.log(arme);
-            view += affichageArme.render(arme);
+            view += affichageArme.renderAll(arme);
         });
 
         // On ferme la div conteneur

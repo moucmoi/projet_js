@@ -14,6 +14,15 @@ import SuppressionPerso from "./views/pages/SuppressionPerso.js";
 import ModifArme from "./views/pages/ModifArme.js";
 import NouvelleArme from "./views/pages/NouvelleArme.js";
 import SuppressionArme from "./views/pages/SuppressionArme.js";
+import ChoixEnleverArme from "./views/pages/ChoixEnleverArme.js";
+import EnleverArme from "./views/pages/EnleverArme.js";
+import ChoixAjoutArme from "./views/pages/ChoixAjoutArme.js";
+import AjoutArme from "./views/pages/AjoutArme.js";
+import CharacterProvider from "./services/CharacterProvider.js";
+
+
+CharacterProvider.updateAllCharacter();
+
 
 const routes={
     // AUTRES
@@ -36,14 +45,22 @@ const routes={
     '/armes/:id/modification':ModifArme,
     '/armes/:id/suppression':SuppressionArme,
     '/nouvelle/:id': NouvelleArme
+    '/character/:id/suppression':ChoixEnleverArme,
+    '/characters/:id/suppression/:id2':EnleverArme,
+    '/character/:id/ajout':ChoixAjoutArme,
+    '/characters/:id/ajout/:id2':AjoutArme
+
 }
+
+
 
 const router=async ()=>{
     const content=document.querySelector('#content');
 
     let request=Utils.parseRequestURL();
     console.log(request);
-    let parseURL=(request.ressource ? '/'+request.ressource : '/') + (request.id ? '/:id' : '') + (request.verb ? '/'+request.verb : '');
+
+    let parseURL =(request.ressource ? '/' + request.ressource : '/') + (request.id ? '/:id' : '') + (request.verb      ? '/' + request.verb : '') + (request.id2       ? '/:id2' : '');
     let page=routes[parseURL] ? new routes[parseURL] : new Error404;
 
     content.innerHTML=await page.render();
