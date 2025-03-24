@@ -54,6 +54,21 @@ export default class CharacterProvider {
     }
   };
 
+  static async addCharacter(characterData) {
+    try {
+        let response = await fetch(`${ENDPOINTC}`, {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify(characterData),
+        });
+
+        return response.ok;
+    } catch (err) {
+        console.error("Erreur lors de l'ajout du personnage :", err);
+        return false;
+    }
+}
+
   static async updateAllCharacter() {
     try {
       const personnages = await this.fetchCharacter(100);
@@ -103,11 +118,7 @@ export default class CharacterProvider {
       "intelligence": 0
     };
     try {
-      // Récupère le personnage
       const personnage = await this.getCharacter(id);
-
-
-      // Parcours chaque arme et met à jour les caractéristiques
       for (const idarme of personnage["armes_ids"]) {
         console.log(statsFinales);
         const arme = await ArmeProvider.getArme(idarme);
