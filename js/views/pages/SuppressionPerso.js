@@ -1,13 +1,13 @@
 import CharacterProvider from "../../services/CharacterProvider.js";
 import Utils from "../../services/Utils.js";
 
-export default class NouveauPerso {
+export default class SuppressionPerso {
     async render() {
         let request = Utils.parseRequestURL();
         let character = await CharacterProvider.getCharacter(request.id);
 
         return `
-        <h2>Etes vous sur de vouloir supprmier ${character.name}</h2>
+        <h2>Etes vous sur de vouloir supprimer ${character.name}</h2>
         <button id="annuler" onclick="location.href = '/#/characters/${character.id}';">Annuler</button>
         <button id="confirmer">Oui</button>
         `
