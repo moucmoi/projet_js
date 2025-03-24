@@ -44,7 +44,7 @@ const routes={
     '/armes/:id': Arme,
     '/armes/:id/modification':ModifArme,
     '/armes/:id/suppression':SuppressionArme,
-    '/nouvelle/:id': NouvelleArme
+    '/nouvelle/:id': NouvelleArme,
     '/character/:id/suppression':ChoixEnleverArme,
     '/characters/:id/suppression/:id2':EnleverArme,
     '/character/:id/ajout':ChoixAjoutArme,
