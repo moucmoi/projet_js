@@ -20,7 +20,7 @@ export default class ArmeProvider{
     static getArme=async(id)=>{
         const options={
             method:'GET',
-            Headers:{
+            headers:{
                 'Content-Type':'application/json'
             }
         };
@@ -33,6 +33,48 @@ export default class ArmeProvider{
             console.log("Error getting documents",err);
         }
     }
+  
+    static async addArme(armeData) {
+        try {
+            let response = await fetch(`${ENDPOINTA}`, {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify(armeData),
+            });
+    
+            return response.ok;
+        } catch (err) {
+            console.error("Erreur lors de l'ajout de l'arme", err);
+            return false;
+        }
+    }
+
+    static async updateArme(id, armeData) {
+        try {
+            let response = await fetch(`${ENDPOINTA}/${id}`, {
+                method: "PATCH",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify(armeData),
+            });
+    
+            return response.ok;
+        } catch (err) {
+            console.error("Erreur lors de la modification de l'arme :", err);
+            return false;
+        }
+    }
+
+    static async deleteArme(id) {
+        try {
+            let response = await fetch(`${ENDPOINTA}/${id}`, {
+                method: "DELETE",
+            });
+    
+            return response.ok;
+        } catch (err) {
+            console.error("Erreur lors de la suppression de l'arme :", err);
+            return false;
+        }
 
     static getNom=async(listeId)=>{
         let armesHtml = await Promise.all(
@@ -42,6 +84,7 @@ export default class ArmeProvider{
             })
         );
         return armesHtml;
+
     }
 }
 
