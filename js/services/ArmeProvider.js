@@ -1,4 +1,5 @@
 import {ENDPOINTA} from "../config.js";
+import CharacterProvider from "./CharacterProvider.js";
 export default class ArmeProvider{
     static fetchArme=async(limit=20)=>{
         const options={
@@ -62,6 +63,7 @@ export default class ArmeProvider{
             console.error("Erreur lors de la modification de l'arme :", err);
             return false;
         }
+        CharacterProvider.updateAllCharacter();
     }
 
     static async deleteArme(id) {

@@ -103,10 +103,10 @@
       "id": "10",
       "name": "Gilet pare-balles",
       "effects": {
-        "force": "0",
-        "agilite": "0",
-        "intelligence": "1",
-        "endurance": "4"
+        "force": 0,
+        "agilite": 0,
+        "intelligence": 1,
+        "endurance": 4
       },
       "image": "/images/armes/Giletpare-balles.jpg"
     },

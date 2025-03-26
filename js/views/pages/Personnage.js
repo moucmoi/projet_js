@@ -35,7 +35,7 @@ export default class Personnage {
                     <ul id="caracteristiques" class="bw-space-y-2">
                         <li class="bw-bg-white/5 bw-p-2 bw-rounded">Force : ${character.characteristics.force + character.bonus.force}</li>
                         <li class="bw-bg-white/5 bw-p-2 bw-rounded">Endurance : ${character.characteristics.endurance + character.bonus.endurance}</li>
-                        <li class="bw-bg-white/5 bw-p-2 bw-rounded">Agilité : ${character.characteristics.agilité + character.bonus.agilite}</li>
+                        <li class="bw-bg-white/5 bw-p-2 bw-rounded">Agilité : ${character.characteristics.agilite + character.bonus.agilite}</li>
                         <li class="bw-bg-white/5 bw-p-2 bw-rounded">Intelligence : ${character.characteristics.intelligence + character.bonus.intelligence}</li>
                     </ul>
 
@@ -65,6 +65,9 @@ export default class Personnage {
                         </button>
                         <button class="bw-btn bw-btn-green" onclick="window.location.href='/#/character/${character.id}/ajout'">
                             Ajouter une arme
+                        </button>
+                        <button class="bw-btn bw-btn-green" onclick="window.location.href='/#/characters/${character.id}/modification'">
+                            Modifier le personnage
                         </button>
                     </div>
                 </div>
