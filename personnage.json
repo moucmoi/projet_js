@@ -51,20 +51,16 @@
       ],
       "niveau": 4,
       "image": "/images/personnages/MichaelDeSanta.png",
-      "ratings": {
-        "v": "5",
-        "a": "1",
-        "j": "4",
-        "k": "5",
-        "n": "4",
-        "x": "1"
-      },
       "bonus": {
-        "force": 7,
-        "endurance": 4,
+        "force": 9,
+        "endurance": 5,
         "agilite": null,
-        "intelligence": 1
-      }
+        "intelligence": 2
+      },
+      "ratings": [
+        "5",
+        5
+      ]
     },
     {
       "id": "2",
@@ -116,10 +112,10 @@
       "niveau": 0,
       "image": "/images/personnages/TrevorPhilips.png",
       "bonus": {
-        "force": "20",
-        "endurance": "04",
+        "force": 4,
+        "endurance": 5,
         "agilite": null,
-        "intelligence": "21"
+        "intelligence": 4
       }
     },
     {
@@ -625,9 +621,6 @@
         "endurance": 0,
         "agilite": 1,
         "intelligence": -2
-      },
-      "ratings": {
-        "v": "4"
       }
     },
     {
@@ -4383,12 +4376,12 @@
       "id": "79",
       "name": "test",
       "importance": "principal",
-      "description": "a",
+      "description": "aaa",
       "characteristics": {
-        "force": "5",
-        "agilite": "5",
-        "intelligence": "5",
-        "endurance": "5"
+        "force": "4",
+        "agilite": "4",
+        "intelligence": "4",
+        "endurance": "4"
       },
       "evolutions": [
         {

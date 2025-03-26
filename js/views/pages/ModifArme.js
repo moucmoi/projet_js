@@ -43,10 +43,10 @@ export default class ModifArme {
     
         document.getElementById("modifArme").addEventListener("click", async () => {
             let name = document.getElementById("name").value.trim();
-            let force = document.getElementById("force").value.trim();
-            let agilite = document.getElementById("agilite").value.trim();
-            let intelligence = document.getElementById("intelligence").value.trim();
-            let endurance = document.getElementById("endurance").value.trim();
+            let force = parseInt(document.getElementById("force").value.trim());
+            let agilite = parseInt(document.getElementById("agilite").value.trim());
+            let intelligence = parseInt(document.getElementById("intelligence").value.trim());
+            let endurance = parseInt(document.getElementById("endurance").value.trim());
     
             if (!name || !force || !agilite || !intelligence || !endurance) {
                 document.getElementById("message").textContent = "Tous les champs doivent être remplis.";

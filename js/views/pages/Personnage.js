@@ -22,57 +22,53 @@ export default class Personnage {
                     <img loading="lazy" src="${character.image}" alt="${character.name}" id="image" class="bw-rounded-xl bw-shadow-lg bw-object-cover bw-w-full" />
                 </div>
 
-                <div class="bw-flex bw-flex-col bw-gap-4">
-                    <h2 id="personnage-nom" class="bw-text-2xl bw-font-bold bw-text-yellow-400">
-                        ${character.name} <span class="bw-text-sm bw-text-white/60">(${character.importance})</span>
-                    </h2>
+        let armes = [];
+        if (character.armes_ids && character.armes_ids.length > 0) {
+            armes = await ArmeProvider.getNom(character.armes_ids);
+        }
 
-                    <p id="personnage-description" class="bw-text-sm bw-text-white/80">
-                        ${character.description}
-                    </p>
+        character.bonus = character.bonus || {
+            force: 0,
+            endurance: 0,
+            agilite: 0,
+            intelligence: 0
+        };
 
-                    <h3 class="bw-text-lg bw-font-semibold bw-border-b bw-border-white/10 bw-pb-1">Caractéristiques</h3>
-                    <ul id="caracteristiques" class="bw-space-y-2">
-                        <li class="bw-bg-white/5 bw-p-2 bw-rounded">Force : ${character.characteristics.force + character.bonus.force}</li>
-                        <li class="bw-bg-white/5 bw-p-2 bw-rounded">Endurance : ${character.characteristics.endurance + character.bonus.endurance}</li>
-                        <li class="bw-bg-white/5 bw-p-2 bw-rounded">Agilité : ${character.characteristics.agilite + character.bonus.agilite}</li>
-                        <li class="bw-bg-white/5 bw-p-2 bw-rounded">Intelligence : ${character.characteristics.intelligence + character.bonus.intelligence}</li>
-                    </ul>
 
-                    <h3 class="bw-text-lg bw-font-semibold bw-border-b bw-border-white/10 bw-pb-1">Évolutions</h3>
-                    ${character.evolutions.map(evo => `
-                        <p class="evolution-item bw-bg-white/5 bw-p-3 bw-rounded">
-                            ${evo.description}<br />
-                            <span class="bw-text-sm bw-text-white/60">
-                                (Effets : Force +${evo.effects.force}, Endurance +${evo.effects.endurance}, 
-                                Agilité +${evo.effects.agilité}, Intelligence +${evo.effects.intelligence})
-                            </span>
-                        </p>
-                    `).join('')}
+        let affichageArme = new AffichageArme();
+        window.toggleFavoris = Favoris.toggleFavoris;
 
-                    <h3 class="bw-text-lg bw-font-semibold bw-border-b bw-border-white/10 bw-pb-1">Armes</h3>
-                    ${armes.map(arme => affichageArme.renderAll(arme)).join('')}
+        let view = `
+            <button><a href="http://localhost:8000/#/characters">Retour</a></button>
+            <h2>${character.name} (${character.importance})</h2>
+            <p>${character.description}</p>
+            <h3>Caractéristiques</h3>
+            <ul>
+                <li>Force : ${character.characteristics.force + character.bonus.force}</li>
+                <li>Endurance : ${character.characteristics.endurance + character.bonus.endurance}</li>
+                <li>Agilité : ${character.characteristics.agilité + character.bonus.agilite}</li>
+                <li>Intelligence : ${character.characteristics.intelligence + character.bonus.intelligence}</li>
+            </ul>
+            <h3>Évolutions</h3>
+            ${character.evolutions.map(evo => `
+                <p>
+                    ${evo.description} 
+                    (Effets : Force +${evo.effects.force}, Endurance +${evo.effects.endurance}, Agilité +${evo.effects.agilité}, Intelligence +${evo.effects.intelligence})
+                </p>
+            `).join('')}
+            <h3>Armes :</h3>`;
 
-                    <div class="button-group bw-flex bw-flex-wrap bw-gap-3 bw-mt-4">
-                        <button id="favoris-btn-${parseInt(character.id)}" class="bw-btn bw-btn-red" onclick="window.toggleFavoris(${parseInt(character.id)})">
-                            ${contient ? 'Enlever des favoris' : 'Ajouter aux favoris'}
-                        </button>
-                        <button class="bw-btn bw-btn-amber" onclick="window.location.href='/#/notation/${character.id}'">
-                            Ajouter une note
-                        </button>
-                        <button class="bw-btn bw-btn-slate" onclick="window.location.href='/#/character/${character.id}/suppression'">
-                            Enlever une arme
-                        </button>
-                        <button class="bw-btn bw-btn-green" onclick="window.location.href='/#/character/${character.id}/ajout'">
-                            Ajouter une arme
-                        </button>
-                        <button class="bw-btn bw-btn-green" onclick="window.location.href='/#/characters/${character.id}/modification'">
-                            Modifier le personnage
-                        </button>
-                    </div>
-                </div>
-            </div>
-        `;
+        armes.forEach(arme => {
+            view += affichageArme.renderAll(arme);
+        });
+
+        view += `<button id="favoris-btn-${parseInt(character.id)}" onclick="window.toggleFavoris(${parseInt(character.id)})">
+                ${contient ? 'Enlever des favoris' : 'Ajouter aux favoris'}
+            </button>
+            <button id="btnNotation" onclick="window.location.href='/#/notation/${character.id}'">Ajouter une note</button>
+            <button id="btnNotation" onclick="window.location.href='/#/characters/${character.id}/suppression'">supprimer</button>
+            <button onclick="window.location.href='/#/character/${character.id}/suppression'">Enlever une arme</button>
+            <button onclick="window.location.href='/#/character/${character.id}/ajout'">Ajouter une arme</button>`;
 
         return view;
     }
