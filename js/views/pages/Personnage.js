@@ -22,6 +22,7 @@ export default class Personnage {
             intelligence: 0
         };
 
+
         let affichageArme = new AffichageArme();
         window.toggleFavoris = Favoris.toggleFavoris;
 
