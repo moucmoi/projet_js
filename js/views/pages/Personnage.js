@@ -16,7 +16,7 @@ export default class Personnage {
         let view = `
             <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/nobrainr/botwacht@latest/dist/botwacht.min.css">
             <link href="./../../../css/Unperso.css" rel="stylesheet" />
-
+            
             <div id="personnage-container" class="bw-card bw-glass bw-grid md:bw-grid-cols-[300px_1fr] bw-gap-6 bw-p-6 bw-max-w-5xl bw-mx-auto bw-my-10">
                 <div>
                     <img loading="lazy" src="${character.image}" alt="${character.name}" id="image" class="bw-rounded-xl bw-shadow-lg bw-object-cover bw-w-full" />

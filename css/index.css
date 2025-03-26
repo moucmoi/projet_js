@@ -1,4 +1,4 @@
-/* Reset de base */
+
 * {
     margin: 0;
     padding: 0;
@@ -44,12 +44,12 @@ nav ul li a:hover {
     color: #2c3e50;
 }
 
-/* MAIN */
+
 main {
     padding: 20px;
 }
 
-/* FOOTER */
+
 footer {
     background-color: #34495e;
     color: white;
