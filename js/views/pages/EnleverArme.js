@@ -6,14 +6,18 @@ export default class EnleverArme{
         let character=await CharacterProvider.getCharacter(request.id);
         let view='';
         try{
-            console.log(request.id2)
-            CharacterProvider.retirerArme(character,request.id2);
+            await CharacterProvider.retirerArme(character,request.id2);
             view+=`
-            <h1>L'arme a bien été supprimé</h1>
-            <button onclick=window.location.href='/#/characters/${request.id}'>Retour</button>`;
+            <link href="./../../../css/AjoutSupp.css" rel="stylesheet" />
+            <div id="suppression-arme" class="page-container">
+                <h2>L'arme a bien été supprimée</h2>
+                <div class="confirm-buttons">
+                    <button onclick=window.location.href='/#/characters/${request.id}'>Retour</button>
+                </div>
+            </div>`;
         }
         catch{
-            view+=`<h1>La suppression ne s'est pas faite</h1>`
+            view+=`<h2>La suppression ne s'est pas faite</h2>`
         }
         return view;
     }

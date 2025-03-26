@@ -13,8 +13,8 @@
       },
       "pouvoirs": [],
       "armes_ids": [
-        3,
-        5
+        5,
+        3
       ],
       "evolutions": [
         {
@@ -134,7 +134,6 @@
       },
       "armes_ids": [
         5,
-        2,
         10
       ],
       "evolutions": [
@@ -172,10 +171,10 @@
       "niveau": 0,
       "image": "/images/personnages/FranklinClinton.png",
       "bonus": {
-        "force": 6,
-        "endurance": 3,
-        "agilite": 0,
-        "intelligence": 0
+        "force": 5,
+        "endurance": 5,
+        "agilite": null,
+        "intelligence": 2
       }
     },
     {

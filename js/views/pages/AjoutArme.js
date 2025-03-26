@@ -6,14 +6,18 @@ export default class AjoutArme {
         let character=await CharacterProvider.getCharacter(request.id);
         let view='';
         try{
-            console.log(request.id2)
-            CharacterProvider.ajouterArme(character,request.id2);
+            await CharacterProvider.ajouterArme(character,request.id2);
             view+=`
-            <h1>L'arme a bien été ajoutée</h1>
-            <button onclick=window.location.href='/#/characters/${request.id}'>Retour</button>`;
+            <link href="./../../../css/AjoutSupp.css" rel="stylesheet" />
+            <div id="suppression-arme" class="page-container">
+                <h2>L'arme a bien été ajoutée</h2>
+                <div class="confirm-buttons">
+                    <button onclick=window.location.href='/#/characters/${request.id}'>Retour</button>
+                </div>
+            </div>`;
         }
         catch{
-            view+=`<h1>L'ajout' ne s'est pas fait</h1>`
+            view+=`<h2>L'arme a bien été ajoutée</h2>`
         }
         return view;
     }
