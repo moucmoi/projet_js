@@ -51,7 +51,7 @@ export default class Personnage {
                     ${character.evolutions.map(evo => `
                             <div class="evolution-item">
                                 ${evo.description} 
-                                (Effets : Force +${evo.effects.force}, Endurance +${evo.effects.endurance}, Agilité +${evo.effects.agilité}, Intelligence +${evo.effects.intelligence})
+                                (Effets : Force +${evo.effects.force}, Endurance +${evo.effects.endurance}, Agilité +${evo.effects.agilite}, Intelligence +${evo.effects.intelligence})
                             </div>
                         `).join('')
                     }
@@ -60,11 +60,18 @@ export default class Personnage {
                     ${armes.map(arme => affichageArme.renderAll(arme)).join('')}
     
                     <div class="button-group">
-                        <button id="favoris-btn-${parseInt(character.id)}" class="bw-btn bw-btn-red" onclick="window.toggleFavoris(${parseInt(character.id)})">${contient ? 'Enlever des favoris' : 'Ajouter aux favoris'}</button>
+                    <section>
+                        <button id="favoris-btn-${parseInt(character.id)}" class="bw-btn bw-btn-amber" onclick="window.toggleFavoris(${parseInt(character.id)})">${contient ? 'Enlever des favoris' : 'Ajouter aux favoris'}</button>
                         <button id="btnNotation" class="bw-btn bw-btn-amber" onclick="window.location.href='/#/notation/${character.id}'">Ajouter une note</button>
-                        <button id="btnSuppression" class="bw-btn bw-btn-slate" onclick="window.location.href='/#/characters/${character.id}/suppression'">Supprimer</button>
-                        <button class="bw-btn bw-btn-green"onclick="window.location.href='/#/character/${character.id}/suppression'">Enlever une arme</button>
-                        <button class="bw-btn bw-btn-slate" onclick="window.location.href='/#/character/${character.id}/ajout'">Ajouter une arme</button>
+                    </section>
+                    <section>
+                        <button class="bw-btn bw-btn-green" onclick="window.location.href='/#/character/${character.id}/ajout'">Ajouter une arme</button>
+                        <button class="bw-btn bw-btn-red"onclick="window.location.href='/#/character/${character.id}/suppression'">Enlever une arme</button>
+                    </section>
+                    <section>
+                        <button class="bw-btn bw-btn-amber" onclick="window.location.href='/#/characters/${character.id}/modification'">Modifier</button>
+                        <button id="btnSuppression" class="bw-btn bw-btn-red" onclick="window.location.href='/#/characters/${character.id}/suppression'">Supprimer le personnage</button>
+                    </section>
                     </div>
                 </div>
             </div>

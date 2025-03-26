@@ -56,7 +56,6 @@ const router=async ()=>{
     const content=document.querySelector('#content');
 
     let request=Utils.parseRequestURL();
-    console.log(request);
 
     let parseURL =(request.ressource ? '/' + request.ressource : '/') + (request.id ? '/:id' : '') + (request.verb      ? '/' + request.verb : '') + (request.id2       ? '/:id2' : '');
     let page=routes[parseURL] ? new routes[parseURL] : new Error404;

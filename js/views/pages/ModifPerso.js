@@ -73,7 +73,8 @@ export default class ModifPerso {
                 }
             };
 
-            let success = await CharacterProvider.updateCharacter(characterId, characterData);
+
+            let success = await CharacterProvider.updateCharacterStats(characterId, characterData);
 
             if (success) {
                 window.location.href = `/#/characters/${characterId}`;
