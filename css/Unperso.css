@@ -118,6 +118,30 @@ h3 {
     letter-spacing: 0.5px;
 }
 
+.arme-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.arme-buttons button {
+    background-color: #4a4a4a;
+    border: none;
+    padding: 0.7rem 1.4rem;
+    border-radius: 6px;
+    color: white;
+    font-weight: 600;
+    font-size: 0.95rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.arme-buttons button:hover {
+    background-color: #666;
+    transform: scale(1.03);
+}
+
 
 .bw-btn-red {
     background-color: #b52a38 !important;

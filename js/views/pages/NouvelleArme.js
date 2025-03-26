@@ -45,15 +45,11 @@ export default class NouvelleArme {
             let endurance = document.getElementById("endurance").value.trim();
             let image = "../../../images/personnages/no_image.png"
 
-            if (!name || !force || !agilite || !intelligence || !endurance) {
+            if (name === null || force === null || agilite === null || intelligence === null || endurance === null) {
                 document.getElementById("message").textContent = "Tous les champs doivent être remplis.";
                 return;
             }
-
-            if (isNaN(force) || force <= 0 || isNaN(agilite) || agilite <= 0 || isNaN(intelligence) || intelligence <= 0 || isNaN(endurance) || endurance <= 0) {
-                document.getElementById("message").textContent = "Les caractéristiques doivent être des nombres positifs.";
-                return;
-            }
+            
 
             let armeData = {
                 id,

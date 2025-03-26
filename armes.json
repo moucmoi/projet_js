@@ -16,9 +16,9 @@
       "name": "Explosifs C4",
       "effects": {
         "force": 3,
-        "agilite": 0,
-        "intelligence": 0,
-        "endurance": -1
+        "agilite": -1,
+        "intelligence": 1,
+        "endurance": 1
       },
       "image": "/images/armes/ExplosifsC4.jpg"
     },

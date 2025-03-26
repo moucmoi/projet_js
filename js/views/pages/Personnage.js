@@ -28,7 +28,9 @@ export default class Personnage {
     
         let view = `
             <link rel="stylesheet" href='../../../css/Unperso.css'>
-            <button class="bw-btn bw-btn-slate"><a href="http://localhost:8000/#/characters">Retour</a></button>
+            <div class="arme-buttons">
+                <a href="http://localhost:8000/#/characters"><button>Retour</button></a>
+            </div>
             <div id="personnage-container">
                 <div id="personnage-details">
                     <img loading="lazy" src="${character.image}" alt="Image de ${character.name}" id="image">

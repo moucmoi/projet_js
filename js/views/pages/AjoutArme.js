@@ -1,3 +1,5 @@
+import Utils from "./../../services/Utils.js"
+import CharacterProvider from "../../services/CharacterProvider.js"
 export default class AjoutArme {
     async render(){
       let request = Utils.parseRequestURL();

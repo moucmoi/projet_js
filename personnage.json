@@ -110,10 +110,10 @@
       "niveau": 0,
       "image": "/images/personnages/TrevorPhilips.png",
       "bonus": {
-        "force": "20",
-        "endurance": "04",
+        "force": 4,
+        "endurance": 5,
         "agilite": null,
-        "intelligence": "21"
+        "intelligence": 4
       },
       "ratings": [
         2
@@ -4375,25 +4375,6 @@
         "agilite": -2,
         "intelligence": 0
       }
-    },
-    {
-      "id": "79",
-      "name": "test",
-      "importance": "principal",
-      "description": "a",
-      "characteristics": {
-        "force": "5",
-        "agilite": "5",
-        "intelligence": "5",
-        "endurance": "5"
-      },
-      "evolutions": [
-        {
-          "effects": {}
-        }
-      ],
-      "niveau": 0,
-      "image": "../../../images/personnages/no_image.png"
     }
   ]
 }

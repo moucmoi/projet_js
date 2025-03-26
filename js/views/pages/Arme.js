@@ -10,7 +10,7 @@ export default class Arme {
             <link href="./../../../css/Unearme.css" rel="stylesheet" />
 
             <div class="arme-buttons">
-                <button><a href="http://localhost:8000/#/armes">Retour</a></button>
+                <a href="http://localhost:8000/#/armes"><button>Retour</button></a>
             </div>
 
             <div id="arme-container">
