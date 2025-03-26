@@ -78,6 +78,9 @@ export default class ArmeProvider{
     }
 
     static getNom=async(listeId)=>{
+        if(listeId.empty()) {
+            return [];
+        }
         let armesHtml = await Promise.all(
             listeId.map(async (idA) => {
                 let arme = await this.getArme(idA); 
@@ -85,7 +88,6 @@ export default class ArmeProvider{
             })
         );
         return armesHtml;
-
     }
 }
 
