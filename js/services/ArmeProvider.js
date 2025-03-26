@@ -57,13 +57,12 @@ export default class ArmeProvider{
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify(armeData),
             });
-    
+            CharacterProvider.updateAllCharacter();
             return response.ok;
         } catch (err) {
             console.error("Erreur lors de la modification de l'arme :", err);
             return false;
         }
-        CharacterProvider.updateAllCharacter();
     }
 
     static async deleteArme(id) {

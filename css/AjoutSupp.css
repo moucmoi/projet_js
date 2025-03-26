@@ -1,4 +1,4 @@
-/* === Conteneur principal === */
+
 .page-container {
     max-width: 75%;
     margin: 3rem auto;
@@ -13,7 +13,7 @@
     border: 1px solid rgba(255, 255, 255, 0.08);
 }
 
-/* === Titres === */
+
 .page-container h2 {
     font-size: 2rem;
     font-weight: bold;
@@ -22,7 +22,7 @@
     margin-bottom: 1rem;
 }
 
-/* === Labels === */
+
 .page-container label {
     font-weight: bold;
     margin-top: 1rem;
@@ -30,7 +30,7 @@
     display: block;
 }
 
-/* === Champs texte et nombre === */
+
 .page-container input,
 .page-container select,
 .page-container textarea {
@@ -51,14 +51,14 @@
     min-height: 80px;
 }
 
-/* === Message d’erreur / retour === */
+
 #message {
     margin-top: 1rem;
     font-weight: bold;
     color: #ff4c4c;
 }
 
-/* === Boutons === */
+
 .page-buttons,
 .confirm-buttons {
     display: flex;
@@ -86,7 +86,7 @@
     transform: scale(1.03);
 }
 
-/* === Bouton spécial “Oui” rouge === */
+
 #confirmer {
     background-color: #b52a38;
 }
@@ -95,7 +95,7 @@
     background-color: #8c1e2a;
 }
 
-/* === Responsive === */
+
 @media screen and (max-width: 600px) {
     .page-container {
         padding: 1.5rem;

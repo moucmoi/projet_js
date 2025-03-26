@@ -1,4 +1,4 @@
-/* === Conteneur principal (fiche personnage) === */
+
 #personnage-container {
     display: flex;
     flex-direction: row;
@@ -17,7 +17,7 @@
 }
 
 
-/* === Colonne droite (détails) === */
+
 #personnage-details {
     padding-right: 2.5rem;
     color: #ffffff;
@@ -26,7 +26,7 @@
     gap: 1.5rem;
 }
 
-/* === Image du personnage === */
+
 #image {
     border: 2px solid #ffffff12;
     border-radius: 12px;
@@ -38,7 +38,7 @@
     margin-bottom: 1.5rem;
 }
 
-/* === Nom du personnage === */
+
 #personnage-nom {
     font-size: 2.2rem;
     font-weight: 700;
@@ -47,7 +47,7 @@
     margin: 0;
 }
 
-/* === Description === */
+
 #personnage-description {
     font-size: 1.15rem;
     line-height: 1.8;
@@ -55,7 +55,7 @@
     margin-top: 0.5rem;
 }
 
-/* === Titres secondaires */
+
 h3 {
     font-size: 1.3rem;
     font-weight: bold;
@@ -66,7 +66,7 @@ h3 {
     padding-bottom: 0.3rem;
 }
 
-/* === Caractéristiques === */
+
 #caracteristiques {
     list-style: none;
     padding: 0;
@@ -86,7 +86,7 @@ h3 {
     color: #ffffff;
 }
 
-/* === Évolutions === */
+
 .evolution-item {
     background-color: #2e2e2e;
     border-left: 4px solid #00cc99;
@@ -98,7 +98,7 @@ h3 {
     line-height: 1.6;
 }
 
-/* === Boutons (groupe) === */
+
 .button-group {
     display: flex;
     flex-wrap: wrap;
@@ -106,7 +106,7 @@ h3 {
     margin-top: 2rem;
 }
 
-/* === Boutons style GTA soft === */
+
 .button-group .bw-btn {
     border-radius: 6px;
     font-size: 1rem;
@@ -116,7 +116,7 @@ h3 {
     letter-spacing: 0.5px;
 }
 
-/* Bouton couleurs personnalisées (moins criardes) */
+
 .bw-btn-red {
     background-color: #b52a38 !important;
 }
@@ -145,7 +145,7 @@ h3 {
     background-color: #005e3b !important;
 }
 
-/* === Responsive (mobile) === */
+
 @media screen and (max-width: 768px) {
     #personnage-container {
         flex-direction: column;
