@@ -28,15 +28,17 @@
 
 
 #image {
-    border: 2px solid #ffffff12;
+    display: block;
+    margin: 0 auto 1.5rem auto; 
+    border: 2px solid rgba(255, 255, 255, 0.12);
     border-radius: 12px;
     box-shadow: 0 6px 18px rgba(0, 0, 0, 0.5);
-    object-fit: cover;
     width: 100%;
-    max-width: 450px;
-    height: auto;
-    margin-bottom: 1.5rem;
-}
+    max-width: 400px; 
+    height: auto; 
+    object-fit: cover;
+  }
+  
 
 
 #personnage-nom {
