@@ -3,36 +3,42 @@ import Utils from "../../services/Utils.js";
 
 export default class NouveauPerso {
     async render() {
-
         return `
-            <h2>Creer un nouveau personnage</h2>
-            <label>Nom :</label>
-            <input type="text" id="name" required />
+            <link href="./../../../css/AjoutSupp.css" rel="stylesheet" />
+            <div id="nouveau-perso" class="page-container">
+                <h2>Créer un nouveau personnage</h2>
 
-            <label>Description :</label>
-            <textarea id="description" required></textarea>
+                <label for="name">Nom :</label>
+                <input type="text" id="name" required />
 
-            <label>Importance :</label>
-            <select id="importance" required>
-                <option value="principal">Principal</option>
-                <option value="secondaire">Secondaire</option>
-                <option value="inconnu">Inconnu</option>
-            </select>
+                <label for="description">Description :</label>
+                <textarea id="description" required></textarea>
 
-            <label>Force :</label>
-            <input type="number" id="force" required />
+                <label for="importance">Importance :</label>
+                <select id="importance" required>
+                    <option value="principal">Principal</option>
+                    <option value="secondaire">Secondaire</option>
+                    <option value="inconnu">Inconnu</option>
+                </select>
 
-            <label>Agilité :</label>
-            <input type="number" id="agilite" required />
+                <label for="force">Force :</label>
+                <input type="number" id="force" required />
 
-            <label>Intelligence :</label>
-            <input type="number" id="intelligence" required />
+                <label for="agilite">Agilité :</label>
+                <input type="number" id="agilite" required />
 
-            <label>Endurance :</label>
-            <input type="number" id="endurance" required />
+                <label for="intelligence">Intelligence :</label>
+                <input type="number" id="intelligence" required />
 
-            <button id="creerPerso">Créer</button>
-            <p id="message"></p>
+                <label for="endurance">Endurance :</label>
+                <input type="number" id="endurance" required />
+
+                <div class="page-buttons">
+                    <button id="creerPerso">Créer</button>
+                </div>
+
+                <p id="message"></p>
+            </div>
         `;
     }
 
@@ -72,13 +78,7 @@ export default class NouveauPerso {
                     intelligence,
                     endurance
                 },
-                evolutions: [
-                    {
-                        effects: {
-
-                        }
-                    }
-                ],
+                evolutions: [{ effects: {} }],
                 niveau,
                 image,
             };

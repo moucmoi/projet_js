@@ -8,13 +8,14 @@
       "characteristics": {
         "force": 31,
         "endurance": 1,
-        "agilité": 13,
+        "agilite": 13,
         "intelligence": 24
       },
       "pouvoirs": [],
       "armes_ids": [
-        4,
-        10
+        10,
+        3,
+        11
       ],
       "evolutions": [
         {
@@ -51,7 +52,7 @@
       "niveau": 4,
       "image": "/images/personnages/MichaelDeSanta.png",
       "ratings": {
-        "v": "1",
+        "v": "5",
         "a": "1",
         "j": "4",
         "k": "5",
@@ -59,10 +60,10 @@
         "x": "1"
       },
       "bonus": {
-        "force": 2,
+        "force": 7,
         "endurance": 4,
         "agilite": null,
-        "intelligence": 2
+        "intelligence": 1
       }
     },
     {
@@ -73,12 +74,12 @@
       "characteristics": {
         "force": 22,
         "endurance": 50,
-        "agilité": 6,
+        "agilite": 6,
         "intelligence": 15
       },
       "armes_ids": [
-        10,
-        9
+        4,
+        10
       ],
       "evolutions": [
         {
@@ -115,10 +116,10 @@
       "niveau": 0,
       "image": "/images/personnages/TrevorPhilips.png",
       "bonus": {
-        "force": 3,
-        "endurance": 4,
-        "agilite": 0,
-        "intelligence": 2
+        "force": "20",
+        "endurance": "04",
+        "agilite": null,
+        "intelligence": "21"
       }
     },
     {
@@ -129,7 +130,7 @@
       "characteristics": {
         "force": 5,
         "endurance": 54,
-        "agilité": 7,
+        "agilite": 7,
         "intelligence": 7
       },
       "armes_ids": [
@@ -186,7 +187,7 @@
       "characteristics": {
         "force": 3,
         "endurance": 14,
-        "agilité": 55,
+        "agilite": 55,
         "intelligence": 17
       },
       "armes_ids": [
@@ -242,7 +243,7 @@
       "characteristics": {
         "force": 3,
         "endurance": 44,
-        "agilité": 5,
+        "agilite": 5,
         "intelligence": 4
       },
       "armes_ids": [
@@ -298,7 +299,7 @@
       "characteristics": {
         "force": 3,
         "endurance": 14,
-        "agilité": 56,
+        "agilite": 56,
         "intelligence": 15
       },
       "armes_ids": [
@@ -354,7 +355,7 @@
       "characteristics": {
         "force": 24,
         "endurance": 5,
-        "agilité": 4,
+        "agilite": 4,
         "intelligence": 27
       },
       "armes_ids": [
@@ -410,7 +411,7 @@
       "characteristics": {
         "force": 25,
         "endurance": 5,
-        "agilité": 15,
+        "agilite": 15,
         "intelligence": 6
       },
       "armes_ids": [
@@ -466,7 +467,7 @@
       "characteristics": {
         "force": 5,
         "endurance": 15,
-        "agilité": 55,
+        "agilite": 55,
         "intelligence": 15
       },
       "armes_ids": [
@@ -522,7 +523,7 @@
       "characteristics": {
         "force": 35,
         "endurance": -6,
-        "agilité": 5,
+        "agilite": 5,
         "intelligence": 5
       },
       "armes_ids": [
@@ -578,12 +579,12 @@
       "characteristics": {
         "force": 25,
         "endurance": 6,
-        "agilité": 15,
+        "agilite": 15,
         "intelligence": 7
       },
       "armes_ids": [
-        2,
-        3
+        3,
+        7
       ],
       "evolutions": [
         {
@@ -620,10 +621,13 @@
       "niveau": 0,
       "image": "/images/personnages/WeiCheng.png",
       "bonus": {
-        "force": 5,
-        "endurance": -1,
+        "force": 6,
+        "endurance": 0,
         "agilite": 1,
-        "intelligence": 0
+        "intelligence": -2
+      },
+      "ratings": {
+        "v": "4"
       }
     },
     {
@@ -634,7 +638,7 @@
       "characteristics": {
         "force": 6,
         "endurance": 6,
-        "agilité": 25,
+        "agilite": 25,
         "intelligence": 35
       },
       "armes_ids": [
@@ -690,7 +694,7 @@
       "characteristics": {
         "force": 35,
         "endurance": -4,
-        "agilité": 5,
+        "agilite": 5,
         "intelligence": 5
       },
       "armes_ids": [
@@ -746,7 +750,7 @@
       "characteristics": {
         "force": 33,
         "endurance": -6,
-        "agilité": 4,
+        "agilite": 4,
         "intelligence": 4
       },
       "armes_ids": [
@@ -802,7 +806,7 @@
       "characteristics": {
         "force": 35,
         "endurance": 4,
-        "agilité": 5,
+        "agilite": 5,
         "intelligence": 23
       },
       "armes_ids": [
@@ -858,7 +862,7 @@
       "characteristics": {
         "force": 26,
         "endurance": 6,
-        "agilité": 6,
+        "agilite": 6,
         "intelligence": 23
       },
       "armes_ids": [
@@ -914,7 +918,7 @@
       "characteristics": {
         "force": 34,
         "endurance": -6,
-        "agilité": 5,
+        "agilite": 5,
         "intelligence": 6
       },
       "armes_ids": [
@@ -970,7 +974,7 @@
       "characteristics": {
         "force": 5,
         "endurance": 5,
-        "agilité": 15,
+        "agilite": 15,
         "intelligence": 36
       },
       "armes_ids": [
@@ -1026,7 +1030,7 @@
       "characteristics": {
         "force": 3,
         "endurance": 4,
-        "agilité": 24,
+        "agilite": 24,
         "intelligence": 36
       },
       "armes_ids": [
@@ -1082,7 +1086,7 @@
       "characteristics": {
         "force": 3,
         "endurance": 13,
-        "agilité": 53,
+        "agilite": 53,
         "intelligence": 17
       },
       "armes_ids": [
@@ -1138,7 +1142,7 @@
       "characteristics": {
         "force": 74,
         "endurance": 34,
-        "agilité": 5,
+        "agilite": 5,
         "intelligence": 5
       },
       "armes_ids": [
@@ -1194,7 +1198,7 @@
       "characteristics": {
         "force": 6,
         "endurance": 16,
-        "agilité": 55,
+        "agilite": 55,
         "intelligence": 15
       },
       "armes_ids": [
@@ -1250,7 +1254,7 @@
       "characteristics": {
         "force": 83,
         "endurance": 4,
-        "agilité": -15,
+        "agilite": -15,
         "intelligence": 5
       },
       "armes_ids": [
@@ -1362,7 +1366,7 @@
       "characteristics": {
         "force": 43,
         "endurance": 4,
-        "agilité": 4,
+        "agilite": 4,
         "intelligence": -17
       },
       "armes_ids": [
@@ -1418,7 +1422,7 @@
       "characteristics": {
         "force": 4,
         "endurance": 4,
-        "agilité": 24,
+        "agilite": 24,
         "intelligence": 35
       },
       "armes_ids": [
@@ -1474,7 +1478,7 @@
       "characteristics": {
         "force": 43,
         "endurance": 4,
-        "agilité": 4,
+        "agilite": 4,
         "intelligence": -13
       },
       "armes_ids": [
@@ -1530,7 +1534,7 @@
       "characteristics": {
         "force": 3,
         "endurance": 43,
-        "agilité": 4,
+        "agilite": 4,
         "intelligence": 6
       },
       "armes_ids": [
@@ -1586,7 +1590,7 @@
       "characteristics": {
         "force": 45,
         "endurance": 5,
-        "agilité": 6,
+        "agilite": 6,
         "intelligence": -14
       },
       "armes_ids": [
@@ -1642,7 +1646,7 @@
       "characteristics": {
         "force": 5,
         "endurance": 5,
-        "agilité": 15,
+        "agilite": 15,
         "intelligence": 37
       },
       "armes_ids": [
@@ -1754,7 +1758,7 @@
       "characteristics": {
         "force": 23,
         "endurance": 4,
-        "agilité": 14,
+        "agilite": 14,
         "intelligence": 6
       },
       "armes_ids": [
@@ -1810,7 +1814,7 @@
       "characteristics": {
         "force": 24,
         "endurance": 4,
-        "agilité": 5,
+        "agilite": 5,
         "intelligence": 26
       },
       "armes_ids": [
@@ -1866,7 +1870,7 @@
       "characteristics": {
         "force": 25,
         "endurance": 5,
-        "agilité": 6,
+        "agilite": 6,
         "intelligence": 25
       },
       "armes_ids": [
@@ -1922,7 +1926,7 @@
       "characteristics": {
         "force": 23,
         "endurance": 4,
-        "agilité": 14,
+        "agilite": 14,
         "intelligence": 6
       },
       "armes_ids": [
@@ -2034,7 +2038,7 @@
       "characteristics": {
         "force": 25,
         "endurance": 5,
-        "agilité": 5,
+        "agilite": 5,
         "intelligence": 26
       },
       "armes_ids": [
@@ -2090,7 +2094,7 @@
       "characteristics": {
         "force": 83,
         "endurance": 3,
-        "agilité": -16,
+        "agilite": -16,
         "intelligence": 6
       },
       "armes_ids": [
@@ -2146,12 +2150,11 @@
       "characteristics": {
         "force": 24,
         "endurance": 4,
-        "agilité": 4,
+        "agilite": 4,
         "intelligence": 26
       },
       "armes_ids": [
-        6,
-        4
+        6
       ],
       "evolutions": [
         {
@@ -2159,7 +2162,7 @@
           "effects": {
             "force": 1,
             "endurance": 1,
-            "agilité": 0,
+            "agilite": 0,
             "intelligence": 2
           },
           "condition": "Atteindre le niveau 10"
@@ -2188,10 +2191,10 @@
       "niveau": 0,
       "image": "/images/personnages/JayNorris.png",
       "bonus": {
-        "force": 2,
+        "force": 0,
         "endurance": 1,
         "agilite": 5,
-        "intelligence": 3
+        "intelligence": 1
       }
     },
     {
@@ -2202,7 +2205,7 @@
       "characteristics": {
         "force": 6,
         "endurance": 46,
-        "agilité": 5,
+        "agilite": 5,
         "intelligence": 5
       },
       "armes_ids": [
@@ -2314,7 +2317,7 @@
       "characteristics": {
         "force": 44,
         "endurance": 4,
-        "agilité": 4,
+        "agilite": 4,
         "intelligence": -15
       },
       "armes_ids": [
@@ -2370,7 +2373,7 @@
       "characteristics": {
         "force": 34,
         "endurance": -6,
-        "agilité": 4,
+        "agilite": 4,
         "intelligence": 6
       },
       "armes_ids": [
@@ -2426,7 +2429,7 @@
       "characteristics": {
         "force": 24,
         "endurance": 4,
-        "agilité": 14,
+        "agilite": 14,
         "intelligence": 5
       },
       "armes_ids": [
@@ -2482,7 +2485,7 @@
       "characteristics": {
         "force": 5,
         "endurance": 5,
-        "agilité": 25,
+        "agilite": 25,
         "intelligence": 35
       },
       "armes_ids": [
@@ -2538,7 +2541,7 @@
       "characteristics": {
         "force": 34,
         "endurance": -6,
-        "agilité": 5,
+        "agilite": 5,
         "intelligence": 6
       },
       "armes_ids": [
@@ -2594,7 +2597,7 @@
       "characteristics": {
         "force": 74,
         "endurance": 34,
-        "agilité": 4,
+        "agilite": 4,
         "intelligence": 5
       },
       "armes_ids": [
@@ -2650,7 +2653,7 @@
       "characteristics": {
         "force": 23,
         "endurance": 4,
-        "agilité": 14,
+        "agilite": 14,
         "intelligence": 5
       },
       "armes_ids": [
@@ -2706,7 +2709,7 @@
       "characteristics": {
         "force": 36,
         "endurance": -4,
-        "agilité": 5,
+        "agilite": 5,
         "intelligence": 4
       },
       "armes_ids": [
@@ -2762,7 +2765,7 @@
       "characteristics": {
         "force": 5,
         "endurance": 5,
-        "agilité": 16,
+        "agilite": 16,
         "intelligence": 36
       },
       "armes_ids": [
@@ -2818,7 +2821,7 @@
       "characteristics": {
         "force": 4,
         "endurance": 4,
-        "agilité": 15,
+        "agilite": 15,
         "intelligence": 36
       },
       "armes_ids": [
@@ -2874,7 +2877,7 @@
       "characteristics": {
         "force": 45,
         "endurance": 5,
-        "agilité": 5,
+        "agilite": 5,
         "intelligence": -14
       },
       "armes_ids": [
@@ -2930,7 +2933,7 @@
       "characteristics": {
         "force": 34,
         "endurance": 4,
-        "agilité": 4,
+        "agilite": 4,
         "intelligence": 25
       },
       "armes_ids": [
@@ -2986,7 +2989,7 @@
       "characteristics": {
         "force": 3,
         "endurance": 4,
-        "agilité": 24,
+        "agilite": 24,
         "intelligence": 36
       },
       "armes_ids": [
@@ -3042,7 +3045,7 @@
       "characteristics": {
         "force": 34,
         "endurance": 4,
-        "agilité": 4,
+        "agilite": 4,
         "intelligence": 26
       },
       "armes_ids": [
@@ -3098,7 +3101,7 @@
       "characteristics": {
         "force": 83,
         "endurance": 3,
-        "agilité": -17,
+        "agilite": -17,
         "intelligence": 5
       },
       "armes_ids": [
@@ -3154,7 +3157,7 @@
       "characteristics": {
         "force": 3,
         "endurance": 4,
-        "agilité": 14,
+        "agilite": 14,
         "intelligence": 36
       },
       "armes_ids": [
@@ -3210,7 +3213,7 @@
       "characteristics": {
         "force": 23,
         "endurance": 3,
-        "agilité": 4,
+        "agilite": 4,
         "intelligence": 26
       },
       "armes_ids": [
@@ -3266,7 +3269,7 @@
       "characteristics": {
         "force": 24,
         "endurance": 4,
-        "agilité": 14,
+        "agilite": 14,
         "intelligence": 6
       },
       "armes_ids": [
@@ -3322,7 +3325,7 @@
       "characteristics": {
         "force": 4,
         "endurance": 4,
-        "agilité": 25,
+        "agilite": 25,
         "intelligence": 35
       },
       "armes_ids": [
@@ -3377,7 +3380,7 @@
       "characteristics": {
         "force": 23,
         "endurance": 4,
-        "agilité": 14,
+        "agilite": 14,
         "intelligence": 6
       },
       "armes_ids": [
@@ -3433,7 +3436,7 @@
       "characteristics": {
         "force": 23,
         "endurance": 3,
-        "agilité": 14,
+        "agilite": 14,
         "intelligence": 5
       },
       "armes_ids": [
@@ -3601,7 +3604,7 @@
       "characteristics": {
         "force": 85,
         "endurance": 5,
-        "agilité": -15,
+        "agilite": -15,
         "intelligence": 5
       },
       "armes_ids": [
@@ -3657,7 +3660,7 @@
       "characteristics": {
         "force": 45,
         "endurance": 5,
-        "agilité": 5,
+        "agilite": 5,
         "intelligence": -15
       },
       "armes_ids": [
@@ -3713,7 +3716,7 @@
       "characteristics": {
         "force": 25,
         "endurance": 5,
-        "agilité": 5,
+        "agilite": 5,
         "intelligence": 25
       },
       "armes_ids": [
@@ -3769,7 +3772,7 @@
       "characteristics": {
         "force": 25,
         "endurance": 5,
-        "agilité": 15,
+        "agilite": 15,
         "intelligence": 5
       },
       "armes_ids": [
@@ -3825,7 +3828,7 @@
       "characteristics": {
         "force": 3,
         "endurance": 4,
-        "agilité": 25,
+        "agilite": 25,
         "intelligence": 34
       },
       "armes_ids": [
@@ -3881,7 +3884,7 @@
       "characteristics": {
         "force": 34,
         "endurance": -5,
-        "agilité": 5,
+        "agilite": 5,
         "intelligence": 5
       },
       "armes_ids": [
@@ -3937,7 +3940,7 @@
       "characteristics": {
         "force": 34,
         "endurance": 4,
-        "agilité": 5,
+        "agilite": 5,
         "intelligence": 24
       },
       "armes_ids": [
@@ -3993,7 +3996,7 @@
       "characteristics": {
         "force": 3,
         "endurance": 4,
-        "agilité": 26,
+        "agilite": 26,
         "intelligence": 35
       },
       "armes_ids": [
@@ -4049,7 +4052,7 @@
       "characteristics": {
         "force": 34,
         "endurance": 4,
-        "agilité": 5,
+        "agilite": 5,
         "intelligence": 25
       },
       "armes_ids": [
@@ -4105,7 +4108,7 @@
       "characteristics": {
         "force": 24,
         "endurance": 4,
-        "agilité": 14,
+        "agilite": 14,
         "intelligence": 5
       },
       "armes_ids": [
@@ -4161,7 +4164,7 @@
       "characteristics": {
         "force": 3,
         "endurance": 4,
-        "agilité": 25,
+        "agilite": 25,
         "intelligence": 35
       },
       "armes_ids": [
@@ -4217,7 +4220,7 @@
       "characteristics": {
         "force": 25,
         "endurance": 5,
-        "agilité": 15,
+        "agilite": 15,
         "intelligence": 6
       },
       "armes_ids": [
@@ -4273,7 +4276,7 @@
       "characteristics": {
         "force": 46,
         "endurance": 6,
-        "agilité": 6,
+        "agilite": 6,
         "intelligence": -14
       },
       "armes_ids": [
@@ -4329,7 +4332,7 @@
       "characteristics": {
         "force": 5,
         "endurance": 15,
-        "agilité": 55,
+        "agilite": 55,
         "intelligence": 16
       },
       "armes_ids": [

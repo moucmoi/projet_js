@@ -7,16 +7,40 @@ export default class Arme {
         let arme = await ArmeProvider.getArme(request.id);
         
         let view = `
-            <button><a href="http://localhost:8000/#/armes">Retour</a></button>
-            <h2>${arme.name}</h2>
+            <link href="./../../../css/Unearme.css" rel="stylesheet" />
 
-            <h3>Effets</h3>
-            <p>
-                (Effets : Force ${arme.effects.force}, Endurance ${arme.effects.endurance}, Agilité ${arme.effects.agilite}, Intelligence ${arme.effects.intelligence})
-            </p>
-            <button onclick=window.location.href='/#/armes/${arme.id}/modification'>Modifier</button>
-            <button onclick=window.location.href='/#/armes/${arme.id}/suppression'>Supprimer</button>
+            <div class="arme-buttons">
+                <button><a href="http://localhost:8000/#/armes">Retour</a></button>
+            </div>
+
+            <div id="arme-container">
+                <div>
+                    <img loading="lazy" src="${arme.image}" alt="${arme.name}" id="img-arme">
+                </div>
+
+                <div id="arme-details">
+                
+
+                    <h2 id="arme-nom">${arme.name}</h2>
+
+                    <h3>Effets</h3>
+                    <p id="arme-effets">
+                        Force : ${arme.effects.force} <br>
+                        Endurance : ${arme.effects.endurance} <br>
+                        Agilité : ${arme.effects.agilite} <br>
+                        Intelligence : ${arme.effects.intelligence}
+                    </p>
+
+                    <div class="arme-buttons">
+                        <button onclick="window.location.href='/#/armes/${arme.id}/modification'">Modifier</button>
+                        <button onclick="window.location.href='/#/armes/${arme.id}/suppression'">Supprimer</button>
+                    </div>
+                </div>
+            </div>
         `;
+
         return view;
     }
+
+
 }

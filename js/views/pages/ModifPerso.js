@@ -7,29 +7,37 @@ export default class ModifPerso {
         let character = await CharacterProvider.getCharacter(request.id);
 
         return `
-            <h2>Modifier ${character.name}</h2>
-            <label>Nom :</label>
-            <input type="text" id="name" value="${character.name}" required />
+            <link href="./../../../css/AjoutSupp.css" rel="stylesheet" />
+            <div id="modification-personnage" class="page-container">
+                <h2>Modifier ${character.name}</h2>
 
-            <label>Description :</label>
-            <textarea id="description" required>${character.description}</textarea>
+                <label for="name">Nom :</label>
+                <input type="text" id="name" value="${character.name}" required />
 
-            <label>Force :</label>
-            <input type="number" id="force" value="${character.characteristics.force}" required />
+                <label for="description">Description :</label>
+                <textarea id="description" required>${character.description}</textarea>
 
-            <label>Agilité :</label>
-            <input type="number" id="agilite" value="${character.characteristics.agilite}" required />
+                <label for="force">Force :</label>
+                <input type="number" id="force" value="${character.characteristics.force}" required />
 
-            <label>Intelligence :</label>
-            <input type="number" id="intelligence" value="${character.characteristics.intelligence}" required />
+                <label for="agilite">Agilité :</label>
+                <input type="number" id="agilite" value="${character.characteristics.agilite}" required />
 
-            <label>Endurance :</label>
-            <input type="number" id="endurance" value="${character.characteristics.endurance}" required />
+                <label for="intelligence">Intelligence :</label>
+                <input type="number" id="intelligence" value="${character.characteristics.intelligence}" required />
 
-            <button id="annuler" onclick="location.href = '/#/characters/${character.id}';">Annuler</button>
-            <button id="modifPerso">Modifier</button>
-            <p id="message"></p>
+                <label for="endurance">Endurance :</label>
+                <input type="number" id="endurance" value="${character.characteristics.endurance}" required />
+
+                <div class="page-buttons">
+                <button id="annuler" onclick="location.href = '/#/characters/${character.id}';">Annuler</button>
+                <button id="modifPerso">Modifier</button>
+                </div>
+
+                <p id="message"></p>
+            </div>
         `;
+
     }
 
     async afterRender() {
