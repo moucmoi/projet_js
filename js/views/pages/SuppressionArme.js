@@ -11,8 +11,8 @@ export default class SuppressionArme {
             <div id="suppression-arme" class="page-container">
                 <h2>Êtes-vous sûr de vouloir supprimer <span class="highlight">${arme.name}</span> ?</h2>
                 <div class="confirm-buttons">
-                    <button id="annuler-suppression-arme" onclick="location.href = '/#/armes/${arme.id}';">Annuler</button>
-                    <button id="confirmer-suppression-arme">Oui</button>
+                <button id="annuler-suppression-arme" onclick="location.href = '/#/armes/${arme.id}';">Annuler</button>
+                <button id="confirmer-suppression-arme">Oui</button>
                 </div>
                 <p id="message"></p>
             </div>
