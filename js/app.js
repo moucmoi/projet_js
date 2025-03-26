@@ -3,7 +3,6 @@ import CharacterAll from "./views/pages/CharacterAll.js";
 import Utils from "./services/Utils.js";
 import Personnage from "./views/pages/Personnage.js";
 import Error404 from "./views/pages/Error404.js";
-import Connexion from "./views/pages/Connexion.js";
 import Notation from "./views/pages/Notation.js";
 import Pagefavoris from "./views/pages/Pagefavoris.js";
 import ArmesAll from "./views/pages/ArmesAll.js";
@@ -28,7 +27,6 @@ const routes={
     // AUTRES
     '/':About,
     '/about':About,
-    '/connexion':Connexion,
     '/favoris':Pagefavoris,
 
     // PERSO

@@ -166,11 +166,11 @@ static async deleteCharacter(characterId) {
   }
 
 
-  static async rateCharacter(id, username, rating) {
+  static async rateCharacter(id, rating) {
     try {
       let character = await this.getCharacter(id);
-      character.ratings = character.ratings || {};
-      character.ratings[username] = rating;
+      character.ratings = character.ratings || [];
+      character.ratings.push(rating);
 
       let response = await fetch(`${ENDPOINTC}/${id}`, {
         method: "PATCH",
