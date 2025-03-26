@@ -52,10 +52,10 @@
       "niveau": 4,
       "image": "/images/personnages/MichaelDeSanta.png",
       "bonus": {
-        "force": 7,
-        "endurance": 4,
+        "force": 9,
+        "endurance": 5,
         "agilite": null,
-        "intelligence": 1
+        "intelligence": 2
       },
       "ratings": [
         "5",
@@ -112,10 +112,10 @@
       "niveau": 0,
       "image": "/images/personnages/TrevorPhilips.png",
       "bonus": {
-        "force": "20",
-        "endurance": "04",
+        "force": 4,
+        "endurance": 5,
         "agilite": null,
-        "intelligence": "21"
+        "intelligence": 4
       }
     },
     {

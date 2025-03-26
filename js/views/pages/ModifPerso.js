@@ -12,22 +12,22 @@ export default class ModifPerso {
                 <h2>Modifier ${character.name}</h2>
 
                 <label for="name">Nom :</label>
-                <input type="text" id="name" value="${character.name}" required />
+                <input type="text" id="name" value="${character.name}"/>
 
                 <label for="description">Description :</label>
                 <textarea id="description" required>${character.description}</textarea>
 
                 <label for="force">Force :</label>
-                <input type="number" id="force" value="${character.characteristics.force}" required />
+                <input type="number" id="force" value="${character.characteristics.force}"/>
 
                 <label for="agilite">Agilité :</label>
-                <input type="number" id="agilite" value="${character.characteristics.agilite}" required />
+                <input type="number" id="agilite" value="${character.characteristics.agilite}"/>
 
                 <label for="intelligence">Intelligence :</label>
-                <input type="number" id="intelligence" value="${character.characteristics.intelligence}" required />
+                <input type="number" id="intelligence" value="${character.characteristics.intelligence}"/>
 
                 <label for="endurance">Endurance :</label>
-                <input type="number" id="endurance" value="${character.characteristics.endurance}" required />
+                <input type="number" id="endurance" value="${character.characteristics.endurance}"/>
 
                 <div class="page-buttons">
                 <button id="annuler" onclick="location.href = '/#/characters/${character.id}';">Annuler</button>
@@ -47,10 +47,10 @@ export default class ModifPerso {
         document.getElementById("modifPerso").addEventListener("click", async () => {
             let name = document.getElementById("name").value.trim();
             let description = document.getElementById("description").value.trim();
-            let force = document.getElementById("force").value.trim();
-            let agilite = document.getElementById("agilite").value.trim();
-            let intelligence = document.getElementById("intelligence").value.trim();
-            let endurance = document.getElementById("endurance").value.trim();
+            let force = parseInt(document.getElementById("force").value.trim());
+            let agilite = parseInt(document.getElementById("agilite").value.trim());
+            let intelligence = parseInt(document.getElementById("intelligence").value.trim());
+            let endurance = parseInt(document.getElementById("endurance").value.trim());
 
             if (!name || !description || !force || !agilite || !intelligence || !endurance) {
                 document.getElementById("message").textContent = "Tous les champs doivent être remplis.";
