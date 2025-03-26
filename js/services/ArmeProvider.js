@@ -80,7 +80,7 @@ export default class ArmeProvider{
     }
 
     static getNom=async(listeId)=>{
-        if(listeId.empty()) {
+        if(listeId.length === 0) {
             return [];
         }
         let armesHtml = await Promise.all(

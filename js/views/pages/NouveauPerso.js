@@ -26,8 +26,8 @@ export default class NouveauPerso {
  <label>Image (optionnel) :</label>
  <input type="file" id="image" accept="image/*" />
  <button id="creerPerso">Créer</button>
- <p id="message"></p>
- `;
+ <p id="message"></p>`
+ ;
   }
 
   async afterRender() {

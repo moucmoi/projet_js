@@ -69,6 +69,20 @@ export default class CharacterProvider {
     }
 }
 
+static async deleteCharacter(characterId) {
+  try {
+      let response = await fetch(`${ENDPOINTC}/${characterId}`, {
+          method: "DELETE",
+          headers: { "Content-Type": "application/json" },
+      });
+
+      return response.ok;
+  } catch (err) {
+      console.error("Erreur lors de la suppression du personnage :", err);
+      return false;
+  }
+}
+
   static async updateAllCharacter() {
     try {
       const personnages = await this.fetchCharacter(100);
