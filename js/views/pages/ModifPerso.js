@@ -29,6 +29,9 @@ export default class ModifPerso {
                 <label for="endurance">Endurance :</label>
                 <input type="number" id="endurance" value="${character.characteristics.endurance}"/>
 
+                <label for="image">Image (optionnel) :</label>
+                <input type="file" id="image" accept="image/png" />
+
                 <div class="page-buttons">
                 <button id="annuler" onclick="location.href = '/#/characters/${character.id}';">Annuler</button>
                 <button id="modifPerso">Modifier</button>
@@ -51,6 +54,8 @@ export default class ModifPerso {
             let agilite = parseInt(document.getElementById("agilite").value.trim());
             let intelligence = parseInt(document.getElementById("intelligence").value.trim());
             let endurance = parseInt(document.getElementById("endurance").value.trim());
+            let imageFile = document.getElementById("image").files[0];
+            let image = "../../../images/personnages/no_image.png";
 
             if (!name || !description || !force || !agilite || !intelligence || !endurance) {
                 document.getElementById("message").textContent = "Tous les champs doivent être remplis.";
@@ -62,6 +67,24 @@ export default class ModifPerso {
                 return;
             }
 
+            if (imageFile) {
+                try {
+                  const reader = new FileReader();
+                  reader.readAsDataURL(imageFile);
+      
+                  await new Promise((resolve) => {
+                    reader.onload = () => {
+                      image = reader.result;
+                      resolve();
+                    };
+                  });
+                } catch (error) {
+                  document.getElementById("message").textContent =
+                    "Erreur lors du chargement de l'image.";
+                  return;
+                }
+              }
+
             let characterData = {
                 name,
                 description,
@@ -70,7 +93,8 @@ export default class ModifPerso {
                     agilite,
                     intelligence,
                     endurance
-                }
+                },
+                image
             };
 
 

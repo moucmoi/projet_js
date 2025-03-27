@@ -22,6 +22,9 @@ export default class NouvelleArme {
                 
                 <label for="endurance">Bonus d'Endurance :</label>
                 <input type="number" id="endurance" required />
+
+                <label for="image">Image (optionnel) :</label>
+                <input type="file" id="image" accept="image/png" />
                 
                 <div class="page-buttons">
                 <button id="creerArme">Créer</button>
@@ -30,7 +33,6 @@ export default class NouvelleArme {
                 <p id="message"></p>
             </div>
         `;
-
     }
 
     async afterRender() {
@@ -43,12 +45,31 @@ export default class NouvelleArme {
             let agilite = document.getElementById("agilite").value.trim();
             let intelligence = document.getElementById("intelligence").value.trim();
             let endurance = document.getElementById("endurance").value.trim();
+            let imageFile = document.getElementById("image").files[0];
             let image = "../../../images/personnages/no_image.png"
 
             if (name === null || force === null || agilite === null || intelligence === null || endurance === null) {
                 document.getElementById("message").textContent = "Tous les champs doivent être remplis.";
                 return;
             }
+
+            if (imageFile) {
+                try {
+                  const reader = new FileReader();
+                  reader.readAsDataURL(imageFile);
+      
+                  await new Promise((resolve) => {
+                    reader.onload = () => {
+                      image = reader.result;
+                      resolve();
+                    };
+                  });
+                } catch (error) {
+                  document.getElementById("message").textContent =
+                    "Erreur lors du chargement de l'image.";
+                  return;
+                }
+              }
             
 
             let armeData = {

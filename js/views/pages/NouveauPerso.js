@@ -34,7 +34,7 @@ export default class NouveauPerso {
         <input type="number" id="endurance" required />
         
         <label for="image">Image (optionnel) :</label>
-        <input type="file" id="image" accept="image/*" />
+        <input type="file" id="image" accept="image/png" />
         
         <div class="page-buttons">
           <button id="creerPerso">Créer</button>
@@ -59,8 +59,8 @@ export default class NouveauPerso {
         let intelligence = parseInt(document.getElementById("intelligence").value.trim());
         let endurance = parseInt(document.getElementById("endurance").value.trim());
         let importance = document.getElementById("importance").value.trim();
-        let imageFile = document.getElementById("image").files[0];
         let niveau = 0;
+        let imageFile = document.getElementById("image").files[0];
         let image = "../../../images/personnages/no_image.png";
 
         if (!name || !description || !force || !agilite || !intelligence || !endurance) {
