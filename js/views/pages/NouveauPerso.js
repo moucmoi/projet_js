@@ -54,10 +54,10 @@ export default class NouveauPerso {
       .addEventListener("click", async () => {
         let name = document.getElementById("name").value.trim();
         let description = document.getElementById("description").value.trim();
-        let force = document.getElementById("force").value.trim();
-        let agilite = document.getElementById("agilite").value.trim();
-        let intelligence = document.getElementById("intelligence").value.trim();
-        let endurance = document.getElementById("endurance").value.trim();
+        let force = parseInt(document.getElementById("force").value.trim());
+        let agilite = parseInt(document.getElementById("agilite").value.trim());
+        let intelligence = parseInt(document.getElementById("intelligence").value.trim());
+        let endurance = parseInt(document.getElementById("endurance").value.trim());
         let importance = document.getElementById("importance").value.trim();
         let imageFile = document.getElementById("image").files[0];
         let niveau = 0;
