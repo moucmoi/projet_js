@@ -23,7 +23,23 @@
     color: #ffffff;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
     gap: 1.5rem;
+}
+
+#btn-page {
+    padding-right: 2.5rem;
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    gap: 1.5rem;
+}
+
+#suivant {
+    margin-left: auto;
 }
 
 #notes {

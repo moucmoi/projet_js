@@ -9,6 +9,7 @@ export default class Personnage {
         let request = Utils.parseRequestURL();
         let character = await CharacterProvider.getCharacter(request.id);
         let contient = Favoris.contientF(parseInt(character.id));
+        let maxId = await CharacterProvider.getMaxId();
         window.toggleFavoris = Favoris.toggleFavoris;
     
         let armes = [];
@@ -27,8 +28,8 @@ export default class Personnage {
 
         if (character.ratings && character.ratings.length > 0) {
             let notes = character.ratings;
-            let moyenne = notes.reduce((acc, valeur) => acc + valeur, 0)/notes.length.toFixed(1);
-            noteText = `${moyenne} / 5 : ${notes.length} avis`;
+            let moyenne = notes.reduce((acc, valeur) => acc + valeur, 0)/notes.length;
+            noteText = `${moyenne.toFixed(1)} / 5 : ${notes.length} avis`;
         }
 
         let affichageArme = new AffichageArme();
@@ -41,8 +42,10 @@ export default class Personnage {
             </div>
             <div id="personnage-container">
                 <div id="personnage-details">
-                    <a href="/#/characters/${parseInt(character.id)-1}">précedent</a>
-                    <a href="/#/characters/${parseInt(character.id)+1}">suivant</a>
+                    <div id="btn-page">
+                        ${parseInt(character.id) > 1 ? `<a href="/#/characters/${parseInt(character.id)-1}">précédent</a>` : ''}
+                        ${parseInt(character.id) < maxId ? `<a id="suivant" href="/#/characters/${parseInt(character.id)+1}">suivant</a>` : ''}
+                    </div>
                     <img loading="lazy" src="${character.image}" alt="Image de ${character.name}" id="image">
                     
                     <h2 id="personnage-nom">${character.name} (${character.importance})</h2>

@@ -6,9 +6,7 @@ export default class CharacterAll {
     async render() {
         this.characters = await CharacterProvider.fetchCharacter(100);
         let affichagePerso = new AffichagePerso();
-        let response = await fetch(`${ENDPOINTC}`, { method: "GET" });
-        let data = await response.json();
-        let idMax = data.reduce((max, item) => Math.max(max, parseInt(item.id)), 0);
+        let idMax = await CharacterProvider.getMaxId();
         let view = `
             <link rel="stylesheet" href='../../../css/PersoAll.css'>
             <div id="personnage-all-container" class="personnage-all-container">
