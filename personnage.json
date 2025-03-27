@@ -848,7 +848,7 @@
     },
     {
       "id": "16",
-      "name": "Chop (animal)",
+      "name": "Chop",
       "importance": "secondaire",
       "description": "Le fidèle rottweiler de Lamar, capable d'aider à la poursuite des ennemis grâce à son flair.",
       "characteristics": {

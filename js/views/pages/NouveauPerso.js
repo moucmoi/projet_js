@@ -43,7 +43,6 @@ export default class NouveauPerso {
         <p id="message"></p>
       </div>
   `;
-
   }
 
   async afterRender() {
@@ -64,40 +63,20 @@ export default class NouveauPerso {
         let niveau = 0;
         let image = "../../../images/personnages/no_image.png";
 
-        // Validate required fields
-        if (
-          !name ||
-          !description ||
-          !force ||
-          !agilite ||
-          !intelligence ||
-          !endurance
-        ) {
+        if (!name || !description || !force || !agilite || !intelligence || !endurance) {
           document.getElementById("message").textContent =
             "Tous les champs doivent être remplis.";
           return;
         }
 
-        // Validate numeric characteristics
-        if (
-          isNaN(force) ||
-          force <= 0 ||
-          isNaN(agilite) ||
-          agilite <= 0 ||
-          isNaN(intelligence) ||
-          intelligence <= 0 ||
-          isNaN(endurance) ||
-          endurance <= 0
-        ) {
+        if (isNaN(force) || force <= 0 || isNaN(agilite) || agilite <= 0 || isNaN(intelligence) || intelligence <= 0 || isNaN(endurance) || endurance <= 0) {
           document.getElementById("message").textContent =
             "Les caractéristiques doivent être des nombres positifs.";
           return;
         }
 
-        // Handle image upload if provided
         if (imageFile) {
           try {
-            // Create a FileReader to convert image to base64
             const reader = new FileReader();
             reader.readAsDataURL(imageFile);
 
@@ -125,6 +104,7 @@ export default class NouveauPerso {
             intelligence,
             endurance,
           },
+          arme_ids: [],
           evolutions: [
             {
               effects: {},
