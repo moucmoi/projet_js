@@ -13,8 +13,7 @@
       },
       "pouvoirs": [],
       "armes_ids": [
-        10,
-        5
+        10
       ],
       "evolutions": [
         {
@@ -51,7 +50,7 @@
       "niveau": 4,
       "image": "/images/personnages/MichaelDeSanta.png",
       "bonus": {
-        "force": 5,
+        "force": 2,
         "endurance": 5,
         "agilite": 1,
         "intelligence": 2

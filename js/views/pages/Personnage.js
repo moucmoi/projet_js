@@ -80,7 +80,6 @@ export default class Personnage {
                     </section>
                     <section>
                         <button class="bw-btn bw-btn-green" onclick="window.location.href='/#/character/${character.id}/ajout'">Ajouter une arme</button>
-                        <button class="bw-btn bw-btn-red"onclick="window.location.href='/#/character/${character.id}/suppression'">Enlever une arme</button>
                     </section>
                     <section>
                         <button class="bw-btn bw-btn-amber" onclick="window.location.href='/#/characters/${character.id}/modification'">Modifier</button>
