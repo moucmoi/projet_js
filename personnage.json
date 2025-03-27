@@ -2989,10 +2989,10 @@
       "importance": "inconnu",
       "description": "Habitante du désert, experte en dossiers de criminels recherchés et offrant des missions de prime à Trevor.",
       "characteristics": {
-        "force": 3,
-        "endurance": 4,
+        "force": 0,
         "agilite": 24,
-        "intelligence": 36
+        "intelligence": 36,
+        "endurance": 1
       },
       "armes_ids": [
         2,
@@ -3031,7 +3031,7 @@
         }
       ],
       "niveau": 0,
-      "image": "/images/personnages/MaudeEccles.png",
+      "image": "../../../images/personnages/no_image.png",
       "bonus": {
         "force": 3,
         "endurance": -1,

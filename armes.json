@@ -131,17 +131,6 @@
         "endurance": 0
       },
       "image": "/images/armes/Micro-DRONE.jpg"
-    },
-    {
-      "id": "13",
-      "name": "a",
-      "effects": {
-        "force": 11,
-        "agilite": 11,
-        "intelligence": 11,
-        "endurance": 11
-      },
-      "image": "../../../images/personnages/no_image.png"
     }
   ]
 }

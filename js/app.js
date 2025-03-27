@@ -61,6 +61,7 @@ const router=async ()=>{
     let page=routes[parseURL] ? new routes[parseURL] : new Error404;
 
     content.innerHTML=await page.render();
+    window.scrollTo(0, 0); 
 
     if (typeof page.afterRender === "function") {
         await page.afterRender();

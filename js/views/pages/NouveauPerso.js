@@ -63,18 +63,21 @@ export default class NouveauPerso {
         let imageFile = document.getElementById("image").files[0];
         let image = "../../../images/personnages/no_image.png";
 
-        if (!name || !description || !force || !agilite || !intelligence || !endurance) {
-          document.getElementById("message").textContent =
-            "Tous les champs doivent être remplis.";
+        if (name === "" || description === "") {
+          document.getElementById("message").textContent = "Le nom et la description doivent être remplis.";
           return;
         }
-
-        if (isNaN(force) || force <= 0 || isNaN(agilite) || agilite <= 0 || isNaN(intelligence) || intelligence <= 0 || isNaN(endurance) || endurance <= 0) {
-          document.getElementById("message").textContent =
-            "Les caractéristiques doivent être des nombres positifs.";
-          return;
+        
+        if (!Number.isFinite(force) || !Number.isFinite(agilite) || !Number.isFinite(intelligence) || !Number.isFinite(endurance)) {
+            document.getElementById("message").textContent = "Les caractéristiques doivent être des nombres valides.";
+            return;
         }
-
+        
+        if (force < 0 || agilite < 0 || intelligence < 0 || endurance < 0) {
+            document.getElementById("message").textContent = "Les caractéristiques doivent être des nombres positifs.";
+            return;
+        }
+      
         if (imageFile) {
           try {
             const reader = new FileReader();

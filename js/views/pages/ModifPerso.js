@@ -18,16 +18,16 @@ export default class ModifPerso {
                 <textarea id="description" required>${character.description}</textarea>
 
                 <label for="force">Force :</label>
-                <input type="number" id="force" value="${character.characteristics.force}"/>
+                <input type="number" id="force" value="${character.characteristics.force}"required/>
 
                 <label for="agilite">Agilité :</label>
-                <input type="number" id="agilite" value="${character.characteristics.agilite}"/>
+                <input type="number" id="agilite" value="${character.characteristics.agilite}"required/>
 
                 <label for="intelligence">Intelligence :</label>
-                <input type="number" id="intelligence" value="${character.characteristics.intelligence}"/>
+                <input type="number" id="intelligence" value="${character.characteristics.intelligence}"required/>
 
                 <label for="endurance">Endurance :</label>
-                <input type="number" id="endurance" value="${character.characteristics.endurance}"/>
+                <input type="number" id="endurance" value="${character.characteristics.endurance}"required/>
 
                 <label for="image">Image (optionnel) :</label>
                 <input type="file" id="image" accept="image/png" />
@@ -57,12 +57,17 @@ export default class ModifPerso {
             let imageFile = document.getElementById("image").files[0];
             let image = "../../../images/personnages/no_image.png";
 
-            if (!name || !description || !force || !agilite || !intelligence || !endurance) {
-                document.getElementById("message").textContent = "Tous les champs doivent être remplis.";
+            if (name === "" || description === "") {
+                document.getElementById("message").textContent = "Le nom et la description doivent être remplis.";
                 return;
             }
-
-            if (isNaN(force) || force < 0 || isNaN(agilite) || agilite < 0 || isNaN(intelligence) || intelligence < 0 || isNaN(endurance) || endurance < 0) {
+    
+            if (isNaN(force) || isNaN(agilite) || isNaN(intelligence) || isNaN(endurance)) {
+                document.getElementById("message").textContent = "Les caractéristiques doivent être des nombres valides.";
+                return;
+            }
+    
+            if (force < 0 || agilite < 0 || intelligence < 0 || endurance < 0) {
                 document.getElementById("message").textContent = "Les caractéristiques doivent être des nombres positifs.";
                 return;
             }

@@ -53,8 +53,13 @@ export default class ModifArme {
             let imageFile = document.getElementById("image").files[0];
             let image = "../../../images/personnages/no_image.png";
     
-            if (!name || !force || !agilite || !intelligence || !endurance) {
-                document.getElementById("message").textContent = "Tous les champs doivent être remplis.";
+            if (name === "") {
+              document.getElementById("message").textContent = "Le nom doit être rempli.";
+              return;
+            }
+        
+            if (!Number.isFinite(force) || !Number.isFinite(agilite) || !Number.isFinite(intelligence) || !Number.isFinite(endurance)) {
+                document.getElementById("message").textContent = "Les caractéristiques doivent être des nombres valides.";
                 return;
             }
 
