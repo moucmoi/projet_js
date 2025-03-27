@@ -23,9 +23,14 @@ export default class Personnage {
             intelligence: 0
         };
 
-        let notes = character.ratings;
-        let moyenne = notes.reduce((acc, valeur) => acc + valeur, 0)/notes.length;
-    
+        let noteText ="Aucun avis";
+
+        if (character.ratings && character.ratings.length > 0) {
+            let notes = character.ratings;
+            let moyenne = notes.reduce((acc, valeur) => acc + valeur, 0)/notes.length.toFixed(1);
+            noteText = `${moyenne} / 5 : ${notes.length} avis`;
+        }
+
         let affichageArme = new AffichageArme();
         window.toggleFavoris = Favoris.toggleFavoris;
     
@@ -39,7 +44,7 @@ export default class Personnage {
                     <img loading="lazy" src="${character.image}" alt="Image de ${character.name}" id="image">
                     
                     <h2 id="personnage-nom">${character.name} (${character.importance})</h2>
-                    <h3 id="notes">${moyenne.toFixed(1)} / 5 : ${notes.length} avis</h3>
+                    <h3 id="notes">${noteText}</h3>
     
                     <p id="personnage-description">${character.description}</p>
     
