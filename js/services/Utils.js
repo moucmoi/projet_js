@@ -13,12 +13,12 @@ const Utils = {
         id2: null
       };
 
-      request.ressource = r[1];
+    request.ressource = r[1];
     request.id        = r[2]; 
     request.verb      = r[3]; 
     request.id2       = r[4]; 
   
-      return request;
+    return request;
     }
   };
   
