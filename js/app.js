@@ -1,6 +1,8 @@
+import Utils from "./services/Utils.js";
+import CharacterProvider from "./services/CharacterProvider.js";
+
 import About from "./views/pages/About.js";
 import CharacterAll from "./views/pages/CharacterAll.js";
-import Utils from "./services/Utils.js";
 import Personnage from "./views/pages/Personnage.js";
 import Error404 from "./views/pages/Error404.js";
 import Notation from "./views/pages/Notation.js";
@@ -17,7 +19,7 @@ import ChoixEnleverArme from "./views/pages/ChoixEnleverArme.js";
 import EnleverArme from "./views/pages/EnleverArme.js";
 import ChoixAjoutArme from "./views/pages/ChoixAjoutArme.js";
 import AjoutArme from "./views/pages/AjoutArme.js";
-import CharacterProvider from "./services/CharacterProvider.js";
+import ArmePerso from "./views/pages/ArmePerso.js";
 
 
 CharacterProvider.updateAllCharacter();
@@ -46,6 +48,7 @@ const routes={
     '/character/:id/suppression':ChoixEnleverArme,
     '/characters/:id/suppression/:id2':EnleverArme,
     '/character/:id/ajout':ChoixAjoutArme,
+    '/character/:id/armes/:id2': ArmePerso,
     '/characters/:id/ajout/:id2':AjoutArme
 
 }

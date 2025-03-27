@@ -35,8 +35,8 @@ export default class About{
                 </ul>
 
                 <h2 class="section-title" id="search">🔍 Recherchez, filtrez et plongez dans les données</h2>
-                <p class="section-description">Notre <strong>moteur de recherche avancé</strong> vous permet de retrouver n’importe quel personnage en fonction de son nom, 
-                    de son gang ou de son arme favorite. <strong>Trouvez en quelques secondes</strong> celui qui correspond à votre style de jeu.
+                <p class="section-description">Notre <strong>moteur de recherche avancé</strong> vous permet de retrouver n’importe quel personnage en fonction de son nom
+                . <strong>Trouvez en quelques secondes</strong> celui qui correspond à votre style de jeu.
                 </p>
 
                 <h2 class="section-title" id="app-features">📜 Une application complète et immersive</h2>

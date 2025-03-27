@@ -71,7 +71,7 @@ export default class Personnage {
                     }
     
                     <h3>Armes :</h3>
-                    ${armes.map(arme => affichageArme.renderAll(arme)).join('')}
+                    ${armes.map(arme => affichageArme.renderAllArmePerso(arme, character.id)).join('')}
     
                     <div class="button-group">
                     <section>
