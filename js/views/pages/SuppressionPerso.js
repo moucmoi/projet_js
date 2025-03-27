@@ -11,12 +11,13 @@ export default class SuppressionPerso {
             <div id="suppression-perso" class="page-container">
                 <h2>Êtes-vous sûr de vouloir supprimer <span class="highlight">${character.name}</span> ?</h2>
                 <div class="confirm-buttons">
-                    <button id="annuler-suppression-perso" onclick="location.href = '/#/characters/${character.id}';">Annuler</button>
-                    <button id="confirmer-suppression-perso">Oui</button>
+                <button id="annuler-suppression-perso" onclick="location.href = '/#/characters/${character.id}';">Annuler</button>
+                <button id="confirmer-suppression-perso">Oui</button>
                 </div>
                 <p id="message"></p>
             </div>
         `;
+
     }
 
     async afterRender() {

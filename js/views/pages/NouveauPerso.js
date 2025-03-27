@@ -4,30 +4,46 @@ import Utils from "../../services/Utils.js";
 export default class NouveauPerso {
   async render() {
     return `
- <h2>Creer un nouveau personnage</h2>
- <label>Nom :</label>
- <input type="text" id="name" required />
- <label>Description :</label>
- <textarea id="description" required></textarea>
- <label>Importance :</label>
- <select id="importance" required>
-     <option value="principal">Principal</option>
-     <option value="secondaire">Secondaire</option>
-     <option value="inconnu">Inconnu</option>
- </select>
- <label>Force :</label>
- <input type="number" id="force" required />
- <label>Agilité :</label>
- <input type="number" id="agilite" required />
- <label>Intelligence :</label>
- <input type="number" id="intelligence" required />
- <label>Endurance :</label>
- <input type="number" id="endurance" required />
- <label>Image (optionnel) :</label>
- <input type="file" id="image" accept="image/*" />
- <button id="creerPerso">Créer</button>
- <p id="message"></p>`
- ;
+      <link href="./../../../css/AjoutSupp.css" rel="stylesheet" />
+      <div id="nouveau-perso" class="page-container">
+        <h2>Créer un nouveau personnage</h2>
+        
+        <label for="name">Nom :</label>
+        <input type="text" id="name" required />
+        
+        <label for="description">Description :</label>
+        <textarea id="description" required></textarea>
+        
+        <label for="importance">Importance :</label>
+        <select id="importance" required>
+          <option value="principal">Principal</option>
+          <option value="secondaire">Secondaire</option>
+          <option value="inconnu">Inconnu</option>
+        </select>
+        
+        <label for="force">Force :</label>
+        <input type="number" id="force" required />
+        
+        <label for="agilite">Agilité :</label>
+        <input type="number" id="agilite" required />
+        
+        <label for="intelligence">Intelligence :</label>
+        <input type="number" id="intelligence" required />
+        
+        <label for="endurance">Endurance :</label>
+        <input type="number" id="endurance" required />
+        
+        <label for="image">Image (optionnel) :</label>
+        <input type="file" id="image" accept="image/*" />
+        
+        <div class="page-buttons">
+          <button id="creerPerso">Créer</button>
+        </div>
+        
+        <p id="message"></p>
+      </div>
+  `;
+
   }
 
   async afterRender() {

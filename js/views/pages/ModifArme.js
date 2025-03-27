@@ -12,19 +12,19 @@ export default class ModifArme {
                 <h2>Modifier ${arme.name}</h2>
 
                 <label for="name">Nom :</label>
-                <input type="text" id="name" value="${arme.name}" required />
+                <input type="text" id="name" value="${arme.name}"/>
 
                 <label for="force">Force :</label>
-                <input type="number" id="force" value="${arme.effects.force}" required />
+                <input type="number" id="force" value="${arme.effects.force}"/>
 
                 <label for="agilite">Agilité :</label>
-                <input type="number" id="agilite" value="${arme.effects.agilite}" required />
+                <input type="number" id="agilite" value="${arme.effects.agilite}"/>
 
                 <label for="intelligence">Intelligence :</label>
-                <input type="number" id="intelligence" value="${arme.effects.intelligence}" required />
+                <input type="number" id="intelligence" value="${arme.effects.intelligence}"/>
 
                 <label for="endurance">Endurance :</label>
-                <input type="number" id="endurance" value="${arme.effects.endurance}" required />
+                <input type="number" id="endurance" value="${arme.effects.endurance}"/>
 
                 <div class="page-buttons">
                 <button id="annuler" onclick="location.href = '/#/armes/${arme.id}';">Annuler</button>
@@ -50,11 +50,6 @@ export default class ModifArme {
     
             if (!name || !force || !agilite || !intelligence || !endurance) {
                 document.getElementById("message").textContent = "Tous les champs doivent être remplis.";
-                return;
-            }
-    
-            if (isNaN(force) || force < 0 || isNaN(agilite) || agilite < 0 || isNaN(intelligence) || intelligence < 0 || isNaN(endurance) || endurance < 0) {
-                document.getElementById("message").textContent = "Les caractéristiques doivent être des nombres positifs.";
                 return;
             }
     

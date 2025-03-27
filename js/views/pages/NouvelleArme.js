@@ -7,29 +7,30 @@ export default class NouvelleArme {
             <link href="./../../../css/AjoutSupp.css" rel="stylesheet" />
             <div id="nouvelle-arme" class="page-container">
                 <h2>Créer une nouvelle arme</h2>
-
+                
                 <label for="name">Nom :</label>
                 <input type="text" id="name" required />
-
+                
                 <label for="force">Bonus de Force :</label>
                 <input type="number" id="force" required />
-
+                
                 <label for="agilite">Bonus d'Agilité :</label>
                 <input type="number" id="agilite" required />
-
+                
                 <label for="intelligence">Bonus d'Intelligence :</label>
                 <input type="number" id="intelligence" required />
-
+                
                 <label for="endurance">Bonus d'Endurance :</label>
                 <input type="number" id="endurance" required />
-
+                
                 <div class="page-buttons">
-                    <button id="creerArme">Créer</button>
+                <button id="creerArme">Créer</button>
                 </div>
-
+                
                 <p id="message"></p>
             </div>
         `;
+
     }
 
     async afterRender() {
@@ -44,15 +45,11 @@ export default class NouvelleArme {
             let endurance = document.getElementById("endurance").value.trim();
             let image = "../../../images/personnages/no_image.png"
 
-            if (!name || !force || !agilite || !intelligence || !endurance) {
+            if (name === null || force === null || agilite === null || intelligence === null || endurance === null) {
                 document.getElementById("message").textContent = "Tous les champs doivent être remplis.";
                 return;
             }
-
-            if (isNaN(force) || force <= 0 || isNaN(agilite) || agilite <= 0 || isNaN(intelligence) || intelligence <= 0 || isNaN(endurance) || endurance <= 0) {
-                document.getElementById("message").textContent = "Les caractéristiques doivent être des nombres positifs.";
-                return;
-            }
+            
 
             let armeData = {
                 id,

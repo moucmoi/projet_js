@@ -102,7 +102,7 @@ static async deleteCharacter(characterId) {
   
           statsFinales.force += arme.effects.force;
           statsFinales.endurance += arme.effects.endurance;
-          statsFinales.agilite += arme.effects.agilité;
+          statsFinales.agilite += arme.effects.agilite;
           statsFinales.intelligence += arme.effects.intelligence;
         }
   
@@ -134,19 +134,14 @@ static async deleteCharacter(characterId) {
     try {
       const personnage = await this.getCharacter(id);
       for (const idarme of personnage["armes_ids"]) {
-        console.log(statsFinales);
         const arme = await ArmeProvider.getArme(idarme);
-        console.log("Arme récupérée :", arme);
 
         statsFinales.force += arme.effects.force;
         statsFinales.endurance += arme.effects.endurance;
-        statsFinales.agilite += arme.effects.agilité;
+        statsFinales.agilite += arme.effects.agilite;
         statsFinales.intelligence += arme.effects.intelligence;
 
-        console.log("Stats après ajout :", statsFinales);
       }
-
-      console.log(statsFinales);
 
       const payload = {
         bonus: statsFinales
@@ -213,6 +208,21 @@ static async deleteCharacter(characterId) {
     this.setArme(personnage["id"], lesArmes);
     this.updateCharacter(personnage["id"]);
   };
+
+  static async updateCharacterStats(id, characterData) {
+    try {
+        let response = await fetch(`${ENDPOINTC}/${id}`, {
+            method: "PATCH",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify(characterData),
+        });
+
+        return response.ok;
+    } catch (err) {
+        console.error("Erreur lors de la modification du personnage :", err);
+        return false;
+    }
+}
 
   static setArme = async (id, armesIds) => {
     try {

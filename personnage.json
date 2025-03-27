@@ -13,9 +13,8 @@
       },
       "pouvoirs": [],
       "armes_ids": [
-        10,
-        3,
-        11
+        5,
+        10
       ],
       "evolutions": [
         {
@@ -52,15 +51,15 @@
       "niveau": 4,
       "image": "/images/personnages/MichaelDeSanta.png",
       "bonus": {
-        "force": 9,
+        "force": 5,
         "endurance": 5,
-        "agilite": null,
+        "agilite": 1,
         "intelligence": 2
       },
       "ratings": [
-        "5",
-        5,
-        4
+        2,
+        3,
+        3
       ]
     },
     {
@@ -70,9 +69,9 @@
       "description": "Canadien au tempérament explosif, ancien pilote de chasse et criminel imprévisible, adepte du mode frénésie.",
       "characteristics": {
         "force": 22,
-        "endurance": 50,
-        "agilite": 6,
-        "intelligence": 15
+        "agilite": 10,
+        "intelligence": 15,
+        "endurance": 50
       },
       "armes_ids": [
         4,
@@ -117,7 +116,10 @@
         "endurance": 5,
         "agilite": null,
         "intelligence": 4
-      }
+      },
+      "ratings": [
+        2
+      ]
     },
     {
       "id": "3",
@@ -132,7 +134,6 @@
       },
       "armes_ids": [
         5,
-        2,
         10
       ],
       "evolutions": [
@@ -170,10 +171,10 @@
       "niveau": 0,
       "image": "/images/personnages/FranklinClinton.png",
       "bonus": {
-        "force": 6,
-        "endurance": 3,
-        "agilite": 0,
-        "intelligence": 0
+        "force": 5,
+        "endurance": 5,
+        "agilite": null,
+        "intelligence": 2
       }
     },
     {
@@ -187,10 +188,7 @@
         "agilite": 55,
         "intelligence": 17
       },
-      "armes_ids": [
-        2,
-        6
-      ],
+      "armes_ids": [],
       "evolutions": [
         {
           "description": "Évolution Novice",
@@ -227,8 +225,8 @@
       "image": "/images/personnages/AmandaDeSanta.png",
       "bonus": {
         "force": 3,
-        "endurance": 0,
-        "agilite": 5,
+        "endurance": 1,
+        "agilite": null,
         "intelligence": 1
       }
     },
@@ -958,7 +956,11 @@
         "endurance": 0,
         "agilite": 5,
         "intelligence": 1
-      }
+      },
+      "ratings": [
+        2,
+        2
+      ]
     },
     {
       "id": "18",
@@ -4372,25 +4374,6 @@
         "agilite": -2,
         "intelligence": 0
       }
-    },
-    {
-      "id": "79",
-      "name": "test",
-      "importance": "principal",
-      "description": "aaa",
-      "characteristics": {
-        "force": "4",
-        "agilite": "4",
-        "intelligence": "4",
-        "endurance": "4"
-      },
-      "evolutions": [
-        {
-          "effects": {}
-        }
-      ],
-      "niveau": 0,
-      "image": "../../../images/personnages/no_image.png"
     }
   ]
 }
