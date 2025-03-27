@@ -160,6 +160,42 @@ static async deleteCharacter(characterId) {
     }
   }
 
+  static async niveauSupp(id) {
+    const statsFinales = {
+      "force": 0,
+      "endurance": 0,
+      "agilite": 0,
+      "intelligence": 0
+    };
+    try {
+      const personnage = await this.getCharacter(id);
+      for (const idarme of personnage["armes_ids"]) {
+        const arme = await ArmeProvider.getArme(idarme);
+
+        statsFinales.force += arme.effects.force;
+        statsFinales.endurance += arme.effects.endurance;
+        statsFinales.agilite += arme.effects.agilite;
+        statsFinales.intelligence += arme.effects.intelligence;
+
+      }
+
+      const payload = {
+        bonus: statsFinales
+      };
+
+      const response = await fetch(`${ENDPOINTC}/${id}`, {
+        method: 'PATCH',
+        headers: {'Content-Type': 'application/json'},
+        body: JSON.stringify(payload)
+      });
+
+      return response.ok;
+    } catch (err) {
+      console.error("Erreur lors de la notation :", err);
+      return false;
+    }
+  }
+
 
   static async rateCharacter(id, rating) {
     try {

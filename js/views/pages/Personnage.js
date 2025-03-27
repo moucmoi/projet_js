@@ -41,6 +41,8 @@ export default class Personnage {
             </div>
             <div id="personnage-container">
                 <div id="personnage-details">
+                    <a href="/#/characters/${parseInt(character.id)-1}">précedent</a>
+                    <a href="/#/characters/${parseInt(character.id)+1}">suivant</a>
                     <img loading="lazy" src="${character.image}" alt="Image de ${character.name}" id="image">
                     
                     <h2 id="personnage-nom">${character.name} (${character.importance})</h2>
