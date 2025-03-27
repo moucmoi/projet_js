@@ -32,7 +32,7 @@ export default class ArmePerso {
                     </p>
 
                     <div class="arme-buttons">
-                        <button onclick="window.location.href='/#/armes/${arme.id}/suppression'">Supprimer</button>
+                        <button onclick="window.location.href='/#/characters/${request.id}/suppression/${arme.id}'">Enlever</button>
                     </div>
                 </div>
             </div>
