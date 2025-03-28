@@ -34,7 +34,7 @@ export default class NouveauPerso {
         <input type="number" id="endurance" required />
         
         <label for="image">Image (optionnel) :</label>
-        <input type="file" id="image" accept="image/*" />
+        <input type="file" id="image" accept="image/png" />
         
         <div class="page-buttons">
           <button id="creerPerso">Créer</button>
@@ -43,7 +43,6 @@ export default class NouveauPerso {
         <p id="message"></p>
       </div>
   `;
-
   }
 
   async afterRender() {
@@ -55,49 +54,32 @@ export default class NouveauPerso {
       .addEventListener("click", async () => {
         let name = document.getElementById("name").value.trim();
         let description = document.getElementById("description").value.trim();
-        let force = document.getElementById("force").value.trim();
-        let agilite = document.getElementById("agilite").value.trim();
-        let intelligence = document.getElementById("intelligence").value.trim();
-        let endurance = document.getElementById("endurance").value.trim();
+        let force = parseInt(document.getElementById("force").value.trim());
+        let agilite = parseInt(document.getElementById("agilite").value.trim());
+        let intelligence = parseInt(document.getElementById("intelligence").value.trim());
+        let endurance = parseInt(document.getElementById("endurance").value.trim());
         let importance = document.getElementById("importance").value.trim();
-        let imageFile = document.getElementById("image").files[0];
         let niveau = 0;
+        let imageFile = document.getElementById("image").files[0];
         let image = "../../../images/personnages/no_image.png";
 
-        // Validate required fields
-        if (
-          !name ||
-          !description ||
-          !force ||
-          !agilite ||
-          !intelligence ||
-          !endurance
-        ) {
-          document.getElementById("message").textContent =
-            "Tous les champs doivent être remplis.";
+        if (name === "" || description === "") {
+          document.getElementById("message").textContent = "Le nom et la description doivent être remplis.";
           return;
         }
-
-        // Validate numeric characteristics
-        if (
-          isNaN(force) ||
-          force <= 0 ||
-          isNaN(agilite) ||
-          agilite <= 0 ||
-          isNaN(intelligence) ||
-          intelligence <= 0 ||
-          isNaN(endurance) ||
-          endurance <= 0
-        ) {
-          document.getElementById("message").textContent =
-            "Les caractéristiques doivent être des nombres positifs.";
-          return;
+        
+        if (!Number.isFinite(force) || !Number.isFinite(agilite) || !Number.isFinite(intelligence) || !Number.isFinite(endurance)) {
+            document.getElementById("message").textContent = "Les caractéristiques doivent être des nombres valides.";
+            return;
         }
-
-        // Handle image upload if provided
+        
+        if (force < 0 || agilite < 0 || intelligence < 0 || endurance < 0) {
+            document.getElementById("message").textContent = "Les caractéristiques doivent être des nombres positifs.";
+            return;
+        }
+      
         if (imageFile) {
           try {
-            // Create a FileReader to convert image to base64
             const reader = new FileReader();
             reader.readAsDataURL(imageFile);
 
@@ -125,6 +107,7 @@ export default class NouveauPerso {
             intelligence,
             endurance,
           },
+          arme_ids: [],
           evolutions: [
             {
               effects: {},

@@ -25,7 +25,6 @@ export default class ArmesAll{
             view += affichageArme.renderAll(arme);
         });
 
-        // On ferme la div conteneur
         view += `</div>`;
         return view;
     }

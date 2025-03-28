@@ -12,10 +12,7 @@
         "intelligence": 24
       },
       "pouvoirs": [],
-      "armes_ids": [
-        5,
-        10
-      ],
+      "armes_ids": [],
       "evolutions": [
         {
           "description": "Évolution Novice",
@@ -48,13 +45,13 @@
           "condition": "Atteindre le niveau 50"
         }
       ],
-      "niveau": 4,
+      "niveau": 0,
       "image": "/images/personnages/MichaelDeSanta.png",
       "bonus": {
-        "force": 5,
-        "endurance": 5,
-        "agilite": 1,
-        "intelligence": 2
+        "force": 0,
+        "endurance": 0,
+        "agilite": 0,
+        "intelligence": 0
       },
       "ratings": [
         2,
@@ -168,8 +165,8 @@
           "condition": "Atteindre le niveau 50"
         }
       ],
-      "niveau": 10,
-      "image": "/images/personnages/FranklinClinton.png",
+      "niveau": 0,
+      "image": "/images/personnages/FranklinClinton.jpeg",
       "bonus": {
         "force": 5,
         "endurance": 5,
@@ -508,7 +505,12 @@
         "endurance": 1,
         "agilite": 5,
         "intelligence": 1
-      }
+      },
+      "ratings": [
+        1,
+        3,
+        5
+      ]
     },
     {
       "id": "10",
@@ -848,7 +850,7 @@
     },
     {
       "id": "16",
-      "name": "Chop (animal)",
+      "name": "Chop",
       "importance": "secondaire",
       "description": "Le fidèle rottweiler de Lamar, capable d'aider à la poursuite des ennemis grâce à son flair.",
       "characteristics": {
@@ -2983,10 +2985,10 @@
       "importance": "inconnu",
       "description": "Habitante du désert, experte en dossiers de criminels recherchés et offrant des missions de prime à Trevor.",
       "characteristics": {
-        "force": 3,
-        "endurance": 4,
+        "force": 0,
         "agilite": 24,
-        "intelligence": 36
+        "intelligence": 36,
+        "endurance": 1
       },
       "armes_ids": [
         2,
@@ -3025,7 +3027,7 @@
         }
       ],
       "niveau": 0,
-      "image": "/images/personnages/MaudeEccles.png",
+      "image": "../../../images/personnages/no_image.png",
       "bonus": {
         "force": 3,
         "endurance": -1,
