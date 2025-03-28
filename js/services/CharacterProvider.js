@@ -160,6 +160,24 @@ static async deleteCharacter(characterId) {
     }
   }
 
+  static async addLevel(id) {
+    try {
+      const personnage = await this.getCharacter(id);
+      let nouvNiveau = personnage.niveau + 5
+      let payload = {niveau: nouvNiveau}
+
+      const response = await fetch(`${ENDPOINTC}/${id}`, {
+        method: 'PATCH',
+        headers: {'Content-Type': 'application/json'},
+        body: JSON.stringify(payload)
+      });
+      return response.ok;
+    }catch (err) {
+      console.error("Erreur lors de l'ajout de niveau :", err);
+      return false;
+    }
+  }
+
 
   static async rateCharacter(id, rating) {
     try {

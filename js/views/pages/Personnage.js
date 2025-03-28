@@ -55,6 +55,7 @@ export default class Personnage {
     
                     <h3>Caractéristiques</h3>
                     <ul id="caracteristiques">
+                        <li>niveau : ${character.niveau}</li>
                         <li>Force : ${character.characteristics.force + character.bonus.force}</li>
                         <li>Endurance : ${character.characteristics.endurance + character.bonus.endurance}</li>
                         <li>Agilité : ${character.characteristics.agilite + character.bonus.agilite}</li>
@@ -84,13 +85,29 @@ export default class Personnage {
                     <section>
                         <button class="bw-btn bw-btn-amber" onclick="window.location.href='/#/characters/${character.id}/modification'">Modifier</button>
                         <button id="btnSuppression" class="bw-btn bw-btn-red" onclick="window.location.href='/#/characters/${character.id}/suppression'">Supprimer le personnage</button>
+                        <button id="niveau-sup" class="bw-btn bw-btn-amber">niveau +5</button>
                     </section>
                     </div>
                 </div>
             </div>
         `;
-    
+        setTimeout(() => {
+            this.niveau(character);
+        }, 0);
         return view;
+    }
+
+    async niveau(character) {
+        document.getElementById('niveau-sup').addEventListener('click', () => {
+            //MAJ de la page
+            character.niveau += 5;
+            const niveauElement = document.getElementById('caracteristiques').querySelector('li:first-child');
+            if (niveauElement) {
+                niveauElement.textContent = `niveau : ${character.niveau}`;
+            }
+            //MAJ du json
+            CharacterProvider.addLevel(character.id);
+        });
     }
     
 }

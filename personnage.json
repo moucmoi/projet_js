@@ -12,9 +12,7 @@
         "intelligence": 24
       },
       "pouvoirs": [],
-      "armes_ids": [
-        10
-      ],
+      "armes_ids": [],
       "evolutions": [
         {
           "description": "Évolution Novice",
@@ -47,13 +45,13 @@
           "condition": "Atteindre le niveau 50"
         }
       ],
-      "niveau": 4,
+      "niveau": 0,
       "image": "/images/personnages/MichaelDeSanta.png",
       "bonus": {
-        "force": 2,
-        "endurance": 5,
-        "agilite": 1,
-        "intelligence": 2
+        "force": 0,
+        "endurance": 0,
+        "agilite": 0,
+        "intelligence": 0
       },
       "ratings": [
         2,
