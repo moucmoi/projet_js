@@ -1,6 +1,5 @@
 import CharacterProvider from "../../services/CharacterProvider.js";
 import AffichagePerso from "./AffichagePerso.js";
-import {ENDPOINTC} from "../../config.js";
 
 export default class CharacterAll {
     async render() {

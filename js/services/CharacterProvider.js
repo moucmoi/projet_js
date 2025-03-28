@@ -1,4 +1,4 @@
-import { ENDPOINTC } from "../config.js";
+import {ENDPOINTC} from "../config.js";
 import ArmeProvider from "./ArmeProvider.js";
 
 export default class CharacterProvider {
