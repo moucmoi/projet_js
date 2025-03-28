@@ -160,6 +160,24 @@ static async deleteCharacter(characterId) {
     }
   }
 
+  static async addLevel(id) {
+    try {
+      const personnage = await this.getCharacter(id);
+      let nouvNiveau = personnage.niveau + 5
+      let payload = {niveau: nouvNiveau}
+
+      const response = await fetch(`${ENDPOINTC}/${id}`, {
+        method: 'PATCH',
+        headers: {'Content-Type': 'application/json'},
+        body: JSON.stringify(payload)
+      });
+      return response.ok;
+    }catch (err) {
+      console.error("Erreur lors de l'ajout de niveau :", err);
+      return false;
+    }
+  }
+
 
   static async rateCharacter(id, rating) {
     try {
@@ -222,7 +240,7 @@ static async deleteCharacter(characterId) {
         console.error("Erreur lors de la modification du personnage :", err);
         return false;
     }
-}
+  };
 
   static setArme = async (id, armesIds) => {
     try {
@@ -245,4 +263,11 @@ static async deleteCharacter(characterId) {
       console.error("Erreur lors de la mise à jour des armes :", err);
     }
   };
+
+  static getMaxId = async () => {
+    let response = await fetch(`${ENDPOINTC}`, { method: "GET" });
+    let data = await response.json();
+    let idMax = data.reduce((max, item) => Math.max(max, parseInt(item.id)), 0);
+    return idMax;
+  }
 }
