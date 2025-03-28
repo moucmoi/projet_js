@@ -1,0 +1,83 @@
+/* Conteneur principal */
+#combat-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  background: #242424;
+  min-height: 100vh;
+  color: #fff;
+}
+
+/* Titre */
+#title.title {
+  width: 100%;
+  text-align: center;
+  font-size: 2.2rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  color: #FFD700;
+  text-shadow: 1px 1px 3px #000;
+}
+
+/* Barre de progression */
+.progress-container {
+  width: 100%;
+  max-width: 500px;
+  height: 20px;
+  background: #1f1f1f;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 2px solid #444;
+  margin-bottom: 2rem;
+}
+
+.progress-bar {
+  height: 100%;
+  width: 0%;
+  background: linear-gradient(to right, #ffd700, #ff8800);
+  transition: width 0.3s ease-out;
+  box-shadow: 0 0 8px #ffd700aa;
+}
+
+/* Résultat */
+#résultat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+  text-align: center;
+  animation: fadeInUp 0.8s ease forwards;
+}
+
+
+/* Apparition douce */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Affichage du gagnant */
+.personnage-section {
+  background: #1f1f1f;
+  padding: 1rem;
+  border-radius: 8px;
+  text-align: center;
+  border: 2px solid #ffd70044;
+  margin-top: 1rem;
+}
+
+.personnage-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 0 5px #000;
+}
