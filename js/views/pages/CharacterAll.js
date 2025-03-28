@@ -1,6 +1,5 @@
 import CharacterProvider from "../../services/CharacterProvider.js";
 import AffichagePerso from "./AffichagePerso.js";
-import {ENDPOINTC} from "../../config.js";
 
 export default class CharacterAll {
     async render() {
@@ -11,7 +10,7 @@ export default class CharacterAll {
             <link rel="stylesheet" href='../../../css/PersoAll.css'>
             <div id="personnage-all-container" class="personnage-all-container">
                 <h2 id="personnage-title" class="personnage-title">Les personnages</h2>
-                <input type="text" id="search-box" class="search-box" placeholder="Rechercher..." />
+                <input type="text" id="search-box" class="search-box" placeholder="Rechercher un personnage" />
                 <select id="importance-filter">
                     <option value="all">Tous</option>
                     <option value="Principal">Principaux</option>

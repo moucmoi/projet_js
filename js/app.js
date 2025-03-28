@@ -1,6 +1,5 @@
 import Utils from "./services/Utils.js";
 import CharacterProvider from "./services/CharacterProvider.js";
-
 import About from "./views/pages/About.js";
 import CharacterAll from "./views/pages/CharacterAll.js";
 import Personnage from "./views/pages/Personnage.js";
@@ -19,6 +18,10 @@ import EnleverArme from "./views/pages/EnleverArme.js";
 import ChoixAjoutArme from "./views/pages/ChoixAjoutArme.js";
 import AjoutArme from "./views/pages/AjoutArme.js";
 import ArmePerso from "./views/pages/ArmePerso.js";
+import CombatPerso1 from "./views/pages/CombatPerso1.js";
+import CombatPerso2 from "./views/pages/CombatPerso2.js";
+import Combat from "./views/pages/Combat.js";
+import derouleCombat from "./controllers/derouleCombat.js";
 
 
 CharacterProvider.updateAllCharacter();
@@ -47,8 +50,13 @@ const routes={
     '/characters/:id/suppression/:id2':EnleverArme,
     '/character/:id/ajout':ChoixAjoutArme,
     '/character/:id/armes/:id2': ArmePerso,
-    '/characters/:id/ajout/:id2':AjoutArme
+    '/characters/:id/ajout/:id2':AjoutArme,
 
+    // COMBAT
+    '/combat':CombatPerso1,
+    '/combat/:id':CombatPerso2,
+    '/combat/:id/contre/:id2':Combat,
+    '/combat/:id/contre/:id2/deroule':derouleCombat
 }
 
 
@@ -57,9 +65,12 @@ const router=async ()=>{
     const content=document.querySelector('#content');
 
     let request=Utils.parseRequestURL();
+    console.log(request);
 
-    let parseURL =(request.ressource ? '/' + request.ressource : '/') + (request.id ? '/:id' : '') + (request.verb      ? '/' + request.verb : '') + (request.id2       ? '/:id2' : '');
+    let parseURL =(request.ressource ? '/' + request.ressource : '/') + (request.id ? '/:id' : '') + (request.action      ? '/' + request.action : '') + (request.id2    ? '/:id2' : '') + (request.verb    ? '/' + request.verb : '');
+    console.log(request.verb);
     let page=routes[parseURL] ? new routes[parseURL] : new Error404;
+
 
     content.innerHTML=await page.render();
     window.scrollTo(0, 0); 

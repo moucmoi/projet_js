@@ -1,4 +1,4 @@
-import { ENDPOINTC } from "../config.js";
+import {ENDPOINTC} from "../config.js";
 import ArmeProvider from "./ArmeProvider.js";
 
 export default class CharacterProvider {
@@ -269,5 +269,86 @@ static async deleteCharacter(characterId) {
     let data = await response.json();
     let idMax = data.reduce((max, item) => Math.max(max, parseInt(item.id)), 0);
     return idMax;
+  }
+
+  static async aGagne(personnage,chanceVictoire){
+    let niveauPlus=null;
+    if(chanceVictoire<0.1){
+      niveauPlus=5;
+    }
+    else if(chanceVictoire<0.3){
+      niveauPlus=3;
+    }
+    else if(chanceVictoire<0.5){
+      niveauPlus=2;
+    }
+    else if(chanceVictoire<0.6){
+      niveauPlus=1;
+    }
+    else{
+      niveauPlus=0;
+    }
+    const niveauActurel=personnage.niveau;
+
+    const futurNiveau=niveauPlus+niveauActurel;
+
+    try {
+      const options = {
+        method: 'PATCH',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({ niveau: futurNiveau })
+      };
+
+      const response = await fetch(`${ENDPOINTC}/${personnage.id}`, options);
+
+      if (!response.ok) {
+        throw new Error(`Erreur lors de la mise à jour : ${response.statusText}`);
+      }
+
+      await response.json();
+    } catch (err) {
+      console.error("Erreur lors de la mise à jour des armes :", err);
+    }
+  }
+
+  static async aPerdu(personnage,chanceVictoire){
+    let niveauMoins=null;
+    if(chanceVictoire<0.2){
+      niveauMoins=0;
+    }
+    else if(chanceVictoire<0.5){
+      niveauMoins=1;
+    }
+    else{
+      niveauMoins=3;
+    }
+    const niveauActurel=personnage.niveau;
+    let futurNiveau=niveauActurel-niveauMoins;
+
+    if(futurNiveau<0){
+      futurNiveau=0;
+    }
+
+    try {
+      const options = {
+        method: 'PATCH',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({ niveau: futurNiveau })
+      };
+
+      const response = await fetch(`${ENDPOINTC}/${personnage.id}`, options);
+
+      if (!response.ok) {
+        throw new Error(`Erreur lors de la mise à jour : ${response.statusText}`);
+      }
+
+      await response.json();
+    } catch (err) {
+      console.error("Erreur lors de la mise à jour des armes :", err);
+    }
   }
 }
