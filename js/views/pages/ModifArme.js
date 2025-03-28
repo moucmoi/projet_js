@@ -1,5 +1,6 @@
 import ArmeProvider from "../../services/ArmeProvider.js";
 import Utils from "../../services/Utils.js";
+import Arme from "./Arme.js";
 
 export default class ModifArme {
     async render() {
@@ -43,6 +44,7 @@ export default class ModifArme {
     async afterRender() {
         let request = Utils.parseRequestURL();
         let armeID = request.id;
+        let arme = await ArmeProvider.getArme(armeID);
     
         document.getElementById("modifArme").addEventListener("click", async () => {
             let name = document.getElementById("name").value.trim();
@@ -51,7 +53,7 @@ export default class ModifArme {
             let intelligence = parseInt(document.getElementById("intelligence").value.trim());
             let endurance = parseInt(document.getElementById("endurance").value.trim());
             let imageFile = document.getElementById("image").files[0];
-            let image = "../../../images/personnages/no_image.png";
+            let image = arme.image;
     
             if (name === "") {
               document.getElementById("message").textContent = "Le nom doit être rempli.";

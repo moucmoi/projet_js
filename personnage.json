@@ -45,7 +45,7 @@
           "condition": "Atteindre le niveau 50"
         }
       ],
-      "niveau": 0,
+      "niveau": 3,
       "image": "/images/personnages/MichaelDeSanta.png",
       "bonus": {
         "force": 0,
@@ -106,7 +106,7 @@
           "condition": "Atteindre le niveau 50"
         }
       ],
-      "niveau": 1,
+      "niveau": 0,
       "image": "/images/personnages/TrevorPhilips.png",
       "bonus": {
         "force": 4,
