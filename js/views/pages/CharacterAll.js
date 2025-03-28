@@ -13,7 +13,7 @@ export default class CharacterAll {
             <link rel="stylesheet" href='../../../css/PersoAll.css'>
             <div id="personnage-all-container" class="personnage-all-container">
                 <h2 id="personnage-title" class="personnage-title">Les personnages</h2>
-                <input type="text" id="search-box" class="search-box" placeholder="Rechercher..." />
+                <input type="text" id="search-box" class="search-box" placeholder="Rechercher un personnage" />
                 <div id="cards-container" class="cards-container">
                     <a href='/#/nouveau/${idMax + 1}' class="personnage-card-link" id="personnage-card-link">
                         <section class="personnage-section" id="personnage-section">

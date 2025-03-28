@@ -42,4 +42,15 @@ export default class AffichagePerso {
             </a>
         `;
     }
+
+    renderCombat(character){
+        return `
+            <link rel="stylesheet" href='../../../css/PersonnageMenu.css'>
+            <section class="personnage-section" id="personnage-section">
+                <img loading="lazy"  src="${character.image}" alt="${character.name}" class="personnage-img" id="personnage-img">
+                <h3 class="personnage-name" id="personnage-name">${character.name}</h3>
+                <h4 class="personnage-importance" id="personnage-importance">${character.importance}</h4>
+            </section>
+        `;
+    }
 }
