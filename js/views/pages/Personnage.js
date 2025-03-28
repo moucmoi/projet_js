@@ -71,10 +71,14 @@ export default class Personnage {
                         `).join('')
                     }
     
-                    <h3>Armes :</h3>
-                    ${armes.map(arme => affichageArme.renderAllArmePerso(arme, character.id)).join('')}
+                    <h3>Armes :</h3>`
+                    if(armes.length!=0){
+                        view+=armes.map(arme => affichageArme.renderAllArmePerso(arme, character.id)).join('')
+                    }else{
+                        view+=`<p>Ce personnage ne possède pas d'armes</p>`
+                    }
     
-                    <div class="button-group">
+                    view+=`<div class="button-group">
                     <section>
                         <button id="favoris-btn-${parseInt(character.id)}" class="bw-btn bw-btn-amber" onclick="window.toggleFavoris(${parseInt(character.id)})">${contient ? 'Enlever des favoris' : 'Ajouter aux favoris'}</button>
                         <button id="btnNotation" class="bw-btn bw-btn-amber" onclick="window.location.href='/#/notation/${character.id}'">Ajouter une note</button>
@@ -95,7 +99,7 @@ export default class Personnage {
             this.niveau(character);
         }, 0);
         return view;
-    }
+}
 
     async niveau(character) {
         document.getElementById('niveau-sup').addEventListener('click', () => {
