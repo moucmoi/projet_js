@@ -277,16 +277,16 @@ static async deleteCharacter(characterId) {
       niveauPlus=5;
     }
     else if(chanceVictoire<0.3){
-      niveauPlus=3;
+      niveauPlus=4;
     }
     else if(chanceVictoire<0.5){
-      niveauPlus=2;
+      niveauPlus=3;
     }
     else if(chanceVictoire<0.6){
-      niveauPlus=1;
+      niveauPlus=2;
     }
     else{
-      niveauPlus=0;
+      niveauPlus=1;
     }
     const niveauActurel=personnage.niveau;
 

@@ -76,7 +76,7 @@ export default class derouleCombat{
           title.textContent = "";
           divBar.remove();
           resultat.innerHTML = `<h2 id="title" class="title">Le gagnant est :</h2>`;
-          resultat.innerHTML += affichagePerso.renderCombat(gagnant);
+          resultat.innerHTML += affichagePerso.render(gagnant);
           CharacterProvider.aGagne(gagnant,chancesV);
           CharacterProvider.aPerdu(perdant,chancesL);
         }
