@@ -66,7 +66,7 @@
       "description": "Canadien au tempérament explosif, ancien pilote de chasse et criminel imprévisible, adepte du mode frénésie.",
       "characteristics": {
         "force": 22,
-        "agilite": 10,
+        "agilite": 0,
         "intelligence": 15,
         "endurance": 50
       },
@@ -107,7 +107,7 @@
         }
       ],
       "niveau": 1,
-      "image": "/images/personnages/TrevorPhilips.png",
+      "image": "../../../images/personnages/no_image.png",
       "bonus": {
         "force": 4,
         "endurance": 5,

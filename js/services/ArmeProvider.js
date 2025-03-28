@@ -90,6 +90,13 @@ export default class ArmeProvider{
         );
         return armesHtml;
     }
+
+    static getMaxId = async () => {
+        let response = await fetch(`${ENDPOINTA}`, { method: "GET" });
+        let data = await response.json();
+        let idMax = data.reduce((max, item) => Math.max(max, parseInt(item.id)), 0);
+        return idMax;
+      }
 }
 
 

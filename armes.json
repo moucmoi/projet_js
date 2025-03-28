@@ -17,10 +17,10 @@
       "effects": {
         "force": 3,
         "agilite": -1,
-        "intelligence": 1,
-        "endurance": 1
+        "intelligence": 0,
+        "endurance": 0
       },
-      "image": "/images/armes/ExplosifsC4.jpg"
+      "image": "../../../images/personnages/no_image.png"
     },
     {
       "id": "3",
@@ -53,7 +53,7 @@
         "intelligence": 0,
         "endurance": 0
       },
-      "image": "../../../images/personnages/no_image.png"
+      "image": "/images/armes/Couteaudecombat.jpg"
     },
     {
       "id": "6",
