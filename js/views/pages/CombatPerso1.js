@@ -2,7 +2,7 @@ import CharacterProvider from "../../services/CharacterProvider.js";
 import AffichagePerso from "./AffichagePerso.js";
 export default class CombatPerso1{
     async render(){
-        this.characters = await CharacterProvider.fetchCharacter(100);
+        this.characters = await CharacterProvider.fetchCharacter("id", "asc");
         let affichagePerso = new AffichagePerso();
         let view=`<link rel="stylesheet" href='../../../css/PersoAll.css'>
 
