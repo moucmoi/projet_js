@@ -85,18 +85,39 @@ static async deleteCharacter(characterId) {
 
   static async updateAllCharacter() {
     try {
+
       const personnages = await this.fetchCharacter(100);
   
       for (const personnage of personnages) {
         const id = personnage.id;
+
+        let bonusForceEvo=0;
+        let bonusEndEvo=0;
+        let bonusAgiEvo=0;
+        let bonusIntEvo=0;
+
+        for(const amelioraion of personnage.evolutions){
+          if(amelioraion["condition"]<=personnage.niveau){
+
+            bonusForceEvo+=amelioraion["effects"]["force"];
+
+            bonusEndEvo+=amelioraion["effects"]["endurance"];
+
+            bonusAgiEvo+=amelioraion["effects"]["agilite"];
+
+            bonusIntEvo+=amelioraion["effects"]["intelligence"];
+
+
+          }
+        }
   
         const statsFinales = {
-          force: 0,
-          endurance: 0,
-          agilite: 0,
-          intelligence: 0
+          force: bonusForceEvo,
+          endurance: bonusEndEvo,
+          agilite: bonusAgiEvo,
+          intelligence: bonusIntEvo
         };
-  
+
         for (const idarme of personnage.armes_ids) {
           const arme = await ArmeProvider.getArme(idarme);
   
@@ -125,14 +146,37 @@ static async deleteCharacter(characterId) {
   
 
   static async updateCharacter(id) {
-    const statsFinales = {
-      "force": 0,
-      "endurance": 0,
-      "agilite": 0,
-      "intelligence": 0
-    };
     try {
       const personnage = await this.getCharacter(id);
+
+      let bonusForceEvo=0;
+        let bonusEndEvo=0;
+        let bonusAgiEvo=0;
+        let bonusIntEvo=0;
+
+      for(const amelioraion of personnage.evolutions){
+        if(amelioraion["condition"]<=personnage.niveau){
+            
+          bonusForceEvo+=amelioraion["effects"]["force"];
+
+          bonusEndEvo+=amelioraion["effects"]["endurance"];
+
+          bonusAgiEvo+=amelioraion["effects"]["agilite"];
+
+          bonusIntEvo+=amelioraion["effects"]["intelligence"];
+
+
+        }
+      }
+
+        const statsFinales = {
+          "force": bonusForceEvo,
+          "endurance": bonusEndEvo,
+          "agilite": bonusAgiEvo,
+          "intelligence": bonusIntEvo
+        };
+
+
       for (const idarme of personnage["armes_ids"]) {
         const arme = await ArmeProvider.getArme(idarme);
 

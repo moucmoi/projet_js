@@ -111,6 +111,7 @@ export default class Personnage {
             }
             //MAJ du json
             CharacterProvider.addLevel(character.id);
+            CharacterProvider.updateAllCharacter();
         });
     }
     
