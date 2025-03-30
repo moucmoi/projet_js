@@ -108,3 +108,18 @@ a#personnage-card-link.personnage-card-link:hover {
     transform: scale(1.1);
     transition: transform 0.3s ease;
 }
+
+.pagination {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .pagination-list {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }

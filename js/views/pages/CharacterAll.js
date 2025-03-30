@@ -1,12 +1,38 @@
 import CharacterProvider from "../../services/CharacterProvider.js";
+import Utils from "../../services/Utils.js";
 import AffichagePerso from "./AffichagePerso.js";
 
 export default class CharacterAll {
+    constructor() {
+        this.characters = [];
+        this.idMax = 0;
+        this.nbPersoPage = 24;
+    }
+    
     async render() {
+        let request = Utils.parseRequestURL();
         let trie = "id";
+        
+        // Récupérer tous les personnages
         this.characters = await CharacterProvider.fetchCharacter(trie);
+
+        if (!this.characters || this.characters.length === 0) {
+            return "<p>Aucun personnage trouvé</p>";
+        }
+
+        // Pagination
+        let page = parseInt(request.id) || 1;
+        let startIndex = this.nbPersoPage * (page - 1);
+        let endIndex = startIndex + this.nbPersoPage;
+        
+        // Personnages de la page actuelle
+        let charactersToDisplay = this.characters.slice(startIndex, endIndex);
+
+        // Créer l'affichage des personnages
         let affichagePerso = new AffichagePerso();
-        let idMax = await CharacterProvider.getMaxId();
+        this.idMax = await CharacterProvider.getMaxId();
+        
+        // Construction de la vue
         let view = `
             <link rel="stylesheet" href='../../../css/PersoAll.css'>
             <div id="personnage-all-container" class="personnage-all-container">
@@ -32,90 +58,99 @@ export default class CharacterAll {
                 </select>
 
                 <div id="cards-container" class="cards-container">
-                    <a href='/#/nouveau/${idMax + 1}' class="personnage-card-link" id="personnage-card-link">
+                    <a href='/#/nouveau/${this.idMax + 1}' class="personnage-card-link" id="personnage-card-link">
                         <section class="personnage-section" id="personnage-section">
                             <img loading="lazy" src="../../../images/autres/plus.png" alt="Creer personnage" class="personnage-img">
-                            <h3 class="personnage-name">Créer personnage</h3>
-                            <h4 class="personnage-importance">nouveau</h4>
+                            <h3 id="personnage-name">Créer personnage</h3>
+                            <h4 id="personnage-importance">nouveau</h4>
                         </section>
                     </a>
         `;
-        this.characters.forEach(character => {
+        
+        // Afficher les personnages de cette page
+        charactersToDisplay.forEach(character => {
             view += affichagePerso.render(character);
         });
-        view += `</div></div>`;
+
+        // Calculer le nombre total de pages
+        let totalPages = Math.ceil(this.characters.length / this.nbPersoPage);
+        
+        // Pagination simplifiée
+        view += `
+            <div class="pagination">
+                <ul class="pagination-list">
+        `;
+        
+        // Bouton précédent
+        if (page > 1) {
+            view += `<li class="page-item"><a class="page-link" href="#/characterspagination/${page - 1}">«</a></li>`;
+        }
+        
+        // Pages
+        for (let i = 1; i <= totalPages; i++) {
+            view += `
+                <li class="page-item ${i === page ? 'active' : ''}">
+                    <a class="page-link" href="#/characterspagination/${i}">${i}</a>
+                </li>
+            `;
+        }
+        
+        // Bouton suivant
+        if (page < totalPages) {
+            view += `<li class="page-item"><a class="page-link" href="#/characterspagination/${page + 1}">»</a></li>`;
+        }
+
+        view += `</ul></div></div>`;
         return view;
     }
 
     afterRender() {
         const searchBox = document.getElementById("search-box");
         const importanceFilter = document.getElementById("importance-filter");
-        const cardsContainer = document.getElementById("cards-container");
         const filterSelect = document.getElementById("filter");
-        let idMax = CharacterProvider.getMaxId();
+        const cardsContainer = document.getElementById("cards-container");
 
-        if (!searchBox || !importanceFilter || !cardsContainer || !filterSelect) return;
+        if (!searchBox || !importanceFilter || !filterSelect || !cardsContainer) return;
 
         const affichagePerso = new AffichagePerso();
-        let trie = "id";
 
-        const updateSortOptions = () => {
-            const selectedOption = filterSelect.value;
-            trie = selectedOption;
-            fetchAndUpdateCharacters();
-        };
-
-        const fetchAndUpdateCharacters = async () => {
-            this.characters = await CharacterProvider.fetchCharacter(trie);
-            if (trie === "name_desc") {
-                this.characters.sort((a, b) => b.name.localeCompare(a.name));
-            } else if (trie === "name_asc") {
-                this.characters.sort((a, b) => a.name.localeCompare(b.name));
-            } else if (trie.startsWith("characteristics.")) {
-                const key = trie.split(".")[1];
-                this.characters.sort((a, b) => (b.characteristics[key] || 0) - (a.characteristics[key] || 0));
-            } else if (trie === "id") {
-                this.characters.sort((a, b) => (a.id || 0) - (b.id || 0));
-            } else if (trie === "niveau") {
-                this.characters.sort((a, b) => (b.niveau || 0) - (a.niveau || 0));
-            }
-            filterCharacters();
-        };
-
+        // Filtrage par recherche et importance
         const filterCharacters = () => {
             const searchValue = searchBox.value.toLowerCase();
             const importanceValue = importanceFilter.value.toLowerCase();
-        
+            
             const filtered = this.characters.filter(character => {
                 const matchesSearch = character.name.toLowerCase().includes(searchValue);
                 const matchesImportance = importanceValue === "all" || character.importance.toLowerCase() === importanceValue;
                 return matchesSearch && matchesImportance;
             });
-        
-            let newHtml = `<link rel="stylesheet" href='../../../css/PersoAll.css'>
-            <div id="cards-container" class="cards-container ${filtered.length === 0 ? 'centered' : ''}">
-                <a href='/#/nouveau/${idMax + 1}' class="personnage-card-link" id="personnage-card-link">
+
+            let newHtml = `
+                <a href='/#/nouveau/${this.idMax + 1}' class="personnage-card-link" id="personnage-card-link">
                     <section class="personnage-section" id="personnage-section">
                         <img loading="lazy" src="../../../images/autres/plus.png" alt="Creer personnage" class="personnage-img">
-                        <h3 class="personnage-name">Créer personnage</h3>
-                        <h4 class="personnage-importance">nouveau</h4>
+                        <h3 id="personnage-name">Créer personnage</h3>
+                        <h4 id="personnage-importance">nouveau</h4>
                     </section>
                 </a>
             `;
-        
+            
             filtered.forEach(character => {
                 newHtml += affichagePerso.render(character);
             });
-        
-            newHtml += `</div>`;
+            
             cardsContainer.innerHTML = newHtml;
         };
-        
 
+        // Changement du tri et rechargement de la page
+        const updateSortOptions = async () => {
+            const selectedOption = filterSelect.value;
+            window.location.hash = "#/characterspagination/1";
+        };
+
+        // Event listeners
         searchBox.addEventListener("input", filterCharacters);
         importanceFilter.addEventListener("change", filterCharacters);
         filterSelect.addEventListener("change", updateSortOptions);
-
-        fetchAndUpdateCharacters();
     }
 }
