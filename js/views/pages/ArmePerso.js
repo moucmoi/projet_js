@@ -47,9 +47,9 @@ export default class ArmePerso {
         document.getElementById("bouton").addEventListener("click",()=>{
             const request=Utils.parseRequestURL();
             CharacterProvider.getCharacter(request.id).then(character => {
-                console.log("Id de l'arme: "+request.id2);
                 CharacterProvider.retirerArme(character, request.id2);
                 window.location.href = "/#/characters/"+request.id;
+                window.location.reload();
             });
             
         });
