@@ -2,7 +2,7 @@ import {ENDPOINTC} from "../config.js";
 import ArmeProvider from "./ArmeProvider.js";
 
 export default class CharacterProvider {
-  static fetchCharacter = async (limit = 20) => {
+  static fetchCharacter = async (trie) => {
     const options = {
       method: 'GET',
       headers: {
@@ -10,7 +10,7 @@ export default class CharacterProvider {
       }
     };
     try {
-      const response = await fetch(`${ENDPOINTC}?_limit=${limit}`, options);
+      const response = await fetch(`${ENDPOINTC}?_sort=${trie}`, options);
       const json = await response.json();
       return json;
     } catch (err) {

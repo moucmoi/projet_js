@@ -3,7 +3,7 @@ import Utils from "../../services/Utils.js";
 import AffichagePerso from "./AffichagePerso.js";
 export default class CombatPerso2{
     async render(){
-        let Allcharacters = await CharacterProvider.fetchCharacter(100);
+        let Allcharacters = await CharacterProvider.fetchCharacter("id", "asc");
         let id = Utils.parseRequestURL().id; 
         let characters = Allcharacters.filter(charac => {
             return !id.includes(parseInt(charac.id));

@@ -46,6 +46,8 @@ export default class ModifPerso {
     async afterRender() {
         let request = Utils.parseRequestURL();
         let characterId = request.id;
+        let character = await CharacterProvider.getCharacter(characterId);
+        console.log(character.image);
 
         document.getElementById("modifPerso").addEventListener("click", async () => {
             let name = document.getElementById("name").value.trim();
@@ -55,7 +57,7 @@ export default class ModifPerso {
             let intelligence = parseInt(document.getElementById("intelligence").value.trim());
             let endurance = parseInt(document.getElementById("endurance").value.trim());
             let imageFile = document.getElementById("image").files[0];
-            let image = "../../../images/personnages/no_image.png";
+            let image = character.image;
 
             if (name === "" || description === "") {
                 document.getElementById("message").textContent = "Le nom et la description doivent être remplis.";

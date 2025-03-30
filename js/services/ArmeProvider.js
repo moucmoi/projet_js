@@ -1,7 +1,7 @@
 import {ENDPOINTA} from "../config.js";
 import CharacterProvider from "./CharacterProvider.js";
 export default class ArmeProvider{
-    static fetchArme=async(limit=20)=>{
+    static fetchArme=async()=>{
         const options={
             method:'GET',
             Headers:{
@@ -9,7 +9,7 @@ export default class ArmeProvider{
             }
         };
         try{
-            const response=await fetch(`${ENDPOINTA}?_limit=${limit}`,options);
+            const response=await fetch(`${ENDPOINTA}`,options);
             const json=await response.json();
             return json;
         }

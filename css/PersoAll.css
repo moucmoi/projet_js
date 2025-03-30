@@ -43,7 +43,7 @@
     opacity: 0.8;
 }
 
-#importance-filter {
+#importance-filter, #filter {
     width: 10%;
     max-width: 500px;
     padding: 12px 16px;
@@ -57,7 +57,7 @@
     transition: border-color 0.3s ease, box-shadow 0.3s ease;
 }
 
-#importance-filter:focus {
+#importance-filter:focus, #filter:focus {
     border-color: #ffd700;
     box-shadow: 0 0 8px #ffd700;
 }
@@ -73,10 +73,12 @@ a#personnage-card-link.personnage-card-link:hover {
 }
 
 #cards-container, .cards-container {
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-    gap: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 200px;
 }
 
 .personnage-section {
@@ -86,6 +88,7 @@ a#personnage-card-link.personnage-card-link:hover {
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    max-width: 250px;
 }
 
 .personnage-section:hover {
