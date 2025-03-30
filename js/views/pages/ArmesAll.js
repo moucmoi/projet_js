@@ -4,7 +4,7 @@ import {ENDPOINTA} from "../../config.js";
 
 export default class ArmesAll{
      async render(){
-        let armes =await ArmeProvider.fetchArme(20);
+        let armes =await ArmeProvider.fetchArme();
         let affichageArme=new AffichageArme();
         let response = await fetch(`${ENDPOINTA}`, { method: "GET" });
         let data = await response.json();

@@ -7,7 +7,7 @@ export default class ChoixAjoutArme {
 
         let request = Utils.parseRequestURL();
         let character = await CharacterProvider.getCharacter(request.id);
-        const touteslesarmes = await ArmeProvider.fetchArme(20);
+        const touteslesarmes = await ArmeProvider.fetchArme();
         let armesSansDoublons = touteslesarmes.filter(arme => {
             return !character.armes_ids.includes(parseInt(arme.id));
         });
