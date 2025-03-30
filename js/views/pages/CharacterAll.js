@@ -13,26 +13,29 @@ export default class CharacterAll {
         let request = Utils.parseRequestURL();
         let trie = "id";
         
-        // Récupérer tous les personnages
+        if (request.resource === 'filter' && request.id) {
+            trie = request.id;
+        }
+        
         this.characters = await CharacterProvider.fetchCharacter(trie);
 
         if (!this.characters || this.characters.length === 0) {
             return "<p>Aucun personnage trouvé</p>";
         }
 
-        // Pagination
         let page = parseInt(request.id) || 1;
+        if (request.resource === 'filter') {
+            page = 1;
+        }
+        
         let startIndex = this.nbPersoPage * (page - 1);
         let endIndex = startIndex + this.nbPersoPage;
         
-        // Personnages de la page actuelle
         let charactersToDisplay = this.characters.slice(startIndex, endIndex);
 
-        // Créer l'affichage des personnages
         let affichagePerso = new AffichagePerso();
         this.idMax = await CharacterProvider.getMaxId();
         
-        // Construction de la vue
         let view = `
             <link rel="stylesheet" href='../../../css/PersoAll.css'>
             <div id="personnage-all-container" class="personnage-all-container">
@@ -47,14 +50,14 @@ export default class CharacterAll {
                 </select>
 
                 <select id="filter">
-                    <option value="id">Trier Par (ID par défaut)</option>
-                    <option value="name_asc">Nom (A-Z)</option>
-                    <option value="name_desc">Nom (Z-A)</option>
-                    <option value="characteristics.force">Force</option>
-                    <option value="characteristics.endurance">Endurance</option>
-                    <option value="characteristics.agilite">Agilité</option>
-                    <option value="characteristics.intelligence">Intelligence</option>
-                    <option value="niveau">Niveau</option>
+                    <option value="id" ${trie === "id" ? "selected" : ""}>Trier Par (ID par défaut)</option>
+                    <option value="name_asc" ${trie === "name_asc" ? "selected" : ""}>Nom (A-Z)</option>
+                    <option value="name_desc" ${trie === "name_desc" ? "selected" : ""}>Nom (Z-A)</option>
+                    <option value="characteristics.force" ${trie === "characteristics.force" ? "selected" : ""}>Force</option>
+                    <option value="characteristics.endurance" ${trie === "characteristics.endurance" ? "selected" : ""}>Endurance</option>
+                    <option value="characteristics.agilite" ${trie === "characteristics.agilite" ? "selected" : ""}>Agilité</option>
+                    <option value="characteristics.intelligence" ${trie === "characteristics.intelligence" ? "selected" : ""}>Intelligence</option>
+                    <option value="niveau" ${trie === "niveau" ? "selected" : ""}>Niveau</option>
                 </select>
 
                 <div id="cards-container" class="cards-container">
@@ -67,37 +70,35 @@ export default class CharacterAll {
                     </a>
         `;
         
-        // Afficher les personnages de cette page
         charactersToDisplay.forEach(character => {
             view += affichagePerso.render(character);
         });
 
-        // Calculer le nombre total de pages
         let totalPages = Math.ceil(this.characters.length / this.nbPersoPage);
         
-        // Pagination simplifiée
         view += `
             <div class="pagination">
                 <ul class="pagination-list">
         `;
         
-        // Bouton précédent
+        let paginationBase = request.resource === 'filter' ? 
+            `#/characterspagination` : 
+            `#/characterspagination`;
+        
         if (page > 1) {
-            view += `<li class="page-item"><a class="page-link" href="#/characterspagination/${page - 1}">«</a></li>`;
+            view += `<li class="page-item"><a class="page-link" href="${paginationBase}/${page - 1}">«</a></li>`;
         }
         
-        // Pages
         for (let i = 1; i <= totalPages; i++) {
             view += `
                 <li class="page-item ${i === page ? 'active' : ''}">
-                    <a class="page-link" href="#/characterspagination/${i}">${i}</a>
+                    <a class="page-link" href="${paginationBase}/${i}">${i}</a>
                 </li>
             `;
         }
         
-        // Bouton suivant
         if (page < totalPages) {
-            view += `<li class="page-item"><a class="page-link" href="#/characterspagination/${page + 1}">»</a></li>`;
+            view += `<li class="page-item"><a class="page-link" href="${paginationBase}/${page + 1}">»</a></li>`;
         }
 
         view += `</ul></div></div>`;
@@ -114,7 +115,6 @@ export default class CharacterAll {
 
         const affichagePerso = new AffichagePerso();
 
-        // Filtrage par recherche et importance
         const filterCharacters = () => {
             const searchValue = searchBox.value.toLowerCase();
             const importanceValue = importanceFilter.value.toLowerCase();
@@ -142,13 +142,16 @@ export default class CharacterAll {
             cardsContainer.innerHTML = newHtml;
         };
 
-        // Changement du tri et rechargement de la page
-        const updateSortOptions = async () => {
+        const updateSortOptions = () => {
             const selectedOption = filterSelect.value;
-            window.location.hash = "#/characterspagination/1";
+            window.location.hash = `#/characterspagination/1?filter=${selectedOption}`;
+            this.characters = CharacterProvider.fetchCharacter(selectedOption)
+                .then(data => {
+                    this.characters = data;
+                    window.location.reload();
+                });
         };
 
-        // Event listeners
         searchBox.addEventListener("input", filterCharacters);
         importanceFilter.addEventListener("change", filterCharacters);
         filterSelect.addEventListener("change", updateSortOptions);
