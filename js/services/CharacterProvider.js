@@ -10,7 +10,8 @@ export default class CharacterProvider {
       }
     };
     try {
-      const response = await fetch(`${ENDPOINTC}?_sort=${trie}`, options);
+      console.log(trie);
+      const response = await fetch(`${ENDPOINTC}?_sort${trie}`, options);
       const json = await response.json();
       return json;
     } catch (err) {
