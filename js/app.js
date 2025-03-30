@@ -14,7 +14,6 @@ import SuppressionPerso from "./views/pages/SuppressionPerso.js";
 import ModifArme from "./views/pages/ModifArme.js";
 import NouvelleArme from "./views/pages/NouvelleArme.js";
 import SuppressionArme from "./views/pages/SuppressionArme.js";
-import EnleverArme from "./views/pages/EnleverArme.js";
 import ChoixAjoutArme from "./views/pages/ChoixAjoutArme.js";
 import AjoutArme from "./views/pages/AjoutArme.js";
 import ArmePerso from "./views/pages/ArmePerso.js";
@@ -47,7 +46,6 @@ const routes={
     '/armes/:id/modification':ModifArme,
     '/armes/:id/suppression':SuppressionArme,
     '/nouvelle/:id': NouvelleArme,
-    '/characters/:id/suppression/:id2':EnleverArme,
     '/character/:id/ajout':ChoixAjoutArme,
     '/character/:id/armes/:id2': ArmePerso,
     '/characters/:id/ajout/:id2':AjoutArme,
