@@ -7,6 +7,7 @@ export default class CharacterAll {
         this.characters = await CharacterProvider.fetchCharacter(trie);
         let affichagePerso = new AffichagePerso();
         let idMax = await CharacterProvider.getMaxId();
+        this.idMax=idMax;
         let view = `
             <link rel="stylesheet" href='../../../css/PersoAll.css'>
             <div id="personnage-all-container" class="personnage-all-container">
@@ -52,7 +53,7 @@ export default class CharacterAll {
         const importanceFilter = document.getElementById("importance-filter");
         const cardsContainer = document.getElementById("cards-container");
         const filterSelect = document.getElementById("filter");
-        let idMax = CharacterProvider.getMaxId();
+        let idMax = this.idMax;
 
         if (!searchBox || !importanceFilter || !cardsContainer || !filterSelect) return;
 

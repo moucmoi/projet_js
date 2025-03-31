@@ -118,7 +118,7 @@ export default class NouveauPerso {
           bonus:{
             force:0,
             endurance:0,
-            agilite:3,
+            agilite:0,
             intelligence:0
           }
         };
