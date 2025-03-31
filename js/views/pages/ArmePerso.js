@@ -1,4 +1,5 @@
 import ArmeProvider from "../../services/ArmeProvider.js";
+import CharacterProvider from "../../services/CharacterProvider.js";
 import Utils from "../../services/Utils.js";
 
 export default class ArmePerso {
@@ -32,13 +33,27 @@ export default class ArmePerso {
                     </p>
 
                     <div class="arme-buttons">
-                        <button onclick="window.location.href='/#/characters/${request.id}/suppression/${arme.id}'">Enlever</button>
+                        <button id="bouton">Enlever</button>
                     </div>
                 </div>
             </div>
         `;
 
+
         return view;
+    };
+
+    async afterRender(){
+        document.getElementById("bouton").addEventListener("click",()=>{
+            const request=Utils.parseRequestURL();
+            CharacterProvider.getCharacter(request.id).then(character => {
+                CharacterProvider.retirerArme(character, request.id2);
+                window.location.href = "/#/characters/"+request.id;
+                window.location.reload();
+            });
+            
+        });
+
     }
 
 

@@ -3,7 +3,7 @@ import AffichageArme from "./AffichageArme.js";
 
 export default class ArmesAll{
      async render(){
-        let armes =await ArmeProvider.fetchArme(20);
+        let armes =await ArmeProvider.fetchArme();
         let affichageArme=new AffichageArme();
         let idMax = await ArmeProvider.getMaxId();
         

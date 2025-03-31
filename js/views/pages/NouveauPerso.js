@@ -115,6 +115,12 @@ export default class NouveauPerso {
           ],
           niveau,
           image,
+          bonus:{
+            force:0,
+            endurance:0,
+            agilite:3,
+            intelligence:0
+          }
         };
 
         let success = await CharacterProvider.addCharacter(characterData);
