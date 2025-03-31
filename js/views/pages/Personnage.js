@@ -110,8 +110,10 @@ export default class Personnage {
                 niveauElement.textContent = `niveau : ${character.niveau}`;
             }
             //MAJ du json
-            CharacterProvider.addLevel(character.id);
-            CharacterProvider.updateAllCharacter();
+            CharacterProvider.addLevel(character.id).then(charac =>{
+                CharacterProvider.updateCharacter(character.id);
+                window.location.reload();
+            });
         });
     }
     
