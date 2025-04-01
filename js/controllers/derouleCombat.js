@@ -79,6 +79,7 @@ export default class derouleCombat{
           resultat.innerHTML += affichagePerso.render(gagnant);
           CharacterProvider.aGagne(gagnant,chancesV);
           CharacterProvider.aPerdu(perdant,chancesL);
+          CharacterProvider.updateAllCharacter();
         }
       };
 

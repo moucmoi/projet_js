@@ -1,14 +1,11 @@
 import ArmeProvider from "../../services/ArmeProvider.js";
 import AffichageArme from "./AffichageArme.js";
-import {ENDPOINTA} from "../../config.js";
 
 export default class ArmesAll{
      async render(){
         let armes =await ArmeProvider.fetchArme();
         let affichageArme=new AffichageArme();
-        let response = await fetch(`${ENDPOINTA}`, { method: "GET" });
-        let data = await response.json();
-        let idMax = data.reduce((max, item) => Math.max(max, parseInt(item.id)), 0);
+        let idMax = await ArmeProvider.getMaxId();
         
         let view = `
             <link rel="stylesheet" href='../../../css/PersoAll.css'>
