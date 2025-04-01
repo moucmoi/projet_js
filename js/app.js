@@ -34,7 +34,6 @@ const routes={
 
     // PERSO
     '/characters':CharacterAll,
-    '/characterspagination/:id':CharacterAll,
     '/characters/:id':Personnage,
     '/characters/:id/modification':ModifPerso,
     '/characters/:id/suppression':SuppressionPerso,
