@@ -45,7 +45,7 @@
           "condition": 50
         }
       ],
-      "niveau": 78,
+      "niveau": 2,
       "image": "/images/personnages/MichaelDeSanta.png",
       "bonus": {
         "force": 15,
@@ -103,7 +103,7 @@
           "condition": 50
         }
       ],
-      "niveau": 46,
+      "niveau": 2,
       "image": "/images/personnages/TrevorPhilips.png",
       "bonus": {
         "force": 0,
