@@ -1,6 +1,7 @@
 import CharacterProvider from "../../services/CharacterProvider.js";
 import Utils from "../../services/Utils.js";
 import AffichagePerso from "./AffichagePerso.js";
+
 export default class CombatPerso2{
     async render(){
         let Allcharacters = await CharacterProvider.fetchCharacter("id", "asc");

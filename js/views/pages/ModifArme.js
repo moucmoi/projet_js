@@ -1,6 +1,5 @@
 import ArmeProvider from "../../services/ArmeProvider.js";
 import Utils from "../../services/Utils.js";
-import Arme from "./Arme.js";
 
 export default class ModifArme {
     async render() {

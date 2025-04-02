@@ -5,7 +5,7 @@ import ArmeProvider from "../../services/ArmeProvider.js";
 import AffichageArme from "./AffichageArme.js";
 
 export default class Personnage {
-    async render(id) {
+    async render() {
         let request = Utils.parseRequestURL();
         let character = await CharacterProvider.getCharacter(request.id);
         this.character = character;

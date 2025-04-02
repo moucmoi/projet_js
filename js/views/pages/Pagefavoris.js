@@ -1,5 +1,6 @@
 import CharacterProvider from "../../services/CharacterProvider.js";
 import AffichagePerso from "./AffichagePerso.js";
+
 export default class Pagefavoris{
     async render(){
         let favoris= await CharacterProvider.getFavoris();
