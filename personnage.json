@@ -6,13 +6,15 @@
       "importance": "principal",
       "description": "Ancien braqueur reconverti, il vit dans le luxe de Rockford Hills tout en peinant avec sa vie de famille et son passé criminel.",
       "characteristics": {
-        "force": 31,
-        "endurance": 1,
+        "force": 33,
         "agilite": 13,
-        "intelligence": 24
+        "intelligence": 24,
+        "endurance": 1
       },
       "pouvoirs": [],
-      "armes_ids": [],
+      "armes_ids": [
+        1
+      ],
       "evolutions": [
         {
           "description": "Évolution Novice",
@@ -45,18 +47,20 @@
           "condition": 50
         }
       ],
-      "niveau": 89,
+      "niveau": 94,
       "image": "/images/personnages/MichaelDeSanta.png",
       "bonus": {
         "force": 15,
         "endurance": 14,
-        "agilite": 13,
-        "intelligence": 15
+        "agilite": 14,
+        "intelligence": 18
       },
       "ratings": [
         2,
         3,
-        3
+        3,
+        5,
+        1
       ]
     },
     {
@@ -103,7 +107,7 @@
           "condition": 50
         }
       ],
-      "niveau": 55,
+      "niveau": 56,
       "image": "/images/personnages/TrevorPhilips.png",
       "bonus": {
         "force": 15,
@@ -159,7 +163,7 @@
           "condition": 50
         }
       ],
-      "niveau": 23,
+      "niveau": 22,
       "image": "/images/personnages/FranklinClinton.jpeg",
       "bonus": {
         "force": 3,
@@ -380,7 +384,6 @@
         "force": 2,
         "endurance": 0,
         "agilite": 0,
-        "agilite": 0,
         "intelligence": 5
       }
     },
@@ -493,9 +496,6 @@
         "endurance": 3,
         "agilite": 3,
         "intelligence": 2
-        "endurance": 3,
-        "agilite": 3,
-        "intelligence": 2
       },
       "ratings": [
         1,
@@ -556,9 +556,6 @@
         "force": 8,
         "endurance": 0,
         "agilite": -3,
-        "force": 8,
-        "endurance": 0,
-        "agilite": -3,
         "intelligence": 0
       }
     },
@@ -614,10 +611,7 @@
       "bonus": {
         "force": 7,
         "endurance": 1,
-        "force": 7,
-        "endurance": 1,
         "agilite": 1,
-        "intelligence": -1
         "intelligence": -1
       }
     },
@@ -673,7 +667,6 @@
       "bonus": {
         "force": 3,
         "endurance": 0,
-        "agilite": 0,
         "agilite": 0,
         "intelligence": 3
       }
@@ -731,8 +724,6 @@
         "force": 10,
         "endurance": 3,
         "agilite": -1,
-        "endurance": 3,
-        "agilite": -1,
         "intelligence": 0
       }
     },
@@ -786,11 +777,8 @@
       "niveau": 0,
       "image": "/images/personnages/RonJakowski.png",
       "bonus": {
-        "force": 4,
-        "endurance": 1,
-        "agilite": 0,
-        "force": 4,
-        "endurance": 1,
+        "force": 3,
+        "endurance": 0,
         "agilite": 0,
         "intelligence": 3
       }
@@ -1013,10 +1001,8 @@
       "niveau": 0,
       "image": "/images/personnages/Casey.png",
       "bonus": {
-        "force": 8,
-        "endurance": 4,
-        "force": 8,
-        "endurance": 4,
+        "force": 7,
+        "endurance": 3,
         "agilite": 1,
         "intelligence": 3
       }
@@ -1071,10 +1057,6 @@
       "niveau": 0,
       "image": "/images/personnages/LesterCrest.png",
       "bonus": {
-        "force": 2,
-        "endurance": 5,
-        "agilite": 1,
-        "intelligence": 5
         "force": 2,
         "endurance": 5,
         "agilite": 1,
@@ -1135,9 +1117,6 @@
         "endurance": 3,
         "agilite": 3,
         "intelligence": 2
-        "endurance": 3,
-        "agilite": 3,
-        "intelligence": 2
       }
     },
     {
@@ -1192,10 +1171,7 @@
       "bonus": {
         "force": 10,
         "endurance": 4,
-        "force": 10,
-        "endurance": 4,
         "agilite": 1,
-        "intelligence": 1
         "intelligence": 1
       }
     },
@@ -1250,9 +1226,6 @@
       "image": "/images/personnages/MartinMadrazo.png",
       "bonus": {
         "force": 2,
-        "endurance": 3,
-        "agilite": 3,
-        "intelligence": 4
         "endurance": 3,
         "agilite": 3,
         "intelligence": 4
@@ -1419,10 +1392,8 @@
       "niveau": 0,
       "image": "/images/personnages/WadeHebert.png",
       "bonus": {
-        "force": 5,
-        "endurance": 1,
-        "force": 5,
-        "endurance": 1,
+        "force": 4,
+        "endurance": 0,
         "agilite": 1,
         "intelligence": 1
       }
@@ -1480,7 +1451,6 @@
         "force": 7,
         "endurance": 3,
         "agilite": 0,
-        "agilite": 0,
         "intelligence": 3
       }
     },
@@ -1537,8 +1507,6 @@
         "force": 7,
         "endurance": 0,
         "agilite": -1,
-        "endurance": 0,
-        "agilite": -1,
         "intelligence": -2
       }
     },
@@ -1592,10 +1560,6 @@
       "niveau": 0,
       "image": "/images/personnages/FabienLaRouche.png",
       "bonus": {
-        "force": 2,
-        "endurance": 8,
-        "agilite": 4,
-        "intelligence": 4
         "force": 2,
         "endurance": 8,
         "agilite": 4,
@@ -1708,10 +1672,8 @@
       "niveau": 0,
       "image": "/images/personnages/DevinWeston.png",
       "bonus": {
-        "force": 5,
-        "endurance": 1,
-        "force": 5,
-        "endurance": 1,
+        "force": 4,
+        "endurance": 0,
         "agilite": 1,
         "intelligence": 1
       }
@@ -1794,139 +1756,7 @@
             "intelligence": 3
           },
           "condition": 10
-        },import CharacterProvider from "../../services/CharacterProvider.js";
-import Favoris from "../../localStorage/Favoris.js";
-import Utils from "../../services/Utils.js";
-import ArmeProvider from "../../services/ArmeProvider.js";
-import AffichageArme from "./AffichageArme.js";
-
-export default class Personnage {
-    async render(id) {
-        let request = Utils.parseRequestURL();
-        let character = await CharacterProvider.getCharacter(request.id);
-        this.character = character;
-        let contient = Favoris.contientF(parseInt(request.id));
-        let maxId = await CharacterProvider.getMaxId();
-        window.toggleFavoris = Favoris.toggleFavoris;
-
-        let armes = [];
-        if (character.armes_ids && character.armes_ids.length > 0) {
-            armes = await ArmeProvider.getNom(character.armes_ids);
-        }
-
-        character.bonus = character.bonus || {
-            force: 0,
-            endurance: 0,
-            agilite: 0,
-            intelligence: 0
-        };
-
-        let noteText = "Aucun avis";
-        if (character.ratings && character.ratings.length > 0) {
-            let notes = character.ratings;
-            let moyenne = notes.reduce((acc, val) => acc + val, 0) / notes.length;
-            noteText = `${moyenne.toFixed(1)} / 5 : ${notes.length} avis`;
-        }
-
-        let affichageArme = new AffichageArme();
-
-        let evolutionsHTML = '';
-        if (character.evolutions && character.evolutions.length > 0) {
-            const evolutionsValides = character.evolutions.filter(evo => evo.effects && Object.keys(evo.effects).length > 0);
-
-            if (evolutionsValides.length > 0) {
-                evolutionsHTML = evolutionsValides.map(evo => {
-                    let debloquee = character.niveau >= evo.condition;
-                    return `
-                <div class="evolution-item ${debloquee ? 'debloquee' : 'verrouillee'}">
-                    <strong>${evo.description}</strong> 
-                    <p>Niveau requis : ${evo.condition} ${debloquee ? '✅ Débloquée' : '🔒 Verrouillée'}</p>
-                    <p>Effets : Force +${evo.effects.force}, Endurance +${evo.effects.endurance}, Agilité +${evo.effects.agilite}, Intelligence +${evo.effects.intelligence}</p>
-                </div>
-            `;
-                }).join('');
-            } else {
-                evolutionsHTML = `<p>Ce personnage n'a pas d'évolution</p>`;
-            }
-        } else {
-            evolutionsHTML = `<p>Ce personnage n'a pas d'évolution</p>`;
-        }
-
-
-        // Génération de la vue
-        let view = `
-            <link rel="stylesheet" href='../../../css/Unperso.css'>
-            <div class="arme-buttons">
-                <a href="http://localhost:8000/#/characters"><button>Retour</button></a>
-            </div>
-            <div id="personnage-container">
-                <div id="personnage-details">
-                    <div id="btn-page">
-                        ${parseInt(character.id) > 1 ? `<a href="/#/characters/${parseInt(character.id) - 1}">précédent</a>` : ''}
-                        ${parseInt(character.id) < maxId ? `<a id="suivant" href="/#/characters/${parseInt(character.id) + 1}">suivant</a>` : ''}
-                    </div>
-                    <img loading="lazy" src="${character.image}" alt="Image de ${character.name}" id="image">
-
-                    <h2 id="personnage-nom">${character.name} (${character.importance})</h2>
-                    <h3 id="notes">${noteText}</h3>
-                    <p id="personnage-description">${character.description}</p>
-
-                    <h3>Caractéristiques</h3>
-                    <ul id="caracteristiques">
-                        <li>niveau : ${character.niveau}</li>
-                        <li>Force : ${character.characteristics.force + character.bonus.force}</li>
-                        <li>Endurance : ${character.characteristics.endurance + character.bonus.endurance}</li>
-                        <li>Agilité : ${character.characteristics.agilite + character.bonus.agilite}</li>
-                        <li>Intelligence : ${character.characteristics.intelligence + character.bonus.intelligence}</li>
-                    </ul>
-
-                    <h3>Évolutions</h3>
-                    ${evolutionsHTML}
-
-                    <h3>Armes :</h3>
-                    ${armes.length !== 0
-                ? armes.map(arme => affichageArme.renderAllArmePerso(arme, character.id)).join('')
-                : `<p>Ce personnage ne possède pas d'armes</p>`
-            }
-
-                    <div class="button-group">
-                        <section>
-                            <button id="favoris-btn-${parseInt(character.id)}" class="bw-btn bw-btn-amber" onclick="window.toggleFavoris(${parseInt(character.id)})">${contient ? 'Enlever des favoris' : 'Ajouter aux favoris'}</button>
-                            <button id="btnNotation" class="bw-btn bw-btn-amber" onclick="window.location.href='/#/notation/${character.id}'">Ajouter une note</button>
-                        </section>
-                        <section>
-                            <button class="bw-btn bw-btn-green" onclick="window.location.href='/#/character/${character.id}/ajout'">Ajouter une arme</button>
-                        </section>
-                        <section>
-                            <button class="bw-btn bw-btn-amber" onclick="window.location.href='/#/characters/${character.id}/modification'">Modifier</button>
-                            <button id="btnSuppression" class="bw-btn bw-btn-red" onclick="window.location.href='/#/characters/${character.id}/suppression'">Supprimer le personnage</button>
-                            <button id="niveau-sup" class="bw-btn bw-btn-amber">niveau +5</button>
-                        </section>
-                    </div>
-                </div>
-            </div>
-        `;
-
-        return view;
-    }
-
-    async afterRender() {
-        document.getElementById('niveau-sup').addEventListener('click', async () => {
-            let character = this.character;
-
-            character.niveau += 5;
-            const niveauElement = document.getElementById('caracteristiques').querySelector('li:first-child');
-            if (niveauElement) {
-                niveauElement.textContent = `niveau : ${character.niveau}`;
-            }
-
-            await CharacterProvider.addLevel(character.id);
-            await CharacterProvider.updateCharacter(character.id);
-            window.location.reload();
-        });
-    }
-}
-
+        },
         {
           "description": "Évolution Intermédiaire",
           "effects": {
@@ -2123,10 +1953,7 @@ export default class Personnage {
       "bonus": {
         "force": 10,
         "endurance": 4,
-        "force": 10,
-        "endurance": 4,
         "agilite": 1,
-        "intelligence": 1
         "intelligence": 1
       }
     },
@@ -2180,10 +2007,6 @@ export default class Personnage {
       "niveau": 0,
       "image": "/images/personnages/ElwoodO'Neil.png",
       "bonus": {
-        "force": 5,
-        "endurance": 5,
-        "agilite": 1,
-        "intelligence": 2
         "force": 5,
         "endurance": 5,
         "agilite": 1,
@@ -2243,8 +2066,6 @@ export default class Personnage {
         "force": 5,
         "endurance": 0,
         "agilite": -1,
-        "endurance": 0,
-        "agilite": -1,
         "intelligence": 2
       }
     },
@@ -2300,10 +2121,7 @@ export default class Personnage {
       "bonus": {
         "force": 8,
         "endurance": 1,
-        "force": 8,
-        "endurance": 1,
         "agilite": -1,
-        "intelligence": 1
         "intelligence": 1
       }
     },
@@ -2357,9 +2175,6 @@ export default class Personnage {
       "image": "/images/personnages/JayNorris.png",
       "bonus": {
         "force": 0,
-        "endurance": 3,
-        "agilite": 3,
-        "intelligence": 2
         "endurance": 3,
         "agilite": 3,
         "intelligence": 2
@@ -2419,10 +2234,6 @@ export default class Personnage {
         "endurance": 5,
         "agilite": 1,
         "intelligence": 5
-        "force": 2,
-        "endurance": 5,
-        "agilite": 1,
-        "intelligence": 5
       }
     },
     {
@@ -2477,10 +2288,7 @@ export default class Personnage {
       "bonus": {
         "force": 6,
         "endurance": 1,
-        "force": 6,
-        "endurance": 1,
         "agilite": 1,
-        "intelligence": 1
         "intelligence": 1
       }
     },
@@ -2534,10 +2342,6 @@ export default class Personnage {
       "niveau": 0,
       "image": "/images/personnages/M.K.png",
       "bonus": {
-        "force": 6,
-        "endurance": 5,
-        "agilite": 1,
-        "intelligence": 0
         "force": 6,
         "endurance": 5,
         "agilite": 1,
@@ -2597,9 +2401,6 @@ export default class Personnage {
         "force": 8,
         "endurance": 0,
         "agilite": -3,
-        "force": 8,
-        "endurance": 0,
-        "agilite": -3,
         "intelligence": 0
       }
     },
@@ -2655,10 +2456,7 @@ export default class Personnage {
       "bonus": {
         "force": 6,
         "endurance": 1,
-        "force": 6,
-        "endurance": 1,
         "agilite": 1,
-        "intelligence": 3
         "intelligence": 3
       }
     },
@@ -2716,10 +2514,6 @@ export default class Personnage {
         "endurance": 5,
         "agilite": 1,
         "intelligence": 5
-        "force": 2,
-        "endurance": 5,
-        "agilite": 1,
-        "intelligence": 5
       }
     },
     {
@@ -2772,10 +2566,6 @@ export default class Personnage {
       "niveau": 0,
       "image": "/images/personnages/AbigailMathers.png",
       "bonus": {
-        "force": 3,
-        "endurance": 3,
-        "agilite": 2,
-        "intelligence": 2
         "force": 3,
         "endurance": 3,
         "agilite": 2,
@@ -2892,10 +2682,6 @@ export default class Personnage {
         "endurance": 6,
         "agilite": 2,
         "intelligence": 3
-        "force": 5,
-        "endurance": 6,
-        "agilite": 2,
-        "intelligence": 3
       }
     },
     {
@@ -2952,10 +2738,6 @@ export default class Personnage {
         "endurance": 1,
         "agilite": 0,
         "intelligence": 1
-        "force": 6,
-        "endurance": 1,
-        "agilite": 0,
-        "intelligence": 1
       }
     },
     {
@@ -3008,12 +2790,8 @@ export default class Personnage {
       "niveau": 0,
       "image": "/images/personnages/DomBeasley.png",
       "bonus": {
-        "force": 3,
-        "endurance": 6,
-        "agilite": 2,
-        "intelligence": 5
-        "force": 3,
-        "endurance": 6,
+        "force": 2,
+        "endurance": 5,
         "agilite": 2,
         "intelligence": 5
       }
@@ -3068,12 +2846,9 @@ export default class Personnage {
       "niveau": 0,
       "image": "/images/personnages/Hao.png",
       "bonus": {
-        "force": 4,
-        "endurance": 2,
-        "force": 4,
-        "endurance": 2,
+        "force": 3,
+        "endurance": 1,
         "agilite": 2,
-        "intelligence": 4
         "intelligence": 4
       }
     },
@@ -3127,10 +2902,6 @@ export default class Personnage {
       "niveau": 0,
       "image": "/images/personnages/JoshBernstein.png",
       "bonus": {
-        "force": 6,
-        "endurance": 5,
-        "agilite": 1,
-        "intelligence": 0
         "force": 6,
         "endurance": 5,
         "agilite": 1,
@@ -3246,8 +3017,6 @@ export default class Personnage {
         "force": 3,
         "endurance": 0,
         "agilite": -1,
-        "endurance": 0,
-        "agilite": -1,
         "intelligence": 3
       }
     },
@@ -3301,10 +3070,6 @@ export default class Personnage {
       "niveau": 0,
       "image": "/images/personnages/Mary-AnnQuinn.png",
       "bonus": {
-        "force": 5,
-        "endurance": 5,
-        "agilite": 1,
-        "intelligence": 4
         "force": 5,
         "endurance": 5,
         "agilite": 1,
@@ -3365,10 +3130,6 @@ export default class Personnage {
         "endurance": 3,
         "agilite": 1,
         "intelligence": 2
-        "force": 5,
-        "endurance": 3,
-        "agilite": 1,
-        "intelligence": 2
       }
     },
     {
@@ -3421,12 +3182,9 @@ export default class Personnage {
       "niveau": 0,
       "image": "/images/personnages/NigeletMmeThornhill.png",
       "bonus": {
-        "force": 4,
-        "endurance": 2,
-        "force": 4,
-        "endurance": 2,
+        "force": 3,
+        "endurance": 1,
         "agilite": 2,
-        "intelligence": 4
         "intelligence": 4
       }
     },
@@ -3538,10 +3296,7 @@ export default class Personnage {
       "bonus": {
         "force": 7,
         "endurance": 1,
-        "force": 7,
-        "endurance": 1,
         "agilite": 1,
-        "intelligence": -1
         "intelligence": -1
       }
     },
@@ -3596,7 +3351,6 @@ export default class Personnage {
       "bonus": {
         "force": 0,
         "endurance": 0,
-        "agilite": 0,
         "agilite": 0,
         "intelligence": 3
       }
@@ -3655,10 +3409,6 @@ export default class Personnage {
         "endurance": 1,
         "agilite": 0,
         "intelligence": 1
-        "force": 6,
-        "endurance": 1,
-        "agilite": 0,
-        "intelligence": 1
       }
     },
     {
@@ -3713,10 +3463,7 @@ export default class Personnage {
       "bonus": {
         "force": 6,
         "endurance": 1,
-        "force": 6,
-        "endurance": 1,
         "agilite": 1,
-        "intelligence": 3
         "intelligence": 3
       }
     },
@@ -3826,10 +3573,8 @@ export default class Personnage {
       "niveau": 0,
       "image": "/images/personnages/Victimedelasectedesaltruistes.png",
       "bonus": {
-        "force": 4,
-        "endurance": 1,
-        "force": 4,
-        "endurance": 1,
+        "force": 3,
+        "endurance": 0,
         "agilite": 1,
         "intelligence": 3
       }
@@ -3886,10 +3631,7 @@ export default class Personnage {
       "bonus": {
         "force": 8,
         "endurance": 1,
-        "force": 8,
-        "endurance": 1,
         "agilite": -1,
-        "intelligence": 1
         "intelligence": 1
       }
     },
@@ -3943,10 +3685,6 @@ export default class Personnage {
       "niveau": 0,
       "image": "/images/personnages/PackieMcReary.png",
       "bonus": {
-        "force": 6,
-        "endurance": 5,
-        "agilite": 1,
-        "intelligence": 0
         "force": 6,
         "endurance": 5,
         "agilite": 1,
@@ -4005,10 +3743,7 @@ export default class Personnage {
       "bonus": {
         "force": 5,
         "endurance": 1,
-        "force": 5,
-        "endurance": 1,
         "agilite": 1,
-        "intelligence": 3
         "intelligence": 3
       }
     },
@@ -4062,10 +3797,6 @@ export default class Personnage {
       "niveau": 0,
       "image": "/images/personnages/GustavoMota.png",
       "bonus": {
-        "force": 6,
-        "endurance": 1,
-        "agilite": 0,
-        "intelligence": 1
         "force": 6,
         "endurance": 1,
         "agilite": 0,
@@ -4126,10 +3857,6 @@ export default class Personnage {
         "endurance": 5,
         "agilite": 1,
         "intelligence": 5
-        "force": 2,
-        "endurance": 5,
-        "agilite": 1,
-        "intelligence": 5
       }
     },
     {
@@ -4182,10 +3909,6 @@ export default class Personnage {
       "niveau": 0,
       "image": "/images/personnages/EddieToh.png",
       "bonus": {
-        "force": 6,
-        "endurance": 1,
-        "agilite": 0,
-        "intelligence": 1
         "force": 6,
         "endurance": 1,
         "agilite": 0,
@@ -4244,10 +3967,7 @@ export default class Personnage {
       "bonus": {
         "force": 6,
         "endurance": 1,
-        "force": 6,
-        "endurance": 1,
         "agilite": 1,
-        "intelligence": 3
         "intelligence": 3
       }
     },
@@ -4302,9 +4022,6 @@ export default class Personnage {
       "image": "/images/personnages/TalianaMartinez.png",
       "bonus": {
         "force": 0,
-        "endurance": 3,
-        "agilite": 3,
-        "intelligence": 5
         "endurance": 3,
         "agilite": 3,
         "intelligence": 5
@@ -4420,10 +4137,6 @@ export default class Personnage {
         "endurance": 1,
         "agilite": 1,
         "intelligence": 4
-        "force": 3,
-        "endurance": 1,
-        "agilite": 1,
-        "intelligence": 4
       }
     },
     {
@@ -4475,12 +4188,7 @@ export default class Personnage {
       ],
       "niveau": 0,
       "image": "/images/personnages/PaigeHarris.png",
-      "bonus": {import CharacterProvider from "../../services/CharacterProvider.js";
-
-        "force": 2,
-        "endurance": 5,
-        "agilite": 1,
-        "intelligence": 5
+      "bonus": {
         "force": 2,
         "endurance": 5,
         "agilite": 1,
@@ -4537,10 +4245,6 @@ export default class Personnage {
       "niveau": 0,
       "image": "/images/personnages/BrucieKibbutz.png",
       "bonus": {
-        "force": 6,
-        "endurance": 1,
-        "agilite": 0,
-        "intelligence": 1
         "force": 6,
         "endurance": 1,
         "agilite": 0,
@@ -4653,13 +4357,11 @@ export default class Personnage {
       "image": "/images/personnages/LittleJacob&Badman.png",
       "bonus": {
         "force": 5,
-        "force": 5,
         "endurance": 0,
         "agilite": -2,
         "intelligence": 0
       }
     },
-
     {
       "id": "79",
       "name": "Donald",

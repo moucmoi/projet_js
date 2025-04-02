@@ -2,7 +2,7 @@ import CharacterProvider from "../../services/CharacterProvider.js";
 import Favoris from "../../localStorage/Favoris.js";
 import Utils from "../../services/Utils.js";
 import ArmeProvider from "../../services/ArmeProvider.js";
-import AffichageArme from "./AffichageArme.js";
+import AffichageArme from "../../controllers/AffichageArme.js"
 
 export default class Personnage {
     async render(id) {

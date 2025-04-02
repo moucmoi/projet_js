@@ -87,7 +87,6 @@ static async deleteCharacter(characterId) {
     try {
 
       const personnages = await this.fetchCharacter();
-      const personnages = await this.fetchCharacter();
   
       for (const personnage of personnages) {
         
@@ -157,9 +156,6 @@ static async deleteCharacter(characterId) {
       let bonusEndEvo=0;
       let bonusAgiEvo=0;
       let bonusIntEvo=0;
-      let bonusEndEvo=0;
-      let bonusAgiEvo=0;
-      let bonusIntEvo=0;
 
       for(const amelioraion of personnage.evolutions){
         if(amelioraion["condition"]<=personnage.niveau){
@@ -177,10 +173,6 @@ static async deleteCharacter(characterId) {
       }
 
         const statsFinales = {
-          force: bonusForceEvo,
-          endurance: bonusEndEvo,
-          agilite: bonusAgiEvo,
-          intelligence: bonusIntEvo
           force: bonusForceEvo,
           endurance: bonusEndEvo,
           agilite: bonusAgiEvo,

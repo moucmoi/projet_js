@@ -4,7 +4,7 @@ import AffichagePerso from "../../controllers/AffichagePerso.js";
 
 export default class CombatPerso2{
     async render(){
-        let Allcharacters = await CharacterProvider.fetchCharacter("id", "asc");
+        let Allcharacters = await CharacterProvider.fetchCharacter("id");
         let id = Utils.parseRequestURL().id; 
         let characters = Allcharacters.filter(charac => {
             return !id.includes(parseInt(charac.id));
