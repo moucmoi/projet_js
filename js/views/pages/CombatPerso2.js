@@ -11,8 +11,13 @@ export default class CombatPerso2{
         });
         let affichagePerso = new AffichagePerso();
         let view = `<link rel="stylesheet" href='../../../css/PersoAll.css'>
+        <div class="top-left-button">
+            <a href="/#/combat"><button>Retour</button></a>
+        </div>
+
+
         <div id="personnage-all-container" class="personnage-all-container">
-        <h2 id="personnage-title" class="personnage-title">Quel est le deuxième personnage que vous voulez faire combattre ?</h2>`;
+        <h2 id="personnage-title" class="personnage-title">Deuxième personnage</h2>`;
         
         characters.forEach(character => {
             view += affichagePerso.renderCombat2(character);
@@ -21,5 +26,4 @@ export default class CombatPerso2{
         view += `</div>`;
         return view;
     }
-    
 }

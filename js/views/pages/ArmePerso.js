@@ -44,15 +44,15 @@ export default class ArmePerso {
     };
 
     async afterRender(){
-        document.getElementById("bouton").addEventListener("click",()=>{
-            const request=Utils.parseRequestURL();
-            CharacterProvider.getCharacter(request.id).then(character => {
-                CharacterProvider.retirerArme(character, request.id2);
-                window.location.href = "/#/characters/"+request.id;
-                window.location.reload();
-            });
+        document.getElementById("bouton").addEventListener("click", async () => {
+            const request = Utils.parseRequestURL();
+            const character = await CharacterProvider.getCharacter(request.id);
+            await CharacterProvider.retirerArme(character, request.id2);
+            // Une fois que retirerArme est complètement exécuté, on redirige
+            window.location.href = "/#/characters/" + request.id;
             
-        });
+          });
+          
 
     }
 

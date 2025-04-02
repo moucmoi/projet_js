@@ -107,16 +107,6 @@ h3 {
 }
 
 
-.evolution-item {
-    background-color: #2e2e2e;
-    border-left: 4px solid #00cc99;
-    padding: 0.8rem 1.2rem;
-    margin-bottom: 0.7rem;
-    border-radius: 6px;
-    color: #f0f0f0;
-    font-size: 1rem;
-    line-height: 1.6;
-}
 
 
 .button-group {
@@ -211,4 +201,44 @@ h3 {
 
 section{
     margin-left:30px;
+}
+
+
+.evolution-item {
+    border-radius: 10px;
+    padding: 1rem 1.5rem;
+    margin-bottom: 1.2rem;
+    background-color: #2d2d2d;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.evolution-item:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+.evolution-item.debloquee {
+    border-left: 6px solid #2ecc71;
+    background: linear-gradient(to right, #1f2f1f, #2f3f2f);
+    color: #e0ffe0;
+}
+
+.evolution-item.verrouillee {
+    border-left: 6px solid #555;
+    background: linear-gradient(to right, #2b2b2b, #1f1f1f);
+    color: #aaaaaa;
+    opacity: 0.6;
+}
+
+.evolution-item strong {
+    font-size: 1.1rem;
+    color: #ffd700;
+    text-shadow: 1px 1px 2px #000;
+}
+
+.evolution-item p {
+    margin: 0.3rem 0;
+    font-size: 0.95rem;
+    line-height: 1.4;
 }
