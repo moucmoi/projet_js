@@ -86,9 +86,11 @@ static async deleteCharacter(characterId) {
   static async updateAllCharacter() {
     try {
 
-      const personnages = await this.fetchCharacter(100);
+      const personnages = await this.fetchCharacter();
   
       for (const personnage of personnages) {
+        
+
         const id = personnage.id;
 
         let bonusForceEvo=0;
@@ -137,7 +139,6 @@ static async deleteCharacter(characterId) {
           body: JSON.stringify(payload)
         });
   
-        return response.ok;
       }
     } catch (err) {
       return false;
@@ -148,11 +149,12 @@ static async deleteCharacter(characterId) {
   static async updateCharacter(id) {
     try {
       const personnage = await this.getCharacter(id);
-
+      
+      console.log('perso:' +personnage);
       let bonusForceEvo=0;
-        let bonusEndEvo=0;
-        let bonusAgiEvo=0;
-        let bonusIntEvo=0;
+      let bonusEndEvo=0;
+      let bonusAgiEvo=0;
+      let bonusIntEvo=0;
 
       for(const amelioraion of personnage.evolutions){
         if(amelioraion["condition"]<=personnage.niveau){
@@ -170,10 +172,10 @@ static async deleteCharacter(characterId) {
       }
 
         const statsFinales = {
-          "force": bonusForceEvo,
-          "endurance": bonusEndEvo,
-          "agilite": bonusAgiEvo,
-          "intelligence": bonusIntEvo
+          force: bonusForceEvo,
+          endurance: bonusEndEvo,
+          agilite: bonusAgiEvo,
+          intelligence: bonusIntEvo
         };
 
 

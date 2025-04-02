@@ -8,6 +8,7 @@ export default class Personnage {
     async render(id) {
         let request = Utils.parseRequestURL();
         let character = await CharacterProvider.getCharacter(request.id);
+        this.character = character;
         let contient = Favoris.contientF(parseInt(character.id));
         let maxId = await CharacterProvider.getMaxId();
         window.toggleFavoris = Favoris.toggleFavoris;
@@ -95,24 +96,25 @@ export default class Personnage {
                 </div>
             </div>
         `;
-        setTimeout(() => {
-            this.niveau(character);
-        }, 0);
+        
         return view;
 }
 
-    async niveau(character) {
-        document.getElementById('niveau-sup').addEventListener('click', () => {
-            //MAJ de la page
-            character.niveau += 5;
-            const niveauElement = document.getElementById('caracteristiques').querySelector('li:first-child');
-            if (niveauElement) {
-                niveauElement.textContent = `niveau : ${character.niveau}`;
-            }
-            //MAJ du json
-            CharacterProvider.addLevel(character.id);
-            CharacterProvider.updateAllCharacter();
-        });
-    }
+async afterRender() {
+    document.getElementById('niveau-sup').addEventListener('click', async () => {
+        let character = this.character; 
+
+        character.niveau += 5;
+        const niveauElement = document.getElementById('caracteristiques').querySelector('li:first-child');
+        if (niveauElement) {
+            niveauElement.textContent = `niveau : ${character.niveau}`;
+        }
+
+        await CharacterProvider.addLevel(character.id);
+        await CharacterProvider.updateCharacter(character.id);
+        window.location.reload();
+    });
+}
+
     
 }
