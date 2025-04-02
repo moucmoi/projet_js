@@ -87,25 +87,10 @@ static async deleteCharacter(characterId) {
     try {
 
       const personnages = await this.fetchCharacter();
-
-      console.log(personnages);
-      console.log(personnages.length);
   
       for (const personnage of personnages) {
         
-        
 
-        if (!personnage || !personnage.id) {
-          console.warn(`⚠️ Problème avec le personnage à l'index ${i} :`, personnage);
-          continue;
-        }
-
-        
-      
-        console.log(`✅ Personnage ${personnage}`, personnage);
-
-
-        console.log(personnage);
         const id = personnage.id;
 
         let bonusForceEvo=0;
