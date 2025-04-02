@@ -90,7 +90,10 @@ export default class Personnage {
                     <section>
                         <button class="bw-btn bw-btn-amber" onclick="window.location.href='/#/characters/${character.id}/modification'">Modifier</button>
                         <button id="btnSuppression" class="bw-btn bw-btn-red" onclick="window.location.href='/#/characters/${character.id}/suppression'">Supprimer le personnage</button>
+                    </section>
+                    <section>
                         <button id="niveau-sup" class="bw-btn bw-btn-amber">niveau +5</button>
+                        <button id="reset-niveau" class="bw-btn bw-btn-amber">reset niveau</button>
                     </section>
                     </div>
                 </div>
@@ -111,6 +114,20 @@ async afterRender() {
         }
 
         await CharacterProvider.addLevel(character.id);
+        await CharacterProvider.updateCharacter(character.id);
+        window.location.reload();
+    })
+
+    document.getElementById('reset-niveau').addEventListener('click', async () => {
+        let character = this.character; 
+
+        character.niveau = 0;
+        const niveauElement = document.getElementById('caracteristiques').querySelector('li:first-child');
+        if (niveauElement) {
+            niveauElement.textContent = `niveau : ${character.niveau}`;
+        }
+
+        await CharacterProvider.resetLevel(character.id);
         await CharacterProvider.updateCharacter(character.id);
         window.location.reload();
     });
