@@ -45,7 +45,7 @@
           "condition": 50
         }
       ],
-      "niveau": 89,
+      "niveau": 91,
       "image": "/images/personnages/MichaelDeSanta.png",
       "bonus": {
         "force": 15,
@@ -103,13 +103,13 @@
           "condition": 50
         }
       ],
-      "niveau": 25,
+      "niveau": 24,
       "image": "/images/personnages/TrevorPhilips.png",
       "bonus": {
-        "force": 8,
-        "endurance": 7,
-        "agilite": 7,
-        "intelligence": 5
+        "force": 3,
+        "endurance": 3,
+        "agilite": 3,
+        "intelligence": 2
       },
       "ratings": [
         2

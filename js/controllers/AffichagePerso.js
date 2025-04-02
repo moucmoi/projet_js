@@ -1,4 +1,4 @@
-import Utils from "../../services/Utils.js";
+import Utils from "../services/Utils.js";
 export default class AffichagePerso {
     render(character) {
         return `

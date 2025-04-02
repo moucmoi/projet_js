@@ -1,5 +1,5 @@
 import CharacterProvider from "../../services/CharacterProvider.js";
-import AffichagePerso from "./AffichagePerso.js";
+import AffichagePerso from "../../controllers/AffichagePerso.js";
 import paginationController from "../../controllers/paginationController.js";
 import filtreController from "../../controllers/filtreController.js";
 

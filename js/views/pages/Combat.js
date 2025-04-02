@@ -1,4 +1,4 @@
-import AffichagePerso from "./AffichagePerso.js";
+import AffichagePerso from "../../controllers/AffichagePerso.js";
 import CharacterProvider from "../../services/CharacterProvider.js";
 import Utils from "../../services/Utils.js";
 

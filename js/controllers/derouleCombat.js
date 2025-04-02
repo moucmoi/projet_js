@@ -1,5 +1,5 @@
 import CharacterProvider from "../services/CharacterProvider.js";
-import AffichagePerso from "../views/pages/AffichagePerso.js";
+import AffichagePerso from "./AffichagePerso.js";
 import Utils from "../services/Utils.js";
 
 export default class derouleCombat{
