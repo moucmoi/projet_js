@@ -1,7 +1,8 @@
-import AffichageArme from "./AffichageArme.js";
+import AffichageArme from "../../controllers/AffichageArme.js";
 import ArmeProvider from "../../services/ArmeProvider.js";
 import CharacterProvider from "../../services/CharacterProvider.js";
 import Utils from "../../services/Utils.js";
+
 export default class ChoixAjoutArme {
     async render() {
 

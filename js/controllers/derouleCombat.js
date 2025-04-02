@@ -1,5 +1,5 @@
 import CharacterProvider from "../services/CharacterProvider.js";
-import AffichagePerso from "../views/pages/AffichagePerso.js";
+import AffichagePerso from "./AffichagePerso.js";
 import Utils from "../services/Utils.js";
 
 export default class derouleCombat{
@@ -26,7 +26,7 @@ export default class derouleCombat{
     const url = Utils.parseRequestURL();
     const affichagePerso = new AffichagePerso();
 
-    const duree = 3000; // 3 secondes fixes
+    const duree = 3000;
     const commencement = performance.now();
 
     Promise.all([
