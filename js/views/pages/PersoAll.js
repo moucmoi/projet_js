@@ -1,7 +1,7 @@
 import CharacterProvider from "../../services/CharacterProvider.js";
 import AffichagePerso from "./AffichagePerso.js";
 
-export default class CharacterAll {
+export default class PersoAll {
     constructor() {
         this.charactersPerPage = 12;
         this.currentPage = 1;
