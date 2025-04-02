@@ -26,8 +26,9 @@ export default class derouleCombat{
     const url = Utils.parseRequestURL();
     const affichagePerso = new AffichagePerso();
 
-    const duree = 3000; // 3 secondes fixes
+    const duree = 5000; 
     const commencement = performance.now();
+
 
     Promise.all([
       CharacterProvider.getCharacter(url.id),

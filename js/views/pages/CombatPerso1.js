@@ -7,7 +7,7 @@ export default class CombatPerso1{
         let view=`<link rel="stylesheet" href='../../../css/PersoAll.css'>
 
         <div id="personnage-all-container" class="personnage-all-container">
-        <h2 id="personnage-title" class="personnage-title">Quel est le premier personnage que vous voulez faire combattre ?</h2>`;
+        <h2 id="personnage-title" class="personnage-title">Premier personnage</h2>`;
         this.characters.forEach(character => {
             view += affichagePerso.renderCombat1(character);
         });

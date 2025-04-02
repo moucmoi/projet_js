@@ -141,3 +141,30 @@ a#personnage-card-link.personnage-card-link:hover {
     font-size: 14px;
     color: white;
 }
+
+.top-left-button {
+    position: fixed;
+    margin-top:100px;
+    margin-left: 20px;
+    top: 1rem;
+    left: 1rem;
+}
+
+.top-left-button a button {
+    background-color: #333;
+    color: white;
+    font-weight: bold;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 0.9rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.top-left-button a button:hover {
+    background-color: #555;
+    transform: scale(1.05);
+}
