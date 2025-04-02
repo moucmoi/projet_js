@@ -16,9 +16,9 @@ const Utils = {
 
     request.ressource = r[1];
     request.id        = r[2]; 
-    request.action      = r[3]; 
+    request.action    = r[3]; 
     request.id2       = r[4]; 
-    request.verb      =r[5]
+    request.verb      = r[5]
   
     return request;
     }

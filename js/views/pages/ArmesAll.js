@@ -1,5 +1,5 @@
 import ArmeProvider from "../../services/ArmeProvider.js";
-import AffichageArme from "./AffichageArme.js";
+import AffichageArme from "../../controllers/AffichageArme.js";
 
 export default class ArmesAll{
      async render(){

@@ -1,5 +1,4 @@
-import ArmeProvider from "../../services/ArmeProvider.js";
-import Utils from "../../services/Utils.js";
+import { creerArmeController } from "../../controllers/nouvelleArmeController.js";
 
 export default class NouvelleArme {
     async render() {
@@ -27,7 +26,7 @@ export default class NouvelleArme {
                 <input type="file" id="image" accept="image/png" />
                 
                 <div class="page-buttons">
-                <button id="creerArme">Créer</button>
+                    <button id="creerArme">Créer</button>
                 </div>
                 
                 <p id="message"></p>
@@ -36,61 +35,6 @@ export default class NouvelleArme {
     }
 
     async afterRender() {
-        let request = Utils.parseRequestURL();
-        let id = request.id;
-
-        document.getElementById("creerArme").addEventListener("click", async () => {
-            let name = document.getElementById("name").value.trim();
-            let force = parseInt(document.getElementById("force").value.trim());
-            let agilite = parseInt(document.getElementById("agilite").value.trim());
-            let intelligence = parseInt(document.getElementById("intelligence").value.trim());
-            let endurance = parseInt(document.getElementById("endurance").value.trim());
-            let imageFile = document.getElementById("image").files[0];
-            let image = "../../../images/personnages/no_image.png"
-
-            if (name === null || force === null || agilite === null || intelligence === null || endurance === null) {
-                document.getElementById("message").textContent = "Tous les champs doivent être remplis.";
-                return;
-            }
-
-            if (imageFile) {
-                try {
-                  const reader = new FileReader();
-                  reader.readAsDataURL(imageFile);
-      
-                  await new Promise((resolve) => {
-                    reader.onload = () => {
-                      image = reader.result;
-                      resolve();
-                    };
-                  });
-                } catch (error) {
-                  document.getElementById("message").textContent =
-                    "Erreur lors du chargement de l'image.";
-                  return;
-                }
-              }
-            
-
-            let armeData = {
-                id,
-                name,
-                effects: {
-                    force,
-                    agilite,
-                    intelligence,
-                    endurance
-                },
-                image,
-            };
-
-            let success = await ArmeProvider.addArme(armeData);
-
-            if (success) {
-                window.location.href = `/#/armes/${id}`;
-            } else {
-                document.getElementById("message").textContent = "Erreur lors de la création de l'arme.";
-            }
-        });
+        creerArmeController();
     }
 }

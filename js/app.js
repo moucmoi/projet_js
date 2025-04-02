@@ -1,7 +1,6 @@
 import Utils from "./services/Utils.js";
 import CharacterProvider from "./services/CharacterProvider.js";
 import About from "./views/pages/About.js";
-import CharacterAll from "./views/pages/CharacterAll.js";
 import Personnage from "./views/pages/Personnage.js";
 import Error404 from "./views/pages/Error404.js";
 import Notation from "./views/pages/Notation.js";
@@ -21,6 +20,7 @@ import CombatPerso1 from "./views/pages/CombatPerso1.js";
 import CombatPerso2 from "./views/pages/CombatPerso2.js";
 import Combat from "./views/pages/Combat.js";
 import derouleCombat from "./controllers/derouleCombat.js";
+import PersoAll from "./views/pages/PersoAll.js";
 
 
 CharacterProvider.updateAllCharacter();
@@ -33,7 +33,7 @@ const routes={
     '/favoris':Pagefavoris,
 
     // PERSO
-    '/characters':CharacterAll,
+    '/characters':PersoAll,
     '/characters/:id':Personnage,
     '/characters/:id/modification':ModifPerso,
     '/characters/:id/suppression':SuppressionPerso,
