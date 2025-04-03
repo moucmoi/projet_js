@@ -82,8 +82,15 @@ projet_js/
 
 ---
 
+## 📈 Perspectives d'amélioration
+
+- CRUD sur les évolutions
+- images avec json-server
+
+---
+
 ## ✍️ Auteur
 
-Projet réalisé par **Noa Fonteny** et **Marin Chesneau** dans un cadre d’apprentissage.
+Projet réalisé par **Noa Fonteny** et **Marin Chesneau** dans le cadre d'un projet de BUT informatique à l'iut d'Orléans.
 
 
