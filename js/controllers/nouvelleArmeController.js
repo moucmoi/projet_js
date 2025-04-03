@@ -1,7 +1,10 @@
 import ArmeProvider from "../services/ArmeProvider.js";
+import Utils from "../services/Utils.js"
 
 export async function creerArmeController() {
     document.getElementById("creerArme").addEventListener("click", async () => {
+        let request = Utils.parseRequestURL();
+        let id = request.id;
         let name = document.getElementById("name").value.trim();
         let force = parseInt(document.getElementById("force").value.trim());
         let agilite = parseInt(document.getElementById("agilite").value.trim());
@@ -33,6 +36,7 @@ export async function creerArmeController() {
         }
 
         let armeData = {
+            id,
             name,
             effects: { force, agilite, intelligence, endurance },
             image,

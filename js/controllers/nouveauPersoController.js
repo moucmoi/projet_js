@@ -1,7 +1,10 @@
 import CharacterProvider from "../services/CharacterProvider.js";
+import Utils from "../services/Utils.js"
 
 export async function creerPersoController() {
     document.getElementById("creerPerso").addEventListener("click", async () => {
+        let request = Utils.parseRequestURL();
+        let id = request.id;
         let name = document.getElementById("name").value.trim();
         let description = document.getElementById("description").value.trim();
         let force = parseInt(document.getElementById("force").value.trim());
@@ -46,6 +49,7 @@ export async function creerPersoController() {
         }
 
         let characterData = {
+            id,
             name,
             importance,
             description,
