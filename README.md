@@ -34,8 +34,15 @@ npx json-server --watch personnage.json --port 3002
 Cela simulera deux API REST sur les ports 3001 et 3002.
 
 ### 3. Ouvrir l'application
+Ecrire la commande
 
-Lancer simplement le fichier `index.html` dans votre navigateur.
+```bash
+php -S localhost:8000
+```
+Et aller sur la page
+```
+http://localhost:8000
+```
 
 ---
 
