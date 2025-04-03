@@ -1,0 +1,122 @@
+
+#arme-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 2rem;
+    max-width: 75%;
+    margin: 3rem auto;
+    padding: 2rem;
+    background: linear-gradient(to bottom, #1f1f1f, #2a2a2a);
+    border-radius: 14px;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
+    color: #f9f9f9;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+
+#img-arme {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.5);
+    border: 2px solid #ffffff10;
+    object-fit: cover;
+}
+
+
+#arme-details {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    flex: 1;
+}
+
+
+#arme-nom {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #FFD700;
+    text-shadow: 1px 1px 3px #000;
+    margin: 0;
+}
+
+
+#arme-details h3 {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #ffffff;
+    border-bottom: 1px solid #ffffff22;
+    padding-bottom: 0.3rem;
+    margin-bottom: -0.5rem;
+}
+
+
+#arme-effets {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #f0f0f0;
+    background-color: #2d2d2d;
+    padding: 1rem;
+    border-radius: 8px;
+    border-left: 5px solid #00cc99;
+}
+
+
+.arme-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.arme-buttons button {
+    background-color: #4a4a4a;
+    border: none;
+    padding: 0.7rem 1.4rem;
+    border-radius: 6px;
+    color: white;
+    font-weight: 600;
+    font-size: 0.95rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.arme-buttons button:hover {
+    background-color: #666;
+    transform: scale(1.03);
+}
+
+.arme-buttons a {
+    color: white;
+    text-decoration: none;
+}
+
+.arme-buttons a:hover {
+    text-decoration: underline;
+}
+
+
+@media screen and (max-width: 768px) {
+    #arme-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #img-arme {
+        max-width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .arme-buttons {
+        flex-direction: column;
+        width: 100%;
+        align-items: stretch;
+    }
+
+    .arme-buttons button {
+        width: 100%;
+    }
+}

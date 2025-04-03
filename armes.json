@@ -1,0 +1,136 @@
+{
+  "weapons": [
+    {
+      "id": "1",
+      "name": "Lunettes de vision nocturne",
+      "effects": {
+        "force": 0,
+        "agilite": 1,
+        "intelligence": 3,
+        "endurance": 0
+      },
+      "image": "/images/armes/Lunettesdevisionnocturne.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Explosifs C4",
+      "effects": {
+        "force": 3,
+        "agilite": -1,
+        "intelligence": 0,
+        "endurance": 0
+      },
+      "image": "../../../images/armes/ExplosifsC4.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Matraque électrique",
+      "effects": {
+        "force": 3,
+        "agilite": 1,
+        "intelligence": 1,
+        "endurance": 1
+      },
+      "image": "/images/armes/Matraqueélectrique.jpg"
+    },
+    {
+      "id": "4",
+      "name": "Sniper de précision",
+      "effects": {
+        "force": 2,
+        "agilite": 0,
+        "intelligence": 2,
+        "endurance": 0
+      },
+      "image": "/images/armes/Sniperdeprécision.jpg"
+    },
+    {
+      "id": "5",
+      "name": "Couteau de combat",
+      "effects": {
+        "force": 3,
+        "agilite": 0,
+        "intelligence": 0,
+        "endurance": 0
+      },
+      "image": "/images/armes/Couteaudecombat.jpg"
+    },
+    {
+      "id": "6",
+      "name": "Voiture modifiée",
+      "effects": {
+        "force": 0,
+        "agilite": 3,
+        "intelligence": 2,
+        "endurance": 3
+      },
+      "image": "/images/armes/Voituremodifiée.jpg"
+    },
+    {
+      "id": "7",
+      "name": "Methamphétamines",
+      "effects": {
+        "force": 4,
+        "agilite": 0,
+        "intelligence": -2,
+        "endurance": 0
+      },
+      "image": "/images/armes/Methamphétamines.jpg"
+    },
+    {
+      "id": "8",
+      "name": "Fusil à pompe tactique",
+      "effects": {
+        "force": 7,
+        "agilite": 0,
+        "intelligence": 0,
+        "endurance": 3
+      },
+      "image": "/images/armes/Fusilàpompetactique.jpg"
+    },
+    {
+      "id": "9",
+      "name": "Pistolet silencieux",
+      "effects": {
+        "force": 3,
+        "agilite": 0,
+        "intelligence": 2,
+        "endurance": 0
+      },
+      "image": "/images/armes/Pistoletsilencieux.jpg"
+    },
+    {
+      "id": "10",
+      "name": "Gilet pare-balles",
+      "effects": {
+        "force": 2,
+        "agilite": 1,
+        "intelligence": 2,
+        "endurance": 5
+      },
+      "image": "/images/armes/Giletpare-balles.jpg"
+    },
+    {
+      "id": "11",
+      "name": "Pistolet lourd",
+      "effects": {
+        "force": 5,
+        "agilite": -2,
+        "intelligence": 0,
+        "endurance": 0
+      },
+      "image": "/images/armes/Pistoletlourd.jpg"
+    },
+    {
+      "id": "12",
+      "name": "Micro-DRONE",
+      "effects": {
+        "force": 0,
+        "agilite": 0,
+        "intelligence": 3,
+        "endurance": 0
+      },
+      "image": "/images/armes/Micro-DRONE.jpg"
+    }
+  ]
+}
