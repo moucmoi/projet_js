@@ -86,8 +86,4 @@ projet_js/
 
 Projet réalisé par **Noa Fonteny** et **Marin Chesneau** dans un cadre d’apprentissage.
 
----
 
-## 📄 Licence
-
-Projet librement utilisable à des fins pédagogiques ou personnelles.
