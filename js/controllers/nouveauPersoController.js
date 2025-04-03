@@ -54,7 +54,7 @@ export async function creerPersoController() {
             importance,
             description,
             characteristics: { force, agilite, intelligence, endurance },
-            arme_ids: [],
+            armes_ids: [],
             evolutions: [{ effects: {} }],
             niveau,
             image,
